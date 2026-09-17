@@ -1,0 +1,514 @@
+{
+  "linea": "121",
+  "puntos": [
+    {
+      "tokens": [
+        "C.L.Municipi o",
+        "Segui"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "C.L.Municipi\no y Segui"
+        }
+      ],
+      "id": "pt000",
+      "clave": "CLMUNICIPI O||SEGUI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97163142634858,
+        "lon": -60.73400872586491,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Colombres",
+        "C.1711"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Colombres y\nC.1711"
+        }
+      ],
+      "id": "pt001",
+      "clave": "C1711||COLOMBRES",
+      "status": "auto",
+      "candidatos": [
+        [
+          "COLOMBRES"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96251748247076,
+        "lon": -60.72495487955414,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ocampo",
+        "Fraga"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Ocampo y\nFraga"
+        }
+      ],
+      "id": "pt002",
+      "clave": "FRAGA||OCAMPO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "OCAMPO"
+        ],
+        [
+          "FRAGA",
+          "FRAGATA SARMIENTO"
+        ]
+      ],
+      "calle1": "OCAMPO",
+      "calle2": "FRAGA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95795779007277,
+        "lon": -60.709539657288325,
+        "x": 5433659.11,
+        "y": 6353656.86
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Matienzo",
+        "Viamonte"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Matienzo y\nViamonte"
+        }
+      ],
+      "id": "pt003",
+      "clave": "MATIENZO||VIAMONTE",
+      "status": "auto",
+      "calle1": "MATIENZO",
+      "calle2": "VIAMONTE",
+      "candidatos": [
+        [
+          "MATIENZO"
+        ],
+        [
+          "VIAMONTE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95639932303573,
+        "lon": -60.69406005356215,
+        "x": 5435105.32,
+        "y": 6353839.35
+      }
+    },
+    {
+      "tokens": [
+        "Avellaneda",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Avellaneda y\nPellegrini"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AVELLANEDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94994076105553,
+        "lon": -60.681860495959064,
+        "x": 5436241.365,
+        "y": 6354563.1
+      }
+    },
+    {
+      "tokens": [
+        "Avellaneda",
+        "Mendoza"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Avellaneda y\nMendoza"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Avellaneda y\nMendoza"
+        }
+      ],
+      "id": "pt005",
+      "clave": "AVELLANEDA||MENDOZA",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "MENDOZA",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "MENDOZA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94420567680412,
+        "lon": -60.68041252049164,
+        "x": 5436372.655,
+        "y": 6355200.035
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Francia"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Mendoza y\nFrancia"
+        }
+      ],
+      "id": "pt006",
+      "clave": "FRANCIA||MENDOZA",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94665314728338,
+        "lon": -60.666814470638535,
+        "x": 5437645.99,
+        "y": 6354936.725
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Mendoza y\nOroño"
+        }
+      ],
+      "id": "pt007",
+      "clave": "MENDOZA||OROÑO",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9488450709833,
+        "lon": -60.65459144339659,
+        "x": 5438790.5,
+        "y": 6354700.795
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8 FIN",
+          "label_raw": "Mendoza y\nCorrientes"
+        }
+      ],
+      "id": "pt008",
+      "clave": "CORRIENTES||MENDOZA",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95075233764419,
+        "lon": -60.643635159069824,
+        "x": 5439816.31,
+        "y": 6354495.58
+      }
+    },
+    {
+      "tokens": [
+        "Buenos Aires",
+        "San Juan"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Buenos Aires\ny San Juan"
+        }
+      ],
+      "id": "pt009",
+      "clave": "BUENOS AIRES||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BUENOS AIRES"
+        ],
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ]
+      ],
+      "calle1": "BUENOS AIRES",
+      "calle2": "SAN JUAN",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.951223063960505,
+        "lon": -60.63367557256868,
+        "x": 5440747.92,
+        "y": 6354449.02
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Entre Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Santa Fe y\nEntre Rios"
+        }
+      ],
+      "id": "pt010",
+      "clave": "ENTRE RIOS||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94455828344328,
+        "lon": -60.64061799445416,
+        "x": 5440094.26,
+        "y": 6355184.26
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Santa Fe y\nOroño"
+        }
+      ],
+      "id": "pt011",
+      "clave": "OROÑO||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94235971512325,
+        "lon": -60.65295938589818,
+        "x": 5438938.655,
+        "y": 6355421.01
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Santa Fe y\nOv. Lagos"
+        }
+      ],
+      "id": "pt012",
+      "clave": "OV LAGOS||SANTA FE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94090519122722,
+        "lon": -60.66109766175962,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Santa Fe y\nCafferata"
+        }
+      ],
+      "id": "pt013",
+      "clave": "CAFFERATA||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93919661258865,
+        "lon": -60.670611159846615,
+        "x": 5437285.69,
+        "y": 6355761.45
+      }
+    },
+    {
+      "tokens": [
+        "Ave L l a la P ne a d z a",
+        "Fe L 2 b in 7 r i e e d r r e o s y Via F m ra o g n a te y C.17 1 1 7 1 3 y 6 Pje."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Ave L l a la P ne a d z a y Fe L 2 b in 7 r i e e d r r e o s y Via F m ra o g n a te y C.17 1 1 7 1 3 y 6 Pje."
+        }
+      ],
+      "id": "pt014",
+      "clave": "AVE L L A LA P NE A D Z A||FE L 2 B IN 7 R I E E D R R E O S Y VIA F M RA O G N A TE Y C17 1 1 7 1 3 Y 6 PJE",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "Camino Limite del Municipio y"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "Segui FIN",
+          "label_raw": "Camino\nLimite del\nMunicipio y"
+        }
+      ],
+      "id": "pt015",
+      "clave": "unparsed::Camino Limite del Municipio y",
+      "status": "manual",
+      "candidatos": []
+    }
+  ]
+}

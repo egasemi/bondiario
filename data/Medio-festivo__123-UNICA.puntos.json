@@ -1,0 +1,472 @@
+{
+  "linea": "123",
+  "puntos": [
+    {
+      "tokens": [
+        "Parque Industrial"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Parque\nIndustrial"
+        }
+      ],
+      "id": "pt000",
+      "clave": "unparsed::Parque Industrial",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.988183774123975,
+        "lon": -60.734438896179206,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Rivarola",
+        "M.Gonzalez Vta"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Rivarola y\nM.Gonzalez\nVta"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8 FIN",
+          "label_raw": "Rivarola y\nM.Gonzalez\nVta"
+        }
+      ],
+      "id": "pt001",
+      "clave": "MGONZALEZ VTA||RIVAROLA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RIVAROLA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966403132011116,
+        "lon": -60.73094575325069,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "P.Unidas",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "P.Unidas y\n27 de\nFebrero"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "27 de\nFebrero y\nP.Unidas"
+        }
+      ],
+      "id": "pt002",
+      "clave": "27 DE FEBRERO||PUNIDAS",
+      "status": "auto",
+      "calle1": "PROVINCIAS UNIDAS",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95935864434291,
+        "lon": -60.711826011049666,
+        "x": 5433446.385,
+        "y": 6353500.0525
+      }
+    },
+    {
+      "tokens": [
+        "27 de Febrero",
+        "P.L.Funes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "27 de\nFebrero y\nP.L.Funes"
+        }
+      ],
+      "id": "pt003",
+      "clave": "27 DE FEBRERO||PLFUNES",
+      "status": "auto",
+      "candidatos": [
+        [
+          "27 DE FEBRERO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95891362497749,
+        "lon": -60.70045879034763,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Gutemberg",
+        "Cerrito"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Gutemberg y\nCerrito"
+        }
+      ],
+      "id": "pt004",
+      "clave": "CERRITO||GUTEMBERG",
+      "status": "auto",
+      "calle1": "GUTEMBERG",
+      "calle2": "CERRITO",
+      "candidatos": [
+        [
+          "GUTEMBERG"
+        ],
+        [
+          "CERRITO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95305798195297,
+        "lon": -60.69117838237261,
+        "x": 5435372.33,
+        "y": 6354211.7
+      }
+    },
+    {
+      "tokens": [
+        "Avellaneda",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Avellaneda y\nPellegrini"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Pellegrini y\nAvellaneda"
+        }
+      ],
+      "id": "pt005",
+      "clave": "AVELLANEDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94994076105553,
+        "lon": -60.681860495959064,
+        "x": 5436241.365,
+        "y": 6354563.1
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Pellegrini y\nCafferata"
+        }
+      ],
+      "id": "pt006",
+      "clave": "CAFFERATA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "PELLEGRINI",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95140819953597,
+        "lon": -60.67368521868925,
+        "x": 5437006.865,
+        "y": 6354405.27
+      }
+    },
+    {
+      "tokens": [
+        "9 de Julio",
+        "Ov.Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "9 de Julio y\nOv.Lagos"
+        }
+      ],
+      "id": "pt007",
+      "clave": "9 DE JULIO||OVLAGOS",
+      "status": "auto",
+      "calle1": "9 DE JULIO",
+      "calle2": "OVIDIO LAGOS",
+      "candidatos": [
+        [
+          "9 DE JULIO"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.949668369661644,
+        "lon": -60.663319900357486,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San juan",
+        "1 de Mayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "San juan y 1\nde Mayo"
+        }
+      ],
+      "id": "pt008",
+      "clave": "1 DE MAYO||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        [
+          "1 DE MAYO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.951779626674735,
+        "lon": -60.630688517375745,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San Juan",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "San Juan y\nCorrientes"
+        }
+      ],
+      "id": "pt009",
+      "clave": "CORRIENTES||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "calle1": "SAN JUAN",
+      "calle2": "CORRIENTES",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94940376101441,
+        "lon": -60.643295256947376,
+        "x": 5439847.18,
+        "y": 6354645.34
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Dorrego",
+        "Mendoza"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Dorrego y\nMendoza"
+        }
+      ],
+      "id": "pt010",
+      "clave": "DORREGO||MENDOZA",
+      "status": "auto",
+      "calle1": "DORREGO",
+      "calle2": "MENDOZA",
+      "candidatos": [
+        [
+          "DORREGO"
+        ],
+        [
+          "MENDOZA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94955113228037,
+        "lon": -60.6505142533808,
+        "x": 5439172.24,
+        "y": 6354624.85
+      }
+    },
+    {
+      "tokens": [
+        "Dorrego",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Dorrego y\nPellegrini"
+        }
+      ],
+      "id": "pt011",
+      "clave": "DORREGO||PELLEGRINI",
+      "status": "auto",
+      "calle1": "DORREGO",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "DORREGO"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95530296677862,
+        "lon": -60.651965170032256,
+        "x": 5439040.515000002,
+        "y": 6353986.095000002
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Pellegrini y\nOv. Lagos"
+        }
+      ],
+      "id": "pt012",
+      "clave": "OV LAGOS||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95309834425215,
+        "lon": -60.66419049967071,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Matienzo",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Matienzo y\n27 de\nFebrero"
+        }
+      ],
+      "id": "pt013",
+      "clave": "27 DE FEBRERO||MATIENZO",
+      "status": "auto",
+      "calle1": "MATIENZO",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "MATIENZO"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.958746476325125,
+        "lon": -60.69396941751563,
+        "x": 5435115.51,
+        "y": 6353579.09
+      }
+    }
+  ]
+}

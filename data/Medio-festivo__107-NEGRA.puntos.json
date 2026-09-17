@@ -1,0 +1,553 @@
+{
+  "linea": "107",
+  "puntos": [
+    {
+      "tokens": [
+        "BATTLE",
+        "AREQUIPA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "BATTLE -\nAREQUIP\nA"
+        }
+      ],
+      "id": "pt000",
+      "clave": "AREQUIPA||BATTLE",
+      "status": "auto",
+      "calle1": "BATTLE",
+      "calle2": "AREQUIPA",
+      "candidatos": [
+        [
+          "BATTLE"
+        ],
+        [
+          "AREQUIPA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.87335821531878,
+        "lon": -60.728859625862384,
+        "x": 5431787.82,
+        "y": 6363027.18
+      }
+    },
+    {
+      "tokens": [
+        "V.D.P",
+        "LEVI."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "V.D.P -\nLEVI."
+        }
+      ],
+      "id": "pt001",
+      "clave": "LEVI||VDP",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "LEVI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88151844847773,
+        "lon": -60.72838175094388,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "GRAND",
+        "GAZCO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "GRAND -\nGAZCO"
+        }
+      ],
+      "id": "pt002",
+      "clave": "GAZCO||GRAND",
+      "status": "auto",
+      "calle1": "GRANDOLI",
+      "calle2": "GAZCON",
+      "candidatos": [
+        [
+          "GRANDOLI"
+        ],
+        [
+          "GAZCON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.886966330539174,
+        "lon": -60.7273230379502,
+        "x": 5431942.03,
+        "y": 6361518.95
+      }
+    },
+    {
+      "tokens": [
+        "PEYRA",
+        "PALLI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "PEYRA -\nPALLI"
+        }
+      ],
+      "id": "pt003",
+      "clave": "PALLI||PEYRA",
+      "status": "auto",
+      "calle1": "PEYRANO",
+      "calle2": "PALLIERE",
+      "candidatos": [
+        [
+          "PEYRANO"
+        ],
+        [
+          "PALLIERE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88717990680597,
+        "lon": -60.71599980794153,
+        "x": 5433001.765000002,
+        "y": 6361502.51
+      }
+    },
+    {
+      "tokens": [
+        "BAIGO",
+        "AVALO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "BAIGO -\nAVALO"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AVALO||BAIGO",
+      "status": "auto",
+      "calle1": "BAIGORRIA",
+      "calle2": "AVALOS",
+      "candidatos": [
+        [
+          "BAIGORRIA"
+        ],
+        [
+          "AVALOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89375327936686,
+        "lon": -60.70800768325427,
+        "x": 5433754.52,
+        "y": 6360778.53
+      }
+    },
+    {
+      "tokens": [
+        "SUPER",
+        "RONDE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "SUPER -\nRONDE"
+        }
+      ],
+      "id": "pt005",
+      "clave": "RONDE||SUPER",
+      "status": "auto",
+      "calle1": "SUPERI",
+      "calle2": "RONDEAU",
+      "candidatos": [
+        [
+          "SUPERI"
+        ],
+        [
+          "RONDEAU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89423834341587,
+        "lon": -60.69249193405926,
+        "x": 5435206.65,
+        "y": 6360734.37
+      }
+    },
+    {
+      "tokens": [
+        "ALBER",
+        "GENOV"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "ALBER -\nGENOV"
+        }
+      ],
+      "id": "pt006",
+      "clave": "ALBER||GENOV",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ALBERDI",
+          "ALBERTI",
+          "ALBERINI",
+          "ALBERTO J PAZ"
+        ],
+        [
+          "GENOVA",
+          "GENOVA -"
+        ]
+      ],
+      "calle1": "ALBERDI",
+      "calle2": "GENOVA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91518717608098,
+        "lon": -60.68566546072461,
+        "x": 5435860.49,
+        "y": 6358415.19
+      },
+      "resuelto_por_convergencia": 4
+    },
+    {
+      "tokens": [
+        "ALBER",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "ALBER -\nAVELL"
+        }
+      ],
+      "id": "pt007",
+      "clave": "ALBER||AVELL",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ALBERDI",
+          "ALBERTI",
+          "ALBERINI",
+          "ALBERTO J PAZ"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "calle1": "ALBERDI",
+      "calle2": "AVELLANEDA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92713946784409,
+        "lon": -60.6761162517496,
+        "x": 5436762.275,
+        "y": 6357095.375
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "SLORE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "AVELL -\nSLORE"
+        }
+      ],
+      "id": "pt008",
+      "clave": "AVELL||SLORE",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "SAN LORENZO",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "SAN LORENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.936799168998554,
+        "lon": -60.67853998036973,
+        "x": 5436542.475,
+        "y": 6356022.595
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "SLORE -\nOROÑO"
+        }
+      ],
+      "id": "pt009",
+      "clave": "OROÑO||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94143114319429,
+        "lon": -60.65272565144909,
+        "x": 5438959.875,
+        "y": 6355524.130000002
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "ERIOS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "SLORE -\nERIOS"
+        }
+      ],
+      "id": "pt010",
+      "clave": "ERIOS||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94360409741965,
+        "lon": -60.64038098991533,
+        "x": 5440115.78,
+        "y": 6355290.22
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "ERIOS -\nPELLE"
+        }
+      ],
+      "id": "pt011",
+      "clave": "ERIOS||PELLE",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95678007735076,
+        "lon": -60.64368660465688,
+        "x": 5439815.585,
+        "y": 6353827.035
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "AMENA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "ERIOS -\nAMENA"
+        }
+      ],
+      "id": "pt012",
+      "clave": "AMENA||ERIOS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "AMENABAR",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "AMENABAR"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97168705969659,
+        "lon": -60.64743843487367,
+        "x": 5439474.95,
+        "y": 6352171.6
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "URIBU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "ERIOS -\nURIBU"
+        }
+      ],
+      "id": "pt013",
+      "clave": "ERIOS||URIBU",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99084380687723,
+        "lon": -60.6522751981664,
+        "x": 5439035.95,
+        "y": 6350044.19
+      }
+    },
+    {
+      "tokens": [
+        "URIBU",
+        "NECOC"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "14",
+          "label_raw": "URIBU -\nNECOC"
+        }
+      ],
+      "id": "pt014",
+      "clave": "NECOC||URIBU",
+      "status": "auto",
+      "calle1": "URIBURU",
+      "calle2": "NECOCHEA",
+      "candidatos": [
+        [
+          "URIBURU"
+        ],
+        [
+          "NECOCHEA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99020410453954,
+        "lon": -60.6345463926687,
+        "x": 5440692.55,
+        "y": 6350125.27
+      }
+    },
+    {
+      "tokens": [
+        "M.SANTAFESINO",
+        "ISOLA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 16,
+          "pos_label": "FIN",
+          "label_raw": "M.SANTA\nFESINO -\nISOLA"
+        }
+      ],
+      "id": "pt015",
+      "clave": "ISOLA||MSANTAFESINO",
+      "status": "auto",
+      "calle1": "MAESTROS SANTAFESINOS",
+      "calle2": "ISOLA",
+      "candidatos": [
+        [
+          "MAESTROS SANTAFESINOS"
+        ],
+        [
+          "ISOLA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991296932138866,
+        "lon": -60.62303007581896,
+        "x": 5441769.65,
+        "y": 6350010.5
+      }
+    }
+  ]
+}

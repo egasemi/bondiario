@@ -1,0 +1,566 @@
+{
+  "linea": "102144",
+  "puntos": [
+    {
+      "tokens": [
+        "BARRIOOLIMPICO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "BARRIO\nOLIMPICO"
+        }
+      ],
+      "id": "pt000",
+      "clave": "unparsed::BARRIOOLIMPICO",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88149146524831,
+        "lon": -60.71489995052147,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "PALES",
+        "C.GRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "PALES -\nC.GRA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "10",
+          "label_raw": "PALES -\nC.GRA"
+        }
+      ],
+      "id": "pt001",
+      "clave": "CGRA||PALES",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PALESTINA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88598112433895,
+        "lon": -60.710115295263066,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SALVA",
+        "RONDE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "SALVA -\nRONDE"
+        }
+      ],
+      "id": "pt002",
+      "clave": "RONDE||SALVA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SALVA",
+          "SALVAT",
+          "SALVADOR ALLENDE"
+        ],
+        [
+          "RONDEAU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88225930103433,
+        "lon": -60.696349601848,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "RONDE",
+        "PUCCI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "RONDE -\nPUCCI"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "8",
+          "label_raw": "RONDE -\nPUCCI"
+        }
+      ],
+      "id": "pt003",
+      "clave": "PUCCI||RONDE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        [
+          "PUCCIO",
+          "PUCCINI"
+        ]
+      ],
+      "calle1": "RONDEAU",
+      "calle2": "PUCCIO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89478590953682,
+        "lon": -60.69203048447536,
+        "x": 5435250.225,
+        "y": 6360673.925
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "RONDE",
+        "SORRE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "RONDE -\nSORRE"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "7",
+          "label_raw": "RONDE -\nSORRE"
+        }
+      ],
+      "id": "pt004",
+      "clave": "RONDE||SORRE",
+      "status": "auto",
+      "calle1": "RONDEAU",
+      "calle2": "SORRENTO",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        [
+          "SORRENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90709206333902,
+        "lon": -60.68857386231627,
+        "x": 5435582.560000002,
+        "y": 6359311.215
+      }
+    },
+    {
+      "tokens": [
+        "ALBER",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "ALBER -\nAVELL"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "6",
+          "label_raw": "ALBER -\nAVELL"
+        }
+      ],
+      "id": "pt005",
+      "clave": "ALBER||AVELL",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ALBERDI",
+          "ALBERTI",
+          "ALBERINI",
+          "ALBERTO J PAZ"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "calle1": "ALBERDI",
+      "calle2": "AVELLANEDA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92713946784409,
+        "lon": -60.6761162517496,
+        "x": 5436762.275,
+        "y": 6357095.375
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "SALTA",
+        "AvFRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "SALTA -\nAvFRA"
+        }
+      ],
+      "id": "pt006",
+      "clave": "AVFRA||SALTA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93454301584157,
+        "lon": -60.66376121418787,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BALCA",
+        "CORDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "BALCA -\nCORDO"
+        }
+      ],
+      "id": "pt007",
+      "clave": "BALCA||CORDO",
+      "status": "auto",
+      "calle1": "BALCARCE",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "BALCARCE"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.943945120689115,
+        "lon": -60.65193777973398,
+        "x": 5439035.28,
+        "y": 6355245.77
+      }
+    },
+    {
+      "tokens": [
+        "PELLE",
+        "CORRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "PELLE -\nCORRI"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "3",
+          "label_raw": "PELLE -\nCORRI"
+        }
+      ],
+      "id": "pt008",
+      "clave": "CORRI||PELLE",
+      "status": "auto",
+      "calle1": "PELLEGRINI",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.956531143992855,
+        "lon": -60.645082104578954,
+        "x": 5439684.935000002,
+        "y": 6353853.845000002
+      }
+    },
+    {
+      "tokens": [
+        "PELLE",
+        "COLON"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "PELLE -\nCOLON"
+        }
+      ],
+      "id": "pt009",
+      "clave": "COLON||PELLE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "COLON",
+          "COLON NORTE"
+        ]
+      ],
+      "calle1": "PELLEGRINI",
+      "calle2": "COLON",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959535438413695,
+        "lon": -60.628282972146074,
+        "x": 5441257.665,
+        "y": 6353530.145
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "AYOLA",
+        "BERUT"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10 FIN",
+          "label_raw": "AYOLA -\nBERUT"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "1",
+          "label_raw": "BERUT -\nAYOLA"
+        }
+      ],
+      "id": "pt010",
+      "clave": "AYOLA||BERUT",
+      "status": "auto",
+      "calle1": "AYOLAS",
+      "calle2": "BERUTI",
+      "candidatos": [
+        [
+          "AYOLAS"
+        ],
+        [
+          "BERUTI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.980004567114236,
+        "lon": -60.62774923017379,
+        "x": 5441321.105,
+        "y": 6351260.28
+      }
+    },
+    {
+      "tokens": [
+        "GRANDO",
+        "GUTIERR"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "INICIO",
+          "label_raw": "GRANDO -\nGUTIERR"
+        }
+      ],
+      "id": "pt011",
+      "clave": "GRANDO||GUTIERR",
+      "status": "auto",
+      "calle1": "GRANDOLI",
+      "calle2": "GUTIERREZ",
+      "candidatos": [
+        [
+          "GRANDOLI"
+        ],
+        [
+          "GUTIERREZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9933866384016,
+        "lon": -60.628663592001,
+        "x": 5441244.5,
+        "y": 6349775.605
+      }
+    },
+    {
+      "tokens": [
+        "NECOC",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "2",
+          "label_raw": "NECOC -\nPELLE"
+        }
+      ],
+      "id": "pt012",
+      "clave": "NECOC||PELLE",
+      "status": "auto",
+      "calle1": "NECOCHEA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "NECOCHEA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959782021738164,
+        "lon": -60.62690522093514,
+        "x": 5441386.645,
+        "y": 6353503.565
+      }
+    },
+    {
+      "tokens": [
+        "ALVEA",
+        "CORDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "4",
+          "label_raw": "ALVEA -\nCORDO"
+        }
+      ],
+      "id": "pt013",
+      "clave": "ALVEA||CORDO",
+      "status": "auto",
+      "calle1": "ALVEAR",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "ALVEAR"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94346915157524,
+        "lon": -60.654641865892856,
+        "x": 5438782.08,
+        "y": 6355296.99
+      }
+    },
+    {
+      "tokens": [
+        "CATAM",
+        "CAFFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "5",
+          "label_raw": "CATAM -\nCAFFE"
+        }
+      ],
+      "id": "pt014",
+      "clave": "CAFFE||CATAM",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.934732495645676,
+        "lon": -60.66948353256913,
+        "x": 5437388.0,
+        "y": 6356257.22
+      }
+    },
+    {
+      "tokens": [
+        "RONDE",
+        "NUÑEZ"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "9",
+          "label_raw": "RONDE -\nNUÑEZ"
+        }
+      ],
+      "id": "pt015",
+      "clave": "NUÑEZ||RONDE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88452006267614,
+        "lon": -60.69542812368518,
+        "manual": true
+      }
+    }
+  ]
+}

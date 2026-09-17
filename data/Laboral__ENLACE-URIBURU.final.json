@@ -1,0 +1,476 @@
+{
+  "linea": "Enlace Uriburu",
+  "bandera": "UNICA",
+  "dia": "Día hábil",
+  "puntos": {
+    "pt000": {
+      "lat": -32.97163142634858,
+      "lon": -60.73400872586491,
+      "label": "Segui - C. Limite",
+      "clave": "C LIMITE||SEGUI"
+    },
+    "pt002": {
+      "lat": -32.99196696242107,
+      "lon": -60.68876877780232,
+      "label": "Avellaneda - Uriburu",
+      "clave": "AVELLANEDA||URIBURU"
+    },
+    "pt003": {
+      "lat": -32.991421169845886,
+      "lon": -60.665400241425836,
+      "label": "Oroño - Uriburu",
+      "clave": "OROÑO||URIBURU"
+    },
+    "pt004": {
+      "lat": -32.990567327573636,
+      "lon": -60.64355894321434,
+      "label": "Bs As - Uriburu",
+      "clave": "BS AS||URIBURU"
+    }
+  },
+  "viajes": [
+    {
+      "id": "Discap 01__0",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 21600,
+          "punto": "pt000"
+        },
+        {
+          "t": 22380,
+          "punto": "pt002"
+        },
+        {
+          "t": 22860,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__1",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 25200,
+          "punto": "pt000"
+        },
+        {
+          "t": 25980,
+          "punto": "pt002"
+        },
+        {
+          "t": 26460,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__2",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 29940,
+          "punto": "pt000"
+        },
+        {
+          "t": 30780,
+          "punto": "pt002"
+        },
+        {
+          "t": 31260,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__3",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 34140,
+          "punto": "pt000"
+        },
+        {
+          "t": 34980,
+          "punto": "pt002"
+        },
+        {
+          "t": 35460,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__4",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 38340,
+          "punto": "pt000"
+        },
+        {
+          "t": 39180,
+          "punto": "pt002"
+        },
+        {
+          "t": 39660,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__5",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 43500,
+          "punto": "pt000"
+        },
+        {
+          "t": 44340,
+          "punto": "pt002"
+        },
+        {
+          "t": 44820,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__6",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 49200,
+          "punto": "pt000"
+        },
+        {
+          "t": 50040,
+          "punto": "pt002"
+        },
+        {
+          "t": 50520,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__7",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 54000,
+          "punto": "pt000"
+        },
+        {
+          "t": 54780,
+          "punto": "pt002"
+        },
+        {
+          "t": 55200,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__8",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 57600,
+          "punto": "pt000"
+        },
+        {
+          "t": 58260,
+          "punto": "pt002"
+        },
+        {
+          "t": 58680,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__9",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 61200,
+          "punto": "pt000"
+        },
+        {
+          "t": 62040,
+          "punto": "pt002"
+        },
+        {
+          "t": 62460,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__10",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 19680,
+          "punto": "pt004"
+        },
+        {
+          "t": 20040,
+          "punto": "pt003"
+        },
+        {
+          "t": 20340,
+          "punto": "pt002"
+        },
+        {
+          "t": 21180,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__11",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 23340,
+          "punto": "pt004"
+        },
+        {
+          "t": 23700,
+          "punto": "pt003"
+        },
+        {
+          "t": 24000,
+          "punto": "pt002"
+        },
+        {
+          "t": 24840,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__12",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 27060,
+          "punto": "pt004"
+        },
+        {
+          "t": 27420,
+          "punto": "pt003"
+        },
+        {
+          "t": 27720,
+          "punto": "pt002"
+        },
+        {
+          "t": 28560,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__13",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 31860,
+          "punto": "pt004"
+        },
+        {
+          "t": 32280,
+          "punto": "pt003"
+        },
+        {
+          "t": 32640,
+          "punto": "pt002"
+        },
+        {
+          "t": 33600,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__14",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 36060,
+          "punto": "pt004"
+        },
+        {
+          "t": 36480,
+          "punto": "pt003"
+        },
+        {
+          "t": 36840,
+          "punto": "pt002"
+        },
+        {
+          "t": 37800,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__15",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 40260,
+          "punto": "pt004"
+        },
+        {
+          "t": 40680,
+          "punto": "pt003"
+        },
+        {
+          "t": 41040,
+          "punto": "pt002"
+        },
+        {
+          "t": 42000,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__16",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 45420,
+          "punto": "pt004"
+        },
+        {
+          "t": 45840,
+          "punto": "pt003"
+        },
+        {
+          "t": 46200,
+          "punto": "pt002"
+        },
+        {
+          "t": 47160,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__17",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 51120,
+          "punto": "pt004"
+        },
+        {
+          "t": 51540,
+          "punto": "pt003"
+        },
+        {
+          "t": 51900,
+          "punto": "pt002"
+        },
+        {
+          "t": 52860,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__18",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 55620,
+          "punto": "pt004"
+        },
+        {
+          "t": 55980,
+          "punto": "pt003"
+        },
+        {
+          "t": 56400,
+          "punto": "pt002"
+        },
+        {
+          "t": 57240,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__19",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 59100,
+          "punto": "pt004"
+        },
+        {
+          "t": 59460,
+          "punto": "pt003"
+        },
+        {
+          "t": 59880,
+          "punto": "pt002"
+        },
+        {
+          "t": 60720,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__20",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 63000,
+          "punto": "pt004"
+        },
+        {
+          "t": 63360,
+          "punto": "pt003"
+        },
+        {
+          "t": 63660,
+          "punto": "pt002"
+        },
+        {
+          "t": 64620,
+          "punto": "pt000"
+        }
+      ]
+    }
+  ]
+}

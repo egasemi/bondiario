@@ -1,0 +1,862 @@
+{
+  "linea": "110",
+  "puntos": [
+    {
+      "tokens": [
+        "ACEVEDO",
+        "J.B.JUSTO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "ACEVEDO\n-\nJ.B.JUST\nO"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 30,
+          "pos_label": "FIN",
+          "label_raw": "ACEVEDO\n-\nJ.B.JUST\nO"
+        }
+      ],
+      "id": "pt000",
+      "clave": "ACEVEDO||JBJUSTO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ACEVEDO",
+          "ACEVEDO BIS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91586953318194,
+        "lon": -60.74910971343129,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JBJUS",
+        "CIRCU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "JBJUS -\nCIRCU"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 29,
+          "pos_label": "12",
+          "label_raw": "JBJUS -\nCIRCU"
+        }
+      ],
+      "id": "pt001",
+      "clave": "CIRCU||JBJUS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CIRCUNVALACION"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93367251415637,
+        "lon": -60.72217419977248,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "GENOV",
+        "OLAVA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "GENOV -\nOLAVA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 28,
+          "pos_label": "11",
+          "label_raw": "GENOV -\nOLAVA"
+        }
+      ],
+      "id": "pt002",
+      "clave": "GENOV||OLAVA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GENOVA",
+          "GENOVA -"
+        ],
+        [
+          "OLAVARRIA"
+        ]
+      ],
+      "calle1": "GENOVA",
+      "calle2": "OLAVARRIA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.915755438924606,
+        "lon": -60.7045491449198,
+        "x": 5434094.43,
+        "y": 6358340.52
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "JINGE",
+        "ALBER"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "JINGE -\nALBER"
+        }
+      ],
+      "id": "pt003",
+      "clave": "ALBER||JINGE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "JOSE INGENIEROS"
+        ],
+        [
+          "ALBERDI",
+          "ALBERTI",
+          "ALBERINI",
+          "ALBERTO J PAZ"
+        ]
+      ],
+      "calle1": "JOSE INGENIEROS",
+      "calle2": "ALBERTI",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.916254710404885,
+        "lon": -60.68480816475694,
+        "manual": true
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "JINGE",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "JINGE -\nAVELL"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AVELL||JINGE",
+      "status": "auto",
+      "calle1": "JOSE INGENIEROS",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "JOSE INGENIEROS"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91593721967238,
+        "lon": -60.67330033354431,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JUNIN",
+        "THEDY"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "JUNIN -\nTHEDY"
+        }
+      ],
+      "id": "pt005",
+      "clave": "JUNIN||THEDY",
+      "status": "auto",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92642849378689,
+        "lon": -60.665882619952264,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "OvLAG",
+        "GUEME"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "OvLAG -\nGUEME"
+        }
+      ],
+      "id": "pt006",
+      "clave": "GUEME||OVLAG",
+      "status": "auto",
+      "calle1": "OVIDIO LAGOS",
+      "calle2": "GUEMES",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        [
+          "GUEMES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93176470470957,
+        "lon": -60.65878946777228,
+        "x": 5438386.1,
+        "y": 6356592.67
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "MOREN"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "SLORE -\nMOREN"
+        }
+      ],
+      "id": "pt007",
+      "clave": "MOREN||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "MORENO",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "MORENO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94191326454559,
+        "lon": -60.650009524616316,
+        "x": 5439214.21,
+        "y": 6355472.23
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "SARMI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "SLORE -\nSARMI"
+        }
+      ],
+      "id": "pt008",
+      "clave": "SARMI||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "SARMIENTO",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "SARMIENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94418298642605,
+        "lon": -60.637643981201435,
+        "x": 5440372.12,
+        "y": 6355227.57
+      }
+    },
+    {
+      "tokens": [
+        "LAPRI",
+        "PELL."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "LAPRI -\nPELL."
+        }
+      ],
+      "id": "pt009",
+      "clave": "LAPRI||PELL",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95797907858964,
+        "lon": -60.636972187793276,
+        "x": 5440444.195,
+        "y": 6353697.875
+      }
+    },
+    {
+      "tokens": [
+        "SARMI",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "SARMI -\n27FEB"
+        }
+      ],
+      "id": "pt010",
+      "clave": "27FEB||SARMI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SARMIENTO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96759402836484,
+        "lon": -60.64347798586588,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "27FEB",
+        "BALCA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "27FEB -\nBALCA"
+        }
+      ],
+      "id": "pt011",
+      "clave": "27FEB||BALCA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "BALCARCE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96512817079854,
+        "lon": -60.65727101209578,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JCURA",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "JCURA -\nOvLAG"
+        }
+      ],
+      "id": "pt012",
+      "clave": "JCURA||OVLAG",
+      "status": "auto",
+      "calle1": "JORGE CURA",
+      "calle2": "OVIDIO LAGOS",
+      "candidatos": [
+        [
+          "JORGE CURA"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.969787385880124,
+        "lon": -60.66809765910832,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "LAVAL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "BvSEG -\nLAVAL"
+        }
+      ],
+      "id": "pt013",
+      "clave": "BVSEG||LAVAL",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "LAVALLE",
+          "LAVALLEN",
+          "LAVALLEJA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97196910737185,
+        "lon": -60.685997119605624,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "ROUIL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "14",
+          "label_raw": "BvSEG -\nROUIL"
+        }
+      ],
+      "id": "pt014",
+      "clave": "BVSEG||ROUIL",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ROUILLON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.970732056706886,
+        "lon": -60.701061999345164,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "J.PABLOII",
+        "MARADONA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 16,
+          "pos_label": "FIN",
+          "label_raw": "J.PABLO\nII -\nMARADO\nNA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "INICIO",
+          "label_raw": "J.PABLO\nII -\nMARADO\nNA"
+        }
+      ],
+      "id": "pt015",
+      "clave": "JPABLOII||MARADONA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97988797193998,
+        "lon": -60.710587095294656,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "VALPA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "1",
+          "label_raw": "BvSEG -\nVALPA"
+        }
+      ],
+      "id": "pt016",
+      "clave": "BVSEG||VALPA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "VALPARAISO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97123333277131,
+        "lon": -60.69009326264474,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "OvLAG",
+        "BvSEG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "2",
+          "label_raw": "OvLAG -\nBvSEG"
+        }
+      ],
+      "id": "pt017",
+      "clave": "BVSEG||OVLAG",
+      "status": "auto",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97494876663608,
+        "lon": -60.66939658178918,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "PUEYR",
+        "VIRAS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "3",
+          "label_raw": "PUEYR -\nVIRAS"
+        }
+      ],
+      "id": "pt018",
+      "clave": "PUEYR||VIRAS",
+      "status": "auto",
+      "calle1": "PUEYRREDON",
+      "calle2": "VIRASORO",
+      "candidatos": [
+        [
+          "PUEYRREDON"
+        ],
+        [
+          "VIRASORO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96645991526392,
+        "lon": -60.66329262204007,
+        "x": 5437989.16,
+        "y": 6352742.1
+      }
+    },
+    {
+      "tokens": [
+        "OCAMP",
+        "MAIPU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "4",
+          "label_raw": "OCAMP -\nMAIPU"
+        }
+      ],
+      "id": "pt019",
+      "clave": "MAIPU||OCAMP",
+      "status": "auto",
+      "calle1": "OCAMPO",
+      "calle2": "MAIPU",
+      "candidatos": [
+        [
+          "OCAMPO"
+        ],
+        [
+          "MAIPU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966942473811535,
+        "lon": -60.640454986187564,
+        "x": 5440124.6,
+        "y": 6352701.8
+      }
+    },
+    {
+      "tokens": [
+        "MAIPU",
+        "9JULI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "5",
+          "label_raw": "MAIPU -\n9JULI"
+        }
+      ],
+      "id": "pt020",
+      "clave": "9JULI||MAIPU",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95437900580663,
+        "lon": -60.63721346392087,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "SMART"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "6",
+          "label_raw": "STAFE -\nSMART"
+        }
+      ],
+      "id": "pt021",
+      "clave": "SMART||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "SAN MARTIN",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "SAN MARTIN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94561746713212,
+        "lon": -60.63645390903286,
+        "x": 5440484.37,
+        "y": 6355069.15
+      }
+    },
+    {
+      "tokens": [
+        "URQUI",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "7",
+          "label_raw": "URQUI -\nOROÑO"
+        }
+      ],
+      "id": "pt022",
+      "clave": "OROÑO||URQUI",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.940242963496985,
+        "lon": -60.65242644525368,
+        "x": 5438987.04,
+        "y": 6355656.08
+      }
+    },
+    {
+      "tokens": [
+        "THEDY",
+        "VELEZ"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "8",
+          "label_raw": "THEDY -\nVELEZ"
+        }
+      ],
+      "id": "pt023",
+      "clave": "THEDY||VELEZ",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "VELEZ",
+          "VELEZ SARSFIELD"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92463233314986,
+        "lon": -60.66546851437437,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "GENOV"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 26,
+          "pos_label": "9",
+          "label_raw": "AVELL -\nGENOV"
+        }
+      ],
+      "id": "pt024",
+      "clave": "AVELL||GENOV",
+      "status": "auto",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "GENOVA",
+          "GENOVA -"
+        ]
+      ],
+      "calle1": "AVELLANEDA",
+      "calle2": "GENOVA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.914857268283285,
+        "lon": -60.67312154503866,
+        "x": 5437033.68,
+        "y": 6358459.34
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "GENOV",
+        "ANTEL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 27,
+          "pos_label": "10",
+          "label_raw": "GENOV -\nANTEL"
+        }
+      ],
+      "id": "pt025",
+      "clave": "ANTEL||GENOV",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GENOVA",
+          "GENOVA -"
+        ],
+        [
+          "ANTELO"
+        ]
+      ],
+      "calle1": "GENOVA",
+      "calle2": "ANTELO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.915221404186596,
+        "lon": -60.68672307379441,
+        "x": 5435761.58,
+        "y": 6358410.75
+      },
+      "resuelto_por_convergencia": 2
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "linea": "116",
+  "puntos": [
+    {
+      "tokens": [
+        "Calasanz",
+        "Suinda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Calasanz y\nSuinda"
+        }
+      ],
+      "id": "pt000",
+      "clave": "CALASANZ||SUINDA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.940865628239024,
+        "lon": -60.75989185923811,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Berhnain",
+        "Urizar"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Berhnain y\nUrizar"
+        }
+      ],
+      "id": "pt001",
+      "clave": "BERHNAIN||URIZAR",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "URIZAR"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94009455295981,
+        "lon": -60.73170758252928,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Sanchez Loria"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Mendoza y\nSanchez\nLoria"
+        }
+      ],
+      "id": "pt002",
+      "clave": "MENDOZA||SANCHEZ LORIA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94009455295981,
+        "lon": -60.73170758252928,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Donado",
+        "Peron"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Donado y\nPeron"
+        }
+      ],
+      "id": "pt003",
+      "clave": "DONADO||PERON",
+      "status": "auto",
+      "candidatos": [
+        [
+          "DONADO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.930402327728515,
+        "lon": -60.72736880804071,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Peron",
+        "Unidas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Peron y\nUnidas"
+        }
+      ],
+      "id": "pt004",
+      "clave": "PERON||UNIDAS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93299415474353,
+        "lon": -60.71298787085509,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Peron",
+        "Matienzo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Peron y\nMatienzo"
+        }
+      ],
+      "id": "pt005",
+      "clave": "MATIENZO||PERON",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "MATIENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.936255105101495,
+        "lon": -60.69484179260267,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Cordoba",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Cordoba y\nCafferata"
+        }
+      ],
+      "id": "pt006",
+      "clave": "CAFFERATA||CORDOBA",
+      "status": "auto",
+      "calle1": "CORDOBA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94054267909362,
+        "lon": -60.670951201305705,
+        "x": 5437254.84,
+        "y": 6355611.96
+      }
+    },
+    {
+      "tokens": [
+        "San Lorenzo",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "San Lorenzo\ny Oroño"
+        }
+      ],
+      "id": "pt007",
+      "clave": "OROÑO||SAN LORENZO",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94143114319429,
+        "lon": -60.65272565144909,
+        "x": 5438959.875,
+        "y": 6355524.130000002
+      }
+    },
+    {
+      "tokens": [
+        "San Lorenzo",
+        "Entra Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "San Lorenzo y\nEntra Rios"
+        }
+      ],
+      "id": "pt008",
+      "clave": "ENTRA RIOS||SAN LORENZO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94360409741965,
+        "lon": -60.64038098991533,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Laprida y\nPellegrini"
+        }
+      ],
+      "id": "pt009",
+      "clave": "LAPRIDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95797907858964,
+        "lon": -60.636972187793276,
+        "x": 5440444.195,
+        "y": 6353697.875
+      }
+    },
+    {
+      "tokens": [
+        "Entre Rios",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10 FIN",
+          "label_raw": "Entre Rios y\n27 de\nFebrero"
+        }
+      ],
+      "id": "pt010",
+      "clave": "27 DE FEBRERO||ENTRE RIOS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96709411628462,
+        "lon": -60.64627850187403,
+        "x": 5439580.26,
+        "y": 6352681.655
+      }
+    },
+    {
+      "tokens": [
+        "Jorge Cura",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "INICIO",
+          "label_raw": "Jorge Cura y\nOroño"
+        }
+      ],
+      "id": "pt011",
+      "clave": "JORGE CURA||OROÑO",
+      "status": "auto",
+      "calle1": "JORGE CURA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "JORGE CURA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97117963464596,
+        "lon": -60.66034943503427,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Maipu",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "1",
+          "label_raw": "Maipu y 27\nde Febrero"
+        }
+      ],
+      "id": "pt012",
+      "clave": "27 DE FEBRERO||MAIPU",
+      "status": "auto",
+      "calle1": "MAIPU",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96808544532441,
+        "lon": -60.640730591072064,
+        "x": 5440099.605,
+        "y": 6352574.88
+      }
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "linea": "126",
+  "puntos": [
+    {
+      "tokens": [
+        "O LAGOS",
+        "QUINTANA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "O LAGOS-\nQUINTAN\nA"
+        }
+      ],
+      "id": "pt000",
+      "clave": "O LAGOS||QUINTANA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "QUINTANA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97839383694055,
+        "lon": -60.67023217213723,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "SEGUI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "AVELL -\nSEGUI"
+        }
+      ],
+      "id": "pt001",
+      "clave": "AVELL||SEGUI",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9717243203535,
+        "lon": -60.68736014083773,
+        "x": 5435742.87,
+        "y": 6352143.8075
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "AVELL -\n27FEB"
+        }
+      ],
+      "id": "pt002",
+      "clave": "27FEB||AVELL",
+      "status": "auto",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.960262740135065,
+        "lon": -60.68446768391065,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AvFRA",
+        "PELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "AvFRA -\nPELL"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AVFRA||PELL",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.952381841724026,
+        "lon": -60.66825672500243,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MENDO",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "MENDO -\nOROÑO"
+        }
+      ],
+      "id": "pt004",
+      "clave": "MENDO||OROÑO",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9488450709833,
+        "lon": -60.65459144339659,
+        "x": 5438790.5,
+        "y": 6354700.795
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "ITALI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "SLORE -\nITALI"
+        }
+      ],
+      "id": "pt005",
+      "clave": "ITALI||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ITALIA",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ITALIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94239494132621,
+        "lon": -60.647298229963425,
+        "x": 5439468.09,
+        "y": 6355420.37
+      }
+    },
+    {
+      "tokens": [
+        "SLORENZ",
+        "LAPR",
+        "SLAPRIDA LOREN"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "FIN",
+          "label_raw": "SLORENZ- LAPR-S\nLAPRIDA LOREN"
+        }
+      ],
+      "id": "pt006",
+      "clave": "unparsed::SLORENZ",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94599602682921,
+        "lon": -60.63335821116553,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "3FEBR",
+        "MITRE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "1",
+          "label_raw": "3FEBR -\nMITRE"
+        }
+      ],
+      "id": "pt007",
+      "clave": "3FEBR||MITRE",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "MITRE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.952517831518485,
+        "lon": -60.64113687680485,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "3FEBR",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "2",
+          "label_raw": "3FEBR -\nOROÑO"
+        }
+      ],
+      "id": "pt008",
+      "clave": "3FEBR||OROÑO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95007268219195,
+        "lon": -60.65490094592427,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "OvLAG",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "3",
+          "label_raw": "OvLAG -\nPELLE"
+        }
+      ],
+      "id": "pt009",
+      "clave": "OVLAG||PELLE",
+      "status": "auto",
+      "calle1": "OVIDIO LAGOS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95309834425215,
+        "lon": -60.66419049967071,
+        "x": 5437895.87,
+        "y": 6354223.46
+      }
+    },
+    {
+      "tokens": [
+        "OvLAG",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "4",
+          "label_raw": "OvLAG -\n27FEB"
+        }
+      ],
+      "id": "pt010",
+      "clave": "27FEB||OVLAG",
+      "status": "auto",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9634900862919,
+        "lon": -60.666591773710444,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "CAFE",
+        "RUED"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "5",
+          "label_raw": "CAFE -\nRUED"
+        }
+      ],
+      "id": "pt011",
+      "clave": "CAFE||RUED",
+      "status": "auto",
+      "calle1": "CAFERATA",
+      "calle2": "RUEDA",
+      "candidatos": [
+        [
+          "CAFERATA"
+        ],
+        [
+          "RUEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.965167376808836,
+        "lon": -60.677174658174394,
+        "x": 5436690.39,
+        "y": 6352877.19
+      }
+    },
+    {
+      "tokens": [
+        "CAFE",
+        "SEGUI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "6",
+          "label_raw": "CAFE -\nSEGUI"
+        }
+      ],
+      "id": "pt012",
+      "clave": "CAFE||SEGUI",
+      "status": "auto",
+      "calle1": "CAFERATA",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "CAFERATA"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.973188895552305,
+        "lon": -60.6792031537118,
+        "x": 5436506.48,
+        "y": 6351986.325
+      }
+    },
+    {
+      "tokens": [
+        "LAGOSQUINTANA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "FIN",
+          "label_raw": "LAGOS\nQUINTAN\nA"
+        }
+      ],
+      "id": "pt013",
+      "clave": "unparsed::LAGOSQUINTANA",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97839383694055,
+        "lon": -60.67023217213723,
+        "manual": true
+      }
+    }
+  ]
+}

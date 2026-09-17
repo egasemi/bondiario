@@ -1,0 +1,327 @@
+{
+  "linea": "Ronda CUR SUR",
+  "puntos": [
+    {
+      "tokens": [
+        "Batlle",
+        "Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Batlle y\nLagos"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "FIN",
+          "label_raw": "Batlle y\nLagos"
+        }
+      ],
+      "id": "pt000",
+      "clave": "BATLLE||LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BATLLE Y ORDONEZ"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00973670330604,
+        "lon": -60.67735128004273,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Arijón",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Arijón y\nOroño"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Arijón y\nOroño"
+        }
+      ],
+      "id": "pt001",
+      "clave": "ARIJÓN||OROÑO",
+      "status": "auto",
+      "calle1": "ARIJON",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "ARIJON"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00349644481266,
+        "lon": -60.66498008671136,
+        "x": 5437857.3525,
+        "y": 6348633.485
+      }
+    },
+    {
+      "tokens": [
+        "Arijón",
+        "San Martin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Arijón y San\nMartin"
+        }
+      ],
+      "id": "pt002",
+      "clave": "ARIJÓN||SAN MARTIN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ARIJON"
+        ],
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ]
+      ],
+      "calle1": "ARIJON",
+      "calle2": "SAN MARTIN",
+      "geocode": {
+        "status": "ok",
+        "lat": -33.003027792412844,
+        "lon": -60.64939246630435,
+        "x": 5439313.726666668,
+        "y": 6348694.563333334
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "San Martín",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "San Martín y\nUriburu"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "San Martín y\nUriburu"
+        }
+      ],
+      "id": "pt003",
+      "clave": "SAN MARTÍN||URIBURU",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "calle1": "SAN MARTIN",
+      "calle2": "URIBURU",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99066737262355,
+        "lon": -60.6466900762617,
+        "x": 5439557.845,
+        "y": 6350066.98
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "San Martín",
+        "Ayolas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "San Martín y\nAyolas"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "San Martín y\nAyolas"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AYOLAS||SAN MARTÍN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ],
+        [
+          "AYOLAS"
+        ]
+      ],
+      "calle1": "SAN MARTIN",
+      "calle2": "AYOLAS",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97707028280277,
+        "lon": -60.644143021513145,
+        "x": 5439786.676666668,
+        "y": 6351576.453333334
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Maipu",
+        "La Paz"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Maipu y La\nPaz"
+        }
+      ],
+      "id": "pt005",
+      "clave": "LA PAZ||MAIPU",
+      "status": "auto",
+      "calle1": "MAIPU",
+      "calle2": "LA PAZ",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        [
+          "LA PAZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.964653507724414,
+        "lon": -60.63987735753883,
+        "x": 5440177.06,
+        "y": 6352955.99
+      }
+    },
+    {
+      "tokens": [
+        "Ciudad Universitaria"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Ciudad\nUniversitaria"
+        }
+      ],
+      "id": "pt006",
+      "clave": "unparsed::Ciudad Universitaria",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966263589565266,
+        "lon": -60.62418669462205,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Laprida y 27\nde Febrero"
+        }
+      ],
+      "id": "pt007",
+      "clave": "27 DE FEBRERO||LAPRIDA",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.968293859930704,
+        "lon": -60.639561423538005,
+        "x": 5440209.05,
+        "y": 6352552.43
+      }
+    },
+    {
+      "tokens": [
+        "San Martín",
+        "Arijón"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "San Martín y\nArijón"
+        }
+      ],
+      "id": "pt008",
+      "clave": "ARIJÓN||SAN MARTÍN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ],
+        [
+          "ARIJON"
+        ]
+      ],
+      "calle1": "SAN MARTIN",
+      "calle2": "ARIJON",
+      "geocode": {
+        "status": "ok",
+        "lat": -33.003027792412844,
+        "lon": -60.64939246630435,
+        "x": 5439313.726666668,
+        "y": 6348694.563333334
+      },
+      "resuelto_por_convergencia": 1
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "linea": "128",
+  "puntos": [
+    {
+      "tokens": [
+        "URQUIZA",
+        "FRANCIA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "URQUIZA -\nFRANCIA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "FIN",
+          "label_raw": "URQUIZA -\nFRANCIA"
+        }
+      ],
+      "id": "pt000",
+      "clave": "FRANCIA||URQUIZA",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93805676766283,
+        "lon": -60.664647482171475,
+        "x": 5437842.615,
+        "y": 6355891.4
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "STAFE -\nAVELL"
+        }
+      ],
+      "id": "pt001",
+      "clave": "AVELL||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93773065316909,
+        "lon": -60.67877623880135,
+        "x": 5436521.045,
+        "y": 6355919.145
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "CERRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "AVELL -\nCERRI"
+        }
+      ],
+      "id": "pt002",
+      "clave": "AVELL||CERRI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "CERRITO",
+          "CERRILLOS"
+        ]
+      ],
+      "calle1": "AVELLANEDA",
+      "calle2": "CERRITO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9545245940152,
+        "lon": -60.683018480575534,
+        "x": 5436136.380000002,
+        "y": 6354054.02
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "URUGU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "AVELL -\nURUGU"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AVELL||URUGU",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "URUGUAY",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "URUGUAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96943106064747,
+        "lon": -60.686780810081125,
+        "x": 5435795.37,
+        "y": 6352398.5
+      }
+    },
+    {
+      "tokens": [
+        "BIEDM",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "BIEDM -\nOvLAG"
+        }
+      ],
+      "id": "pt004",
+      "clave": "BIEDM||OVLAG",
+      "status": "auto",
+      "calle1": "BIEDMA",
+      "calle2": "OVIDIO LAGOS",
+      "candidatos": [
+        [
+          "BIEDMA"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.977248736402075,
+        "lon": -60.66995469322726,
+        "x": 5437373.93,
+        "y": 6351541.6
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "BvSEG -\nOROÑO"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "4",
+          "label_raw": "BvSEG -\nOROÑO"
+        }
+      ],
+      "id": "pt005",
+      "clave": "BVSEG||OROÑO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97635953955821,
+        "lon": -60.66151169378635,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MITRE",
+        "AYOLA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "MITRE -\nAYOLA"
+        }
+      ],
+      "id": "pt006",
+      "clave": "AYOLA||MITRE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "AYOLAS",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "AYOLAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97652741702439,
+        "lon": -60.64717914731819,
+        "x": 5439502.49,
+        "y": 6351634.92
+      }
+    },
+    {
+      "tokens": [
+        "MITRE",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "MITRE -\nPELLE"
+        }
+      ],
+      "id": "pt007",
+      "clave": "MITRE||PELLE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95703159069181,
+        "lon": -60.64227731876921,
+        "x": 5439947.525,
+        "y": 6353799.945
+      }
+    },
+    {
+      "tokens": [
+        "MITRE",
+        "SLUIS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "MITRE -\nSLUIS"
+        }
+      ],
+      "id": "pt008",
+      "clave": "MITRE||SLUIS",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94877885340193,
+        "lon": -60.640216821434855,
+        "x": 5440134.62,
+        "y": 6354716.4
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "LAPRIDA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "FIN",
+          "label_raw": "SLORE -\nLAPRIDA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "INICIO",
+          "label_raw": "SLORE -\nLAPRIDA"
+        }
+      ],
+      "id": "pt009",
+      "clave": "LAPRIDA||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94599602682921,
+        "lon": -60.633358211165536,
+        "x": 5440774.11,
+        "y": 6355028.91
+      }
+    },
+    {
+      "tokens": [
+        "SJUAN",
+        "ERIOS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "1",
+          "label_raw": "SJUAN -\nERIOS"
+        }
+      ],
+      "id": "pt010",
+      "clave": "ERIOS||SJUAN",
+      "status": "auto",
+      "calle1": "SAN JUAN",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SAN JUAN"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.949653958732576,
+        "lon": -60.6418953810588,
+        "x": 5439978.25,
+        "y": 6354618.39
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "2",
+          "label_raw": "ERIOS -\nPELLE"
+        }
+      ],
+      "id": "pt011",
+      "clave": "ERIOS||PELLE",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95678007735076,
+        "lon": -60.64368660465688,
+        "x": 5439815.585,
+        "y": 6353827.035
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "AYOLA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "3",
+          "label_raw": "ERIOS -\nAYOLA"
+        }
+      ],
+      "id": "pt012",
+      "clave": "AYOLA||ERIOS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "AYOLAS",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "AYOLAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.978003685189364,
+        "lon": -60.63891702583494,
+        "x": 5440275.83,
+        "y": 6351475.91
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "5",
+          "label_raw": "BvSEG -\nOvLAG"
+        }
+      ],
+      "id": "pt013",
+      "clave": "BVSEG||OVLAG",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97494876663608,
+        "lon": -60.66939658178918,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "DFUNE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "6",
+          "label_raw": "AVELL -\nDFUNE"
+        }
+      ],
+      "id": "pt014",
+      "clave": "AVELL||DFUNE",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "DEAN FUNES",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "DEAN FUNES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96828164558387,
+        "lon": -60.68649113479059,
+        "x": 5435821.62,
+        "y": 6352526.155
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "MONTE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "7",
+          "label_raw": "AVELL -\nMONTE"
+        }
+      ],
+      "id": "pt015",
+      "clave": "AVELL||MONTE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "MONTEAGUDO",
+          "MONTECARLO",
+          "MONTEVIDEO",
+          "MONTE FLORES",
+          "MONTES DE OCA",
+          "MONTES CARBALLO 1704"
+        ]
+      ],
+      "calle1": "AVELLANEDA",
+      "calle2": "MONTEVIDEO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.948798131044434,
+        "lon": -60.6815720205238,
+        "x": 5436267.52,
+        "y": 6354690.0
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "CORDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "8",
+          "label_raw": "AVELL -\nCORDO"
+        }
+      ],
+      "id": "pt016",
+      "clave": "AVELL||CORDO",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93907520391131,
+        "lon": -60.67911724157317,
+        "x": 5436490.115,
+        "y": 6355769.82
+      }
+    }
+  ]
+}

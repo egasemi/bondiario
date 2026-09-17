@@ -1,0 +1,781 @@
+{
+  "linea": "102",
+  "puntos": [
+    {
+      "tokens": [
+        "Logaritmo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Logaritmo"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "FIN",
+          "label_raw": "Logaritmo"
+        }
+      ],
+      "id": "pt000",
+      "clave": "unparsed::Logaritmo",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.8729013380483,
+        "lon": -60.744481086730964,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Villa del Parque",
+        "B. Levi"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Villa del\nParque y B.\nLevi"
+        }
+      ],
+      "id": "pt001",
+      "clave": "B LEVI||VILLA DEL PARQUE",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88151844847773,
+        "lon": -60.72838175094388,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Grandoli",
+        "Gazcón"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Grandoli y\nGazcón"
+        }
+      ],
+      "id": "pt002",
+      "clave": "GAZCÓN||GRANDOLI",
+      "status": "auto",
+      "calle1": "GRANDOLI",
+      "calle2": "GAZCON",
+      "candidatos": [
+        [
+          "GRANDOLI"
+        ],
+        [
+          "GAZCON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.886966330539174,
+        "lon": -60.7273230379502,
+        "x": 5431942.03,
+        "y": 6361518.95
+      }
+    },
+    {
+      "tokens": [
+        "Baigorria",
+        "Casiano Casas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Baigorria y\nCasiano\nCasas"
+        }
+      ],
+      "id": "pt003",
+      "clave": "BAIGORRIA||CASIANO CASAS",
+      "status": "auto",
+      "calle1": "BAIGORRIA",
+      "calle2": "CASIANO CASAS",
+      "candidatos": [
+        [
+          "BAIGORRIA"
+        ],
+        [
+          "CASIANO CASAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89390526888795,
+        "lon": -60.716308961853315,
+        "x": 5432977.9,
+        "y": 6360756.43
+      }
+    },
+    {
+      "tokens": [
+        "Baigorria",
+        "Avalos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Baigorria y\nAvalos"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AVALOS||BAIGORRIA",
+      "status": "auto",
+      "calle1": "BAIGORRIA",
+      "calle2": "AVALOS",
+      "candidatos": [
+        [
+          "BAIGORRIA"
+        ],
+        [
+          "AVALOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89375327936686,
+        "lon": -60.70800768325427,
+        "x": 5433754.52,
+        "y": 6360778.53
+      }
+    },
+    {
+      "tokens": [
+        "Pavlov",
+        "Casiano Casas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Pavlov y\nCasiano\nCasas"
+        }
+      ],
+      "id": "pt005",
+      "clave": "CASIANO CASAS||PAVLOV",
+      "status": "auto",
+      "calle1": "PAVLOV",
+      "calle2": "CASIANO CASAS",
+      "candidatos": [
+        [
+          "PAVLOV"
+        ],
+        [
+          "CASIANO CASAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90181884010574,
+        "lon": -60.703967410248595,
+        "x": 5434138.53,
+        "y": 6359886.54
+      }
+    },
+    {
+      "tokens": [
+        "Casiano Casas",
+        "Sorrento"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Casiano\nCasas y\nSorrento"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Sorrento y\nCasiano\nCasas"
+        }
+      ],
+      "id": "pt006",
+      "clave": "CASIANO CASAS||SORRENTO",
+      "status": "auto",
+      "calle1": "CASIANO CASAS",
+      "calle2": "SORRENTO",
+      "candidatos": [
+        [
+          "CASIANO CASAS"
+        ],
+        [
+          "SORRENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90726807711558,
+        "lon": -60.695724525432475,
+        "x": 5434913.716666666,
+        "y": 6359287.303333334
+      }
+    },
+    {
+      "tokens": [
+        "Carballo",
+        "Alberdi"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Carballo y\nAlberdi"
+        }
+      ],
+      "id": "pt007",
+      "clave": "ALBERDI||CARBALLO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ALBERDI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.922169393724715,
+        "lon": -60.68009751971819,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Junin",
+        "Rawson"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Junin y\nRawson"
+        }
+      ],
+      "id": "pt008",
+      "clave": "JUNIN||RAWSON",
+      "status": "auto",
+      "calle1": "JUNIN",
+      "calle2": "RAWSON",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        [
+          "RAWSON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92651218050244,
+        "lon": -60.66925643307086,
+        "x": 5437403.45,
+        "y": 6357169.04
+      }
+    },
+    {
+      "tokens": [
+        "Rivadavia",
+        "Balcarce"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Rivadavia y\nBalcarce"
+        }
+      ],
+      "id": "pt009",
+      "clave": "BALCARCE||RIVADAVIA",
+      "status": "auto",
+      "calle1": "RIVADAVIA",
+      "calle2": "BALCARCE",
+      "candidatos": [
+        [
+          "RIVADAVIA"
+        ],
+        [
+          "BALCARCE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93234737659261,
+        "lon": -60.649015539187026,
+        "x": 5439300.63,
+        "y": 6356533.72
+      }
+    },
+    {
+      "tokens": [
+        "Dorrego",
+        "San Lorenzo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Dorrego y\nSan Lorenzo"
+        }
+      ],
+      "id": "pt010",
+      "clave": "DORREGO||SAN LORENZO",
+      "status": "auto",
+      "calle1": "DORREGO",
+      "calle2": "SAN LORENZO",
+      "candidatos": [
+        [
+          "DORREGO"
+        ],
+        [
+          "SAN LORENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94215503186009,
+        "lon": -60.64865003823382,
+        "x": 5439341.51,
+        "y": 6355446.2
+      }
+    },
+    {
+      "tokens": [
+        "San Luis",
+        "Entre Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "San Luis y\nEntre Rios"
+        }
+      ],
+      "id": "pt011",
+      "clave": "ENTRE RIOS||SAN LUIS",
+      "status": "auto",
+      "calle1": "SAN LUIS",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94853698601894,
+        "lon": -60.64161354044975,
+        "x": 5440003.85,
+        "y": 6354742.43
+      }
+    },
+    {
+      "tokens": [
+        "Alem",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12 FIN",
+          "label_raw": "Alem y\nPellegrini"
+        }
+      ],
+      "id": "pt012",
+      "clave": "ALEM||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ALEM",
+          "ALEMANIA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "calle1": "ALEM",
+      "calle2": "PELLEGRINI",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95904250825736,
+        "lon": -60.63103620685202,
+        "x": 5440999.915,
+        "y": 6353583.275
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Ciudad Universitaria"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Ciudad\nUniversitaria"
+        }
+      ],
+      "id": "pt013",
+      "clave": "unparsed::Ciudad Universitaria",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966263589565266,
+        "lon": -60.62418669462205,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ayacucho",
+        "Montevideo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Ayacucho y\nMontevideo"
+        }
+      ],
+      "id": "pt014",
+      "clave": "AYACUCHO||MONTEVIDEO",
+      "status": "auto",
+      "calle1": "AYACUCHO",
+      "calle2": "MONTEVIDEO",
+      "candidatos": [
+        [
+          "AYACUCHO"
+        ],
+        [
+          "MONTEVIDEO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.958138782172895,
+        "lon": -60.629345552607646,
+        "x": 5441157.39,
+        "y": 6353684.45
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Laprida"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Santa Fe y\nLaprida"
+        }
+      ],
+      "id": "pt015",
+      "clave": "LAPRIDA||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.946599454999955,
+        "lon": -60.63361788264234,
+        "x": 5440750.23,
+        "y": 6354961.84
+      }
+    },
+    {
+      "tokens": [
+        "Italia",
+        "San Lorenzo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Italia y San\nLorenzo"
+        }
+      ],
+      "id": "pt016",
+      "clave": "ITALIA||SAN LORENZO",
+      "status": "auto",
+      "calle1": "ITALIA",
+      "calle2": "SAN LORENZO",
+      "candidatos": [
+        [
+          "ITALIA"
+        ],
+        [
+          "SAN LORENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94239494132621,
+        "lon": -60.647298229963425,
+        "x": 5439468.09,
+        "y": 6355420.37
+      }
+    },
+    {
+      "tokens": [
+        "E. Lopez",
+        "Moreno"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "E. Lopez y\nMoreno"
+        }
+      ],
+      "id": "pt017",
+      "clave": "E LOPEZ||MORENO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "MORENO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93251050948136,
+        "lon": -60.64754255360958,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Carballo",
+        "Av. Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Carballo y\nAv.\nAvellaneda"
+        }
+      ],
+      "id": "pt018",
+      "clave": "AV AVELLANEDA||CARBALLO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92197867092564,
+        "lon": -60.67481468220162,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Casiano Casas",
+        "Uriarte"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Casiano\nCasas y\nUriarte"
+        }
+      ],
+      "id": "pt019",
+      "clave": "CASIANO CASAS||URIARTE",
+      "status": "auto",
+      "calle1": "CASIANO CASAS",
+      "calle2": "URIARTE",
+      "candidatos": [
+        [
+          "CASIANO CASAS"
+        ],
+        [
+          "URIARTE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9018213872166,
+        "lon": -60.703963422256415,
+        "x": 5434138.905,
+        "y": 6359886.26
+      }
+    },
+    {
+      "tokens": [
+        "Baigorria",
+        "Ávalos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Baigorria y\nÁvalos"
+        }
+      ],
+      "id": "pt020",
+      "clave": "BAIGORRIA||ÁVALOS",
+      "status": "auto",
+      "calle1": "BAIGORRIA",
+      "calle2": "AVALOS",
+      "candidatos": [
+        [
+          "BAIGORRIA"
+        ],
+        [
+          "AVALOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89375327936686,
+        "lon": -60.70800768325427,
+        "x": 5433754.52,
+        "y": 6360778.53
+      }
+    },
+    {
+      "tokens": [
+        "Baigorria",
+        "Lopez Buchardo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Baigorria y\nLopez\nBuchardo"
+        }
+      ],
+      "id": "pt021",
+      "clave": "BAIGORRIA||LOPEZ BUCHARDO",
+      "status": "auto",
+      "calle1": "BAIGORRIA",
+      "calle2": "LOPEZ BUCHARDO",
+      "candidatos": [
+        [
+          "BAIGORRIA"
+        ],
+        [
+          "LOPEZ BUCHARDO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89395027189452,
+        "lon": -60.71773812625615,
+        "x": 5432844.21,
+        "y": 6360750.53
+      }
+    },
+    {
+      "tokens": [
+        "J. Granel",
+        "Vieytes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "J. Granel y\nVieytes"
+        }
+      ],
+      "id": "pt022",
+      "clave": "J GRANEL||VIEYTES",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "VIEYTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88806784889861,
+        "lon": -60.72734603692589,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Calderon",
+        "B. Levi"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Calderon y\nB. Levi"
+        }
+      ],
+      "id": "pt023",
+      "clave": "B LEVI||CALDERON",
+      "status": "auto",
+      "candidatos": [
+        [
+          "CALDERON"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88163631075015,
+        "lon": -60.73128405374447,
+        "manual": true
+      }
+    }
+  ]
+}

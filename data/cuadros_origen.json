@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "10",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "101-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/101-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/101-NEGRA.pdf"
+  },
+  {
+    "id": "111",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "101-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/101-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/101-NEGRA.pdf"
+  },
+  {
+    "id": "60",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "101-NEGRO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/101-NEGRO.pdf",
+    "path_local": "cuadros/Laboral/101-NEGRO.pdf"
+  },
+  {
+    "id": "12",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "102-144-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/102-144-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/102-144-NEGRA.pdf"
+  },
+  {
+    "id": "112",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "102-144-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/102-144-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/102-144-NEGRA.pdf"
+  },
+  {
+    "id": "61",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "102-144-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/102-144-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/102-144-NEGRA.pdf"
+  },
+  {
+    "id": "113",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "102-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/102-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/102-ROJA.pdf"
+  },
+  {
+    "id": "62",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "102-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/102-ROJA.pdf",
+    "path_local": "cuadros/Laboral/102-ROJA.pdf"
+  },
+  {
+    "id": "13",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "102-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/102-ROJA.pdf",
+    "path_local": "cuadros/Festivo/102-ROJA.pdf"
+  },
+  {
+    "id": "14",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "103-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/103-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/103-NEGRA.pdf"
+  },
+  {
+    "id": "114",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "103-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/103-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/103-NEGRA.pdf"
+  },
+  {
+    "id": "63",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "103-NEGRO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/103-NEGRO.pdf",
+    "path_local": "cuadros/Laboral/103-NEGRO.pdf"
+  },
+  {
+    "id": "64",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "103-ROJO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/103-ROJO.pdf",
+    "path_local": "cuadros/Laboral/103-ROJO.pdf"
+  },
+  {
+    "id": "15",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "103-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/103-ROJA.pdf",
+    "path_local": "cuadros/Festivo/103-ROJA.pdf"
+  },
+  {
+    "id": "115",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "103-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/103-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/103-ROJA.pdf"
+  },
+  {
+    "id": "65",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "106-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/106-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/106-NEGRA.pdf"
+  },
+  {
+    "id": "116",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "106-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/106-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/106-NEGRA.pdf"
+  },
+  {
+    "id": "16",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "106-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/106-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/106-NEGRA.pdf"
+  },
+  {
+    "id": "66",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "106-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/106-ROJA.pdf",
+    "path_local": "cuadros/Laboral/106-ROJA.pdf"
+  },
+  {
+    "id": "67",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "107-NEGRO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/107-NEGRO.pdf",
+    "path_local": "cuadros/Laboral/107-NEGRO.pdf"
+  },
+  {
+    "id": "17",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "107-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/107-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/107-NEGRA.pdf"
+  },
+  {
+    "id": "117",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "107-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/107-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/107-NEGRA.pdf"
+  },
+  {
+    "id": "118",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "107-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/107-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/107-ROJA.pdf"
+  },
+  {
+    "id": "18",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "107-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/107-ROJA.pdf",
+    "path_local": "cuadros/Festivo/107-ROJA.pdf"
+  },
+  {
+    "id": "68",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "107-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/107-ROJA.pdf",
+    "path_local": "cuadros/Laboral/107-ROJA.pdf"
+  },
+  {
+    "id": "69",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "110-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/110-UNICO.pdf",
+    "path_local": "cuadros/Laboral/110-UNICO.pdf"
+  },
+  {
+    "id": "19",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "110-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/110-UNICA.pdf",
+    "path_local": "cuadros/Festivo/110-UNICA.pdf"
+  },
+  {
+    "id": "119",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "110-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/110-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/110-UNICA.pdf"
+  },
+  {
+    "id": "120",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "112-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/112-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/112-NEGRA.pdf"
+  },
+  {
+    "id": "20",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "112-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/112-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/112-NEGRA.pdf"
+  },
+  {
+    "id": "70",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "112-NEGRO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/112-NEGRO.pdf",
+    "path_local": "cuadros/Laboral/112-NEGRO.pdf"
+  },
+  {
+    "id": "121",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "112-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/112-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/112-ROJA.pdf"
+  },
+  {
+    "id": "21",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "112-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/112-ROJA.pdf",
+    "path_local": "cuadros/Festivo/112-ROJA.pdf"
+  },
+  {
+    "id": "71",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "112-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/112-ROJA.pdf",
+    "path_local": "cuadros/Laboral/112-ROJA.pdf"
+  },
+  {
+    "id": "72",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "113-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/113-UNICO.pdf",
+    "path_local": "cuadros/Laboral/113-UNICO.pdf"
+  },
+  {
+    "id": "122",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "113.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/113.pdf",
+    "path_local": "cuadros/Medio-festivo/113.pdf"
+  },
+  {
+    "id": "22",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "113-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/113-UNICO.pdf",
+    "path_local": "cuadros/Festivo/113-UNICO.pdf"
+  },
+  {
+    "id": "163",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "115-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/115-UNICA.pdf",
+    "path_local": "cuadros/Festivo/115-UNICA.pdf"
+  },
+  {
+    "id": "124",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "115.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/115.pdf",
+    "path_local": "cuadros/Medio-festivo/115.pdf"
+  },
+  {
+    "id": "74",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "115-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/115-UNICA.pdf",
+    "path_local": "cuadros/Laboral/115-UNICA.pdf"
+  },
+  {
+    "id": "23",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "115-AEROPUERTO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/115-AEROPUERTO.pdf",
+    "path_local": "cuadros/Festivo/115-AEROPUERTO.pdf"
+  },
+  {
+    "id": "123",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "115-A.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/115-A.pdf",
+    "path_local": "cuadros/Medio-festivo/115-A.pdf"
+  },
+  {
+    "id": "73",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "115-A.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/115-A.pdf",
+    "path_local": "cuadros/Laboral/115-A.pdf"
+  },
+  {
+    "id": "125",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "116-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/116-UNICO.pdf",
+    "path_local": "cuadros/Medio-festivo/116-UNICO.pdf"
+  },
+  {
+    "id": "24",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "116-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/116-UNICO.pdf",
+    "path_local": "cuadros/Festivo/116-UNICO.pdf"
+  },
+  {
+    "id": "75",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "116-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/116-UNICO.pdf",
+    "path_local": "cuadros/Laboral/116-UNICO.pdf"
+  },
+  {
+    "id": "126",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "120-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/120-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/120-UNICA.pdf"
+  },
+  {
+    "id": "25",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "120-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/120-UNICA.pdf",
+    "path_local": "cuadros/Festivo/120-UNICA.pdf"
+  },
+  {
+    "id": "76",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "120-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/120-UNICO.pdf",
+    "path_local": "cuadros/Laboral/120-UNICO.pdf"
+  },
+  {
+    "id": "127",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "121-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/121-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/121-UNICA.pdf"
+  },
+  {
+    "id": "26",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "121-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/121-UNICA.pdf",
+    "path_local": "cuadros/Festivo/121-UNICA.pdf"
+  },
+  {
+    "id": "77",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "121-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/121-UNICO.pdf",
+    "path_local": "cuadros/Laboral/121-UNICO.pdf"
+  },
+  {
+    "id": "78",
+    "tipo_dia": "Festivo",
+    "fecha": "22-06",
+    "archivo": "122-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/22-06/122-ROJA.pdf",
+    "path_local": "cuadros/Festivo/122-ROJA.pdf"
+  },
+  {
+    "id": "27",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "122-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/122-ROJA.pdf",
+    "path_local": "cuadros/Laboral/122-ROJA.pdf"
+  },
+  {
+    "id": "128",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "122-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/122-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/122-ROJA.pdf"
+  },
+  {
+    "id": "28",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "122-VERDE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/122-VERDE.pdf",
+    "path_local": "cuadros/Festivo/122-VERDE.pdf"
+  },
+  {
+    "id": "129",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "122-VERDE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/122-VERDE.pdf",
+    "path_local": "cuadros/Medio-festivo/122-VERDE.pdf"
+  },
+  {
+    "id": "79",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "122-VERDE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/122-VERDE.pdf",
+    "path_local": "cuadros/Laboral/122-VERDE.pdf"
+  },
+  {
+    "id": "29",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "123-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/123-UNICA.pdf",
+    "path_local": "cuadros/Festivo/123-UNICA.pdf"
+  },
+  {
+    "id": "80",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "123-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/123-UNICO.pdf",
+    "path_local": "cuadros/Laboral/123-UNICO.pdf"
+  },
+  {
+    "id": "130",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "123-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/123-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/123-UNICA.pdf"
+  },
+  {
+    "id": "131",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "126-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/126-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/126-NEGRA.pdf"
+  },
+  {
+    "id": "30",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "126-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/126-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/126-NEGRA.pdf"
+  },
+  {
+    "id": "81",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "126-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/126-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/126-NEGRA.pdf"
+  },
+  {
+    "id": "82",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "126-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/126-ROJA.pdf",
+    "path_local": "cuadros/Laboral/126-ROJA.pdf"
+  },
+  {
+    "id": "132",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "126-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/126-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/126-ROJA.pdf"
+  },
+  {
+    "id": "31",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "126-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/126-ROJA.pdf",
+    "path_local": "cuadros/Festivo/126-ROJA.pdf"
+  },
+  {
+    "id": "32",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "127-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/127-UNICA.pdf",
+    "path_local": "cuadros/Festivo/127-UNICA.pdf"
+  },
+  {
+    "id": "83",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "127-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/127-UNICO.pdf",
+    "path_local": "cuadros/Laboral/127-UNICO.pdf"
+  },
+  {
+    "id": "133",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "127-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/127-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/127-UNICA.pdf"
+  },
+  {
+    "id": "134",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "128-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/128-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/128-NEGRA.pdf"
+  },
+  {
+    "id": "84",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "128-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/128-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/128-NEGRA.pdf"
+  },
+  {
+    "id": "33",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "128-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/128-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/128-NEGRA.pdf"
+  },
+  {
+    "id": "135",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "128-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/128-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/128-ROJA.pdf"
+  },
+  {
+    "id": "85",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "128-ROJO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/128-ROJO.pdf",
+    "path_local": "cuadros/Laboral/128-ROJO.pdf"
+  },
+  {
+    "id": "162",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "128-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/128-ROJA.pdf",
+    "path_local": "cuadros/Festivo/128-ROJA.pdf"
+  },
+  {
+    "id": "34",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "129-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/129-UNICA.pdf",
+    "path_local": "cuadros/Festivo/129-UNICA.pdf"
+  },
+  {
+    "id": "136",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "129-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/129-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/129-UNICA.pdf"
+  },
+  {
+    "id": "86",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "129-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/129-UNICO.pdf",
+    "path_local": "cuadros/Laboral/129-UNICO.pdf"
+  },
+  {
+    "id": "137",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "130-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/130-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/130-UNICA.pdf"
+  },
+  {
+    "id": "35",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "130-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/130-UNICA.pdf",
+    "path_local": "cuadros/Festivo/130-UNICA.pdf"
+  },
+  {
+    "id": "87",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "130-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/130-UNICO.pdf",
+    "path_local": "cuadros/Laboral/130-UNICO.pdf"
+  },
+  {
+    "id": "36",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "131-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/131-UNICA.pdf",
+    "path_local": "cuadros/Festivo/131-UNICA.pdf"
+  },
+  {
+    "id": "88",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "131-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/131-UNICO.pdf",
+    "path_local": "cuadros/Laboral/131-UNICO.pdf"
+  },
+  {
+    "id": "138",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "131-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/131-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/131-UNICA.pdf"
+  },
+  {
+    "id": "139",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "132-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/132-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/132-UNICA.pdf"
+  },
+  {
+    "id": "37",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "132-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/132-UNICA.pdf",
+    "path_local": "cuadros/Festivo/132-UNICA.pdf"
+  },
+  {
+    "id": "89",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "132-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/132-UNICA.pdf",
+    "path_local": "cuadros/Laboral/132-UNICA.pdf"
+  },
+  {
+    "id": "140",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "133-125-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/133-125-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/133-125-NEGRA.pdf"
+  },
+  {
+    "id": "38",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "133-125-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/133-125-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/133-125-NEGRA.pdf"
+  },
+  {
+    "id": "90",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "133-125-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/133-125-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/133-125-NEGRA.pdf"
+  },
+  {
+    "id": "141",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "133-125-VERDE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/133-125-VERDE.pdf",
+    "path_local": "cuadros/Medio-festivo/133-125-VERDE.pdf"
+  },
+  {
+    "id": "39",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "133-125-VERDE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/133-125-VERDE.pdf",
+    "path_local": "cuadros/Festivo/133-125-VERDE.pdf"
+  },
+  {
+    "id": "91",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "133-125-VERDE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/133-125-VERDE.pdf",
+    "path_local": "cuadros/Laboral/133-125-VERDE.pdf"
+  },
+  {
+    "id": "142",
+    "tipo_dia": "Medio festivo",
+    "fecha": "22-06",
+    "archivo": "134-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/22-06/134-UNICO.pdf",
+    "path_local": "cuadros/Medio-festivo/134-UNICO.pdf"
+  },
+  {
+    "id": "40",
+    "tipo_dia": "Festivo",
+    "fecha": "22-06",
+    "archivo": "134-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/22-06/134-UNICO.pdf",
+    "path_local": "cuadros/Festivo/134-UNICO.pdf"
+  },
+  {
+    "id": "92",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "134-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/134-UNICO.pdf",
+    "path_local": "cuadros/Laboral/134-UNICO.pdf"
+  },
+  {
+    "id": "143",
+    "tipo_dia": "Medio festivo",
+    "fecha": "22-06",
+    "archivo": "135-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/22-06/135-UNICO.pdf",
+    "path_local": "cuadros/Medio-festivo/135-UNICO.pdf"
+  },
+  {
+    "id": "93",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "135-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/135-UNICO.pdf",
+    "path_local": "cuadros/Laboral/135-UNICO.pdf"
+  },
+  {
+    "id": "41",
+    "tipo_dia": "Festivo",
+    "fecha": "22-06",
+    "archivo": "135-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/22-06/135-UNICO.pdf",
+    "path_local": "cuadros/Festivo/135-UNICO.pdf"
+  },
+  {
+    "id": "42",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "138-139-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/138-139-UNICA.pdf",
+    "path_local": "cuadros/Festivo/138-139-UNICA.pdf"
+  },
+  {
+    "id": "144",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "138-139-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/138-139-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/138-139-UNICA.pdf"
+  },
+  {
+    "id": "94",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "138-139-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/138-139-UNICO.pdf",
+    "path_local": "cuadros/Laboral/138-139-UNICO.pdf"
+  },
+  {
+    "id": "145",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "140-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/140-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/140-UNICA.pdf"
+  },
+  {
+    "id": "43",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "140-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/140-UNICA.pdf",
+    "path_local": "cuadros/Festivo/140-UNICA.pdf"
+  },
+  {
+    "id": "95",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "140-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/140-UNICO.pdf",
+    "path_local": "cuadros/Laboral/140-UNICO.pdf"
+  },
+  {
+    "id": "146",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "141-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/141-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/141-UNICA.pdf"
+  },
+  {
+    "id": "44",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "141-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/141-UNICA.pdf",
+    "path_local": "cuadros/Festivo/141-UNICA.pdf"
+  },
+  {
+    "id": "96",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "141-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/141-UNICO.pdf",
+    "path_local": "cuadros/Laboral/141-UNICO.pdf"
+  },
+  {
+    "id": "147",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "142-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/142-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/142-NEGRA.pdf"
+  },
+  {
+    "id": "97",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "142-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/142-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/142-NEGRA.pdf"
+  },
+  {
+    "id": "45",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "142-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/142-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/142-NEGRA.pdf"
+  },
+  {
+    "id": "46",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "142-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/142-ROJA.pdf",
+    "path_local": "cuadros/Festivo/142-ROJA.pdf"
+  },
+  {
+    "id": "148",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "142-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/142-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/142-ROJA.pdf"
+  },
+  {
+    "id": "98",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "142-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/142-ROJA.pdf",
+    "path_local": "cuadros/Laboral/142-ROJA.pdf"
+  },
+  {
+    "id": "149",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "143-136-137-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/143-136-137-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/143-136-137-NEGRA.pdf"
+  },
+  {
+    "id": "99",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "143-136-137-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/143-136-137-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/143-136-137-NEGRA.pdf"
+  },
+  {
+    "id": "47",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "143-136-137-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/143-136-137-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/143-136-137-NEGRA.pdf"
+  },
+  {
+    "id": "100",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "143-136-137-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/143-136-137-ROJA.pdf",
+    "path_local": "cuadros/Laboral/143-136-137-ROJA.pdf"
+  },
+  {
+    "id": "150",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "143-136-137-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/143-136-137-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/143-136-137-ROJA.pdf"
+  },
+  {
+    "id": "48",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "143-136-137-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/143-136-137-ROJA.pdf",
+    "path_local": "cuadros/Festivo/143-136-137-ROJA.pdf"
+  },
+  {
+    "id": "49",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "145-133-CABIN-9.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/145-133-CABIN-9.pdf",
+    "path_local": "cuadros/Festivo/145-133-CABIN-9.pdf"
+  },
+  {
+    "id": "151",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "145-133-CABIN9.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/145-133-CABIN9.pdf",
+    "path_local": "cuadros/Medio-festivo/145-133-CABIN9.pdf"
+  },
+  {
+    "id": "101",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "145-143-CABIN9.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/145-143-CABIN9.pdf",
+    "path_local": "cuadros/Laboral/145-143-CABIN9.pdf"
+  },
+  {
+    "id": "152",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "145-133-SOLDINI.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/145-133-SOLDINI.pdf",
+    "path_local": "cuadros/Medio-festivo/145-133-SOLDINI.pdf"
+  },
+  {
+    "id": "102",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "145-143-SOLDINI.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/145-143-SOLDINI.pdf",
+    "path_local": "cuadros/Laboral/145-143-SOLDINI.pdf"
+  },
+  {
+    "id": "50",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "145-133-SOLDINI.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/145-133-SOLDINI.pdf",
+    "path_local": "cuadros/Festivo/145-133-SOLDINI.pdf"
+  },
+  {
+    "id": "103",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "146-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/146-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/146-NEGRA.pdf"
+  },
+  {
+    "id": "153",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "146-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/146-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/146-NEGRA.pdf"
+  },
+  {
+    "id": "51",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "146-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/146-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/146-NEGRA.pdf"
+  },
+  {
+    "id": "154",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "146-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/146-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/146-ROJA.pdf"
+  },
+  {
+    "id": "52",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "146-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/146-ROJA.pdf",
+    "path_local": "cuadros/Festivo/146-ROJA.pdf"
+  },
+  {
+    "id": "104",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "146-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/146-ROJA.pdf",
+    "path_local": "cuadros/Laboral/146-ROJA.pdf"
+  },
+  {
+    "id": "155",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "153-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/153-NEGRA.pdf",
+    "path_local": "cuadros/Medio-festivo/153-NEGRA.pdf"
+  },
+  {
+    "id": "105",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "153-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/153-NEGRA.pdf",
+    "path_local": "cuadros/Laboral/153-NEGRA.pdf"
+  },
+  {
+    "id": "53",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "153-NEGRA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/153-NEGRA.pdf",
+    "path_local": "cuadros/Festivo/153-NEGRA.pdf"
+  },
+  {
+    "id": "106",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "153-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/153-ROJA.pdf",
+    "path_local": "cuadros/Laboral/153-ROJA.pdf"
+  },
+  {
+    "id": "165",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "153-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/153-ROJA.pdf",
+    "path_local": "cuadros/Festivo/153-ROJA.pdf"
+  },
+  {
+    "id": "156",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "153-ROJA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/153-ROJA.pdf",
+    "path_local": "cuadros/Medio-festivo/153-ROJA.pdf"
+  },
+  {
+    "id": "170",
+    "tipo_dia": "Medio festivo",
+    "fecha": "07-09-26",
+    "archivo": "CH MF EAO 04  -  a partir del 12-09-26.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/07-09-26/CH MF EAO 04  -  a partir del 12-09-26.pdf",
+    "path_local": "cuadros/Medio-festivo/CH MF EAO 04  -  a partir del 12-09-26.pdf"
+  },
+  {
+    "id": "169",
+    "tipo_dia": "Festivo",
+    "fecha": "07-09-26",
+    "archivo": "CH F EAO 04  -  a partir del 13-09-26.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/07-09-26/CH F EAO 04  -  a partir del 13-09-26.pdf",
+    "path_local": "cuadros/Festivo/CH F EAO 04  -  a partir del 13-09-26.pdf"
+  },
+  {
+    "id": "168",
+    "tipo_dia": "Laboral",
+    "fecha": "07-09-26",
+    "archivo": "CH L EAO 05  -  a partir del 07-09-26.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/07-09-26/CH L EAO 05  -  a partir del 07-09-26.pdf",
+    "path_local": "cuadros/Laboral/CH L EAO 05  -  a partir del 07-09-26.pdf"
+  },
+  {
+    "id": "56",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "ENLACE-NOROESTE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/ENLACE-NOROESTE.pdf",
+    "path_local": "cuadros/Festivo/ENLACE-NOROESTE.pdf"
+  },
+  {
+    "id": "108",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "ENLACE-NOROESTE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/ENLACE-NOROESTE.pdf",
+    "path_local": "cuadros/Laboral/ENLACE-NOROESTE.pdf"
+  },
+  {
+    "id": "158",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "ENLACE-NOROESTE.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/ENLACE-NOROESTE.pdf",
+    "path_local": "cuadros/Medio-festivo/ENLACE-NOROESTE.pdf"
+  },
+  {
+    "id": "160",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "ENLACE-SANTA-LUCIA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/ENLACE-SANTA-LUCIA.pdf",
+    "path_local": "cuadros/Laboral/ENLACE-SANTA-LUCIA.pdf"
+  },
+  {
+    "id": "57",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "ENLACE-SANTA-LUCIA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/ENLACE-SANTA-LUCIA.pdf",
+    "path_local": "cuadros/Festivo/ENLACE-SANTA-LUCIA.pdf"
+  },
+  {
+    "id": "167",
+    "tipo_dia": "Medio festivo",
+    "fecha": "CH MF ESL 24-8",
+    "archivo": "CH MF ESL 04 - a partir del 26-04-2025.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/CH MF ESL 24-8/CH MF ESL 04 - a partir del 26-04-2025.pdf",
+    "path_local": "cuadros/Medio-festivo/CH MF ESL 04 - a partir del 26-04-2025.pdf"
+  },
+  {
+    "id": "159",
+    "tipo_dia": "Medio festivo",
+    "fecha": null,
+    "archivo": "K-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Medio festivo/K-UNICA.pdf",
+    "path_local": "cuadros/Medio-festivo/K-UNICA.pdf"
+  },
+  {
+    "id": "58",
+    "tipo_dia": "Festivo",
+    "fecha": null,
+    "archivo": "K-UNICA.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Festivo/K-UNICA.pdf",
+    "path_local": "cuadros/Festivo/K-UNICA.pdf"
+  },
+  {
+    "id": "109",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "K-UNICO.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/K-UNICO.pdf",
+    "path_local": "cuadros/Laboral/K-UNICO.pdf"
+  },
+  {
+    "id": "110",
+    "tipo_dia": "Laboral",
+    "fecha": "20-07-26",
+    "archivo": "RONDA-CUR-SUR.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/20-07-26/RONDA-CUR-SUR.pdf",
+    "path_local": "cuadros/Laboral/RONDA-CUR-SUR.pdf"
+  },
+  {
+    "id": "166",
+    "tipo_dia": "Laboral",
+    "fecha": "27-07-26",
+    "archivo": "ENLACE-URIBURU.pdf",
+    "url": "https://emr.gov.ar/uploads/cuadros horarios/Laboral/27-07-26/ENLACE-URIBURU.pdf",
+    "path_local": "cuadros/Laboral/ENLACE-URIBURU.pdf"
+  }
+]

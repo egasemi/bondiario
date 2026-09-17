@@ -1,0 +1,1048 @@
+{
+  "linea": "133125",
+  "puntos": [
+    {
+      "tokens": [
+        "RUEDA",
+        "PCIAS.UNIDAS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "RUEDA -\nPCIAS.UN\nIDAS"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 40,
+          "pos_label": "FIN",
+          "label_raw": "RUEDA -\nPCIAS.U\nNIDAS"
+        }
+      ],
+      "id": "pt000",
+      "clave": "PCIASUNIDAS||RUEDA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RUEDA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.962774373540086,
+        "lon": -60.711688739858374,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "BARRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "BvSEG -\nBARRA"
+        }
+      ],
+      "id": "pt001",
+      "clave": "BARRA||BVSEG",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "BARRA",
+          "BARRACO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97085264623853,
+        "lon": -60.70561030398767,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "ALDAO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "BvSEG -\nALDAO"
+        }
+      ],
+      "id": "pt002",
+      "clave": "ALDAO||BVSEG",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.970566106758206,
+        "lon": -60.69479359258763,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "P.PER",
+        "FMORE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "P.PER -\nFMORE"
+        }
+      ],
+      "id": "pt003",
+      "clave": "FMORE||PPER",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PRES PERON"
+        ],
+        [
+          "FELIPE MORE",
+          "FERNANDEZ MORENO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9586902085625,
+        "lon": -60.69302822458392,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "P.PER",
+        "CAFFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "P.PER -\nCAFFE"
+        }
+      ],
+      "id": "pt004",
+      "clave": "CAFFE||PPER",
+      "status": "auto",
+      "calle1": "PRES PERON",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "PRES PERON"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.956583394566906,
+        "lon": -60.674997615403925,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AvFRA",
+        "CERRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "AvFRA -\nCERRI"
+        }
+      ],
+      "id": "pt005",
+      "clave": "AVFRA||CERRI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CERRITO",
+          "CERRILLOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95696888504469,
+        "lon": -60.66941184772233,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MONTE",
+        "OROÑ0"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "MONTE -\nOROÑ0"
+        }
+      ],
+      "id": "pt006",
+      "clave": "MONTE||OROÑ0",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MONTEAGUDO",
+          "MONTECARLO",
+          "MONTEVIDEO",
+          "MONTE FLORES",
+          "MONTES DE OCA",
+          "MONTES CARBALLO 1704"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95343557316691,
+        "lon": -60.65574880546077,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MOREN",
+        "SLUIS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "MOREN -\nSLUIS"
+        }
+      ],
+      "id": "pt007",
+      "clave": "MOREN||SLUIS",
+      "status": "auto",
+      "calle1": "MORENO",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "MORENO"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94680730327827,
+        "lon": -60.65123844923559,
+        "x": 5439102.64,
+        "y": 6354928.74
+      }
+    },
+    {
+      "tokens": [
+        "CORRI",
+        "STAFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "CORRI -\nSTAFE"
+        }
+      ],
+      "id": "pt008",
+      "clave": "CORRI||STAFE",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "SANTA FE",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94430721618231,
+        "lon": -60.64201447273118,
+        "x": 5439963.5,
+        "y": 6355211.31
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "STAFE -\nOROÑO"
+        }
+      ],
+      "id": "pt009",
+      "clave": "OROÑO||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94235971512325,
+        "lon": -60.65295938589818,
+        "x": 5438938.655,
+        "y": 6355421.01
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "AvFRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "STAFE -\nAvFRA"
+        }
+      ],
+      "id": "pt010",
+      "clave": "AVFRA||STAFE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.940171114745404,
+        "lon": -60.66518169727638,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "STAFE -\nAVELL"
+        }
+      ],
+      "id": "pt011",
+      "clave": "AVELL||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93773065316909,
+        "lon": -60.67877623880135,
+        "x": 5436521.045,
+        "y": 6355919.145
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "AGNET"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "STAFE -\nAGNET"
+        }
+      ],
+      "id": "pt012",
+      "clave": "AGNET||STAFE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93955994251452,
+        "lon": -60.69985246762975,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "EVAPE",
+        "P.UNI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "EVAPE -\nP.UNI"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 27,
+          "pos_label": "6",
+          "label_raw": "EVAPE -\nP.UNI"
+        }
+      ],
+      "id": "pt013",
+      "clave": "EVAPE||PUNI",
+      "status": "auto",
+      "calle1": "EVA PERON",
+      "calle2": "PROVINCIAS UNIDAS",
+      "candidatos": [
+        [
+          "EVA PERON"
+        ],
+        [
+          "PROVINCIAS UNIDAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93299415474353,
+        "lon": -60.71298787085509,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "EVAPE",
+        "DONAD"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "14",
+          "label_raw": "EVAPE -\nDONAD"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 26,
+          "pos_label": "5",
+          "label_raw": "EVAPE -\nDONAD"
+        }
+      ],
+      "id": "pt014",
+      "clave": "DONAD||EVAPE",
+      "status": "auto",
+      "calle1": "EVA PERON",
+      "calle2": "DONADO",
+      "candidatos": [
+        [
+          "EVA PERON"
+        ],
+        [
+          "DONADO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93040232772852,
+        "lon": -60.72736880804071,
+        "x": 5431970.975,
+        "y": 6356701.585
+      }
+    },
+    {
+      "tokens": [
+        "EVAPE",
+        "WILDE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 16,
+          "pos_label": "15",
+          "label_raw": "EVAPE -\nWILDE"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "4",
+          "label_raw": "EVAPE -\nWILDE"
+        }
+      ],
+      "id": "pt015",
+      "clave": "EVAPE||WILDE",
+      "status": "auto",
+      "calle1": "EVA PERON",
+      "calle2": "WILDE",
+      "candidatos": [
+        [
+          "EVA PERON"
+        ],
+        [
+          "WILDE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92831883975307,
+        "lon": -60.739008186079225,
+        "x": 5430880.7275,
+        "y": 6356925.085000002
+      }
+    },
+    {
+      "tokens": [
+        "RUTA9",
+        "J.CEL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 17,
+          "pos_label": "16",
+          "label_raw": "RUTA9 -\nJ.CEL"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "3",
+          "label_raw": "RUTA9 -\nJ.CEL"
+        }
+      ],
+      "id": "pt016",
+      "clave": "JCEL||RUTA9",
+      "status": "manual",
+      "candidatos": [
+        [],
+        [
+          "JUAREZ CELMAN"
+        ]
+      ]
+    },
+    {
+      "tokens": [
+        "RUTA9",
+        "ArLUD"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 18,
+          "pos_label": "17",
+          "label_raw": "RUTA9 -\nArLUD"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "2",
+          "label_raw": "RUTA9 -\nArLUD"
+        }
+      ],
+      "id": "pt017",
+      "clave": "ARLUD||RUTA9",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "RUTA9",
+        "PERON"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 19,
+          "pos_label": "18",
+          "label_raw": "RUTA9 -\nPERON"
+        }
+      ],
+      "id": "pt018",
+      "clave": "PERON||RUTA9",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "RUTA 9",
+        "ANGELOME(FUNES)"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 20,
+          "pos_label": "FIN",
+          "label_raw": "RUTA 9 -\nANGELO\nME\n(FUNES)"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "INICIO",
+          "label_raw": "RUTA 9 -\nANGELO\nME\n(FUNES)"
+        }
+      ],
+      "id": "pt019",
+      "clave": "ANGELOME(FUNES)||RUTA 9",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "PERON",
+        "RUT 9"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "1",
+          "label_raw": "PERON -\nRUT 9"
+        }
+      ],
+      "id": "pt020",
+      "clave": "PERON||RUT 9",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "CORDO",
+        "AGNET"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 28,
+          "pos_label": "7",
+          "label_raw": "CORDO -\nAGNET"
+        }
+      ],
+      "id": "pt021",
+      "clave": "AGNET||CORDO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93534872071384,
+        "lon": -60.70001817817083,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "CORDO",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 29,
+          "pos_label": "8",
+          "label_raw": "CORDO -\nAVELL"
+        }
+      ],
+      "id": "pt022",
+      "clave": "AVELL||CORDO",
+      "status": "auto",
+      "calle1": "CORDOBA",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93907520391131,
+        "lon": -60.67911724157317,
+        "x": 5436490.115,
+        "y": 6355769.82
+      }
+    },
+    {
+      "tokens": [
+        "CORDO",
+        "AvFRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 30,
+          "pos_label": "9",
+          "label_raw": "CORDO -\nAvFRA"
+        }
+      ],
+      "id": "pt023",
+      "clave": "AVFRA||CORDO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94151805336414,
+        "lon": -60.66552166714732,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 31,
+          "pos_label": "10",
+          "label_raw": "SLORE -\nOROÑO"
+        }
+      ],
+      "id": "pt024",
+      "clave": "OROÑO||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94143114319429,
+        "lon": -60.65272565144909,
+        "x": 5438959.875,
+        "y": 6355524.130000002
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "ERIOS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 32,
+          "pos_label": "11",
+          "label_raw": "SLORE -\nERIOS"
+        }
+      ],
+      "id": "pt025",
+      "clave": "ERIOS||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94360409741965,
+        "lon": -60.64038098991533,
+        "x": 5440115.78,
+        "y": 6355290.22
+      }
+    },
+    {
+      "tokens": [
+        "SJUAN",
+        "BALCA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 33,
+          "pos_label": "12",
+          "label_raw": "SJUAN -\nBALCA"
+        }
+      ],
+      "id": "pt026",
+      "clave": "BALCA||SJUAN",
+      "status": "auto",
+      "calle1": "SAN JUAN",
+      "calle2": "BALCARCE",
+      "candidatos": [
+        [
+          "SAN JUAN"
+        ],
+        [
+          "BALCARCE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94768443125228,
+        "lon": -60.65288116156289,
+        "x": 5438949.63,
+        "y": 6354830.51
+      }
+    },
+    {
+      "tokens": [
+        "BALCA",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 34,
+          "pos_label": "13",
+          "label_raw": "BALCA -\nPELLE"
+        }
+      ],
+      "id": "pt027",
+      "clave": "BALCA||PELLE",
+      "status": "auto",
+      "calle1": "BALCARCE",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "BALCARCE"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.954821703724654,
+        "lon": -60.65466389355951,
+        "x": 5438787.845000002,
+        "y": 6354037.905
+      }
+    },
+    {
+      "tokens": [
+        "MONTE",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 35,
+          "pos_label": "14",
+          "label_raw": "MONTE -\nOvLAG"
+        }
+      ],
+      "id": "pt028",
+      "clave": "MONTE||OVLAG",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MONTEAGUDO",
+          "MONTECARLO",
+          "MONTEVIDEO",
+          "MONTE FLORES",
+          "MONTES DE OCA",
+          "MONTES CARBALLO 1704"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95197305920555,
+        "lon": -60.663904883055714,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "OvLAG",
+        "VIAMT"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 36,
+          "pos_label": "15",
+          "label_raw": "OvLAG -\nVIAMT"
+        }
+      ],
+      "id": "pt029",
+      "clave": "OVLAG||VIAMT",
+      "status": "auto",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96118126457352,
+        "lon": -60.666018516835464,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SNICO",
+        "P.PER"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 37,
+          "pos_label": "16",
+          "label_raw": "SNICO -\nP.PER"
+        }
+      ],
+      "id": "pt030",
+      "clave": "PPER||SNICO",
+      "status": "auto",
+      "calle1": "SAN NICOLAS",
+      "calle2": "PRES PERON",
+      "candidatos": [
+        [
+          "SAN NICOLAS"
+        ],
+        [
+          "PRES PERON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.956753878751364,
+        "lon": -60.67646803299437,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "27FEB",
+        "MATIE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 38,
+          "pos_label": "17",
+          "label_raw": "27FEB -\nMATIE"
+        }
+      ],
+      "id": "pt031",
+      "clave": "27FEB||MATIE",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "MATIENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.958746476325125,
+        "lon": -60.69396941751563,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "GARZO",
+        "BvSEG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 39,
+          "pos_label": "18",
+          "label_raw": "GARZO -\nBvSEG"
+        }
+      ],
+      "id": "pt032",
+      "clave": "BVSEG||GARZO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GARZON"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97082188745866,
+        "lon": -60.70445449609267,
+        "manual": true
+      }
+    }
+  ]
+}

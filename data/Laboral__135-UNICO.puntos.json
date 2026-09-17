@@ -1,0 +1,663 @@
+{
+  "linea": "135",
+  "puntos": [
+    {
+      "tokens": [
+        "Carballo",
+        "Sabin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Carballo y\nSabin"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "FIN",
+          "label_raw": "Sabin y\nCarballo"
+        }
+      ],
+      "id": "pt000",
+      "clave": "CARBALLO||SABIN",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SABIN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.922299308986354,
+        "lon": -60.68567597443323,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Gorriti",
+        "Santa Maria de Oro"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Gorriti y\nSanta Maria\nde Oro"
+        }
+      ],
+      "id": "pt001",
+      "clave": "GORRITI||SANTA MARIA DE ORO",
+      "status": "auto",
+      "calle1": "GORRITI",
+      "calle2": "SANTA MARIA DE ORO",
+      "candidatos": [
+        [
+          "GORRITI"
+        ],
+        [
+          "SANTA MARIA DE ORO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.923293721660144,
+        "lon": -60.67361561931169,
+        "x": 5436993.44,
+        "y": 6357523.39
+      }
+    },
+    {
+      "tokens": [
+        "Rivadavia",
+        "Rodriguez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Rivadavia y\nRodriguez"
+        }
+      ],
+      "id": "pt002",
+      "clave": "RIVADAVIA||RODRIGUEZ",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RIVADAVIA"
+        ],
+        [
+          "RODRIGUEZ",
+          "RODRIGUEZ PENA"
+        ]
+      ],
+      "calle1": "RIVADAVIA",
+      "calle2": "RODRIGUEZ",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93115343724267,
+        "lon": -60.65555457634237,
+        "x": 5438688.23,
+        "y": 6356662.35
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Brown",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Brown y\nOroño"
+        }
+      ],
+      "id": "pt003",
+      "clave": "BROWN||OROÑO",
+      "status": "auto",
+      "calle1": "BROWN",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "BROWN"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93439682601126,
+        "lon": -60.65095422109389,
+        "x": 5439120.715,
+        "y": 6356305.305
+      }
+    },
+    {
+      "tokens": [
+        "Catamarca",
+        "Paraguay"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Catamarca y\nParaguay"
+        }
+      ],
+      "id": "pt004",
+      "clave": "CATAMARCA||PARAGUAY",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "PARAGUAY",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "PARAGUAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.939610942479646,
+        "lon": -60.642253634107576,
+        "x": 5439937.96,
+        "y": 6355732.02
+      }
+    },
+    {
+      "tokens": [
+        "Entre Rios",
+        "Cordoba"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Entre Rios y\nCordoba"
+        }
+      ],
+      "id": "pt005",
+      "clave": "CORDOBA||ENTRE RIOS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94591065157486,
+        "lon": -60.64095871902958,
+        "x": 5440063.31,
+        "y": 6355034.08
+      }
+    },
+    {
+      "tokens": [
+        "Entre Rios",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Entre Rios y\nPellegrini"
+        }
+      ],
+      "id": "pt006",
+      "clave": "ENTRE RIOS||PELLEGRINI",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95678007735076,
+        "lon": -60.64368660465688,
+        "x": 5439815.585,
+        "y": 6353827.035
+      }
+    },
+    {
+      "tokens": [
+        "Sarmiento",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Sarmiento y\n27 de\nFebrero"
+        }
+      ],
+      "id": "pt007",
+      "clave": "27 DE FEBRERO||SARMIENTO",
+      "status": "auto",
+      "calle1": "SARMIENTO",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "SARMIENTO"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96759402836484,
+        "lon": -60.64347798586588,
+        "x": 5439842.42,
+        "y": 6352627.815
+      }
+    },
+    {
+      "tokens": [
+        "Bvar. Segui",
+        "Entre Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Bvar. Segui y\nEntre Rios"
+        }
+      ],
+      "id": "pt008",
+      "clave": "BVAR SEGUI||ENTRE RIOS",
+      "status": "auto",
+      "calle1": "SEGUI",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SEGUI"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97856446227131,
+        "lon": -60.64917254205868,
+        "x": 5439317.54,
+        "y": 6351407.85
+      }
+    },
+    {
+      "tokens": [
+        "Entre Rios",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Entre Rios y\nUriburu"
+        }
+      ],
+      "id": "pt009",
+      "clave": "ENTRE RIOS||URIBURU",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99084380687723,
+        "lon": -60.6522751981664,
+        "x": 5439035.95,
+        "y": 6350044.19
+      }
+    },
+    {
+      "tokens": [
+        "San Martin",
+        "Av. Del"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10 FIN",
+          "label_raw": "San\nMartin y\nAv. Del"
+        }
+      ],
+      "id": "pt010",
+      "clave": "AV DEL||SAN MARTIN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ],
+        [
+          "DELIA",
+          "DEL OMBU",
+          "DEL CAMPO",
+          "DEL MUSEO",
+          "DEL VALLE",
+          "DELLAROLE",
+          "DEL CEIBAL",
+          "DEL HUERTO",
+          "DEL LAUREL",
+          "DEL PARQUE",
+          "DELLA VALLE",
+          "DEL AGUARIBAY",
+          "DEL VALLE IBERLUCEA",
+          "DEL VALLE IBERLUCEA SUR",
+          "DEL VALLE IBERLUCEA NORTE",
+          "DEL LIMITE / LIMITE MUNICIPAL"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9998460532058,
+        "lon": -60.64867579821,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Arijon",
+        "Pueyrredon"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Arijon y\nPueyrredon"
+        }
+      ],
+      "id": "pt011",
+      "clave": "ARIJON||PUEYRREDON",
+      "status": "auto",
+      "calle1": "ARIJON",
+      "calle2": "PUEYRREDON",
+      "candidatos": [
+        [
+          "ARIJON"
+        ],
+        [
+          "PUEYRREDON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.003623892560974,
+        "lon": -60.669089007883656,
+        "x": 5437473.455,
+        "y": 6348616.915
+      }
+    },
+    {
+      "tokens": [
+        "Ov. Lagos",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Ov. Lagos y\nUriburu"
+        }
+      ],
+      "id": "pt012",
+      "clave": "OV LAGOS||URIBURU",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99151360570888,
+        "lon": -60.67338971992913,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Uriburu",
+        "españa"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Uriburu y\nespaña"
+        }
+      ],
+      "id": "pt013",
+      "clave": "ESPAÑA||URIBURU",
+      "status": "auto",
+      "calle1": "URIBURU",
+      "calle2": "ESPANA",
+      "candidatos": [
+        [
+          "URIBURU"
+        ],
+        [
+          "ESPANA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99102728412865,
+        "lon": -60.6581018187656,
+        "x": 5438491.49,
+        "y": 6350020.45
+      }
+    },
+    {
+      "tokens": [
+        "Bvar. Segui",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Bvar. Segui\ny Corrientes"
+        }
+      ],
+      "id": "pt014",
+      "clave": "BVAR SEGUI||CORRIENTES",
+      "status": "auto",
+      "calle1": "SEGUI",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "SEGUI"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97831527574055,
+        "lon": -60.65056997030437,
+        "x": 5439186.74,
+        "y": 6351434.68
+      }
+    },
+    {
+      "tokens": [
+        "Corrientes",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Corrientes y\n27 de\nFebrero"
+        }
+      ],
+      "id": "pt015",
+      "clave": "27 DE FEBRERO||CORRIENTES",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96684262918133,
+        "lon": -60.647682587307884,
+        "x": 5439448.82,
+        "y": 6352708.74
+      }
+    },
+    {
+      "tokens": [
+        "Corrientes",
+        "Jujuy y Pellegrini Paraguay"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Corrientes y Jujuy y\nPellegrini Paraguay"
+        }
+      ],
+      "id": "pt016",
+      "clave": "CORRIENTES||JUJUY Y PELLEGRINI PARAGUAY",
+      "status": "manual",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "Guemes",
+        "Balcarce"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Guemes y\nBalcarce"
+        }
+      ],
+      "id": "pt017",
+      "clave": "BALCARCE||GUEMES",
+      "status": "auto",
+      "calle1": "GUEMES",
+      "calle2": "BALCARCE",
+      "candidatos": [
+        [
+          "GUEMES"
+        ],
+        [
+          "BALCARCE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93348684735493,
+        "lon": -60.64930303519286,
+        "x": 5439274.52,
+        "y": 6356407.18
+      }
+    },
+    {
+      "tokens": [
+        "Guemes",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Guemes y Ov.\nLagos"
+        }
+      ],
+      "id": "pt018",
+      "clave": "GUEMES||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GUEMES"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93176470470958,
+        "lon": -60.65878946777228,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Velez Sarsfield y"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Velez\nSarsfield\ny"
+        }
+      ],
+      "id": "pt019",
+      "clave": "unparsed::Velez Sarsfield y",
+      "status": "manual",
+      "candidatos": []
+    }
+  ]
+}

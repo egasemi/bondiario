@@ -1,0 +1,601 @@
+{
+  "linea": "131",
+  "puntos": [
+    {
+      "tokens": [
+        "Lagos",
+        "B Ordoñez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Lagos y B\nOrdoñez"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "FIN",
+          "label_raw": "Lagos y B\nOrdoñez"
+        }
+      ],
+      "id": "pt000",
+      "clave": "B ORDOÑEZ||LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00973670330604,
+        "lon": -60.67735128004273,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Lagos",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Lagos y\nUriburu"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Lagos y\nUriburu"
+        }
+      ],
+      "id": "pt001",
+      "clave": "LAGOS||URIBURU",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99151360570888,
+        "lon": -60.673389719929155,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Lagos",
+        "Biedma"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Lagos y\nBiedma"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Lagos y\nBiedma"
+        }
+      ],
+      "id": "pt002",
+      "clave": "BIEDMA||LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "BIEDMA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97724873640207,
+        "lon": -60.66995469322726,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Lagos",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Lagos y 27\nde Febrero"
+        }
+      ],
+      "id": "pt003",
+      "clave": "27 DE FEBRERO||LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9634900862919,
+        "lon": -60.666591773710444,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Roca",
+        "Galvez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Roca Y\nGalvez"
+        }
+      ],
+      "id": "pt004",
+      "clave": "GALVEZ||ROCA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "GALVEZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9675009832912,
+        "lon": -60.65074269405404,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Roca",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Roca y\nPellegrini"
+        }
+      ],
+      "id": "pt005",
+      "clave": "PELLEGRINI||ROCA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95603693433064,
+        "lon": -60.64785439101482,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San Luis",
+        "E. Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "San Luis y E.\nRios"
+        }
+      ],
+      "id": "pt006",
+      "clave": "E RIOS||SAN LUIS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94853698601894,
+        "lon": -60.64161354044973,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "J M Rosas",
+        "Mendoza"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "J M Rosas y\nMendoza"
+        }
+      ],
+      "id": "pt007",
+      "clave": "J M ROSAS||MENDOZA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "MENDOZA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95271777174304,
+        "lon": -60.63251432699318,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Colon",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8 FIN",
+          "label_raw": "Colon y\nPellegrini"
+        }
+      ],
+      "id": "pt008",
+      "clave": "COLON||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "COLON",
+          "COLON NORTE"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "calle1": "COLON",
+      "calle2": "PELLEGRINI",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959535438413695,
+        "lon": -60.628282972146074,
+        "x": 5441257.665,
+        "y": 6353530.145
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "Ciudad Universitaria"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Ciudad\nUniversitaria"
+        }
+      ],
+      "id": "pt009",
+      "clave": "unparsed::Ciudad Universitaria",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966263589565266,
+        "lon": -60.62418669462205,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Necochea",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Necochea y\nPellegrini"
+        }
+      ],
+      "id": "pt010",
+      "clave": "NECOCHEA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "NECOCHEA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "NECOCHEA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959782021738164,
+        "lon": -60.62690522093514,
+        "x": 5441386.645,
+        "y": 6353503.565
+      }
+    },
+    {
+      "tokens": [
+        "San Juan",
+        "1 de Mayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "San Juan y 1\nde Mayo"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "San Juan y 1\nde Mayo"
+        }
+      ],
+      "id": "pt011",
+      "clave": "1 DE MAYO||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        [
+          "1 DE MAYO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.951779626674735,
+        "lon": -60.630688517375745,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "S Juan",
+        "E Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "S Juan y E\nRios"
+        }
+      ],
+      "id": "pt012",
+      "clave": "E RIOS||S JUAN",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94965395873257,
+        "lon": -60.6418953810588,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "España",
+        "Pelligrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "España y\nPelligrini"
+        }
+      ],
+      "id": "pt013",
+      "clave": "ESPAÑA||PELLIGRINI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ESPANA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.955790745698316,
+        "lon": -60.64923331006514,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Omar Carrasco",
+        "Ocampo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Omar\nCarrasco y\nOcampo"
+        }
+      ],
+      "id": "pt014",
+      "clave": "OCAMPO||OMAR CARRASCO",
+      "status": "auto",
+      "calle1": "OMAR CARRASCO",
+      "calle2": "OCAMPO",
+      "candidatos": [
+        [
+          "OMAR CARRASCO"
+        ],
+        [
+          "OCAMPO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96204952890667,
+        "lon": -60.66784832135833,
+        "x": 5437560.14,
+        "y": 6353228.55
+      }
+    },
+    {
+      "tokens": [
+        "Lagos",
+        "Arijon"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Lagos y\nArijon"
+        }
+      ],
+      "id": "pt015",
+      "clave": "ARIJON||LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ARIJON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00383724610716,
+        "lon": -60.676164713827475,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ov. Lagos",
+        "Battle Ordoñez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Ov. Lagos y\nBattle\nOrdoñez"
+        }
+      ],
+      "id": "pt016",
+      "clave": "BATTLE ORDOÑEZ||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00973670330604,
+        "lon": -60.67735128004273,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "2106",
+        "Cno Nvo Sold"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "2106 y Cno\nNvo Sold"
+        }
+      ],
+      "id": "pt017",
+      "clave": "2106||CNO NVO SOLD",
+      "status": "manual",
+      "candidatos": [
+        [
+          "2106"
+        ],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "Fernando Ruiz",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Fernando\nRuiz y Ov.\nLagos"
+        }
+      ],
+      "id": "pt018",
+      "clave": "FERNANDO RUIZ||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.0138189162288,
+        "lon": -60.67824880791067,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "L O L a r a g d g o o o s ñ s e",
+        "y z B , S C L o o a d n g i n o V i s j o y"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "Copacaba 13",
+          "label_raw": "L O L a r a g d g o o o s ñ s e y y z B , S C L o o a d n g i n o V i s j o y"
+        }
+      ],
+      "id": "pt019",
+      "clave": "L O L A R A G D G O O O S Ñ S E||Y Z B , S C L O O A D N G I N O V I S J O Y",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    }
+  ]
+}

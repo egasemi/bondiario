@@ -1,0 +1,748 @@
+{
+  "linea": "103",
+  "puntos": [
+    {
+      "tokens": [
+        "GDRO.BAIGORRIA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "GDRO.\nBAIGORR\nIA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 30,
+          "pos_label": "FIN",
+          "label_raw": "GDRO.\nBAIGORR\nIA"
+        }
+      ],
+      "id": "pt000",
+      "clave": "unparsed::GDRO.BAIGORRIA",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.858500752008666,
+        "lon": -60.71553468704224,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "BELGR",
+        "RUT11"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "BELGR -\nRUT11"
+        }
+      ],
+      "id": "pt001",
+      "clave": "BELGR||RUT11",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BELGRANO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.863799862842995,
+        "lon": -60.70188760757447,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "RUT11",
+        "CIUDA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "RUT11 -\nCIUDA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 29,
+          "pos_label": "12",
+          "label_raw": "RUT11 -\nCIUDA"
+        }
+      ],
+      "id": "pt002",
+      "clave": "CIUDA||RUT11",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CIUDADELA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.8710450733991,
+        "lon": -60.69967746734619,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "RONDE",
+        "PUCCI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "RONDE -\nPUCCI"
+        }
+      ],
+      "id": "pt003",
+      "clave": "PUCCI||RONDE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        [
+          "PUCCIO",
+          "PUCCINI"
+        ]
+      ],
+      "calle1": "RONDEAU",
+      "calle2": "PUCCIO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89478590953682,
+        "lon": -60.69203048447536,
+        "x": 5435250.225,
+        "y": 6360673.925
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "RONDE",
+        "SORRE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "RONDE -\nSORRE"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 28,
+          "pos_label": "11",
+          "label_raw": "RONDE -\nSORRE"
+        }
+      ],
+      "id": "pt004",
+      "clave": "RONDE||SORRE",
+      "status": "auto",
+      "calle1": "RONDEAU",
+      "calle2": "SORRENTO",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        [
+          "SORRENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90709206333902,
+        "lon": -60.68857386231627,
+        "x": 5435582.560000002,
+        "y": 6359311.215
+      }
+    },
+    {
+      "tokens": [
+        "SALTA",
+        "CAFFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "SALTA -\nCAFFE"
+        }
+      ],
+      "id": "pt005",
+      "clave": "CAFFE||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93356876306806,
+        "lon": -60.66918960358699,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SALTA",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "SALTA -\nOROÑO"
+        }
+      ],
+      "id": "pt006",
+      "clave": "OROÑO||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93673411275052,
+        "lon": -60.6515429177582,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "PARAG",
+        "STAFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "PARAG -\nSTAFE"
+        }
+      ],
+      "id": "pt007",
+      "clave": "PARAG||STAFE",
+      "status": "auto",
+      "calle1": "PARAGUAY",
+      "calle2": "SANTA FE",
+      "candidatos": [
+        [
+          "PARAGUAY"
+        ],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94407257015178,
+        "lon": -60.64338828470502,
+        "x": 5439834.87,
+        "y": 6355236.55
+      }
+    },
+    {
+      "tokens": [
+        "PARAG",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "PARAG -\nPELLE"
+        }
+      ],
+      "id": "pt008",
+      "clave": "PARAG||PELLE",
+      "status": "auto",
+      "calle1": "PARAGUAY",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "PARAGUAY"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95628404874658,
+        "lon": -60.64646787747201,
+        "x": 5439555.195,
+        "y": 6353880.455
+      }
+    },
+    {
+      "tokens": [
+        "PARAG",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "PARAG -\n27FEB"
+        }
+      ],
+      "id": "pt009",
+      "clave": "27FEB||PARAG",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PARAGUAY"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96659616556919,
+        "lon": -60.64906258137438,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SMART",
+        "SEGUI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "SMART -\nSEGUI"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "5",
+          "label_raw": "SMART -\nSEGUI"
+        }
+      ],
+      "id": "pt010",
+      "clave": "SEGUI||SMART",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97942719086044,
+        "lon": -60.64434113213867,
+        "x": 5439769.7575,
+        "y": 6351314.9425
+      }
+    },
+    {
+      "tokens": [
+        "SMART",
+        "URIB."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "SMART -\nURIB."
+        },
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "4",
+          "label_raw": "SMART -\nURIB."
+        }
+      ],
+      "id": "pt011",
+      "clave": "SMART||URIB",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99066737262355,
+        "lon": -60.6466900762617,
+        "x": 5439557.845,
+        "y": 6350066.98
+      }
+    },
+    {
+      "tokens": [
+        "SMART",
+        "ARIJO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "SMART -\nARIJO"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "3",
+          "label_raw": "SMART -\nARIJO"
+        }
+      ],
+      "id": "pt012",
+      "clave": "ARIJO||SMART",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "ARIJON",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "ARIJON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.003027792412844,
+        "lon": -60.64939246630435,
+        "x": 5439313.726666668,
+        "y": 6348694.563333334
+      }
+    },
+    {
+      "tokens": [
+        "AYACU",
+        "CIRCU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "AYACU -\nCIRCU"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "2",
+          "label_raw": "AYACU -\nCIRCU"
+        }
+      ],
+      "id": "pt013",
+      "clave": "AYACU||CIRCU",
+      "status": "auto",
+      "calle1": "AYACUCHO",
+      "calle2": "CIRCUNVALACION",
+      "candidatos": [
+        [
+          "AYACUCHO"
+        ],
+        [
+          "CIRCUNVALACION"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.015806883111814,
+        "lon": -60.63463926315308,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "FILIP",
+        "AGUIR"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "14",
+          "label_raw": "FILIP -\nAGUIR"
+        }
+      ],
+      "id": "pt014",
+      "clave": "AGUIR||FILIP",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "AGUIRRE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.029246400504725,
+        "lon": -60.63702106475831,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "V.G.GALVEZ"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 16,
+          "pos_label": "FIN",
+          "label_raw": "V.G.GALV\nEZ"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "INICIO",
+          "label_raw": "V.G.GALV\nEZ"
+        }
+      ],
+      "id": "pt015",
+      "clave": "unparsed::V.G.GALVEZ",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.036743393373776,
+        "lon": -60.65474510192872,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "S.AGU",
+        "FILIP"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "1",
+          "label_raw": "S.AGU -\nFILIP"
+        }
+      ],
+      "id": "pt016",
+      "clave": "FILIP||SAGU",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAGUIER"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.02928238039798,
+        "lon": -60.637106895446784,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "27FEB",
+        "CORRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "6",
+          "label_raw": "27FEB -\nCORRI"
+        }
+      ],
+      "id": "pt017",
+      "clave": "27FEB||CORRI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96684262918133,
+        "lon": -60.647682587307884,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "CORRI",
+        "MENDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "7",
+          "label_raw": "CORRI -\nMENDO"
+        }
+      ],
+      "id": "pt018",
+      "clave": "CORRI||MENDO",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "MENDOZA",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "MENDOZA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95075233764419,
+        "lon": -60.643635159069824,
+        "x": 5439816.31,
+        "y": 6354495.58
+      }
+    },
+    {
+      "tokens": [
+        "CATAM",
+        "PARAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "8",
+          "label_raw": "CATAM -\nPARAG"
+        }
+      ],
+      "id": "pt019",
+      "clave": "CATAM||PARAG",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "PARAGUAY",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "PARAGUAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.939610942479646,
+        "lon": -60.642253634107576,
+        "x": 5439937.96,
+        "y": 6355732.02
+      }
+    },
+    {
+      "tokens": [
+        "CATAM",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 26,
+          "pos_label": "9",
+          "label_raw": "CATAM -\nOROÑO"
+        }
+      ],
+      "id": "pt020",
+      "clave": "CATAM||OROÑO",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93789123037083,
+        "lon": -60.65183401244881,
+        "x": 5439040.83,
+        "y": 6355917.245
+      }
+    },
+    {
+      "tokens": [
+        "CATAM",
+        "CAFFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 27,
+          "pos_label": "10",
+          "label_raw": "CATAM -\nCAFFE"
+        }
+      ],
+      "id": "pt021",
+      "clave": "CAFFE||CATAM",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.934732495645676,
+        "lon": -60.66948353256913,
+        "x": 5437388.0,
+        "y": 6356257.22
+      }
+    }
+  ]
+}

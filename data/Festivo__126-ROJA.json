@@ -1,0 +1,1550 @@
+{
+  "linea": "126",
+  "ida": {
+    "sentido": "IDA",
+    "puntos": [
+      {
+        "col": 1,
+        "pos_label": "INICIO",
+        "label_raw": "O LAGOS-\nQUINTAN\nA",
+        "label_guess": "O LAGOS - QUINTANA"
+      },
+      {
+        "col": 2,
+        "pos_label": "1",
+        "label_raw": "AVELL -\nSEGUI",
+        "label_guess": "AVELL - SEGUI"
+      },
+      {
+        "col": 3,
+        "pos_label": "2",
+        "label_raw": "AVELL -\n27FEB",
+        "label_guess": "AVELL - 27FEB"
+      },
+      {
+        "col": 4,
+        "pos_label": "3",
+        "label_raw": "AvFRA -\nPELL",
+        "label_guess": "AvFRA - PELL"
+      },
+      {
+        "col": 5,
+        "pos_label": "4",
+        "label_raw": "MENDO -\nOROÑO",
+        "label_guess": "MENDO - OROÑO"
+      },
+      {
+        "col": 6,
+        "pos_label": "5",
+        "label_raw": "SLORE -\nITALI",
+        "label_guess": "SLORE - ITALI"
+      },
+      {
+        "col": 7,
+        "pos_label": "FIN",
+        "label_raw": "SLORENZ- LAPR-S\nLAPRIDA LOREN",
+        "label_guess": "SLORENZ - LAPR - SLAPRIDA LOREN"
+      }
+    ],
+    "servicios": [
+      {
+        "id": "DISCAP 1__0",
+        "servicio": "DISCAP 1",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "01:50"
+          },
+          {
+            "col": 2,
+            "hora": "01:55"
+          },
+          {
+            "col": 3,
+            "hora": "01:58"
+          },
+          {
+            "col": 4,
+            "hora": "02:06"
+          },
+          {
+            "col": 5,
+            "hora": "02:12"
+          },
+          {
+            "col": 6,
+            "hora": "02:16"
+          },
+          {
+            "col": 7,
+            "hora": "02:21"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 1__1",
+        "servicio": "DISCAP 1",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "03:56"
+          },
+          {
+            "col": 2,
+            "hora": "04:01"
+          },
+          {
+            "col": 3,
+            "hora": "04:04"
+          },
+          {
+            "col": 4,
+            "hora": "04:12"
+          },
+          {
+            "col": 5,
+            "hora": "04:18"
+          },
+          {
+            "col": 6,
+            "hora": "04:22"
+          },
+          {
+            "col": 7,
+            "hora": "04:27"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__2",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "05:40"
+          },
+          {
+            "col": 2,
+            "hora": "05:46"
+          },
+          {
+            "col": 3,
+            "hora": "05:50"
+          },
+          {
+            "col": 4,
+            "hora": "05:59"
+          },
+          {
+            "col": 5,
+            "hora": "06:05"
+          },
+          {
+            "col": 6,
+            "hora": "06:10"
+          },
+          {
+            "col": 7,
+            "hora": "06:15"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__3",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "07:01"
+          },
+          {
+            "col": 2,
+            "hora": "07:08"
+          },
+          {
+            "col": 3,
+            "hora": "07:12"
+          },
+          {
+            "col": 4,
+            "hora": "07:22"
+          },
+          {
+            "col": 5,
+            "hora": "07:28"
+          },
+          {
+            "col": 6,
+            "hora": "07:33"
+          },
+          {
+            "col": 7,
+            "hora": "07:39"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__4",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "08:21"
+          },
+          {
+            "col": 2,
+            "hora": "08:28"
+          },
+          {
+            "col": 3,
+            "hora": "08:32"
+          },
+          {
+            "col": 4,
+            "hora": "08:44"
+          },
+          {
+            "col": 5,
+            "hora": "08:50"
+          },
+          {
+            "col": 6,
+            "hora": "08:56"
+          },
+          {
+            "col": 7,
+            "hora": "09:02"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__5",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "09:42"
+          },
+          {
+            "col": 2,
+            "hora": "09:49"
+          },
+          {
+            "col": 3,
+            "hora": "09:53"
+          },
+          {
+            "col": 4,
+            "hora": "10:05"
+          },
+          {
+            "col": 5,
+            "hora": "10:11"
+          },
+          {
+            "col": 6,
+            "hora": "10:17"
+          },
+          {
+            "col": 7,
+            "hora": "10:23"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__6",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "11:03"
+          },
+          {
+            "col": 2,
+            "hora": "11:10"
+          },
+          {
+            "col": 3,
+            "hora": "11:14"
+          },
+          {
+            "col": 4,
+            "hora": "11:26"
+          },
+          {
+            "col": 5,
+            "hora": "11:32"
+          },
+          {
+            "col": 6,
+            "hora": "11:38"
+          },
+          {
+            "col": 7,
+            "hora": "11:44"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__7",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "12:24"
+          },
+          {
+            "col": 2,
+            "hora": "12:31"
+          },
+          {
+            "col": 3,
+            "hora": "12:35"
+          },
+          {
+            "col": 4,
+            "hora": "12:47"
+          },
+          {
+            "col": 5,
+            "hora": "12:53"
+          },
+          {
+            "col": 6,
+            "hora": "12:59"
+          },
+          {
+            "col": 7,
+            "hora": "13:05"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__8",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "13:45"
+          },
+          {
+            "col": 2,
+            "hora": "13:52"
+          },
+          {
+            "col": 3,
+            "hora": "13:56"
+          },
+          {
+            "col": 4,
+            "hora": "14:08"
+          },
+          {
+            "col": 5,
+            "hora": "14:14"
+          },
+          {
+            "col": 6,
+            "hora": "14:20"
+          },
+          {
+            "col": 7,
+            "hora": "14:26"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__9",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "15:05"
+          },
+          {
+            "col": 2,
+            "hora": "15:12"
+          },
+          {
+            "col": 3,
+            "hora": "15:16"
+          },
+          {
+            "col": 4,
+            "hora": "15:28"
+          },
+          {
+            "col": 5,
+            "hora": "15:34"
+          },
+          {
+            "col": 6,
+            "hora": "15:40"
+          },
+          {
+            "col": 7,
+            "hora": "15:46"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__10",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "16:07"
+          },
+          {
+            "col": 2,
+            "hora": "16:14"
+          },
+          {
+            "col": 3,
+            "hora": "16:19"
+          },
+          {
+            "col": 4,
+            "hora": "16:31"
+          },
+          {
+            "col": 5,
+            "hora": "16:37"
+          },
+          {
+            "col": 6,
+            "hora": "16:43"
+          },
+          {
+            "col": 7,
+            "hora": "16:50"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__11",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "16:50"
+          },
+          {
+            "col": 2,
+            "hora": "16:57"
+          },
+          {
+            "col": 3,
+            "hora": "17:02"
+          },
+          {
+            "col": 4,
+            "hora": "17:14"
+          },
+          {
+            "col": 5,
+            "hora": "17:20"
+          },
+          {
+            "col": 6,
+            "hora": "17:26"
+          },
+          {
+            "col": 7,
+            "hora": "17:33"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__12",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "17:32"
+          },
+          {
+            "col": 2,
+            "hora": "17:39"
+          },
+          {
+            "col": 3,
+            "hora": "17:44"
+          },
+          {
+            "col": 4,
+            "hora": "17:56"
+          },
+          {
+            "col": 5,
+            "hora": "18:02"
+          },
+          {
+            "col": 6,
+            "hora": "18:08"
+          },
+          {
+            "col": 7,
+            "hora": "18:15"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__13",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "18:15"
+          },
+          {
+            "col": 2,
+            "hora": "18:22"
+          },
+          {
+            "col": 3,
+            "hora": "18:27"
+          },
+          {
+            "col": 4,
+            "hora": "18:39"
+          },
+          {
+            "col": 5,
+            "hora": "18:45"
+          },
+          {
+            "col": 6,
+            "hora": "18:51"
+          },
+          {
+            "col": 7,
+            "hora": "18:58"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__14",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "18:57"
+          },
+          {
+            "col": 2,
+            "hora": "19:04"
+          },
+          {
+            "col": 3,
+            "hora": "19:09"
+          },
+          {
+            "col": 4,
+            "hora": "19:21"
+          },
+          {
+            "col": 5,
+            "hora": "19:27"
+          },
+          {
+            "col": 6,
+            "hora": "19:33"
+          },
+          {
+            "col": 7,
+            "hora": "19:40"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__15",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "19:41"
+          },
+          {
+            "col": 2,
+            "hora": "19:48"
+          },
+          {
+            "col": 3,
+            "hora": "19:52"
+          },
+          {
+            "col": 4,
+            "hora": "20:04"
+          },
+          {
+            "col": 5,
+            "hora": "20:10"
+          },
+          {
+            "col": 6,
+            "hora": "20:16"
+          },
+          {
+            "col": 7,
+            "hora": "20:22"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__16",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "20:31"
+          },
+          {
+            "col": 2,
+            "hora": "20:38"
+          },
+          {
+            "col": 3,
+            "hora": "20:42"
+          },
+          {
+            "col": 4,
+            "hora": "20:53"
+          },
+          {
+            "col": 5,
+            "hora": "20:59"
+          },
+          {
+            "col": 6,
+            "hora": "21:05"
+          },
+          {
+            "col": 7,
+            "hora": "21:11"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 5__17",
+        "servicio": "DISCAP 5",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "21:21"
+          },
+          {
+            "col": 2,
+            "hora": "21:27"
+          },
+          {
+            "col": 3,
+            "hora": "21:31"
+          },
+          {
+            "col": 4,
+            "hora": "21:41"
+          },
+          {
+            "col": 5,
+            "hora": "21:47"
+          },
+          {
+            "col": 6,
+            "hora": "21:52"
+          },
+          {
+            "col": 7,
+            "hora": "21:58"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__18",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "22:16"
+          },
+          {
+            "col": 2,
+            "hora": "22:22"
+          },
+          {
+            "col": 3,
+            "hora": "22:25"
+          },
+          {
+            "col": 4,
+            "hora": "22:34"
+          },
+          {
+            "col": 5,
+            "hora": "22:40"
+          },
+          {
+            "col": 6,
+            "hora": "22:45"
+          },
+          {
+            "col": 7,
+            "hora": "22:50"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__19",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "23:16"
+          },
+          {
+            "col": 2,
+            "hora": "23:22"
+          },
+          {
+            "col": 3,
+            "hora": "23:25"
+          },
+          {
+            "col": 4,
+            "hora": "23:33"
+          },
+          {
+            "col": 5,
+            "hora": "23:39"
+          },
+          {
+            "col": 6,
+            "hora": "23:43"
+          },
+          {
+            "col": 7,
+            "hora": "23:48"
+          }
+        ]
+      }
+    ],
+    "dia": "Domingos y feriados"
+  },
+  "vuelta": {
+    "sentido": "VUELTA",
+    "puntos": [
+      {
+        "col": 8,
+        "pos_label": "INICIO",
+        "label_raw": "",
+        "label_guess": ""
+      },
+      {
+        "col": 9,
+        "pos_label": "1",
+        "label_raw": "3FEBR -\nMITRE",
+        "label_guess": "3FEBR - MITRE"
+      },
+      {
+        "col": 10,
+        "pos_label": "2",
+        "label_raw": "3FEBR -\nOROÑO",
+        "label_guess": "3FEBR - OROÑO"
+      },
+      {
+        "col": 11,
+        "pos_label": "3",
+        "label_raw": "OvLAG -\nPELLE",
+        "label_guess": "OvLAG - PELLE"
+      },
+      {
+        "col": 12,
+        "pos_label": "4",
+        "label_raw": "OvLAG -\n27FEB",
+        "label_guess": "OvLAG - 27FEB"
+      },
+      {
+        "col": 13,
+        "pos_label": "5",
+        "label_raw": "CAFE -\nRUED",
+        "label_guess": "CAFE - RUED"
+      },
+      {
+        "col": 14,
+        "pos_label": "6",
+        "label_raw": "CAFE -\nSEGUI",
+        "label_guess": "CAFE - SEGUI"
+      },
+      {
+        "col": 15,
+        "pos_label": "FIN",
+        "label_raw": "LAGOS\nQUINTAN\nA",
+        "label_guess": "LAGOSQUINTANA"
+      }
+    ],
+    "servicios": [
+      {
+        "id": "DISCAP 1__20",
+        "servicio": "DISCAP 1",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "02:21"
+          },
+          {
+            "col": 9,
+            "hora": "02:25"
+          },
+          {
+            "col": 10,
+            "hora": "02:28"
+          },
+          {
+            "col": 11,
+            "hora": "02:32"
+          },
+          {
+            "col": 12,
+            "hora": "02:35"
+          },
+          {
+            "col": 13,
+            "hora": "02:39"
+          },
+          {
+            "col": 14,
+            "hora": "02:41"
+          },
+          {
+            "col": 15,
+            "hora": "02:47"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 1__21",
+        "servicio": "DISCAP 1",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "04:27"
+          },
+          {
+            "col": 9,
+            "hora": "04:31"
+          },
+          {
+            "col": 10,
+            "hora": "04:34"
+          },
+          {
+            "col": 11,
+            "hora": "04:38"
+          },
+          {
+            "col": 12,
+            "hora": "04:41"
+          },
+          {
+            "col": 13,
+            "hora": "04:45"
+          },
+          {
+            "col": 14,
+            "hora": "04:47"
+          },
+          {
+            "col": 15,
+            "hora": "04:53"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__22",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "06:15"
+          },
+          {
+            "col": 9,
+            "hora": "06:19"
+          },
+          {
+            "col": 10,
+            "hora": "06:23"
+          },
+          {
+            "col": 11,
+            "hora": "06:27"
+          },
+          {
+            "col": 12,
+            "hora": "06:31"
+          },
+          {
+            "col": 13,
+            "hora": "06:35"
+          },
+          {
+            "col": 14,
+            "hora": "06:37"
+          },
+          {
+            "col": 15,
+            "hora": "06:43"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__23",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "07:39"
+          },
+          {
+            "col": 9,
+            "hora": "07:44"
+          },
+          {
+            "col": 10,
+            "hora": "07:48"
+          },
+          {
+            "col": 11,
+            "hora": "07:52"
+          },
+          {
+            "col": 12,
+            "hora": "07:56"
+          },
+          {
+            "col": 13,
+            "hora": "08:01"
+          },
+          {
+            "col": 14,
+            "hora": "08:03"
+          },
+          {
+            "col": 15,
+            "hora": "08:09"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__24",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "09:02"
+          },
+          {
+            "col": 9,
+            "hora": "09:07"
+          },
+          {
+            "col": 10,
+            "hora": "09:11"
+          },
+          {
+            "col": 11,
+            "hora": "09:16"
+          },
+          {
+            "col": 12,
+            "hora": "09:19"
+          },
+          {
+            "col": 13,
+            "hora": "09:24"
+          },
+          {
+            "col": 14,
+            "hora": "09:27"
+          },
+          {
+            "col": 15,
+            "hora": "09:33"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__25",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "10:23"
+          },
+          {
+            "col": 9,
+            "hora": "10:28"
+          },
+          {
+            "col": 10,
+            "hora": "10:32"
+          },
+          {
+            "col": 11,
+            "hora": "10:37"
+          },
+          {
+            "col": 12,
+            "hora": "10:40"
+          },
+          {
+            "col": 13,
+            "hora": "10:45"
+          },
+          {
+            "col": 14,
+            "hora": "10:48"
+          },
+          {
+            "col": 15,
+            "hora": "10:54"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__26",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "11:44"
+          },
+          {
+            "col": 9,
+            "hora": "11:49"
+          },
+          {
+            "col": 10,
+            "hora": "11:53"
+          },
+          {
+            "col": 11,
+            "hora": "11:58"
+          },
+          {
+            "col": 12,
+            "hora": "12:01"
+          },
+          {
+            "col": 13,
+            "hora": "12:06"
+          },
+          {
+            "col": 14,
+            "hora": "12:09"
+          },
+          {
+            "col": 15,
+            "hora": "12:15"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__27",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "13:05"
+          },
+          {
+            "col": 9,
+            "hora": "13:10"
+          },
+          {
+            "col": 10,
+            "hora": "13:14"
+          },
+          {
+            "col": 11,
+            "hora": "13:19"
+          },
+          {
+            "col": 12,
+            "hora": "13:22"
+          },
+          {
+            "col": 13,
+            "hora": "13:27"
+          },
+          {
+            "col": 14,
+            "hora": "13:30"
+          },
+          {
+            "col": 15,
+            "hora": "13:36"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__28",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "14:26"
+          },
+          {
+            "col": 9,
+            "hora": "14:31"
+          },
+          {
+            "col": 10,
+            "hora": "14:35"
+          },
+          {
+            "col": 11,
+            "hora": "14:40"
+          },
+          {
+            "col": 12,
+            "hora": "14:43"
+          },
+          {
+            "col": 13,
+            "hora": "14:48"
+          },
+          {
+            "col": 14,
+            "hora": "14:51"
+          },
+          {
+            "col": 15,
+            "hora": "14:57"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 2__29",
+        "servicio": "DISCAP 2",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "15:46"
+          },
+          {
+            "col": 9,
+            "hora": "15:51"
+          },
+          {
+            "col": 10,
+            "hora": "15:56"
+          },
+          {
+            "col": 11,
+            "hora": "16:01"
+          },
+          {
+            "col": 12,
+            "hora": "16:04"
+          },
+          {
+            "col": 13,
+            "hora": "16:10"
+          },
+          {
+            "col": 14,
+            "hora": "16:12"
+          },
+          {
+            "col": 15,
+            "hora": "16:19"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__30",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "16:50"
+          },
+          {
+            "col": 9,
+            "hora": "16:55"
+          },
+          {
+            "col": 10,
+            "hora": "17:00"
+          },
+          {
+            "col": 11,
+            "hora": "17:05"
+          },
+          {
+            "col": 12,
+            "hora": "17:08"
+          },
+          {
+            "col": 13,
+            "hora": "17:14"
+          },
+          {
+            "col": 14,
+            "hora": "17:16"
+          },
+          {
+            "col": 15,
+            "hora": "17:23"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__31",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "17:33"
+          },
+          {
+            "col": 9,
+            "hora": "17:38"
+          },
+          {
+            "col": 10,
+            "hora": "17:43"
+          },
+          {
+            "col": 11,
+            "hora": "17:48"
+          },
+          {
+            "col": 12,
+            "hora": "17:51"
+          },
+          {
+            "col": 13,
+            "hora": "17:57"
+          },
+          {
+            "col": 14,
+            "hora": "17:59"
+          },
+          {
+            "col": 15,
+            "hora": "18:06"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__32",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "18:15"
+          },
+          {
+            "col": 9,
+            "hora": "18:20"
+          },
+          {
+            "col": 10,
+            "hora": "18:25"
+          },
+          {
+            "col": 11,
+            "hora": "18:30"
+          },
+          {
+            "col": 12,
+            "hora": "18:33"
+          },
+          {
+            "col": 13,
+            "hora": "18:39"
+          },
+          {
+            "col": 14,
+            "hora": "18:41"
+          },
+          {
+            "col": 15,
+            "hora": "18:48"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__33",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "18:58"
+          },
+          {
+            "col": 9,
+            "hora": "19:03"
+          },
+          {
+            "col": 10,
+            "hora": "19:08"
+          },
+          {
+            "col": 11,
+            "hora": "19:13"
+          },
+          {
+            "col": 12,
+            "hora": "19:16"
+          },
+          {
+            "col": 13,
+            "hora": "19:22"
+          },
+          {
+            "col": 14,
+            "hora": "19:24"
+          },
+          {
+            "col": 15,
+            "hora": "19:31"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__34",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "19:40"
+          },
+          {
+            "col": 9,
+            "hora": "19:45"
+          },
+          {
+            "col": 10,
+            "hora": "19:49"
+          },
+          {
+            "col": 11,
+            "hora": "19:54"
+          },
+          {
+            "col": 12,
+            "hora": "19:57"
+          },
+          {
+            "col": 13,
+            "hora": "20:02"
+          },
+          {
+            "col": 14,
+            "hora": "20:05"
+          },
+          {
+            "col": 15,
+            "hora": "20:11"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__35",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "20:22"
+          },
+          {
+            "col": 9,
+            "hora": "20:26"
+          },
+          {
+            "col": 10,
+            "hora": "20:31"
+          },
+          {
+            "col": 11,
+            "hora": "20:35"
+          },
+          {
+            "col": 12,
+            "hora": "20:38"
+          },
+          {
+            "col": 13,
+            "hora": "20:43"
+          },
+          {
+            "col": 14,
+            "hora": "20:45"
+          },
+          {
+            "col": 15,
+            "hora": "20:51"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__36",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "21:11"
+          },
+          {
+            "col": 9,
+            "hora": "21:16"
+          },
+          {
+            "col": 10,
+            "hora": "21:20"
+          },
+          {
+            "col": 11,
+            "hora": "21:24"
+          },
+          {
+            "col": 12,
+            "hora": "21:28"
+          },
+          {
+            "col": 13,
+            "hora": "21:33"
+          },
+          {
+            "col": 14,
+            "hora": "21:35"
+          },
+          {
+            "col": 15,
+            "hora": "21:41"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 5__37",
+        "servicio": "DISCAP 5",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "21:58"
+          },
+          {
+            "col": 9,
+            "hora": "22:03"
+          },
+          {
+            "col": 10,
+            "hora": "22:07"
+          },
+          {
+            "col": 11,
+            "hora": "22:11"
+          },
+          {
+            "col": 12,
+            "hora": "22:15"
+          },
+          {
+            "col": 13,
+            "hora": "22:20"
+          },
+          {
+            "col": 14,
+            "hora": "22:22"
+          },
+          {
+            "col": 15,
+            "hora": "22:28"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 4__38",
+        "servicio": "DISCAP 4",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "22:50"
+          },
+          {
+            "col": 9,
+            "hora": "22:55"
+          },
+          {
+            "col": 10,
+            "hora": "22:58"
+          },
+          {
+            "col": 11,
+            "hora": "23:03"
+          },
+          {
+            "col": 12,
+            "hora": "23:06"
+          },
+          {
+            "col": 13,
+            "hora": "23:11"
+          },
+          {
+            "col": 14,
+            "hora": "23:13"
+          },
+          {
+            "col": 15,
+            "hora": "23:19"
+          }
+        ]
+      },
+      {
+        "id": "DISCAP 3__39",
+        "servicio": "DISCAP 3",
+        "paradas": [
+          {
+            "col": 8,
+            "hora": "23:48"
+          },
+          {
+            "col": 9,
+            "hora": "23:53"
+          },
+          {
+            "col": 10,
+            "hora": "23:56"
+          },
+          {
+            "col": 11,
+            "hora": "00:01"
+          },
+          {
+            "col": 12,
+            "hora": "00:04"
+          },
+          {
+            "col": 13,
+            "hora": "00:09"
+          },
+          {
+            "col": 14,
+            "hora": "00:11"
+          },
+          {
+            "col": 15,
+            "hora": "00:17"
+          }
+        ]
+      }
+    ],
+    "bandera": "Roja",
+    "dia": "Domingos y feriados"
+  }
+}

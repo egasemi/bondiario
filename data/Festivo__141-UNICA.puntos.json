@@ -1,0 +1,794 @@
+{
+  "linea": "141",
+  "puntos": [
+    {
+      "tokens": [
+        "Av. del Rosario",
+        "Lituania"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Av. del Rosario\ny Lituania"
+        }
+      ],
+      "id": "pt000",
+      "clave": "AV DEL ROSARIO||LITUANIA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "LITUANIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.998108461130734,
+        "lon": -60.620315670620855,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Anchorena",
+        "Ayacucho"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Anchorena y\nAyacucho"
+        }
+      ],
+      "id": "pt001",
+      "clave": "ANCHORENA||AYACUCHO",
+      "status": "auto",
+      "calle1": "ANCHORENA",
+      "calle2": "AYACUCHO",
+      "candidatos": [
+        [
+          "ANCHORENA"
+        ],
+        [
+          "AYACUCHO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99738532103972,
+        "lon": -60.6365510662301,
+        "x": 5440510.0,
+        "y": 6349327.69
+      }
+    },
+    {
+      "tokens": [
+        "Andrade",
+        "San Martin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Andrade y San\nMartin"
+        }
+      ],
+      "id": "pt002",
+      "clave": "ANDRADE||SAN MARTIN",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99582157809776,
+        "lon": -60.647805456714856,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Mitre",
+        "Ayolas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Mitre y Ayolas"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AYOLAS||MITRE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "AYOLAS",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "AYOLAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97652741702439,
+        "lon": -60.64717914731819,
+        "x": 5439502.49,
+        "y": 6351634.92
+      }
+    },
+    {
+      "tokens": [
+        "Mitre",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Mitre y\nPellegrini"
+        }
+      ],
+      "id": "pt004",
+      "clave": "MITRE||PELLEGRINI",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95703159069181,
+        "lon": -60.64227731876921,
+        "x": 5439947.525,
+        "y": 6353799.945
+      }
+    },
+    {
+      "tokens": [
+        "Mitre",
+        "Santa Fe"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Mitre y Santa\nFe"
+        }
+      ],
+      "id": "pt005",
+      "clave": "MITRE||SANTA FE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "SANTA FE",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94480926909014,
+        "lon": -60.63921680236013,
+        "x": 5440225.46,
+        "y": 6355157.22
+      }
+    },
+    {
+      "tokens": [
+        "Urquiza",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Urquiza y\nOroño"
+        }
+      ],
+      "id": "pt006",
+      "clave": "OROÑO||URQUIZA",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.940242963496985,
+        "lon": -60.65242644525368,
+        "x": 5438987.04,
+        "y": 6355656.08
+      }
+    },
+    {
+      "tokens": [
+        "Urquiza",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Urquiza y\nCafferata"
+        }
+      ],
+      "id": "pt007",
+      "clave": "CAFFERATA||URQUIZA",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93708219866179,
+        "lon": -60.670077035393646,
+        "x": 5437334.15,
+        "y": 6355996.27
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Felipe More"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Santa Fe y\nFelipe More"
+        }
+      ],
+      "id": "pt008",
+      "clave": "FELIPE MORE||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "FELIPE MORE",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "FELIPE MORE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93516855270878,
+        "lon": -60.69363414319127,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Solis",
+        "Tucuman"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Solis y\nTucuman"
+        }
+      ],
+      "id": "pt009",
+      "clave": "SOLIS||TUCUMAN",
+      "status": "auto",
+      "calle1": "SOLIS",
+      "calle2": "TUCUMAN",
+      "candidatos": [
+        [
+          "SOLIS"
+        ],
+        [
+          "TUCUMAN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93229398494114,
+        "lon": -60.703743711496536,
+        "x": 5434182.02,
+        "y": 6356506.79
+      }
+    },
+    {
+      "tokens": [
+        "Junin",
+        "Fraga"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Junin y Fraga"
+        }
+      ],
+      "id": "pt010",
+      "clave": "FRAGA||JUNIN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        [
+          "FRAGA",
+          "FRAGATA SARMIENTO"
+        ]
+      ],
+      "calle1": "JUNIN",
+      "calle2": "FRAGA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92751701184514,
+        "lon": -60.71079893201406,
+        "x": 5433518.59,
+        "y": 6357032.16
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "P.Unidas",
+        "J.J.Paso"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "P.Unidas y\nJ.J.Paso"
+        }
+      ],
+      "id": "pt011",
+      "clave": "JJPASO||PUNIDAS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92028436576335,
+        "lon": -60.71355577996964,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Paso del Bosque"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 22,
+          "pos_label": "FIN",
+          "label_raw": "Paso del\nBosque"
+        }
+      ],
+      "id": "pt012",
+      "clave": "unparsed::Paso del Bosque",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.906974007448945,
+        "lon": -60.720984935760505,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Paso Del Bosque"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "^Paso Del\nBosque"
+        }
+      ],
+      "id": "pt013",
+      "clave": "unparsed::^Paso Del Bosque",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.906829888380024,
+        "lon": -60.721263885498054,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^P.Unidas",
+        "J.J.Paso"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "^P.Unidas y\nJ.J.Paso"
+        }
+      ],
+      "id": "pt014",
+      "clave": "JJPASO||^PUNIDAS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.920231958184765,
+        "lon": -60.71336746215821,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Junin",
+        "Fraga"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "^Junin y Fraga"
+        }
+      ],
+      "id": "pt015",
+      "clave": "FRAGA||^JUNIN",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "FRAGA",
+          "FRAGATA SARMIENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92751701184514,
+        "lon": -60.71079893201406,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Solis",
+        "Tucuman"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "^Solis y\nTucuman"
+        }
+      ],
+      "id": "pt016",
+      "clave": "TUCUMAN||^SOLIS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "TUCUMAN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93229398494115,
+        "lon": -60.703743711496536,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Eva Peron",
+        "Matienzo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "^Eva Peron y\nMatienzo"
+        }
+      ],
+      "id": "pt017",
+      "clave": "MATIENZO||^EVA PERON",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "MATIENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.936255105101495,
+        "lon": -60.69484179260267,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^San Lorenzo",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "^San Lorenzo y\nAvellaneda"
+        }
+      ],
+      "id": "pt018",
+      "clave": "AVELLANEDA||^SAN LORENZO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.936799168998554,
+        "lon": -60.67853998036973,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Santa Fe",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "^Santa Fe y\nCafferata"
+        }
+      ],
+      "id": "pt019",
+      "clave": "CAFFERATA||^SANTA FE",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93919661258866,
+        "lon": -60.6706111598466,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^San Luis",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "^San Luis y\nOroño"
+        }
+      ],
+      "id": "pt020",
+      "clave": "OROÑO||^SAN LUIS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.946326271596945,
+        "lon": -60.65395649081667,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^San Luis",
+        "Entre Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "^San Luis y\nEntre Rios"
+        }
+      ],
+      "id": "pt021",
+      "clave": "ENTRE RIOS||^SAN LUIS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94853698601894,
+        "lon": -60.64161354044973,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Entre Rios",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "^Entre Rios y\n27 de Febrero"
+        }
+      ],
+      "id": "pt022",
+      "clave": "27 DE FEBRERO||^ENTRE RIOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96709411628462,
+        "lon": -60.64627850187403,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Entre Rios",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "^Entre Rios y\nUriburu"
+        }
+      ],
+      "id": "pt023",
+      "clave": "URIBURU||^ENTRE RIOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99084380687724,
+        "lon": -60.6522751981664,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Lamadrid",
+        "San Martin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "^Lamadrid y\nSan Martin"
+        }
+      ],
+      "id": "pt024",
+      "clave": "SAN MARTIN||^LAMADRID",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99707009346921,
+        "lon": -60.648075657541135,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "^Av. Rosario",
+        "Lituania"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "FIN",
+          "label_raw": "^Av. Rosario y\nLituania"
+        }
+      ],
+      "id": "pt025",
+      "clave": "LITUANIA||^AV ROSARIO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "LITUANIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.998108461130734,
+        "lon": -60.620315670620855,
+        "manual": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2599 @@
+{
+  "PROVINCIAS UNIDAS|RUEDA": {
+    "status": "ok",
+    "lat": -32.96277437354009,
+    "lon": -60.711688739858374,
+    "x": 5433461.78,
+    "y": 6353121.310000002
+  },
+  "PELLEGRINI|PROVINCIAS UNIDAS": {
+    "status": "ok",
+    "lat": -32.94857588185433,
+    "lon": -60.712265937802975,
+    "x": 5433397.165,
+    "y": 6354695.66
+  },
+  "CORDOBA|PROVINCIAS UNIDAS": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "AVELLANEDA|SABIN": {
+    "status": "ok",
+    "lat": -32.928868705799744,
+    "lon": -60.676568618817036,
+    "x": 5436721.195,
+    "y": 6356903.32
+  },
+  "AVELLANEDA|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.936799168998554,
+    "lon": -60.67853998036973,
+    "x": 5436542.475,
+    "y": 6356022.595
+  },
+  "ORONO|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94143114319429,
+    "lon": -60.65272565144909,
+    "x": 5438959.875,
+    "y": 6355524.130000002
+  },
+  "LAPRIDA|RIOJA": {
+    "status": "ok",
+    "lat": -32.94855003047952,
+    "lon": -60.63425558263375,
+    "x": 5440691.9,
+    "y": 6354745.15
+  },
+  "LAPRIDA|MONTEAGUDO": {
+    "status": "not_found"
+  },
+  "LAPRIDA|MONTECARLO": {
+    "status": "not_found"
+  },
+  "LAPRIDA|MONTEVIDEO": {
+    "status": "ok",
+    "lat": -32.95683242943659,
+    "lon": -60.636681879289796,
+    "x": 5440470.57,
+    "y": 6353825.21
+  },
+  "LAPRIDA|MONTE FLORES": {
+    "status": "not_found"
+  },
+  "LAPRIDA|MONTES DE OCA": {
+    "status": "not_found"
+  },
+  "LAPRIDA|MONTES CARBALLO 1704": {
+    "status": "not_found"
+  },
+  "ALEM|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95904250825736,
+    "lon": -60.63103620685202,
+    "x": 5440999.915,
+    "y": 6353583.275
+  },
+  "ALEMANIA|PELLEGRINI": {
+    "status": "not_found"
+  },
+  "AYACUCHO|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95929760240531,
+    "lon": -60.62961275540335,
+    "x": 5441133.175,
+    "y": 6353555.78
+  },
+  "CORRIENTES|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94430721618231,
+    "lon": -60.64201447273118,
+    "x": 5439963.5,
+    "y": 6355211.31
+  },
+  "ORONO|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94235971512325,
+    "lon": -60.65295938589818,
+    "x": 5438938.655,
+    "y": 6355421.01
+  },
+  "SANTA FE|VERA MUJICA": {
+    "status": "ok",
+    "lat": -32.93992820887453,
+    "lon": -60.66653505645672,
+    "x": 5437667.4,
+    "y": 6355682.73
+  },
+  "AVELLANEDA|CASILDA": {
+    "status": "ok",
+    "lat": -32.928098593091924,
+    "lon": -60.67636939991592,
+    "x": 5436739.28,
+    "y": 6356988.85
+  },
+  "MENDOZA|PROVINCIAS UNIDAS": {
+    "status": "ok",
+    "lat": -32.94023050784969,
+    "lon": -60.71261641333929,
+    "x": 5433358.131250002,
+    "y": 6355620.99875
+  },
+  "RONDEAU|SALVA": {
+    "status": "ok",
+    "lat": -32.93625189980248,
+    "lon": -60.6542444958985,
+    "x": 5438814.27,
+    "y": 6356097.66
+  },
+  "RONDEAU|SALVAT": {
+    "status": "ok",
+    "lat": -32.88225930103433,
+    "lon": -60.696349601848,
+    "x": 5434836.93,
+    "y": 6362060.54
+  },
+  "RONDEAU|SALVADOR ALLENDE": {
+    "status": "not_found"
+  },
+  "PUCCIO|RONDEAU": {
+    "status": "ok",
+    "lat": -32.89478590953682,
+    "lon": -60.69203048447536,
+    "x": 5435250.225,
+    "y": 6360673.925
+  },
+  "PUCCINI|RONDEAU": {
+    "status": "ok",
+    "lat": -32.89478590953682,
+    "lon": -60.69203048447536,
+    "x": 5435250.225,
+    "y": 6360673.925
+  },
+  "RONDEAU|SORRENTO": {
+    "status": "ok",
+    "lat": -32.90709206333902,
+    "lon": -60.68857386231627,
+    "x": 5435582.560000002,
+    "y": 6359311.215
+  },
+  "ALBERDI|AVELLANEDA": {
+    "status": "ok",
+    "lat": -32.92713946784409,
+    "lon": -60.6761162517496,
+    "x": 5436762.275,
+    "y": 6357095.375
+  },
+  "ALBERTI|AVELLANEDA": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "ALBERINI|AVELLANEDA": {
+    "status": "ok",
+    "lat": -32.92713946784409,
+    "lon": -60.6761162517496,
+    "x": 5436762.275,
+    "y": 6357095.375
+  },
+  "ALBERTO J PAZ|AVELLANEDA": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "BALCARCE|CORDOBA": {
+    "status": "ok",
+    "lat": -32.943945120689115,
+    "lon": -60.65193777973398,
+    "x": 5439035.28,
+    "y": 6355245.77
+  },
+  "CORRIENTES|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.956531143992855,
+    "lon": -60.645082104578954,
+    "x": 5439684.935000002,
+    "y": 6353853.845000002
+  },
+  "COLON|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.959535438413695,
+    "lon": -60.628282972146074,
+    "x": 5441257.665,
+    "y": 6353530.145
+  },
+  "COLON NORTE|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.959535438413695,
+    "lon": -60.628282972146074,
+    "x": 5441257.665,
+    "y": 6353530.145
+  },
+  "AYOLAS|BERUTI": {
+    "status": "ok",
+    "lat": -32.980004567114236,
+    "lon": -60.62774923017379,
+    "x": 5441321.105,
+    "y": 6351260.28
+  },
+  "GRANDOLI|GUTIERREZ": {
+    "status": "ok",
+    "lat": -32.9933866384016,
+    "lon": -60.628663592001,
+    "x": 5441244.5,
+    "y": 6349775.605
+  },
+  "NECOCHEA|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.959782021738164,
+    "lon": -60.62690522093514,
+    "x": 5441386.645,
+    "y": 6353503.565
+  },
+  "ALVEAR|CORDOBA": {
+    "status": "ok",
+    "lat": -32.94346915157524,
+    "lon": -60.654641865892856,
+    "x": 5438782.08,
+    "y": 6355296.99
+  },
+  "CAFFERATA|CATAMARCA": {
+    "status": "ok",
+    "lat": -32.934732495645676,
+    "lon": -60.66948353256913,
+    "x": 5437388.0,
+    "y": 6356257.22
+  },
+  "GAZCON|GRANDOLI": {
+    "status": "ok",
+    "lat": -32.886966330539174,
+    "lon": -60.7273230379502,
+    "x": 5431942.03,
+    "y": 6361518.95
+  },
+  "BAIGORRIA|CASIANO CASAS": {
+    "status": "ok",
+    "lat": -32.89390526888795,
+    "lon": -60.716308961853315,
+    "x": 5432977.9,
+    "y": 6360756.43
+  },
+  "AVALOS|BAIGORRIA": {
+    "status": "ok",
+    "lat": -32.89375327936686,
+    "lon": -60.70800768325427,
+    "x": 5433754.52,
+    "y": 6360778.53
+  },
+  "CASIANO CASAS|PAVLOV": {
+    "status": "ok",
+    "lat": -32.90181884010574,
+    "lon": -60.703967410248595,
+    "x": 5434138.53,
+    "y": 6359886.54
+  },
+  "CASIANO CASAS|SORRENTO": {
+    "status": "ok",
+    "lat": -32.90726807711558,
+    "lon": -60.695724525432475,
+    "x": 5434913.716666666,
+    "y": 6359287.303333334
+  },
+  "JUNIN|RAWSON": {
+    "status": "ok",
+    "lat": -32.92651218050244,
+    "lon": -60.66925643307086,
+    "x": 5437403.45,
+    "y": 6357169.04
+  },
+  "BALCARCE|RIVADAVIA": {
+    "status": "ok",
+    "lat": -32.93234737659261,
+    "lon": -60.649015539187026,
+    "x": 5439300.63,
+    "y": 6356533.72
+  },
+  "DORREGO|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94215503186009,
+    "lon": -60.64865003823382,
+    "x": 5439341.51,
+    "y": 6355446.2
+  },
+  "ENTRE RIOS|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94853698601894,
+    "lon": -60.64161354044975,
+    "x": 5440003.85,
+    "y": 6354742.43
+  },
+  "AYACUCHO|MONTEVIDEO": {
+    "status": "ok",
+    "lat": -32.958138782172895,
+    "lon": -60.629345552607646,
+    "x": 5441157.39,
+    "y": 6353684.45
+  },
+  "LAPRIDA|SANTA FE": {
+    "status": "ok",
+    "lat": -32.946599454999955,
+    "lon": -60.63361788264234,
+    "x": 5440750.23,
+    "y": 6354961.84
+  },
+  "ITALIA|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94239494132621,
+    "lon": -60.647298229963425,
+    "x": 5439468.09,
+    "y": 6355420.37
+  },
+  "CASIANO CASAS|URIARTE": {
+    "status": "ok",
+    "lat": -32.9018213872166,
+    "lon": -60.703963422256415,
+    "x": 5434138.905,
+    "y": 6359886.26
+  },
+  "BAIGORRIA|LOPEZ BUCHARDO": {
+    "status": "ok",
+    "lat": -32.89395027189452,
+    "lon": -60.71773812625615,
+    "x": 5432844.21,
+    "y": 6360750.53
+  },
+  "CAFFERATA|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "ORONO|SALTA AV": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "PARAGUAY|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94407257015178,
+    "lon": -60.64338828470502,
+    "x": 5439834.87,
+    "y": 6355236.55
+  },
+  "PARAGUAY|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95628404874658,
+    "lon": -60.64646787747201,
+    "x": 5439555.195,
+    "y": 6353880.455
+  },
+  "SAN MARTIN|SEGUI": {
+    "status": "ok",
+    "lat": -32.97942719086044,
+    "lon": -60.64434113213867,
+    "x": 5439769.7575,
+    "y": 6351314.9425
+  },
+  "SAN MARTIN|URIBURU": {
+    "status": "ok",
+    "lat": -32.99066737262355,
+    "lon": -60.6466900762617,
+    "x": 5439557.845,
+    "y": 6350066.98
+  },
+  "ARIJON|SAN MARTIN": {
+    "status": "ok",
+    "lat": -33.003027792412844,
+    "lon": -60.64939246630435,
+    "x": 5439313.726666668,
+    "y": 6348694.563333334
+  },
+  "AYACUCHO|CIRCUNVALACION": {
+    "status": "not_found"
+  },
+  "CORRIENTES|MENDOZA": {
+    "status": "ok",
+    "lat": -32.95075233764419,
+    "lon": -60.643635159069824,
+    "x": 5439816.31,
+    "y": 6354495.58
+  },
+  "CATAMARCA|PARAGUAY": {
+    "status": "ok",
+    "lat": -32.939610942479646,
+    "lon": -60.642253634107576,
+    "x": 5439937.96,
+    "y": 6355732.02
+  },
+  "CATAMARCA|ORONO": {
+    "status": "ok",
+    "lat": -32.93789123037083,
+    "lon": -60.65183401244881,
+    "x": 5439040.83,
+    "y": 6355917.245
+  },
+  "25 DE MAYO AV CIRCUNVALACION|CORDOBA": {
+    "status": "ok",
+    "lat": -32.948092797365085,
+    "lon": -60.62987119309781,
+    "x": 5441101.58,
+    "y": 6354798.32
+  },
+  "CASIANO CASAS|ESQUIVEL": {
+    "status": "ok",
+    "lat": -32.90114256918144,
+    "lon": -60.705307503400356,
+    "x": 5434012.65,
+    "y": 6359960.705
+  },
+  "SABIN|SORRENTO": {
+    "status": "ok",
+    "lat": -32.907260450098114,
+    "lon": -60.69382498633758,
+    "x": 5435091.42,
+    "y": 6359289.32
+  },
+  "FRANCIA|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "CORRIENTES|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "SAN LORENZO|SAN MARTIN": {
+    "status": "ok",
+    "lat": -32.944769367170224,
+    "lon": -60.6362408041346,
+    "x": 5440503.73,
+    "y": 6355163.33
+  },
+  "SAN LORENZO|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "LAPRIDA|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95797907858964,
+    "lon": -60.636972187793276,
+    "x": 5440444.195,
+    "y": 6353697.875
+  },
+  "27 DE FEBRERO|LAPRIDA": {
+    "status": "ok",
+    "lat": -32.968293859930704,
+    "lon": -60.639561423538005,
+    "x": 5440209.05,
+    "y": 6352552.43
+  },
+  "AMENABAR|COLON": {
+    "status": "ok",
+    "lat": -32.974443544276255,
+    "lon": -60.632013310845025,
+    "x": 5440918.81,
+    "y": 6351874.65
+  },
+  "AMENABAR|COLON NORTE": {
+    "status": "ok",
+    "lat": -32.974443544276255,
+    "lon": -60.632013310845025,
+    "x": 5440918.81,
+    "y": 6351874.65
+  },
+  "GRANDOLI|URIBURU": {
+    "status": "ok",
+    "lat": -32.990083382987734,
+    "lon": -60.62847877710324,
+    "x": 5441259.585,
+    "y": 6350142.0625
+  },
+  "27 DE FEBRERO|PRIMERA JUNTA": {
+    "status": "ok",
+    "lat": -32.96815622334049,
+    "lon": -60.640748590706444,
+    "x": 5440097.97,
+    "y": 6352567.02
+  },
+  "MAIPU|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.9577691334772,
+    "lon": -60.63814576065071,
+    "x": 5440334.325,
+    "y": 6353720.495
+  },
+  "SANTA FE|SARMIENTO": {
+    "status": "ok",
+    "lat": -32.94511718902896,
+    "lon": -60.63787546771348,
+    "x": 5440351.1,
+    "y": 6355123.83
+  },
+  "CATAMARCA|FRANCIA": {
+    "status": "ok",
+    "lat": -32.93570420303537,
+    "lon": -60.664053025061655,
+    "x": 5437896.565,
+    "y": 6356152.665
+  },
+  "25 DE MAYO AV CIRCUNVALACION|9 DE JULIO": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "ENTRE RIOS|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "LAPRIDA|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94599602682921,
+    "lon": -60.633358211165536,
+    "x": 5440774.11,
+    "y": 6355028.91
+  },
+  "SAN MARTIN|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94561746713212,
+    "lon": -60.63645390903286,
+    "x": 5440484.37,
+    "y": 6355069.15
+  },
+  "SAN MARTIN / LIMITE MUNICIPAL|SANTA FE": {
+    "status": "not_found"
+  },
+  "CASILDA|SABIN": {
+    "status": "ok",
+    "lat": -32.92814101170624,
+    "lon": -60.677834789201604,
+    "x": 5436602.25,
+    "y": 6356983.265000002
+  },
+  "BAIGORRIA|JUAN PABLO II": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "BAIGORRIA|JUAN PABLO II-": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "AREQUIPA|BATTLE": {
+    "status": "ok",
+    "lat": -32.87335821531878,
+    "lon": -60.728859625862384,
+    "x": 5431787.82,
+    "y": 6363027.18
+  },
+  "PALLIERE|PEYRANO": {
+    "status": "ok",
+    "lat": -32.88717990680597,
+    "lon": -60.71599980794153,
+    "x": 5433001.765000002,
+    "y": 6361502.51
+  },
+  "RONDEAU|SUPERI": {
+    "status": "ok",
+    "lat": -32.89423834341587,
+    "lon": -60.69249193405926,
+    "x": 5435206.65,
+    "y": 6360734.37
+  },
+  "ALBERDI|GENOVA": {
+    "status": "ok",
+    "lat": -32.91518717608098,
+    "lon": -60.68566546072461,
+    "x": 5435860.49,
+    "y": 6358415.19
+  },
+  "ALBERDI|GENOVA -": {
+    "status": "ok",
+    "lat": -32.91518717608098,
+    "lon": -60.68566546072461,
+    "x": 5435860.49,
+    "y": 6358415.19
+  },
+  "ALBERTI|GENOVA": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "ALBERTI|GENOVA -": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "ALBERINI|GENOVA": {
+    "status": "ok",
+    "lat": -32.91518717608098,
+    "lon": -60.68566546072461,
+    "x": 5435860.49,
+    "y": 6358415.19
+  },
+  "ALBERINI|GENOVA -": {
+    "status": "ok",
+    "lat": -32.91518717608098,
+    "lon": -60.68566546072461,
+    "x": 5435860.49,
+    "y": 6358415.19
+  },
+  "ALBERTO J PAZ|GENOVA": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "ALBERTO J PAZ|GENOVA -": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "ENTRE RIOS|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94360409741965,
+    "lon": -60.64038098991533,
+    "x": 5440115.78,
+    "y": 6355290.22
+  },
+  "ENTRE RIOS|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95678007735076,
+    "lon": -60.64368660465688,
+    "x": 5439815.585,
+    "y": 6353827.035
+  },
+  "AMENABAR|ENTRE RIOS": {
+    "status": "ok",
+    "lat": -32.97168705969659,
+    "lon": -60.64743843487367,
+    "x": 5439474.95,
+    "y": 6352171.6
+  },
+  "ENTRE RIOS|URIBURU": {
+    "status": "ok",
+    "lat": -32.99084380687723,
+    "lon": -60.6522751981664,
+    "x": 5439035.95,
+    "y": 6350044.19
+  },
+  "NECOCHEA|URIBURU": {
+    "status": "ok",
+    "lat": -32.99020410453954,
+    "lon": -60.6345463926687,
+    "x": 5440692.55,
+    "y": 6350125.27
+  },
+  "ISOLA|MAESTROS SANTAFESINOS": {
+    "status": "ok",
+    "lat": -32.991296932138866,
+    "lon": -60.62303007581896,
+    "x": 5441769.65,
+    "y": 6350010.5
+  },
+  "PAVON|URIBURU": {
+    "status": "ok",
+    "lat": -32.9902800535182,
+    "lon": -60.63459379820101,
+    "x": 5440688.17,
+    "y": 6350116.82
+  },
+  "CORRIENTES|URIBURU": {
+    "status": "ok",
+    "lat": -32.990888835102666,
+    "lon": -60.65372515814179,
+    "x": 5438900.46,
+    "y": 6350038.355
+  },
+  "AMENABAR|CORRIENTES": {
+    "status": "ok",
+    "lat": -32.971437449992855,
+    "lon": -60.6488343665181,
+    "x": 5439344.28,
+    "y": 6352198.48
+  },
+  "CAFFERATA|SANTA FE": {
+    "status": "ok",
+    "lat": -32.93919661258865,
+    "lon": -60.670611159846615,
+    "x": 5437285.69,
+    "y": 6355761.45
+  },
+  "AVELLANEDA|SANTA FE": {
+    "status": "ok",
+    "lat": -32.93773065316909,
+    "lon": -60.67877623880135,
+    "x": 5436521.045,
+    "y": 6355919.145
+  },
+  "ALBERDI|CASILDA": {
+    "status": "ok",
+    "lat": -32.928072382186315,
+    "lon": -60.67548073119188,
+    "x": 5436822.38,
+    "y": 6356992.29
+  },
+  "ALBERTI|CASILDA": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "ALBERINI|CASILDA": {
+    "status": "ok",
+    "lat": -32.928072382186315,
+    "lon": -60.67548073119188,
+    "x": 5436822.38,
+    "y": 6356992.29
+  },
+  "ALBERTO J PAZ|CASILDA": {
+    "status": "ok",
+    "lat": -32.92814101170624,
+    "lon": -60.677834789201604,
+    "x": 5436602.25,
+    "y": 6356983.265000002
+  },
+  "BAIGORRIA|RONDEAU": {
+    "status": "ok",
+    "lat": -32.891534163040646,
+    "lon": -60.693321112254665,
+    "x": 5435127.095,
+    "y": 6361033.77
+  },
+  "CALDERON|LEVI": {
+    "status": "ok",
+    "lat": -32.88163631075016,
+    "lon": -60.73128405374447,
+    "x": 5431567.28,
+    "y": 6362107.52
+  },
+  "GABOTO|NECOCHEA": {
+    "status": "ok",
+    "lat": -32.97583597248661,
+    "lon": -60.63094386580942,
+    "x": 5441019.71,
+    "y": 6351720.82
+  },
+  "AMBATO|REPUBLICA DE IRAK": {
+    "status": "ok",
+    "lat": -32.919696468017264,
+    "lon": -60.75547136372456,
+    "x": 5429334.04,
+    "y": 6357870.45
+  },
+  "AMBATO|REPUBLICA DE ARGELIA": {
+    "status": "ok",
+    "lat": -32.919696468017264,
+    "lon": -60.75547136372456,
+    "x": 5429334.04,
+    "y": 6357870.45
+  },
+  "GENOVA|OLAVARRIA": {
+    "status": "ok",
+    "lat": -32.915755438924606,
+    "lon": -60.7045491449198,
+    "x": 5434094.43,
+    "y": 6358340.52
+  },
+  "GENOVA -|OLAVARRIA": {
+    "status": "ok",
+    "lat": -32.915755438924606,
+    "lon": -60.7045491449198,
+    "x": 5434094.43,
+    "y": 6358340.52
+  },
+  "ALBERDI|JOSE INGENIEROS": {
+    "status": "ambiguous",
+    "n": 4
+  },
+  "ALBERTI|JOSE INGENIEROS": {
+    "status": "ok",
+    "lat": -32.90231647399314,
+    "lon": -60.7256358429351,
+    "x": 5432111.62,
+    "y": 6359817.61
+  },
+  "ALBERINI|JOSE INGENIEROS": {
+    "status": "ambiguous",
+    "n": 5
+  },
+  "ALBERTO J PAZ|JOSE INGENIEROS": {
+    "status": "ambiguous",
+    "n": 27
+  },
+  "AVELLANEDA|JOSE INGENIEROS": {
+    "status": "ambiguous",
+    "n": 10
+  },
+  "GUEMES|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -32.93176470470957,
+    "lon": -60.65878946777228,
+    "x": 5438386.1,
+    "y": 6356592.67
+  },
+  "MORENO|SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94191326454559,
+    "lon": -60.650009524616316,
+    "x": 5439214.21,
+    "y": 6355472.23
+  },
+  "SAN LORENZO|SARMIENTO": {
+    "status": "ok",
+    "lat": -32.94418298642605,
+    "lon": -60.637643981201435,
+    "x": 5440372.12,
+    "y": 6355227.57
+  },
+  "JORGE CURA|OVIDIO LAGOS": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "PUEYRREDON|VIRASORO": {
+    "status": "ok",
+    "lat": -32.96645991526392,
+    "lon": -60.66329262204007,
+    "x": 5437989.16,
+    "y": 6352742.1
+  },
+  "MAIPU|OCAMPO": {
+    "status": "ok",
+    "lat": -32.966942473811535,
+    "lon": -60.640454986187564,
+    "x": 5440124.6,
+    "y": 6352701.8
+  },
+  "ORONO|URQUIZA": {
+    "status": "ok",
+    "lat": -32.940242963496985,
+    "lon": -60.65242644525368,
+    "x": 5438987.04,
+    "y": 6355656.08
+  },
+  "AVELLANEDA|GENOVA": {
+    "status": "ok",
+    "lat": -32.914857268283285,
+    "lon": -60.67312154503866,
+    "x": 5437033.68,
+    "y": 6358459.34
+  },
+  "AVELLANEDA|GENOVA -": {
+    "status": "ok",
+    "lat": -32.914857268283285,
+    "lon": -60.67312154503866,
+    "x": 5437033.68,
+    "y": 6358459.34
+  },
+  "ANTELO|GENOVA": {
+    "status": "ok",
+    "lat": -32.915221404186596,
+    "lon": -60.68672307379441,
+    "x": 5435761.58,
+    "y": 6358410.75
+  },
+  "ANTELO|GENOVA -": {
+    "status": "ok",
+    "lat": -32.915221404186596,
+    "lon": -60.68672307379441,
+    "x": 5435761.58,
+    "y": 6358410.75
+  },
+  "AYALA GAUNA|TARRAGONA": {
+    "status": "ok",
+    "lat": -32.912519956634505,
+    "lon": -60.73527626436862,
+    "x": 5431217.56,
+    "y": 6358679.73
+  },
+  "PROVINCIAS UNIDAS|VELEZ SARSFIELD": {
+    "status": "ok",
+    "lat": -32.926024179514556,
+    "lon": -60.71324428048884,
+    "x": 5433288.75,
+    "y": 6357196.18
+  },
+  "CAMILO ALDAO|JUNIN": {
+    "status": "ok",
+    "lat": -32.92712840421835,
+    "lon": -60.69646396466037,
+    "x": 5434859.09,
+    "y": 6357084.21
+  },
+  "ALBERDI|JUNIN": {
+    "status": "ok",
+    "lat": -32.92660046912123,
+    "lon": -60.67654675707029,
+    "x": 5436721.625,
+    "y": 6357154.895
+  },
+  "LAPRIDA|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.95097113384171,
+    "lon": -60.63495538714743,
+    "x": 5440628.08,
+    "y": 6354476.24
+  },
+  "LAPRIDA|SAN JUAN DE LUZ": {
+    "status": "ambiguous",
+    "n": 8
+  },
+  "ESPANA|SEGUI": {
+    "status": "ok",
+    "lat": -32.97757231378801,
+    "lon": -60.654727366975564,
+    "x": 5438797.6,
+    "y": 6351514.67
+  },
+  "DORREGO|URIBURU": {
+    "status": "ok",
+    "lat": -32.99111669864484,
+    "lon": -60.66096649197964,
+    "x": 5438223.805,
+    "y": 6350008.855
+  },
+  "ARIJON|AVELLANEDA": {
+    "status": "ok",
+    "lat": -33.00425147839505,
+    "lon": -60.68883953049747,
+    "x": 5435628.183333334,
+    "y": 6348535.396666668
+  },
+  "AURORA|FRANCIA": {
+    "status": "ok",
+    "lat": -32.99947463369414,
+    "lon": -60.67782920914615,
+    "x": 5436653.7,
+    "y": 6349071.87
+  },
+  "ORONO|URIBURU": {
+    "status": "ok",
+    "lat": -32.991421169845886,
+    "lon": -60.665400241425836,
+    "x": 5437809.617500002,
+    "y": 6349972.475000002
+  },
+  "ITALIA|SEGUI": {
+    "status": "ok",
+    "lat": -32.9773290167861,
+    "lon": -60.656090360949705,
+    "x": 5438670.02,
+    "y": 6351540.86
+  },
+  "CORDOBA|MAIPU": {
+    "status": "ok",
+    "lat": -32.94705600067857,
+    "lon": -60.6352270407181,
+    "x": 5440600.06,
+    "y": 6354910.3
+  },
+  "MORENO|TUCUMAN": {
+    "status": "ok",
+    "lat": -32.939561361343145,
+    "lon": -60.649421633565034,
+    "x": 5439267.58,
+    "y": 6355733.41
+  },
+  "FORMOSA|JUNIN": {
+    "status": "ok",
+    "lat": -32.92698599100811,
+    "lon": -60.691258051500576,
+    "x": 5435345.91,
+    "y": 6357103.21
+  },
+  "JUNIN|PROVINCIAS UNIDAS": {
+    "status": "ok",
+    "lat": -32.92758780538884,
+    "lon": -60.71318647700558,
+    "x": 5433295.33,
+    "y": 6357022.8
+  },
+  "2012|ARIJON": {
+    "status": "ok",
+    "lat": -33.00430731966805,
+    "lon": -60.688125832476594,
+    "x": 5435694.92,
+    "y": 6348529.64
+  },
+  "CASILDA|STEPHENSON": {
+    "status": "ok",
+    "lat": -32.928173862171136,
+    "lon": -60.67901688670662,
+    "x": 5436491.71,
+    "y": 6356978.91
+  },
+  "1 DE MAYO|URIBURU": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "DEAN FUNES|SAN MARTIN": {
+    "status": "ambiguous",
+    "n": 6
+  },
+  "MITRE|VIRASORO": {
+    "status": "ok",
+    "lat": -32.96964403749835,
+    "lon": -60.645444016856935,
+    "x": 5439660.01,
+    "y": 6352399.33
+  },
+  "27 DE FEBRERO|ORONO": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "27 DE FEBRERO|FRANCIA": {
+    "status": "ok",
+    "lat": -32.962699269258785,
+    "lon": -60.670854862889456,
+    "x": 5437279.5,
+    "y": 6353154.7025
+  },
+  "IRIONDO|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94452356548902,
+    "lon": -60.67053727163922,
+    "x": 5437296.36,
+    "y": 6355170.7
+  },
+  "AYOLAS|SAN MARTIN": {
+    "status": "ok",
+    "lat": -32.97707028280277,
+    "lon": -60.644143021513145,
+    "x": 5439786.676666668,
+    "y": 6351576.453333334
+  },
+  "AYOLAS|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "GODOY CRUZ|IRIONDO": {
+    "status": "not_found"
+  },
+  "SAN NICOLAS|SANTA FE": {
+    "status": "ok",
+    "lat": -32.93895188083062,
+    "lon": -60.67197457972957,
+    "x": 5437158.01,
+    "y": 6355787.78
+  },
+  "AVELLANEDA|VELEZ SARSFIELD": {
+    "status": "ok",
+    "lat": -32.924870708105864,
+    "lon": -60.67554064899685,
+    "x": 5436814.5,
+    "y": 6357347.34
+  },
+  "CANNING|JUNIN": {
+    "status": "ok",
+    "lat": -32.92656295933766,
+    "lon": -60.67492089975734,
+    "x": 5436873.67,
+    "y": 6357160.03
+  },
+  "FRANCIA|URQUIZA": {
+    "status": "ok",
+    "lat": -32.93805676766283,
+    "lon": -60.664647482171475,
+    "x": 5437842.615,
+    "y": 6355891.4
+  },
+  "CAFFERATA|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95140819953597,
+    "lon": -60.67368521868925,
+    "x": 5437006.865,
+    "y": 6354405.27
+  },
+  "EVA PERON|WILDE": {
+    "status": "ok",
+    "lat": -32.92831883975307,
+    "lon": -60.739008186079225,
+    "x": 5430880.7275,
+    "y": 6356925.085000002
+  },
+  "SCHWEITZER|TARRAGONA": {
+    "status": "ok",
+    "lat": -32.91375262677817,
+    "lon": -60.735228196066906,
+    "x": 5431223.01,
+    "y": 6358543.05
+  },
+  "SCHWEITZER-|TARRAGONA": {
+    "status": "ok",
+    "lat": -32.91375262677817,
+    "lon": -60.735228196066906,
+    "x": 5431223.01,
+    "y": 6358543.05
+  },
+  "SCHWEITZER -|TARRAGONA": {
+    "status": "ok",
+    "lat": -32.91375262677817,
+    "lon": -60.735228196066906,
+    "x": 5431223.01,
+    "y": 6358543.05
+  },
+  "DONADO|EVA PERON": {
+    "status": "ok",
+    "lat": -32.93040232772852,
+    "lon": -60.72736880804071,
+    "x": 5431970.975,
+    "y": 6356701.585
+  },
+  "CULLEN|EVA PERON": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "CULLEN Y UGARTE|EVA PERON": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "EVA PERON|PARANA": {
+    "status": "ok",
+    "lat": -32.936883591125536,
+    "lon": -60.69135760094534,
+    "x": 5435343.8,
+    "y": 6356005.44
+  },
+  "CAFFERATA|CORDOBA": {
+    "status": "ok",
+    "lat": -32.94054267909362,
+    "lon": -60.670951201305705,
+    "x": 5437254.84,
+    "y": 6355611.96
+  },
+  "MORENO|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94680730327827,
+    "lon": -60.65123844923559,
+    "x": 5439102.64,
+    "y": 6354928.74
+  },
+  "9 DE JULIO|MAIPU": {
+    "status": "ok",
+    "lat": -32.954379005806636,
+    "lon": -60.63721346392087,
+    "x": 5440419.22,
+    "y": 6354097.01
+  },
+  "LINIERS|SANTA FE": {
+    "status": "ok",
+    "lat": -32.935315805686784,
+    "lon": -60.69873012410185,
+    "x": 5434653.15,
+    "y": 6356174.77
+  },
+  "DONADO|FRENCH": {
+    "status": "ok",
+    "lat": -32.92181312874204,
+    "lon": -60.72770312191271,
+    "x": 5431933.13,
+    "y": 6357653.97
+  },
+  "27 DE FEBRERO|ENTRE RIOS": {
+    "status": "ok",
+    "lat": -32.96709411628462,
+    "lon": -60.64627850187403,
+    "x": 5439580.26,
+    "y": 6352681.655
+  },
+  "JORGE CURA|ORONO": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "27 DE FEBRERO|MAIPU": {
+    "status": "ok",
+    "lat": -32.96808544532441,
+    "lon": -60.640730591072064,
+    "x": 5440099.605,
+    "y": 6352574.88
+  },
+  "OVIDIO LAGOS|SANTA FE": {
+    "status": "ambiguous",
+    "n": 6
+  },
+  "BALCARCE|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94259494740358,
+    "lon": -60.65159701939343,
+    "x": 5439066.22,
+    "y": 6355395.71
+  },
+  "PELLEGRINI|SOLIS": {
+    "status": "ok",
+    "lat": -32.94832997522802,
+    "lon": -60.70298929379374,
+    "x": 5434264.445,
+    "y": 6354728.76
+  },
+  "AVELLANEDA|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.94994076105553,
+    "lon": -60.681860495959064,
+    "x": 5436241.365,
+    "y": 6354563.1
+  },
+  "PELLEGRINI|SAN NICOLAS": {
+    "status": "ok",
+    "lat": -32.9511632442735,
+    "lon": -60.67505025864745,
+    "x": 5436879.05,
+    "y": 6354431.62
+  },
+  "URQUIZA|VERA MUJICA": {
+    "status": "ok",
+    "lat": -32.93781405448205,
+    "lon": -60.665999636008976,
+    "x": 5437715.99,
+    "y": 6355917.52
+  },
+  "ALVEAR|MONTEVIDEO": {
+    "status": "ok",
+    "lat": -32.953193459081064,
+    "lon": -60.657099404368786,
+    "x": 5438558.99,
+    "y": 6354217.07
+  },
+  "MITRE|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94480926909014,
+    "lon": -60.63921680236013,
+    "x": 5440225.46,
+    "y": 6355157.22
+  },
+  "BALCARCE|JUJUY": {
+    "status": "ok",
+    "lat": -32.93578719859622,
+    "lon": -60.649887081447076,
+    "x": 5439221.47,
+    "y": 6356151.72
+  },
+  "OVIDIO LAGOS|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "FRAGA|OCAMPO": {
+    "status": "ok",
+    "lat": -32.95795779007277,
+    "lon": -60.709539657288325,
+    "x": 5433659.11,
+    "y": 6353656.86
+  },
+  "FRAGATA SARMIENTO|OCAMPO": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "MATIENZO|VIAMONTE": {
+    "status": "ok",
+    "lat": -32.95639932303573,
+    "lon": -60.69406005356215,
+    "x": 5435105.32,
+    "y": 6353839.35
+  },
+  "AVELLANEDA|MENDOZA": {
+    "status": "ok",
+    "lat": -32.94420567680412,
+    "lon": -60.68041252049164,
+    "x": 5436372.655,
+    "y": 6355200.035
+  },
+  "FRANCIA|MENDOZA": {
+    "status": "ok",
+    "lat": -32.94665314728338,
+    "lon": -60.666814470638535,
+    "x": 5437645.99,
+    "y": 6354936.725
+  },
+  "MENDOZA|ORONO": {
+    "status": "ok",
+    "lat": -32.9488450709833,
+    "lon": -60.65459144339659,
+    "x": 5438790.5,
+    "y": 6354700.795
+  },
+  "BUENOS AIRES|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.951223063960505,
+    "lon": -60.63367557256868,
+    "x": 5440747.92,
+    "y": 6354449.02
+  },
+  "BUENOS AIRES|SAN JUAN DE LUZ": {
+    "status": "ambiguous",
+    "n": 23
+  },
+  "ENTRE RIOS|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94455828344328,
+    "lon": -60.64061799445416,
+    "x": 5440094.26,
+    "y": 6355184.26
+  },
+  "AVELLANEDA|LA PAZ": {
+    "status": "ok",
+    "lat": -32.956812994314454,
+    "lon": -60.68359639601046,
+    "x": 5436083.99,
+    "y": 6353799.87
+  },
+  "27 DE FEBRERO|LINIERS": {
+    "status": "ok",
+    "lat": -32.95884530948384,
+    "lon": -60.69783556186989,
+    "x": 5434754.1,
+    "y": 6353565.74
+  },
+  "FRAGA|VIAMONTE": {
+    "status": "ok",
+    "lat": -32.956817164686726,
+    "lon": -60.709577065226874,
+    "x": 5433654.76,
+    "y": 6353783.34
+  },
+  "FRAGATA SARMIENTO|VIAMONTE": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "BRASIL|RIOBAMBA": {
+    "status": "ok",
+    "lat": -32.95470505356861,
+    "lon": -60.71892610341705,
+    "x": 5432779.01,
+    "y": 6354011.66
+  },
+  "BRASILIA|RIOBAMBA": {
+    "status": "ok",
+    "lat": -32.95470505356861,
+    "lon": -60.71892610341705,
+    "x": 5432779.01,
+    "y": 6354011.66
+  },
+  "PRES PERON|PROVINCIAS UNIDAS": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "MATIENZO|PRES PERON": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "AVELLANEDA|PRES PERON": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "CORDOBA|ORONO": {
+    "status": "ok",
+    "lat": -32.94371021627916,
+    "lon": -60.65329706724913,
+    "x": 5438908.005,
+    "y": 6355271.035
+  },
+  "NECOCHEA|SEGUI": {
+    "status": "ok",
+    "lat": -32.981576289481076,
+    "lon": -60.63238693967122,
+    "x": 5440888.635,
+    "y": 6351083.37
+  },
+  "CENTRO|SERRANO": {
+    "status": "not_found"
+  },
+  "CENTENO|SERRANO": {
+    "status": "not_found"
+  },
+  "CENTENERA|SERRANO": {
+    "status": "ok",
+    "lat": -33.00370907913902,
+    "lon": -60.63172187423083,
+    "x": 5440965.54,
+    "y": 6348629.06
+  },
+  "CENTENARIO|SERRANO": {
+    "status": "ok",
+    "lat": -33.00370907913902,
+    "lon": -60.63172187423083,
+    "x": 5440965.54,
+    "y": 6348629.06
+  },
+  "CENTRAL CORDOBA|SERRANO": {
+    "status": "not_found"
+  },
+  "CENTENARIO R CENTRAL|SERRANO": {
+    "status": "ok",
+    "lat": -33.00370907913902,
+    "lon": -60.63172187423083,
+    "x": 5440965.54,
+    "y": 6348629.06
+  },
+  "CAFFERATA|MONTEAGUDO": {
+    "status": "not_found"
+  },
+  "CAFFERATA|MONTECARLO": {
+    "status": "not_found"
+  },
+  "CAFFERATA|MONTEVIDEO": {
+    "status": "ok",
+    "lat": -32.95026869606863,
+    "lon": -60.67339857792264,
+    "x": 5437032.86,
+    "y": 6354531.82
+  },
+  "CAFFERATA|MONTE FLORES": {
+    "status": "ok",
+    "lat": -33.00037757425179,
+    "lon": -60.68352930340146,
+    "x": 5436121.64,
+    "y": 6348968.28
+  },
+  "CAFFERATA|MONTES DE OCA": {
+    "status": "not_found"
+  },
+  "CAFFERATA|MONTES CARBALLO 1704": {
+    "status": "not_found"
+  },
+  "PRES PERON|SEGUI": {
+    "status": "ok",
+    "lat": -32.97090721078402,
+    "lon": -60.717324419208154,
+    "x": 5432941.015,
+    "y": 6352215.7425
+  },
+  "GALVEZ|MATIENZO": {
+    "status": "ok",
+    "lat": -32.9599462703703,
+    "lon": -60.69392777905926,
+    "x": 5435120.28,
+    "y": 6353446.05
+  },
+  "M GONZALEZ|RIVAROLA": {
+    "status": "ok",
+    "lat": -32.96640313201111,
+    "lon": -60.73094575325069,
+    "x": 5431664.13,
+    "y": 6352706.52
+  },
+  "27 DE FEBRERO|PROVINCIAS UNIDAS": {
+    "status": "ok",
+    "lat": -32.95935864434291,
+    "lon": -60.711826011049666,
+    "x": 5433446.385,
+    "y": 6353500.0525
+  },
+  "CERRITO|GUTEMBERG": {
+    "status": "ok",
+    "lat": -32.95305798195297,
+    "lon": -60.69117838237261,
+    "x": 5435372.33,
+    "y": 6354211.7
+  },
+  "9 DE JULIO|OVIDIO LAGOS": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "1 DE MAYO|SAN JUAN": {
+    "status": "ambiguous",
+    "n": 25
+  },
+  "1 DE MAYO|SAN JUAN DE LUZ": {
+    "status": "ambiguous",
+    "n": 24
+  },
+  "CORRIENTES|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94940376101441,
+    "lon": -60.643295256947376,
+    "x": 5439847.18,
+    "y": 6354645.34
+  },
+  "CORRIENTES|SAN JUAN DE LUZ": {
+    "status": "ambiguous",
+    "n": 8
+  },
+  "DORREGO|MENDOZA": {
+    "status": "ok",
+    "lat": -32.94955113228037,
+    "lon": -60.6505142533808,
+    "x": 5439172.24,
+    "y": 6354624.85
+  },
+  "DORREGO|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95530296677862,
+    "lon": -60.651965170032256,
+    "x": 5439040.515000002,
+    "y": 6353986.095000002
+  },
+  "27 DE FEBRERO|MATIENZO": {
+    "status": "ok",
+    "lat": -32.958746476325125,
+    "lon": -60.69396941751563,
+    "x": 5435115.51,
+    "y": 6353579.09
+  },
+  "9 DE JULIO|ORONO": {
+    "status": "ok",
+    "lat": -32.95113014869938,
+    "lon": -60.655167547466284,
+    "x": 5438738.205,
+    "y": 6354447.03
+  },
+  "27 DE FEBRERO|FRAGA": {
+    "status": "ok",
+    "lat": -32.959297316886804,
+    "lon": -60.70947902514108,
+    "x": 5433665.78,
+    "y": 6353508.335
+  },
+  "27 DE FEBRERO|FRAGATA SARMIENTO": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "RIVAROLA|SAN NICOLAS": {
+    "status": "not_found"
+  },
+  "RIVADAVIA|SAN NICOLAS": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "OVIDIO LAGOS|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95309834425215,
+    "lon": -60.66419049967071,
+    "x": 5437895.87,
+    "y": 6354223.46
+  },
+  "AVELLANEDA|SEGUI": {
+    "status": "ok",
+    "lat": -32.9717243203535,
+    "lon": -60.68736014083773,
+    "x": 5435742.87,
+    "y": 6352143.8075
+  },
+  "CAFERATA|RUEDA": {
+    "status": "ok",
+    "lat": -32.965167376808836,
+    "lon": -60.677174658174394,
+    "x": 5436690.39,
+    "y": 6352877.19
+  },
+  "CAFERATA|SEGUI": {
+    "status": "ok",
+    "lat": -32.973188895552305,
+    "lon": -60.6792031537118,
+    "x": 5436506.48,
+    "y": 6351986.325
+  },
+  "FRANCIA|LAMADRID": {
+    "status": "ok",
+    "lat": -32.99793173609546,
+    "lon": -60.67789413044447,
+    "x": 5436646.53,
+    "y": 6349242.95
+  },
+  "FRANCIA|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95238184172403,
+    "lon": -60.66825672500243,
+    "x": 5437515.1525,
+    "y": 6354300.52
+  },
+  "3 DE FEBRERO|CORRIENTES": {
+    "status": "ok",
+    "lat": -32.95201507192172,
+    "lon": -60.64394065482468,
+    "x": 5439788.6,
+    "y": 6354355.36
+  },
+  "3 DE FEBRERO|CALLAO": {
+    "status": "ok",
+    "lat": -32.94885653385958,
+    "lon": -60.66168405910731,
+    "x": 5438127.28,
+    "y": 6354695.38
+  },
+  "AVELLANEDA|CERRITO": {
+    "status": "ok",
+    "lat": -32.9545245940152,
+    "lon": -60.683018480575534,
+    "x": 5436136.380000002,
+    "y": 6354054.02
+  },
+  "AVELLANEDA|CERRILLOS": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "AVELLANEDA|URUGUAY": {
+    "status": "ok",
+    "lat": -32.96943106064747,
+    "lon": -60.686780810081125,
+    "x": 5435795.37,
+    "y": 6352398.5
+  },
+  "BIEDMA|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -32.977248736402075,
+    "lon": -60.66995469322726,
+    "x": 5437373.93,
+    "y": 6351541.6
+  },
+  "AYOLAS|MITRE": {
+    "status": "ok",
+    "lat": -32.97652741702439,
+    "lon": -60.64717914731819,
+    "x": 5439502.49,
+    "y": 6351634.92
+  },
+  "MITRE|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95703159069181,
+    "lon": -60.64227731876921,
+    "x": 5439947.525,
+    "y": 6353799.945
+  },
+  "MITRE|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94877885340193,
+    "lon": -60.640216821434855,
+    "x": 5440134.62,
+    "y": 6354716.4
+  },
+  "ENTRE RIOS|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.949653958732576,
+    "lon": -60.6418953810588,
+    "x": 5439978.25,
+    "y": 6354618.39
+  },
+  "AYOLAS|ENTRE RIOS": {
+    "status": "ok",
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "x": 5440275.83,
+    "y": 6351475.91
+  },
+  "AVELLANEDA|DEAN FUNES": {
+    "status": "ok",
+    "lat": -32.96828164558387,
+    "lon": -60.68649113479059,
+    "x": 5435821.62,
+    "y": 6352526.155
+  },
+  "AVELLANEDA|MONTEAGUDO": {
+    "status": "not_found"
+  },
+  "AVELLANEDA|MONTECARLO": {
+    "status": "not_found"
+  },
+  "AVELLANEDA|MONTEVIDEO": {
+    "status": "ok",
+    "lat": -32.948798131044434,
+    "lon": -60.6815720205238,
+    "x": 5436267.52,
+    "y": 6354690.0
+  },
+  "AVELLANEDA|MONTE FLORES": {
+    "status": "not_found"
+  },
+  "AVELLANEDA|MONTES DE OCA": {
+    "status": "not_found"
+  },
+  "AVELLANEDA|MONTES CARBALLO 1704": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "AVELLANEDA|CORDOBA": {
+    "status": "ok",
+    "lat": -32.93907520391131,
+    "lon": -60.67911724157317,
+    "x": 5436490.115,
+    "y": 6355769.82
+  },
+  "CAFFERATA|SAAVEDRA": {
+    "status": "ok",
+    "lat": -32.97204079048682,
+    "lon": -60.678918065935065,
+    "x": 5436532.31,
+    "y": 6352113.83
+  },
+  "CAFFERATA|SAAVEDRA LAMAS": {
+    "status": "ok",
+    "lat": -32.97204079048682,
+    "lon": -60.678918065935065,
+    "x": 5436532.31,
+    "y": 6352113.83
+  },
+  "GARAY|SAN NICOLAS": {
+    "status": "ok",
+    "lat": -32.968358183544794,
+    "lon": -60.67941112954752,
+    "x": 5436483.58,
+    "y": 6352521.96
+  },
+  "MAGALLANES|URQUIZA": {
+    "status": "ok",
+    "lat": -32.93319882233013,
+    "lon": -60.704859546616554,
+    "x": 5434078.33,
+    "y": 6356405.74
+  },
+  "JUNIN|MONTEAGUDO": {
+    "status": "ok",
+    "lat": -32.92646769152591,
+    "lon": -60.66745925108877,
+    "x": 5437571.515000002,
+    "y": 6357175.04
+  },
+  "MORENO|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "CORRIENTES|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94827561969526,
+    "lon": -60.6430117146502,
+    "x": 5439872.93,
+    "y": 6354770.62
+  },
+  "JUJUY|PARAGUAY": {
+    "status": "ok",
+    "lat": -32.9372644221558,
+    "lon": -60.641663436942686,
+    "x": 5439991.57,
+    "y": 6355992.6
+  },
+  "ESTANISLAO LOPEZ|ORONO": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "CABAL|GENOVA": {
+    "status": "ok",
+    "lat": -32.91570637408574,
+    "lon": -60.702773779497555,
+    "x": 5434260.47,
+    "y": 6358347.07
+  },
+  "CABALLITO CRIOLLO|GENOVA": {
+    "status": "ok",
+    "lat": -32.914857268283285,
+    "lon": -60.67312154503866,
+    "x": 5437033.68,
+    "y": 6358459.34
+  },
+  "CABAL|GENOVA -": {
+    "status": "ok",
+    "lat": -32.91570637408574,
+    "lon": -60.702773779497555,
+    "x": 5434260.47,
+    "y": 6358347.07
+  },
+  "CABALLITO CRIOLLO|GENOVA -": {
+    "status": "ok",
+    "lat": -32.914857268283285,
+    "lon": -60.67312154503866,
+    "x": 5437033.68,
+    "y": 6358459.34
+  },
+  "GABOTO|ORONO": {
+    "status": "ok",
+    "lat": -32.97063630777667,
+    "lon": -60.66008289477225,
+    "x": 5438292.145,
+    "y": 6352280.795
+  },
+  "FRAGATA SARMIENTO|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -32.9887456705418,
+    "lon": -60.67273246524198,
+    "x": 5437122.415,
+    "y": 6350264.85
+  },
+  "AMEGHINO|ORONO": {
+    "status": "ok",
+    "lat": -32.98441332843262,
+    "lon": -60.66344450378855,
+    "x": 5437987.51,
+    "y": 6350750.85
+  },
+  "ITALIA|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95554547363164,
+    "lon": -60.650606452796524,
+    "x": 5439167.725,
+    "y": 6353959.985
+  },
+  "DORREGO|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.948170414001616,
+    "lon": -60.65016888348832,
+    "x": 5439203.59,
+    "y": 6354778.18
+  },
+  "SUIPACHA|URIBURU": {
+    "status": "ok",
+    "lat": -32.991613114931496,
+    "lon": -60.67675193125867,
+    "x": 5436748.77,
+    "y": 6349944.42
+  },
+  "OCAMPO|OMAR CARRASCO": {
+    "status": "ok",
+    "lat": -32.96204952890667,
+    "lon": -60.66784832135833,
+    "x": 5437560.14,
+    "y": 6353228.55
+  },
+  "FELIPE MORE|PRES PERON": {
+    "status": "ambiguous",
+    "n": 5
+  },
+  "FERNANDEZ MORENO|PRES PERON": {
+    "status": "ambiguous",
+    "n": 8
+  },
+  "CAFFERATA|PRES PERON": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "EVA PERON|PROVINCIAS UNIDAS": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "BALCARCE|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94768443125228,
+    "lon": -60.65288116156289,
+    "x": 5438949.63,
+    "y": 6354830.51
+  },
+  "BALCARCE|PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.954821703724654,
+    "lon": -60.65466389355951,
+    "x": 5438787.845000002,
+    "y": 6354037.905
+  },
+  "MONTEAGUDO|OVIDIO LAGOS": {
+    "status": "not_found"
+  },
+  "MONTECARLO|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -33.02737533764988,
+    "lon": -60.681507868603575,
+    "x": 5436329.96,
+    "y": 6345975.24
+  },
+  "MONTEVIDEO|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -32.95197305920556,
+    "lon": -60.66390488305573,
+    "x": 5437921.79,
+    "y": 6354348.43
+  },
+  "MONTE FLORES|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -33.000137029652464,
+    "lon": -60.67549241720086,
+    "x": 5436872.56,
+    "y": 6348999.81
+  },
+  "MONTES DE OCA|OVIDIO LAGOS": {
+    "status": "not_found"
+  },
+  "MONTES CARBALLO 1704|OVIDIO LAGOS": {
+    "status": "not_found"
+  },
+  "PRES PERON|SAN NICOLAS": {
+    "status": "ambiguous",
+    "n": 6
+  },
+  "NAVARRO|WILDE": {
+    "status": "ok",
+    "lat": -32.93220606567772,
+    "lon": -60.738793710196234,
+    "x": 5430903.810000002,
+    "y": 6356494.105
+  },
+  "NAVARNIZ|WILDE": {
+    "status": "not_found"
+  },
+  "MENDOZA|WILDE": {
+    "status": "ok",
+    "lat": -32.94027721439682,
+    "lon": -60.73846594912922,
+    "x": 5430940.738,
+    "y": 6355599.172
+  },
+  "BENEGAS|WILDE": {
+    "status": "ok",
+    "lat": -32.93111789311195,
+    "lon": -60.73883336591081,
+    "x": 5430899.255,
+    "y": 6356614.765000002
+  },
+  "GORRITI|SANTA MARIA DE ORO": {
+    "status": "ok",
+    "lat": -32.923293721660144,
+    "lon": -60.67361561931169,
+    "x": 5436993.44,
+    "y": 6357523.39
+  },
+  "RIVADAVIA|RODRIGUEZ": {
+    "status": "ok",
+    "lat": -32.93115343724267,
+    "lon": -60.65555457634237,
+    "x": 5438688.23,
+    "y": 6356662.35
+  },
+  "RIVADAVIA|RODRIGUEZ PENA": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "BROWN|ORONO": {
+    "status": "ok",
+    "lat": -32.93439682601126,
+    "lon": -60.65095422109389,
+    "x": 5439120.715,
+    "y": 6356305.305
+  },
+  "CORDOBA|ENTRE RIOS": {
+    "status": "ok",
+    "lat": -32.94591065157486,
+    "lon": -60.64095871902958,
+    "x": 5440063.31,
+    "y": 6355034.08
+  },
+  "27 DE FEBRERO|SARMIENTO": {
+    "status": "ok",
+    "lat": -32.96759402836484,
+    "lon": -60.64347798586588,
+    "x": 5439842.42,
+    "y": 6352627.815
+  },
+  "ENTRE RIOS|SEGUI": {
+    "status": "ok",
+    "lat": -32.97856446227131,
+    "lon": -60.64917254205868,
+    "x": 5439317.54,
+    "y": 6351407.85
+  },
+  "ARIJON|PUEYRREDON": {
+    "status": "ok",
+    "lat": -33.003623892560974,
+    "lon": -60.669089007883656,
+    "x": 5437473.455,
+    "y": 6348616.915
+  },
+  "ARIJON|PARAGUAY": {
+    "status": "ok",
+    "lat": -33.0032327992645,
+    "lon": -60.654703166041635,
+    "x": 5438817.57,
+    "y": 6348668.75
+  },
+  "ENTRE RIOS|LAMADRID": {
+    "status": "ok",
+    "lat": -32.99718243001684,
+    "lon": -60.652051552138836,
+    "x": 5439061.21,
+    "y": 6349341.32
+  },
+  "CORRIENTES|SEGUI": {
+    "status": "ok",
+    "lat": -32.97831527574055,
+    "lon": -60.65056997030437,
+    "x": 5439186.74,
+    "y": 6351434.68
+  },
+  "27 DE FEBRERO|CORRIENTES": {
+    "status": "ok",
+    "lat": -32.96684262918133,
+    "lon": -60.647682587307884,
+    "x": 5439448.82,
+    "y": 6352708.74
+  },
+  "BALCARCE|GUEMES": {
+    "status": "ok",
+    "lat": -32.93348684735493,
+    "lon": -60.64930303519286,
+    "x": 5439274.52,
+    "y": 6356407.18
+  },
+  "ESPANA|URIBURU": {
+    "status": "ok",
+    "lat": -32.99102728412865,
+    "lon": -60.6581018187656,
+    "x": 5438491.49,
+    "y": 6350020.45
+  },
+  "DELIA|SAN MARTIN": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "DEL OMBU|SAN MARTIN": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "DEL CAMPO|SAN MARTIN": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "DEL MUSEO|SAN MARTIN": {
+    "status": "not_found"
+  },
+  "DEL VALLE|SAN MARTIN": {
+    "status": "ambiguous",
+    "n": 4
+  },
+  "DELLAROLE|SAN MARTIN": {
+    "status": "not_found"
+  },
+  "DELIA|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "DEL OMBU|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "DEL CAMPO|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "DEL MUSEO|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "DEL VALLE|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "DELLAROLE|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "ARIJON|ORONO": {
+    "status": "ok",
+    "lat": -33.00349644481266,
+    "lon": -60.66498008671136,
+    "x": 5437857.3525,
+    "y": 6348633.485
+  },
+  "ORONO|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94744767470054,
+    "lon": -60.65423915315098,
+    "x": 5438822.48,
+    "y": 6354855.98
+  },
+  "AVELLANEDA|RIOJA": {
+    "status": "ok",
+    "lat": -32.94022274933497,
+    "lon": -60.67940691889245,
+    "x": 5436463.845000002,
+    "y": 6355642.375
+  },
+  "AVELLANEDA|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.941680399333556,
+    "lon": -60.67977489822644,
+    "x": 5436430.475,
+    "y": 6355480.49
+  },
+  "FRANCO|SAN LUIS": {
+    "status": "ambiguous",
+    "n": 4
+  },
+  "FRANCIA|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94413422731136,
+    "lon": -60.66618025727941,
+    "x": 5437703.53,
+    "y": 6355216.465
+  },
+  "FRANCHINI|SAN LUIS": {
+    "status": "not_found"
+  },
+  "FRANCISCO DE MIRANDA|SAN LUIS": {
+    "status": "ambiguous",
+    "n": 24
+  },
+  "ORONO|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.946326271596945,
+    "lon": -60.65395649081666,
+    "x": 5438848.14,
+    "y": 6354980.515
+  },
+  "ARIJON|BALCARCE": {
+    "status": "ok",
+    "lat": -33.00344445417181,
+    "lon": -60.663338188242705,
+    "x": 5438010.755000002,
+    "y": 6348640.220000002
+  },
+  "CLAVEL|HORTENSIA": {
+    "status": "ok",
+    "lat": -33.02217073164288,
+    "lon": -60.662015584524966,
+    "x": 5438147.43,
+    "y": 6346564.11
+  },
+  "CEIBO|SAN MARTIN": {
+    "status": "ok",
+    "lat": -33.01337445943055,
+    "lon": -60.651589851553105,
+    "x": 5439115.485,
+    "y": 6347545.77
+  },
+  "MAIPU|SANTA FE": {
+    "status": "ok",
+    "lat": -32.94611665181927,
+    "lon": -60.63496046423693,
+    "x": 5440624.36,
+    "y": 6355014.63
+  },
+  "ANCHORENA|AYACUCHO": {
+    "status": "ok",
+    "lat": -32.99738532103972,
+    "lon": -60.6365510662301,
+    "x": 5440510.0,
+    "y": 6349327.69
+  },
+  "MITRE|SAAVEDRA": {
+    "status": "ok",
+    "lat": -32.9776746392393,
+    "lon": -60.647466294538944,
+    "x": 5439476.43,
+    "y": 6351507.52
+  },
+  "MITRE|SAAVEDRA LAMAS": {
+    "status": "ok",
+    "lat": -32.9776746392393,
+    "lon": -60.647466294538944,
+    "x": 5439476.43,
+    "y": 6351507.52
+  },
+  "CORDOBA|MITRE": {
+    "status": "ok",
+    "lat": -32.94615803910366,
+    "lon": -60.63955662525825,
+    "x": 5440194.59,
+    "y": 6355007.44
+  },
+  "CAFFERATA|URQUIZA": {
+    "status": "ok",
+    "lat": -32.93708219866179,
+    "lon": -60.670077035393646,
+    "x": 5437334.15,
+    "y": 6355996.27
+  },
+  "FELIPE MORE|SANTA FE": {
+    "status": "ambiguous",
+    "n": 13
+  },
+  "NAVARRO|SOLIS": {
+    "status": "ok",
+    "lat": -32.93124748236058,
+    "lon": -60.70378236238812,
+    "x": 5434177.63,
+    "y": 6356622.83
+  },
+  "FRAGA|JUNIN": {
+    "status": "ok",
+    "lat": -32.92751701184514,
+    "lon": -60.71079893201406,
+    "x": 5433518.59,
+    "y": 6357032.16
+  },
+  "FRAGATA SARMIENTO|JUNIN": {
+    "status": "not_found"
+  },
+  "EVA PERON|MATIENZO": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "LAMADRID|SAN MARTIN": {
+    "status": "ok",
+    "lat": -32.99707009346922,
+    "lon": -60.648075657541135,
+    "x": 5439432.715,
+    "y": 6349356.075
+  },
+  "LAMADRID|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "SOLIS|TUCUMAN": {
+    "status": "ok",
+    "lat": -32.93229398494114,
+    "lon": -60.703743711496536,
+    "x": 5434182.02,
+    "y": 6356506.79
+  },
+  "LAPRIDA|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.949768663266646,
+    "lon": -60.63460339888335,
+    "x": 5440660.19,
+    "y": 6354609.8
+  },
+  "ARIJON|LITUANIA": {
+    "status": "ok",
+    "lat": -33.00220321633535,
+    "lon": -60.62278752925782,
+    "x": 5441799.48,
+    "y": 6348801.05
+  },
+  "ANDES|ARIJON": {
+    "status": "ok",
+    "lat": -33.00233228365505,
+    "lon": -60.626653158207866,
+    "x": 5441438.31,
+    "y": 6348784.59
+  },
+  "MAIPU|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.95069588232014,
+    "lon": -60.63620871922993,
+    "x": 5440510.7,
+    "y": 6354506.06
+  },
+  "CONSTITUCION|SANTA FE": {
+    "status": "ok",
+    "lat": -32.938708251952825,
+    "lon": -60.67333137074705,
+    "x": 5437030.95,
+    "y": 6355813.99
+  },
+  "AVELLANEDA|SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94281168950887,
+    "lon": -60.68006056563482,
+    "x": 5436404.57,
+    "y": 6355354.85
+  },
+  "BAIGORRIA|CIRCUNVALACION": {
+    "status": "ok",
+    "lat": -32.89442859071222,
+    "lon": -60.72245323947742,
+    "x": 5432403.39,
+    "y": 6360694.47
+  },
+  "AYACUCHO|URIBURU": {
+    "status": "ok",
+    "lat": -32.990379132386025,
+    "lon": -60.63692199166234,
+    "x": 5440470.63,
+    "y": 6350104.516666668
+  },
+  "CATAMARCA|SAN NICOLAS": {
+    "status": "ok",
+    "lat": -32.934488335051704,
+    "lon": -60.67084368401375,
+    "x": 5437260.62,
+    "y": 6356283.49
+  },
+  "ALBERDI|SALTA AV": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "ALBERTI|SALTA AV": {
+    "status": "ok",
+    "lat": -32.90572324708747,
+    "lon": -60.773062088868585,
+    "x": 5427677.22,
+    "y": 6359408.25
+  },
+  "ALBERINI|SALTA AV": {
+    "status": "not_found"
+  },
+  "ALBERTO J PAZ|SALTA AV": {
+    "status": "ok",
+    "lat": -32.90572324708747,
+    "lon": -60.773062088868585,
+    "x": 5427677.22,
+    "y": 6359408.25
+  },
+  "ORONO|TUCUMAN": {
+    "status": "ok",
+    "lat": -32.93907945637397,
+    "lon": -60.65213336299179,
+    "x": 5439013.65,
+    "y": 6355785.29
+  },
+  "ESPANA|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94753372557084,
+    "lon": -60.64716938658163,
+    "x": 5439483.64,
+    "y": 6354850.52
+  },
+  "ESPANOL|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.97676845068478,
+    "lon": -60.7032257222304,
+    "x": 5434263.4,
+    "y": 6351574.58
+  },
+  "LAPRIDA|SEGUI": {
+    "status": "ok",
+    "lat": -32.979764321752,
+    "lon": -60.64245517437364,
+    "x": 5439946.28,
+    "y": 6351278.630000002
+  },
+  "ARIJON|AYACUCHO": {
+    "status": "ok",
+    "lat": -33.002624642720676,
+    "lon": -60.636057835388016,
+    "x": 5440559.61,
+    "y": 6348746.890000002
+  },
+  "BATLLE Y ORDONEZ|ORONO": {
+    "status": "ok",
+    "lat": -33.00942432054662,
+    "lon": -60.66459465727235,
+    "x": 5437897.526000002,
+    "y": 6347976.266000002
+  },
+  "MAIPU|SAN JUAN DE LUZ": {
+    "status": "ambiguous",
+    "n": 7
+  },
+  "PROVINCIAS UNIDAS|RIVAROLA": {
+    "status": "ok",
+    "lat": -32.9657500053668,
+    "lon": -60.711570982483266,
+    "x": 5433475.02,
+    "y": 6352791.365
+  },
+  "CAFFERATA|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94315882603037,
+    "lon": -60.67160935496338,
+    "x": 5437195.14,
+    "y": 6355321.42
+  },
+  "ESPANOL|URIBURU": {
+    "status": "not_found"
+  },
+  "OVIDIO LAGOS|URIBURU": {
+    "status": "ok",
+    "lat": -32.99151360570888,
+    "lon": -60.67338971992913,
+    "x": 5437062.947500002,
+    "y": 6349957.4725
+  },
+  "ARIJON|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -33.00383724610716,
+    "lon": -60.676164713827475,
+    "x": 5436812.368,
+    "y": 6348589.024
+  },
+  "BERUTI|GABOTO": {
+    "status": "ok",
+    "lat": -32.97650865830917,
+    "lon": -60.626833878192514,
+    "x": 5441404.36,
+    "y": 6351648.51
+  },
+  "BORDABEHERE|SAN NICOLAS": {
+    "status": "ok",
+    "lat": -32.933374653654404,
+    "lon": -60.67058229932671,
+    "x": 5437284.28,
+    "y": 6356407.16
+  },
+  "ALBERDI|RECONQUISTA": {
+    "status": "ok",
+    "lat": -32.91807214999239,
+    "lon": -60.683349404037386,
+    "x": 5436079.22,
+    "y": 6358096.635
+  },
+  "ALBERTI|RECONQUISTA": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "ALBERINI|RECONQUISTA": {
+    "status": "ok",
+    "lat": -32.91807214999239,
+    "lon": -60.683349404037386,
+    "x": 5436079.22,
+    "y": 6358096.635
+  },
+  "ALBERTO J PAZ|RECONQUISTA": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "OVIDIO LAGOS|SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94486592195775,
+    "lon": -60.662101110427706,
+    "x": 5438085.5,
+    "y": 6355137.72
+  },
+  "ALEM|MENDOZA": {
+    "status": "ok",
+    "lat": -32.95322297286961,
+    "lon": -60.629604706961715,
+    "x": 5441129.9,
+    "y": 6354229.5
+  },
+  "ALEMANIA|MENDOZA": {
+    "status": "not_found"
+  },
+  "AYOLAS|GRANDOLI": {
+    "status": "ok",
+    "lat": -32.980004567114236,
+    "lon": -60.62774923017379,
+    "x": 5441321.105,
+    "y": 6351260.28
+  },
+  "MARTINEZ ESTRADA|TARRAGONA": {
+    "status": "ok",
+    "lat": -32.91130225683674,
+    "lon": -60.73532381407372,
+    "x": 5431212.17,
+    "y": 6358814.75
+  },
+  "LAGUNA|ONCATIVO": {
+    "status": "ok",
+    "lat": -32.880611807934436,
+    "lon": -60.72441043096414,
+    "x": 5432209.74,
+    "y": 6362225.58
+  },
+  "LAGUNA BLANCA|ONCATIVO": {
+    "status": "ok",
+    "lat": -32.880611807934436,
+    "lon": -60.72441043096414,
+    "x": 5432209.74,
+    "y": 6362225.58
+  },
+  "LAGUNA DEL DESIERTO|ONCATIVO": {
+    "status": "ok",
+    "lat": -32.880611807934436,
+    "lon": -60.72441043096414,
+    "x": 5432209.74,
+    "y": 6362225.58
+  },
+  "AGRELO|PUCCIO": {
+    "status": "ok",
+    "lat": -32.894537553465206,
+    "lon": -60.690893164414284,
+    "x": 5435356.46,
+    "y": 6360702.166666668
+  },
+  "MAZA|SORRENTO": {
+    "status": "ok",
+    "lat": -32.90691638547281,
+    "lon": -60.68481264179844,
+    "x": 5435934.31,
+    "y": 6359332.99
+  },
+  "BROWN|OVIDIO LAGOS": {
+    "status": "ok",
+    "lat": -32.932940710223846,
+    "lon": -60.65908633923447,
+    "x": 5438359.15,
+    "y": 6356462.07
+  },
+  "1716|BEMPORAT": {
+    "status": "not_found"
+  },
+  "NEUQUEN|PROVINCIAS UNIDAS": {
+    "status": "ok",
+    "lat": -32.94456960616171,
+    "lon": -60.71241485377939,
+    "x": 5433380.235,
+    "y": 6355139.890000002
+  },
+  "MONTEVIDEO|PARAGUAY": {
+    "status": "ok",
+    "lat": -32.95513723029857,
+    "lon": -60.64617980410506,
+    "x": 5439581.35,
+    "y": 6354007.81
+  },
+  "ESPANA|URQUIZA": {
+    "status": "ok",
+    "lat": -32.94145971998291,
+    "lon": -60.64564605241583,
+    "x": 5439621.96,
+    "y": 6355525.04
+  },
+  "CALLAO|SALTA AV": {
+    "status": "ambiguous",
+    "n": 3
+  },
+  "AGRELO|SUPERI": {
+    "status": "ok",
+    "lat": -32.893935163903336,
+    "lon": -60.69108118300731,
+    "x": 5435338.43,
+    "y": 6360768.86
+  },
+  "BOLIVIA|NEUQUEN": {
+    "status": "ok",
+    "lat": -32.94460477980065,
+    "lon": -60.713629866597415,
+    "x": 5433266.64,
+    "y": 6355135.22
+  },
+  "DONADO|FOREST": {
+    "status": "ok",
+    "lat": -32.94391255979209,
+    "lon": -60.726850370722424,
+    "x": 5432029.8,
+    "y": 6355203.54
+  },
+  "PELLEGRINI|ROUILLON": {
+    "status": "ok",
+    "lat": -32.94830148755258,
+    "lon": -60.701930043673634,
+    "x": 5434363.475,
+    "y": 6354732.58
+  },
+  "ABORIGENES ARGENTINOS|MATIENZO": {
+    "status": "ok",
+    "lat": -32.980935117345034,
+    "lon": -60.69315532005357,
+    "x": 5435207.83,
+    "y": 6351118.71
+  },
+  "MALABIA|NEWBERY": {
+    "status": "ok",
+    "lat": -32.9091503432822,
+    "lon": -60.760168837934934,
+    "x": 5428886.2,
+    "y": 6359036.93
+  },
+  "MALABIA BIS|NEWBERY": {
+    "status": "not_found"
+  },
+  "EVA PERON|RODO": {
+    "status": "ok",
+    "lat": -32.930615082344254,
+    "lon": -60.726181243977884,
+    "x": 5432082.21,
+    "y": 6356678.755000002
+  },
+  "MENSAJERIAS|REAL": {
+    "status": "ok",
+    "lat": -32.91952778544887,
+    "lon": -60.768308153694036,
+    "x": 5428133.135,
+    "y": 6357880.48
+  },
+  "1739|1752": {
+    "status": "ambiguous",
+    "n": 2
+  },
+  "GUATEMALA|MENDOZA": {
+    "status": "ok",
+    "lat": -32.94035567569907,
+    "lon": -60.71726798087035,
+    "x": 5432923.215,
+    "y": 6355604.165
+  },
+  "BRASIL|MENDOZA": {
+    "status": "ok",
+    "lat": -32.940419471353025,
+    "lon": -60.71955701472375,
+    "x": 5432709.195,
+    "y": 6355595.63
+  },
+  "BRASILIA|MENDOZA": {
+    "status": "ok",
+    "lat": -32.893847582282255,
+    "lon": -60.714477315562306,
+    "x": 5433149.24,
+    "y": 6360763.99
+  },
+  "MENDOZA|SOLIS": {
+    "status": "ok",
+    "lat": -32.93999999847819,
+    "lon": -60.70336087875931,
+    "x": 5434223.53,
+    "y": 6355652.380000002
+  },
+  "AVELLANEDA|SAN JUAN DE LUZ": {
+    "status": "ambiguous",
+    "n": 10
+  },
+  "ARIJON|SAN MARTIN / LIMITE MUNICIPAL": {
+    "status": "not_found"
+  },
+  "SAN MARTIN / LIMITE MUNICIPAL|URIBURU": {
+    "status": "not_found"
+  },
+  "LA PAZ|MAIPU": {
+    "status": "ok",
+    "lat": -32.964653507724414,
+    "lon": -60.63987735753883,
+    "x": 5440177.06,
+    "y": 6352955.99
+  },
+  "AVELLANEDA|URIBURU": {
+    "status": "ok",
+    "lat": -32.99196696242107,
+    "lon": -60.68876877780232,
+    "x": 5435625.875,
+    "y": 6349897.8875
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "linea": "K",
+  "puntos": [
+    {
+      "tokens": [
+        "Mendoza",
+        "Wilde"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Mendoza y\nWilde"
+        }
+      ],
+      "id": "pt000",
+      "clave": "MENDOZA||WILDE",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "WILDE",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "WILDE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94027721439682,
+        "lon": -60.73846594912922,
+        "x": 5430940.738,
+        "y": 6355599.172
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Brasil"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Mendoza y\nBrasil"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Mendoza y\nBrasil"
+        }
+      ],
+      "id": "pt001",
+      "clave": "BRASIL||MENDOZA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "BRASIL",
+          "BRASILIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94041947135302,
+        "lon": -60.71955701472375,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Solis"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Mendoza y\nSolis"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Mendoza y\nSolis"
+        }
+      ],
+      "id": "pt002",
+      "clave": "MENDOZA||SOLIS",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "SOLIS",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "SOLIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93999999847819,
+        "lon": -60.70336087875931,
+        "x": 5434223.53,
+        "y": 6355652.380000002
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Mendoza y\nAvellaneda"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AVELLANEDA||MENDOZA",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94420567680412,
+        "lon": -60.68041252049164,
+        "x": 5436372.655,
+        "y": 6355200.035
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Mendoza y\nOv. Lagos"
+        }
+      ],
+      "id": "pt004",
+      "clave": "MENDOZA||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94738393603014,
+        "lon": -60.66274012634298,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Mendoza y\nCorrientes"
+        }
+      ],
+      "id": "pt005",
+      "clave": "CORRIENTES||MENDOZA",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95075233764419,
+        "lon": -60.643635159069824,
+        "x": 5439816.31,
+        "y": 6354495.58
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Alem"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Mendoza y\nAlem"
+        }
+      ],
+      "id": "pt006",
+      "clave": "ALEM||MENDOZA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "ALEM",
+          "ALEMANIA"
+        ]
+      ],
+      "calle1": "MENDOZA",
+      "calle2": "ALEM",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95322297286961,
+        "lon": -60.629604706961715,
+        "x": 5441129.9,
+        "y": 6354229.5
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Berutti",
+        "Riobamba"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Berutti y\nRiobamba"
+        }
+      ],
+      "id": "pt007",
+      "clave": "BERUTTI||RIOBAMBA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "RIOBAMBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966237852704424,
+        "lon": -60.62426098671592,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San juan",
+        "1ro de Mayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "San juan y 1ro de\nMayo"
+        }
+      ],
+      "id": "pt008",
+      "clave": "1RO DE MAYO||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.951779626674735,
+        "lon": -60.630688517375745,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San juan",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "San juan y\nCorrientes"
+        }
+      ],
+      "id": "pt009",
+      "clave": "CORRIENTES||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "calle1": "SAN JUAN",
+      "calle2": "CORRIENTES",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94940376101441,
+        "lon": -60.643295256947376,
+        "x": 5439847.18,
+        "y": 6354645.34
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "San juan",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "San juan y\nOv. Lagos"
+        }
+      ],
+      "id": "pt010",
+      "clave": "OV LAGOS||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94598698101594,
+        "lon": -60.66238557886655,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San juan",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "San juan y\nAvellaneda"
+        }
+      ],
+      "id": "pt011",
+      "clave": "AVELLANEDA||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "calle1": "SAN JUAN",
+      "calle2": "AVELLANEDA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94281168950887,
+        "lon": -60.68006056563482,
+        "x": 5436404.57,
+        "y": 6355354.85
+      },
+      "resuelto_por_convergencia": 1
+    }
+  ]
+}

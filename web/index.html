@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bondiario — Rosario en cámara rápida</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #1a1d24;
+    --panel-border: #2a2e37;
+    --text: #e8eaed;
+    --text-dim: #9aa0a8;
+    --accent: #4f9dff;
+    --ida: #1d5fd6;
+    --vuelta: #d0270f;
+  }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  #map { position: absolute; inset: 0; }
+  .leaflet-container { background: #e8e6e1; }
+
+  #hud {
+    position: absolute;
+    top: 12px; left: 12px;
+    background: rgba(26,29,36,0.9);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--text-dim);
+    z-index: 1000;
+    max-width: 260px;
+  }
+  #hud b { color: var(--text); }
+  #hud .legend { margin-top: 6px; display: flex; gap: 14px; }
+  #hud .legend span { display: inline-flex; align-items: center; gap: 5px; }
+  #hud .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+  #controls {
+    position: absolute;
+    left: 50%; bottom: 18px; transform: translateX(-50%);
+    width: min(720px, calc(100% - 32px));
+    background: rgba(26,29,36,0.95);
+    border: 1px solid var(--panel-border);
+    border-radius: 14px;
+    padding: 12px 18px 14px;
+    z-index: 1000;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  }
+  #controls .row1 { display: flex; align-items: center; gap: 12px; }
+  #playBtn {
+    background: var(--accent); color: #08111f; border: none; border-radius: 50%;
+    width: 40px; height: 40px; font-size: 16px; cursor: pointer; flex: none;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #playBtn:hover { filter: brightness(1.1); }
+  #clock { font-variant-numeric: tabular-nums; font-size: 20px; font-weight: 600; min-width: 68px; }
+  #slider { flex: 1; accent-color: var(--accent); }
+  select, #speedLabel { background: #11141a; color: var(--text); border: 1px solid var(--panel-border); border-radius: 6px; padding: 4px 6px; font-size: 12px; }
+  #controls .row2 { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; font-size: 11px; color: var(--text-dim); }
+  #tripCount { font-size: 11px; color: var(--text-dim); }
+
+  .punto-icon { background: #6b7280; border-radius: 50%; opacity: 0.55; }
+
+  #hud .selectRow { margin-top: 8px; }
+  #hud .selectRow label { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); margin-bottom: 2px; }
+  #hud select { width: 100%; }
+  #hud .avisoVacio { margin-top: 8px; color: var(--vuelta); font-size: 12px; }
+
+  #ecgPanel {
+    position: absolute;
+    top: 12px; right: 12px;
+    background: rgba(26,29,36,0.92);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    z-index: 1000;
+    width: 336px;
+    box-sizing: border-box;
+  }
+  #ecgPanel .titulo { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); margin-bottom: 8px; }
+
+  #infoBanner {
+    position: absolute;
+    left: 12px; bottom: 100px;
+    background: rgba(26,29,36,0.88);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 8px 12px;
+    z-index: 1000;
+    max-width: 300px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--text-dim);
+  }
+  #infoBanner b { color: var(--text); }
+  #infoBanner a { color: var(--accent); text-decoration: none; }
+  #infoBanner a:hover { text-decoration: underline; }
+  .ecgRow { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .ecgRow:last-child { margin-bottom: 0; }
+  .ecgLabel { font-size: 13px; font-weight: 700; width: 46px; flex: none; }
+  .ecgRow canvas { background: #0a0c10; border-radius: 4px; flex: none; width: 180px; height: 40px; }
+  .ecgValor { font-size: 13px; color: var(--text); flex: none; text-align: right; font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div id="hud">
+  <div><b id="lineaTitulo">Línea —</b></div>
+  <div id="diaInfo">—</div>
+  <div class="legend">
+    <span><span class="dot" style="background:var(--ida)"></span>Ida</span>
+    <span><span class="dot" style="background:var(--vuelta)"></span>Vuelta</span>
+  </div>
+  <div id="tripCount" style="margin-top:6px"></div>
+  <div class="selectRow">
+    <label for="lineaSelect">Línea</label>
+    <select id="lineaSelect"></select>
+  </div>
+  <div class="selectRow">
+    <label for="diaSelect">Día</label>
+    <select id="diaSelect"></select>
+  </div>
+  <div id="avisoVacio" class="avisoVacio" style="display:none">No hay cuadro cargado para esta línea en este día.</div>
+</div>
+
+<div id="infoBanner">
+  <div><b>Bondiario</b> — un día de colectivos de Rosario en cámara rápida</div>
+  <div style="margin-top:4px">Datos: <a href="https://emr.gov.ar/transporte-publico/cuadros-horarios" target="_blank">EMR Rosario</a> · Geocodificación: Municipalidad de Rosario + correcciones manuales</div>
+  <div style="margin-top:4px"><a href="https://github.com/egasemi/bondiario" target="_blank">Cómo funciona / código fuente ↗</a></div>
+</div>
+
+<div id="ecgPanel" style="display:none">
+  <div class="titulo">Frecuencia en vivo</div>
+  <div class="ecgRow">
+    <span class="ecgLabel" style="color:var(--ida)">IDA</span>
+    <canvas id="ecgIda" width="180" height="40"></canvas>
+    <span class="ecgValor" id="ecgValorIda">—</span>
+  </div>
+  <div class="ecgRow">
+    <span class="ecgLabel" style="color:var(--vuelta)">VUELTA</span>
+    <canvas id="ecgVuelta" width="180" height="40"></canvas>
+    <span class="ecgValor" id="ecgValorVuelta">—</span>
+  </div>
+</div>
+
+<div id="controls">
+  <div class="row1">
+    <button id="playBtn">▶</button>
+    <div id="clock">00:00</div>
+    <input type="range" id="slider" min="0" max="100" value="0" step="1" />
+    <select id="speed">
+      <option value="30">30x</option>
+      <option value="60">60x</option>
+      <option value="150">150x</option>
+      <option value="300">300x</option>
+      <option value="900">900x</option>
+      <option value="1800" selected>1800x</option>
+      <option value="3600">3600x</option>
+      <option value="7200">7200x</option>
+      <option value="14400">14400x</option>
+    </select>
+  </div>
+  <div class="row2">
+    <span id="rangeStart">--:--</span>
+    <span>velocidad de reproducción</span>
+    <span id="rangeEnd">--:--</span>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+function fmtClock(totalSeconds) {
+  const s = ((totalSeconds % 86400) + 86400) % 86400;
+  const hh = Math.floor(s / 3600);
+  const mm = Math.floor((s % 3600) / 60);
+  return String(hh).padStart(2, "0") + ":" + String(mm).padStart(2, "0");
+}
+
+function lerp(a, b, t) { return a + (b - a) * t; }
+
+/** Frecuencia alrededor de un instante dado: promedia los huecos entre
+ * salidas consecutivas dentro de una ventana centrada en t (por defecto
+ * +/-45 min); si hay muy pocos viajes cerca, usa el hueco entre la salida
+ * anterior y la siguiente a t. */
+function frecuenciaEnMomento(iniciosOrdenados, t, ventana = 2700) {
+  if (!iniciosOrdenados.length) return null;
+  const cercanos = iniciosOrdenados.filter(x => Math.abs(x - t) <= ventana);
+  if (cercanos.length >= 2) {
+    const diffs = [];
+    for (let i = 1; i < cercanos.length; i++) diffs.push(cercanos[i] - cercanos[i - 1]);
+    return diffs.reduce((a, b) => a + b, 0) / diffs.length;
+  }
+  const anterior = [...iniciosOrdenados].reverse().find(x => x <= t);
+  const siguiente = iniciosOrdenados.find(x => x >= t);
+  if (anterior === undefined || siguiente === undefined || anterior === siguiente) return null;
+  return siguiente - anterior;
+}
+
+// --- monitor tipo electrocardiograma: los pulsos se aceleran cuando la
+// frecuencia de servicio es alta y se enlentecen cuando baja; sin servicio
+// cercano queda directamente "muerto" (línea plana). El ritmo se mueve en
+// tiempo real (no en tiempo simulado) para que se perciba como un latido.
+const ECG_MUESTRAS = 140;
+const ECG_FREQ_MIN_SEG = 120;   // headway muy corto -> late lo más rápido posible
+const ECG_FREQ_MAX_SEG = 2400;  // headway muy largo -> late lo más lento
+const ECG_BEAT_MIN_MS = 220;
+const ECG_BEAT_MAX_MS = 1700;
+
+function crearMonitorEcg(canvas) {
+  return { canvas, ctx: canvas.getContext("2d"), buffer: new Array(ECG_MUESTRAS).fill(0), elapsedMs: 0 };
+}
+
+function freqABeatMs(freqSeg) {
+  const t = Math.min(1, Math.max(0, (freqSeg - ECG_FREQ_MIN_SEG) / (ECG_FREQ_MAX_SEG - ECG_FREQ_MIN_SEG)));
+  return ECG_BEAT_MIN_MS + t * (ECG_BEAT_MAX_MS - ECG_BEAT_MIN_MS);
+}
+
+function pulsoEcg(fase) {
+  if (fase < 0.05) return -0.22 * Math.sin((fase / 0.05) * Math.PI);
+  if (fase < 0.10) return 1.0 * Math.sin(((fase - 0.05) / 0.05) * Math.PI);
+  if (fase < 0.17) return -0.38 * Math.sin(((fase - 0.10) / 0.07) * Math.PI);
+  if (fase > 0.35 && fase < 0.55) return 0.16 * Math.sin(((fase - 0.35) / 0.2) * Math.PI);
+  return 0;
+}
+
+function actualizarEcg(monitor, dtMs, freqSeg, color) {
+  let valor = 0;
+  if (freqSeg != null) {
+    const beatMs = freqABeatMs(freqSeg);
+    monitor.elapsedMs = (monitor.elapsedMs + dtMs) % beatMs;
+    valor = pulsoEcg(monitor.elapsedMs / beatMs);
+  } else {
+    monitor.elapsedMs = 0;
+  }
+  monitor.buffer.push(valor);
+  if (monitor.buffer.length > ECG_MUESTRAS) monitor.buffer.shift();
+
+  const { ctx, canvas } = monitor;
+  const w = canvas.width, h = canvas.height, mid = h / 2;
+  ctx.clearRect(0, 0, w, h);
+  ctx.beginPath();
+  ctx.strokeStyle = freqSeg == null ? "#4a4f58" : color;
+  ctx.lineWidth = 1.6;
+  const stepX = w / (ECG_MUESTRAS - 1);
+  monitor.buffer.forEach((v, i) => {
+    const x = i * stepX;
+    const y = mid - v * (h * 0.42);
+    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+}
+
+const map = L.map("map", { zoomControl: true }).setView([-32.9468, -60.6393], 13);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+let capasCuadro = [];
+let animFrameHandle = null;
+
+function limpiarCapas() {
+  for (const l of capasCuadro) map.removeLayer(l);
+  capasCuadro = [];
+}
+
+async function fetchCuadro(archivo) {
+  const res = await fetch(`../data/${archivo}`);
+  return res.json();
+}
+
+/** Combina varios cuadros (una línea por archivo) en una sola estructura,
+ * asignando un prefijo por archivo a los ids de punto para que no choquen
+ * entre líneas distintas. */
+function combinarCuadros(datas) {
+  const puntos = {};
+  const viajes = [];
+  for (const [idx, data] of datas.entries()) {
+    const prefijo = `L${idx}_`;
+    for (const [pid, p] of Object.entries(data.puntos)) {
+      puntos[prefijo + pid] = p;
+    }
+    for (const v of data.viajes) {
+      viajes.push({
+        ...v,
+        linea: data.linea,
+        bandera: data.bandera,
+        paradas: v.paradas.map(p => ({ t: p.t, punto: prefijo + p.punto })),
+      });
+    }
+  }
+  return { puntos, viajes };
+}
+
+async function cargarCuadro(archivos) {
+  limpiarCapas();
+  const lista = Array.isArray(archivos) ? archivos : [archivos];
+  const combinado = lista.length > 1;
+  const datas = await Promise.all(lista.map(fetchCuadro));
+  const data = combinado ? combinarCuadros(datas) : datas[0];
+
+  if (combinado) {
+    document.getElementById("lineaTitulo").textContent = `Todas las líneas (${datas.length})`;
+    document.getElementById("diaInfo").textContent = `Día: ${datas[0].dia || "—"}`;
+  } else {
+    document.getElementById("lineaTitulo").textContent = `Línea ${data.linea} — ${data.bandera || ""}`;
+    document.getElementById("diaInfo").textContent = `Día: ${data.dia || "—"}`;
+  }
+  document.getElementById("tripCount").textContent = `${data.viajes.length} viajes programados`;
+
+  document.getElementById("ecgPanel").style.display = combinado ? "none" : "block";
+  const ecgIda = combinado ? null : crearMonitorEcg(document.getElementById("ecgIda"));
+  const ecgVuelta = combinado ? null : crearMonitorEcg(document.getElementById("ecgVuelta"));
+
+  const puntos = data.puntos;
+  const coordsArr = Object.values(puntos).map(p => [p.lat, p.lon]);
+  map.fitBounds(coordsArr, { padding: [40, 40] });
+
+  // en modo "todas las líneas" se omiten puntos de referencia y polylines de
+  // recorrido (serían miles de elementos y no aportan a la lectura general)
+  if (!combinado) {
+    // puntos de referencia (sutil, de contexto)
+    for (const [id, p] of Object.entries(puntos)) {
+      const c = L.circleMarker([p.lat, p.lon], {
+        radius: 3.5, color: "#ffffff", weight: 1.5, fillColor: "#42474f", fillOpacity: 0.85,
+      }).bindTooltip(p.label, { direction: "top", opacity: 0.9 });
+      if (p.clave) {
+        const url = `panel.html?clave=${encodeURIComponent(p.clave)}`;
+        c.bindPopup(`<div style="font-size:12px"><b>${p.label}</b><br><a href="${url}" target="_blank">✎ Corregir esta parada</a></div>`);
+      }
+      c.addTo(map);
+      capasCuadro.push(c);
+    }
+
+    // trazar recorrido de referencia (línea marcada) usando el viaje más largo de cada sentido
+    for (const sentido of ["ida", "vuelta"]) {
+      const viajesSentido = data.viajes.filter(v => v.sentido === sentido);
+      if (!viajesSentido.length) continue;
+      const masLargo = viajesSentido.reduce((a, b) => (b.paradas.length > a.paradas.length ? b : a));
+      const latlngs = masLargo.paradas.map(p => [puntos[p.punto].lat, puntos[p.punto].lon]);
+      const pl = L.polyline(latlngs, {
+        color: sentido === "ida" ? "#1d5fd6" : "#d0270f",
+        weight: 3, opacity: 0.55,
+      }).addTo(map);
+      capasCuadro.push(pl);
+    }
+  }
+
+  // marcadores animados, uno por viaje
+  let tMax = 86400; // el reloj siempre recorre las 24hs completas del día
+  const tMin = 0;
+  const radioMarcador = combinado ? 4 : 6;
+  const viajes = data.viajes.map(v => {
+    const paradas = v.paradas.map(p => ({ t: p.t, lat: puntos[p.punto].lat, lon: puntos[p.punto].lon }));
+    tMax = Math.max(tMax, paradas[paradas.length - 1].t);
+    const color = v.sentido === "ida" ? "#1d5fd6" : "#d0270f";
+    const etiqueta = combinado ? `Línea ${v.linea} ${v.bandera || ""} — ${v.servicio} (${v.sentido})` : `${v.servicio} (${v.sentido})`;
+    const marker = L.circleMarker([paradas[0].lat, paradas[0].lon], {
+      radius: radioMarcador, color: "#1a1d24", weight: 1.5, fillColor: color, fillOpacity: 1,
+    }).bindTooltip(etiqueta, { direction: "top" });
+    capasCuadro.push(marker);
+    return { ...v, paradas, marker, visible: false };
+  });
+
+  const iniciosPorSentido = { ida: [], vuelta: [] };
+  if (!combinado) {
+    for (const sentido of ["ida", "vuelta"]) {
+      iniciosPorSentido[sentido] = viajes
+        .filter(v => v.sentido === sentido)
+        .map(v => v.paradas[0].t)
+        .sort((a, b) => a - b);
+    }
+  }
+
+  const slider = document.getElementById("slider");
+  slider.min = tMin;
+  slider.max = tMax;
+  document.getElementById("rangeStart").textContent = fmtClock(tMin);
+  document.getElementById("rangeEnd").textContent = fmtClock(tMax);
+
+  let tCurrent = tMin;
+  let playing = false;
+  let speed = parseInt(document.getElementById("speed").value, 10);
+  let lastFrameMs = null;
+
+  function posicionEnT(paradas, t) {
+    if (t < paradas[0].t || t > paradas[paradas.length - 1].t) return null;
+    for (let i = 0; i < paradas.length - 1; i++) {
+      const a = paradas[i], b = paradas[i + 1];
+      if (t >= a.t && t <= b.t) {
+        const span = b.t - a.t;
+        const frac = span > 0 ? (t - a.t) / span : 0;
+        return [lerp(a.lat, b.lat, frac), lerp(a.lon, b.lon, frac)];
+      }
+    }
+    return null;
+  }
+
+  function render() {
+    document.getElementById("clock").textContent = fmtClock(tCurrent);
+    slider.value = tCurrent;
+    let activos = 0;
+    for (const v of viajes) {
+      const pos = posicionEnT(v.paradas, tCurrent);
+      if (pos) {
+        if (!v.visible) { v.marker.addTo(map); v.visible = true; }
+        v.marker.setLatLng(pos);
+        activos++;
+      } else if (v.visible) {
+        v.marker.remove();
+        v.visible = false;
+      }
+    }
+    document.getElementById("tripCount").textContent = `${activos} en circulación / ${viajes.length} viajes totales`;
+  }
+
+  let lastFrameMsEcg = null;
+  if (animFrameHandle) cancelAnimationFrame(animFrameHandle);
+  function tick(nowMs) {
+    if (playing) {
+      if (lastFrameMs !== null) {
+        const dt = (nowMs - lastFrameMs) / 1000;
+        tCurrent += dt * speed;
+        if (tCurrent > tMax) tCurrent = tMin;
+      }
+      lastFrameMs = nowMs;
+      render();
+    } else {
+      lastFrameMs = null;
+    }
+
+    if (!combinado) {
+      const dtMsReal = lastFrameMsEcg !== null ? Math.min(nowMs - lastFrameMsEcg, 200) : 16;
+      lastFrameMsEcg = nowMs;
+      const freqIda = frecuenciaEnMomento(iniciosPorSentido.ida, tCurrent);
+      const freqVuelta = frecuenciaEnMomento(iniciosPorSentido.vuelta, tCurrent);
+      actualizarEcg(ecgIda, dtMsReal, freqIda, "#4f9dff");
+      actualizarEcg(ecgVuelta, dtMsReal, freqVuelta, "#ff6b6b");
+      document.getElementById("ecgValorIda").textContent = freqIda == null ? "sin servicio" : `~${Math.round(freqIda / 60)} min`;
+      document.getElementById("ecgValorVuelta").textContent = freqVuelta == null ? "sin servicio" : `~${Math.round(freqVuelta / 60)} min`;
+    }
+
+    animFrameHandle = requestAnimationFrame(tick);
+  }
+  animFrameHandle = requestAnimationFrame(tick);
+
+  const playBtn = document.getElementById("playBtn");
+  playBtn.onclick = () => {
+    playing = !playing;
+    playBtn.textContent = playing ? "❚❚" : "▶";
+  };
+  slider.oninput = () => {
+    tCurrent = parseFloat(slider.value);
+    render();
+  };
+  document.getElementById("speed").onchange = (e) => {
+    speed = parseInt(e.target.value, 10);
+  };
+
+  render();
+}
+
+function mostrarAviso(mostrar) {
+  document.getElementById("avisoVacio").style.display = mostrar ? "block" : "none";
+}
+
+async function main() {
+  const res = await fetch("../data/manifest.json");
+  const manifest = await res.json();
+
+  const lineaSelect = document.getElementById("lineaSelect");
+  const diaSelect = document.getElementById("diaSelect");
+
+  // "línea" es independiente del día: una entrada por combinación línea+bandera,
+  // más la opción especial "todas juntas"
+  const lineaKey = (e) => `${e.linea} ${e.bandera || ""}`;
+  const TODAS = "__TODAS__";
+  const lineas = [...new Map(manifest.map(e => [lineaKey(e), e])).values()];
+  lineaSelect.innerHTML = "";
+  const optTodas = document.createElement("option");
+  optTodas.value = TODAS;
+  optTodas.textContent = "Todas las líneas";
+  lineaSelect.appendChild(optTodas);
+  for (const e of lineas) {
+    const opt = document.createElement("option");
+    opt.value = lineaKey(e);
+    opt.textContent = `Línea ${e.linea} ${e.bandera || ""}`;
+    lineaSelect.appendChild(opt);
+  }
+
+  // "día" es GLOBAL: aplica a todas las líneas por igual (Normal, Domingos y feriados, ...)
+  const dias = [...new Set(manifest.map(e => e.dia).filter(Boolean))];
+  diaSelect.innerHTML = "";
+  for (const d of dias) {
+    const opt = document.createElement("option");
+    opt.value = d;
+    opt.textContent = d;
+    diaSelect.appendChild(opt);
+  }
+  if (dias.includes("Día hábil")) diaSelect.value = "Día hábil";
+
+  async function actualizar() {
+    if (lineaSelect.value === TODAS) {
+      const entries = manifest.filter(e => e.dia === diaSelect.value);
+      if (!entries.length) {
+        limpiarCapas();
+        mostrarAviso(true);
+        return;
+      }
+      mostrarAviso(false);
+      await cargarCuadro(entries.map(e => e.archivo));
+      return;
+    }
+    const entry = manifest.find(e => lineaKey(e) === lineaSelect.value && e.dia === diaSelect.value);
+    if (!entry) {
+      limpiarCapas();
+      mostrarAviso(true);
+      return;
+    }
+    mostrarAviso(false);
+    await cargarCuadro(entry.archivo);
+  }
+
+  lineaSelect.onchange = actualizar;
+  diaSelect.onchange = actualizar;
+
+  if (lineas.length) await actualizar();
+}
+
+main().catch(err => {
+  document.getElementById("hud").innerHTML = `<b style="color:#ff6b6b">Error cargando datos</b><br>${err}`;
+  console.error(err);
+});
+</script>
+</body>
+</html>

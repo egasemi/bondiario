@@ -1,0 +1,269 @@
+{
+  "linea": "113",
+  "puntos": [
+    {
+      "tokens": [
+        "Grandoli",
+        "Gutierrez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Grandoli y\nGutierrez"
+        }
+      ],
+      "id": "pt000",
+      "clave": "GRANDOLI||GUTIERREZ",
+      "status": "auto",
+      "calle1": "GRANDOLI",
+      "calle2": "GUTIERREZ",
+      "candidatos": [
+        [
+          "GRANDOLI"
+        ],
+        [
+          "GUTIERREZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9933866384016,
+        "lon": -60.628663592001,
+        "x": 5441244.5,
+        "y": 6349775.605
+      }
+    },
+    {
+      "tokens": [
+        "Uriburu",
+        "1 de Mayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Uriburu y 1\nde Mayo"
+        }
+      ],
+      "id": "pt001",
+      "clave": "1 DE MAYO||URIBURU",
+      "status": "auto",
+      "calle1": "URIBURU",
+      "calle2": "1 DE MAYO",
+      "candidatos": [
+        [
+          "URIBURU"
+        ],
+        [
+          "1 DE MAYO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.990465657459076,
+        "lon": -60.64040410616673,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "S.Martin",
+        "D.Funes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "S.Martin y\nD.Funes"
+        }
+      ],
+      "id": "pt002",
+      "clave": "DFUNES||SMARTIN",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "DEAN FUNES",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "DEAN FUNES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97589911861443,
+        "lon": -60.64401809575532,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Virasoro",
+        "Mitre"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Virasoro y\nMitre"
+        }
+      ],
+      "id": "pt003",
+      "clave": "MITRE||VIRASORO",
+      "status": "auto",
+      "calle1": "VIRASORO",
+      "calle2": "MITRE",
+      "candidatos": [
+        [
+          "VIRASORO"
+        ],
+        [
+          "MITRE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96964403749835,
+        "lon": -60.645444016856935,
+        "x": 5439660.01,
+        "y": 6352399.33
+      }
+    },
+    {
+      "tokens": [
+        "27 de Febrero",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "27 de\nFebrero y\nOroño"
+        }
+      ],
+      "id": "pt004",
+      "clave": "27 DE FEBRERO||OROÑO",
+      "status": "auto",
+      "calle1": "27 DE FEBRERO",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "27 DE FEBRERO"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96488076308899,
+        "lon": -60.65864329721942,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "27 de Febrero",
+        "Francia"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "27 de\nFebrero y\nFrancia"
+        }
+      ],
+      "id": "pt005",
+      "clave": "27 DE FEBRERO||FRANCIA",
+      "status": "auto",
+      "calle1": "27 DE FEBRERO",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "27 DE FEBRERO"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.962699269258785,
+        "lon": -60.670854862889456,
+        "x": 5437279.5,
+        "y": 6353154.7025
+      }
+    },
+    {
+      "tokens": [
+        "Iriondo",
+        "Pte.Peron"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Iriondo y\nPte.Peron"
+        }
+      ],
+      "id": "pt006",
+      "clave": "IRIONDO||PTEPERON",
+      "status": "auto",
+      "candidatos": [
+        [
+          "IRIONDO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95641283504724,
+        "lon": -60.673537951169145,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Iriondo",
+        "S.Juan"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Iriondo y\nS.Juan"
+        }
+      ],
+      "id": "pt007",
+      "clave": "IRIONDO||SJUAN",
+      "status": "auto",
+      "calle1": "IRIONDO",
+      "calle2": "SAN JUAN",
+      "candidatos": [
+        [
+          "IRIONDO"
+        ],
+        [
+          "SAN JUAN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94452356548902,
+        "lon": -60.67053727163922,
+        "x": 5437296.36,
+        "y": 6355170.7
+      }
+    }
+  ]
+}

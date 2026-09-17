@@ -1,0 +1,1307 @@
+{
+  "linea": "Enlace Avellaneda Oeste",
+  "bandera": "UNICO",
+  "dia": "Domingos y feriados",
+  "puntos": {
+    "pt000": {
+      "lat": -32.94830148755258,
+      "lon": -60.701930043673634,
+      "label": "Rouillon - Pellegrini",
+      "clave": "PELLEGRINI||ROUILLON"
+    },
+    "pt001": {
+      "lat": -32.96289535871648,
+      "lon": -60.70136613562453,
+      "label": "Pte. Peron - Rouillon",
+      "clave": "PTE PERON||ROUILLON"
+    },
+    "pt002": {
+      "lat": -32.970732056706886,
+      "lon": -60.701061999345164,
+      "label": "Roullion - Segui Ida",
+      "clave": "ROULLION||SEGUI IDA"
+    },
+    "pt003": {
+      "lat": -32.97863649264409,
+      "lon": -60.700755843580566,
+      "label": "Roullion - Cisneros Ida",
+      "clave": "CISNEROS IDA||ROULLION"
+    },
+    "pt004": {
+      "lat": -32.980935117345034,
+      "lon": -60.69315532005357,
+      "label": "Matienzo - Aborigenes",
+      "clave": "ABORIGENES||MATIENZO"
+    },
+    "pt005": {
+      "lat": -32.97863649264409,
+      "lon": -60.700755843580566,
+      "label": "Cisneros - Roullion Vta.",
+      "clave": "CISNEROS||ROULLION VTA"
+    },
+    "pt006": {
+      "lat": -32.970732056706886,
+      "lon": -60.701061999345164,
+      "label": "Roullion - Segui Vta.",
+      "clave": "ROULLION||SEGUI VTA"
+    },
+    "pt007": {
+      "lat": -32.959080574480865,
+      "lon": -60.701513806303986,
+      "label": "Roullion - 27 de Febrero",
+      "clave": "27 DE FEBRERO||ROULLION"
+    }
+  },
+  "viajes": [
+    {
+      "id": "Discap 01__0",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 22740,
+          "punto": "pt000"
+        },
+        {
+          "t": 23040,
+          "punto": "pt001"
+        },
+        {
+          "t": 23220,
+          "punto": "pt002"
+        },
+        {
+          "t": 23400,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__1",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 25080,
+          "punto": "pt000"
+        },
+        {
+          "t": 25380,
+          "punto": "pt001"
+        },
+        {
+          "t": 25560,
+          "punto": "pt002"
+        },
+        {
+          "t": 25740,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__2",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 26940,
+          "punto": "pt000"
+        },
+        {
+          "t": 27240,
+          "punto": "pt001"
+        },
+        {
+          "t": 27420,
+          "punto": "pt002"
+        },
+        {
+          "t": 27600,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__3",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 29280,
+          "punto": "pt000"
+        },
+        {
+          "t": 29580,
+          "punto": "pt001"
+        },
+        {
+          "t": 29760,
+          "punto": "pt002"
+        },
+        {
+          "t": 29940,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__4",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 31140,
+          "punto": "pt000"
+        },
+        {
+          "t": 31440,
+          "punto": "pt001"
+        },
+        {
+          "t": 31620,
+          "punto": "pt002"
+        },
+        {
+          "t": 31800,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__5",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 33480,
+          "punto": "pt000"
+        },
+        {
+          "t": 33780,
+          "punto": "pt001"
+        },
+        {
+          "t": 33960,
+          "punto": "pt002"
+        },
+        {
+          "t": 34140,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__6",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 35340,
+          "punto": "pt000"
+        },
+        {
+          "t": 35640,
+          "punto": "pt001"
+        },
+        {
+          "t": 35820,
+          "punto": "pt002"
+        },
+        {
+          "t": 36000,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__7",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 37680,
+          "punto": "pt000"
+        },
+        {
+          "t": 37980,
+          "punto": "pt001"
+        },
+        {
+          "t": 38160,
+          "punto": "pt002"
+        },
+        {
+          "t": 38340,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__8",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 39540,
+          "punto": "pt000"
+        },
+        {
+          "t": 39840,
+          "punto": "pt001"
+        },
+        {
+          "t": 40020,
+          "punto": "pt002"
+        },
+        {
+          "t": 40200,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__9",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 41880,
+          "punto": "pt000"
+        },
+        {
+          "t": 42180,
+          "punto": "pt001"
+        },
+        {
+          "t": 42360,
+          "punto": "pt002"
+        },
+        {
+          "t": 42540,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__10",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 43740,
+          "punto": "pt000"
+        },
+        {
+          "t": 44040,
+          "punto": "pt001"
+        },
+        {
+          "t": 44220,
+          "punto": "pt002"
+        },
+        {
+          "t": 44400,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__11",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 46080,
+          "punto": "pt000"
+        },
+        {
+          "t": 46380,
+          "punto": "pt001"
+        },
+        {
+          "t": 46560,
+          "punto": "pt002"
+        },
+        {
+          "t": 46740,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__12",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 47940,
+          "punto": "pt000"
+        },
+        {
+          "t": 48240,
+          "punto": "pt001"
+        },
+        {
+          "t": 48420,
+          "punto": "pt002"
+        },
+        {
+          "t": 48600,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__13",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 50280,
+          "punto": "pt000"
+        },
+        {
+          "t": 50580,
+          "punto": "pt001"
+        },
+        {
+          "t": 50760,
+          "punto": "pt002"
+        },
+        {
+          "t": 50940,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__14",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 52140,
+          "punto": "pt000"
+        },
+        {
+          "t": 52440,
+          "punto": "pt001"
+        },
+        {
+          "t": 52620,
+          "punto": "pt002"
+        },
+        {
+          "t": 52800,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__15",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 54480,
+          "punto": "pt000"
+        },
+        {
+          "t": 54780,
+          "punto": "pt001"
+        },
+        {
+          "t": 54960,
+          "punto": "pt002"
+        },
+        {
+          "t": 55140,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__16",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 56340,
+          "punto": "pt000"
+        },
+        {
+          "t": 56640,
+          "punto": "pt001"
+        },
+        {
+          "t": 56820,
+          "punto": "pt002"
+        },
+        {
+          "t": 57000,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__17",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 58680,
+          "punto": "pt000"
+        },
+        {
+          "t": 58980,
+          "punto": "pt001"
+        },
+        {
+          "t": 59160,
+          "punto": "pt002"
+        },
+        {
+          "t": 59340,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__18",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 60540,
+          "punto": "pt000"
+        },
+        {
+          "t": 60840,
+          "punto": "pt001"
+        },
+        {
+          "t": 61020,
+          "punto": "pt002"
+        },
+        {
+          "t": 61200,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__19",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 62880,
+          "punto": "pt000"
+        },
+        {
+          "t": 63180,
+          "punto": "pt001"
+        },
+        {
+          "t": 63360,
+          "punto": "pt002"
+        },
+        {
+          "t": 63540,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__20",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 64740,
+          "punto": "pt000"
+        },
+        {
+          "t": 65040,
+          "punto": "pt001"
+        },
+        {
+          "t": 65220,
+          "punto": "pt002"
+        },
+        {
+          "t": 65400,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__21",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 67080,
+          "punto": "pt000"
+        },
+        {
+          "t": 67380,
+          "punto": "pt001"
+        },
+        {
+          "t": 67560,
+          "punto": "pt002"
+        },
+        {
+          "t": 67740,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__22",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 68940,
+          "punto": "pt000"
+        },
+        {
+          "t": 69240,
+          "punto": "pt001"
+        },
+        {
+          "t": 69420,
+          "punto": "pt002"
+        },
+        {
+          "t": 69600,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__23",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 71280,
+          "punto": "pt000"
+        },
+        {
+          "t": 71580,
+          "punto": "pt001"
+        },
+        {
+          "t": 71760,
+          "punto": "pt002"
+        },
+        {
+          "t": 71940,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__24",
+      "sentido": "ida",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 73140,
+          "punto": "pt000"
+        },
+        {
+          "t": 73440,
+          "punto": "pt001"
+        },
+        {
+          "t": 73620,
+          "punto": "pt002"
+        },
+        {
+          "t": 73800,
+          "punto": "pt003"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__25",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 23580,
+          "punto": "pt004"
+        },
+        {
+          "t": 23760,
+          "punto": "pt005"
+        },
+        {
+          "t": 23940,
+          "punto": "pt006"
+        },
+        {
+          "t": 24300,
+          "punto": "pt007"
+        },
+        {
+          "t": 24600,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__26",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 25920,
+          "punto": "pt004"
+        },
+        {
+          "t": 26100,
+          "punto": "pt005"
+        },
+        {
+          "t": 26280,
+          "punto": "pt006"
+        },
+        {
+          "t": 26640,
+          "punto": "pt007"
+        },
+        {
+          "t": 26940,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__27",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 27780,
+          "punto": "pt004"
+        },
+        {
+          "t": 27960,
+          "punto": "pt005"
+        },
+        {
+          "t": 28140,
+          "punto": "pt006"
+        },
+        {
+          "t": 28500,
+          "punto": "pt007"
+        },
+        {
+          "t": 28800,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__28",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 30120,
+          "punto": "pt004"
+        },
+        {
+          "t": 30300,
+          "punto": "pt005"
+        },
+        {
+          "t": 30480,
+          "punto": "pt006"
+        },
+        {
+          "t": 30840,
+          "punto": "pt007"
+        },
+        {
+          "t": 31140,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__29",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 31980,
+          "punto": "pt004"
+        },
+        {
+          "t": 32160,
+          "punto": "pt005"
+        },
+        {
+          "t": 32340,
+          "punto": "pt006"
+        },
+        {
+          "t": 32700,
+          "punto": "pt007"
+        },
+        {
+          "t": 33000,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__30",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 34320,
+          "punto": "pt004"
+        },
+        {
+          "t": 34500,
+          "punto": "pt005"
+        },
+        {
+          "t": 34680,
+          "punto": "pt006"
+        },
+        {
+          "t": 35040,
+          "punto": "pt007"
+        },
+        {
+          "t": 35340,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__31",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 36180,
+          "punto": "pt004"
+        },
+        {
+          "t": 36360,
+          "punto": "pt005"
+        },
+        {
+          "t": 36540,
+          "punto": "pt006"
+        },
+        {
+          "t": 36900,
+          "punto": "pt007"
+        },
+        {
+          "t": 37200,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__32",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 38520,
+          "punto": "pt004"
+        },
+        {
+          "t": 38700,
+          "punto": "pt005"
+        },
+        {
+          "t": 38880,
+          "punto": "pt006"
+        },
+        {
+          "t": 39240,
+          "punto": "pt007"
+        },
+        {
+          "t": 39540,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__33",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 40380,
+          "punto": "pt004"
+        },
+        {
+          "t": 40560,
+          "punto": "pt005"
+        },
+        {
+          "t": 40740,
+          "punto": "pt006"
+        },
+        {
+          "t": 41100,
+          "punto": "pt007"
+        },
+        {
+          "t": 41400,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__34",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 42720,
+          "punto": "pt004"
+        },
+        {
+          "t": 42900,
+          "punto": "pt005"
+        },
+        {
+          "t": 43080,
+          "punto": "pt006"
+        },
+        {
+          "t": 43440,
+          "punto": "pt007"
+        },
+        {
+          "t": 43740,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__35",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 44580,
+          "punto": "pt004"
+        },
+        {
+          "t": 44760,
+          "punto": "pt005"
+        },
+        {
+          "t": 44940,
+          "punto": "pt006"
+        },
+        {
+          "t": 45300,
+          "punto": "pt007"
+        },
+        {
+          "t": 45600,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__36",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 46920,
+          "punto": "pt004"
+        },
+        {
+          "t": 47100,
+          "punto": "pt005"
+        },
+        {
+          "t": 47280,
+          "punto": "pt006"
+        },
+        {
+          "t": 47640,
+          "punto": "pt007"
+        },
+        {
+          "t": 47940,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__37",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 48780,
+          "punto": "pt004"
+        },
+        {
+          "t": 48960,
+          "punto": "pt005"
+        },
+        {
+          "t": 49140,
+          "punto": "pt006"
+        },
+        {
+          "t": 49500,
+          "punto": "pt007"
+        },
+        {
+          "t": 49800,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__38",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 51120,
+          "punto": "pt004"
+        },
+        {
+          "t": 51300,
+          "punto": "pt005"
+        },
+        {
+          "t": 51480,
+          "punto": "pt006"
+        },
+        {
+          "t": 51840,
+          "punto": "pt007"
+        },
+        {
+          "t": 52140,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__39",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 52980,
+          "punto": "pt004"
+        },
+        {
+          "t": 53160,
+          "punto": "pt005"
+        },
+        {
+          "t": 53340,
+          "punto": "pt006"
+        },
+        {
+          "t": 53700,
+          "punto": "pt007"
+        },
+        {
+          "t": 54000,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__40",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 55320,
+          "punto": "pt004"
+        },
+        {
+          "t": 55500,
+          "punto": "pt005"
+        },
+        {
+          "t": 55680,
+          "punto": "pt006"
+        },
+        {
+          "t": 56040,
+          "punto": "pt007"
+        },
+        {
+          "t": 56340,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__41",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 57180,
+          "punto": "pt004"
+        },
+        {
+          "t": 57360,
+          "punto": "pt005"
+        },
+        {
+          "t": 57540,
+          "punto": "pt006"
+        },
+        {
+          "t": 57900,
+          "punto": "pt007"
+        },
+        {
+          "t": 58200,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__42",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 59520,
+          "punto": "pt004"
+        },
+        {
+          "t": 59700,
+          "punto": "pt005"
+        },
+        {
+          "t": 59880,
+          "punto": "pt006"
+        },
+        {
+          "t": 60240,
+          "punto": "pt007"
+        },
+        {
+          "t": 60540,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__43",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 61380,
+          "punto": "pt004"
+        },
+        {
+          "t": 61560,
+          "punto": "pt005"
+        },
+        {
+          "t": 61740,
+          "punto": "pt006"
+        },
+        {
+          "t": 62100,
+          "punto": "pt007"
+        },
+        {
+          "t": 62400,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__44",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 63720,
+          "punto": "pt004"
+        },
+        {
+          "t": 63900,
+          "punto": "pt005"
+        },
+        {
+          "t": 64080,
+          "punto": "pt006"
+        },
+        {
+          "t": 64440,
+          "punto": "pt007"
+        },
+        {
+          "t": 64740,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__45",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 65580,
+          "punto": "pt004"
+        },
+        {
+          "t": 65760,
+          "punto": "pt005"
+        },
+        {
+          "t": 65940,
+          "punto": "pt006"
+        },
+        {
+          "t": 66300,
+          "punto": "pt007"
+        },
+        {
+          "t": 66600,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__46",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 67920,
+          "punto": "pt004"
+        },
+        {
+          "t": 68100,
+          "punto": "pt005"
+        },
+        {
+          "t": 68280,
+          "punto": "pt006"
+        },
+        {
+          "t": 68640,
+          "punto": "pt007"
+        },
+        {
+          "t": 68940,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__47",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 69780,
+          "punto": "pt004"
+        },
+        {
+          "t": 69960,
+          "punto": "pt005"
+        },
+        {
+          "t": 70140,
+          "punto": "pt006"
+        },
+        {
+          "t": 70500,
+          "punto": "pt007"
+        },
+        {
+          "t": 70800,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__48",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 72120,
+          "punto": "pt004"
+        },
+        {
+          "t": 72300,
+          "punto": "pt005"
+        },
+        {
+          "t": 72480,
+          "punto": "pt006"
+        },
+        {
+          "t": 72840,
+          "punto": "pt007"
+        },
+        {
+          "t": 73140,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "Discap 01__49",
+      "sentido": "vuelta",
+      "servicio": "Discap 01",
+      "paradas": [
+        {
+          "t": 73980,
+          "punto": "pt004"
+        },
+        {
+          "t": 74160,
+          "punto": "pt005"
+        },
+        {
+          "t": 74340,
+          "punto": "pt006"
+        },
+        {
+          "t": 74700,
+          "punto": "pt007"
+        },
+        {
+          "t": 75000,
+          "punto": "pt000"
+        }
+      ]
+    }
+  ]
+}

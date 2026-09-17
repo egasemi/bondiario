@@ -1,0 +1,710 @@
+{
+  "linea": "115",
+  "puntos": [
+    {
+      "tokens": [
+        "Aeropuerto"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Aeropuerto"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "FIN",
+          "label_raw": "Aeropuerto"
+        }
+      ],
+      "id": "pt000",
+      "clave": "unparsed::Aeropuerto",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91915122132608,
+        "lon": -60.78074455261231,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Tarragona",
+        "Schweitzer"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Tarragona y\nSchweitzer"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Tarragona y\nSchweitzer"
+        }
+      ],
+      "id": "pt001",
+      "clave": "SCHWEITZER||TARRAGONA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "TARRAGONA"
+        ],
+        [
+          "SCHWEITZER",
+          "SCHWEITZER-",
+          "SCHWEITZER -"
+        ]
+      ],
+      "calle1": "TARRAGONA",
+      "calle2": "SCHWEITZER",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91375262677817,
+        "lon": -60.735228196066906,
+        "x": 5431223.01,
+        "y": 6358543.05
+      },
+      "resuelto_por_convergencia": 3
+    },
+    {
+      "tokens": [
+        "Donado",
+        "J.J. Paso"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Donado y J.J.\nPaso"
+        }
+      ],
+      "id": "pt002",
+      "clave": "DONADO||JJ PASO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "DONADO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92064467213504,
+        "lon": -60.72774914966584,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Donado",
+        "Eva Perón"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Donado y Eva\nPerón"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Eva Perón y\nDonado"
+        }
+      ],
+      "id": "pt003",
+      "clave": "DONADO||EVA PERÓN",
+      "status": "auto",
+      "calle1": "DONADO",
+      "calle2": "EVA PERON",
+      "candidatos": [
+        [
+          "DONADO"
+        ],
+        [
+          "EVA PERON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93040232772852,
+        "lon": -60.72736880804071,
+        "x": 5431970.975,
+        "y": 6356701.585
+      }
+    },
+    {
+      "tokens": [
+        "Eva Perón",
+        "Cullen"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Eva Perón y\nCullen"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Eva Perón y\nCullen"
+        }
+      ],
+      "id": "pt004",
+      "clave": "CULLEN||EVA PERÓN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "EVA PERON"
+        ],
+        [
+          "CULLEN",
+          "CULLEN Y UGARTE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93362705083023,
+        "lon": -60.70944305693824,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Eva Perón",
+        "Paraná"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Eva Perón y\nParaná"
+        }
+      ],
+      "id": "pt005",
+      "clave": "EVA PERÓN||PARANÁ",
+      "status": "auto",
+      "calle1": "EVA PERON",
+      "calle2": "PARANA",
+      "candidatos": [
+        [
+          "EVA PERON"
+        ],
+        [
+          "PARANA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.936883591125536,
+        "lon": -60.69135760094534,
+        "x": 5435343.8,
+        "y": 6356005.44
+      }
+    },
+    {
+      "tokens": [
+        "Córdoba",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Córdoba y\nCafferata"
+        }
+      ],
+      "id": "pt006",
+      "clave": "CAFFERATA||CÓRDOBA",
+      "status": "auto",
+      "calle1": "CORDOBA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94054267909362,
+        "lon": -60.670951201305705,
+        "x": 5437254.84,
+        "y": 6355611.96
+      }
+    },
+    {
+      "tokens": [
+        "Córdoba",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Córdoba y\nOv. Lagos"
+        }
+      ],
+      "id": "pt007",
+      "clave": "CÓRDOBA||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.942250654435604,
+        "lon": -60.66143745490974,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San Luis",
+        "Moreno"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "San Luis y\nMoreno"
+        }
+      ],
+      "id": "pt008",
+      "clave": "MORENO||SAN LUIS",
+      "status": "auto",
+      "calle1": "SAN LUIS",
+      "calle2": "MORENO",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        [
+          "MORENO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94680730327827,
+        "lon": -60.65123844923559,
+        "x": 5439102.64,
+        "y": 6354928.74
+      }
+    },
+    {
+      "tokens": [
+        "San Luis",
+        "Entre Ríos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "San Luis y\nEntre Ríos"
+        }
+      ],
+      "id": "pt009",
+      "clave": "ENTRE RÍOS||SAN LUIS",
+      "status": "auto",
+      "calle1": "SAN LUIS",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94853698601894,
+        "lon": -60.64161354044975,
+        "x": 5440003.85,
+        "y": 6354742.43
+      }
+    },
+    {
+      "tokens": [
+        "San Luis",
+        "1º Mayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "San Luis y 1º\nMayo"
+        }
+      ],
+      "id": "pt010",
+      "clave": "1º MAYO||SAN LUIS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95052808651528,
+        "lon": -60.63040938419133,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Colón",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Colón y\nPellegrini"
+        }
+      ],
+      "id": "pt011",
+      "clave": "COLÓN||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "COLON",
+          "COLON NORTE"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "calle1": "COLON",
+      "calle2": "PELLEGRINI",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959535438413695,
+        "lon": -60.628282972146074,
+        "x": 5441257.665,
+        "y": 6353530.145
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "Ciudad Universitaria"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "FIN",
+          "label_raw": "Ciudad\nUniversitaria"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Ciudad\nUniversitaria"
+        }
+      ],
+      "id": "pt012",
+      "clave": "unparsed::Ciudad Universitaria",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966263589565266,
+        "lon": -60.62418669462205,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Necochea",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Necochea y\nPellegrini"
+        }
+      ],
+      "id": "pt013",
+      "clave": "NECOCHEA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "NECOCHEA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "NECOCHEA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959782021738164,
+        "lon": -60.62690522093514,
+        "x": 5441386.645,
+        "y": 6353503.565
+      }
+    },
+    {
+      "tokens": [
+        "9 de Julio",
+        "Maipú"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "9 de Julio y\nMaipú"
+        }
+      ],
+      "id": "pt014",
+      "clave": "9 DE JULIO||MAIPÚ",
+      "status": "auto",
+      "calle1": "9 DE JULIO",
+      "calle2": "MAIPU",
+      "candidatos": [
+        [
+          "9 DE JULIO"
+        ],
+        [
+          "MAIPU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.954379005806636,
+        "lon": -60.63721346392087,
+        "x": 5440419.22,
+        "y": 6354097.01
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Santa Fe y\nCorrientes"
+        }
+      ],
+      "id": "pt015",
+      "clave": "CORRIENTES||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94430721618231,
+        "lon": -60.64201447273118,
+        "x": 5439963.5,
+        "y": 6355211.31
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Santa Fe y\nOroño"
+        }
+      ],
+      "id": "pt016",
+      "clave": "OROÑO||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94235971512325,
+        "lon": -60.65295938589818,
+        "x": 5438938.655,
+        "y": 6355421.01
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Santa Fe y\nCafferata"
+        }
+      ],
+      "id": "pt017",
+      "clave": "CAFFERATA||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93919661258865,
+        "lon": -60.670611159846615,
+        "x": 5437285.69,
+        "y": 6355761.45
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "S. Bayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Santa Fe y S.\nBayo"
+        }
+      ],
+      "id": "pt018",
+      "clave": "S BAYO||SANTA FE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93675566917735,
+        "lon": -60.684210846858136,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Liniers"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Santa Fe y\nLiniers"
+        }
+      ],
+      "id": "pt019",
+      "clave": "LINIERS||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "LINIERS",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "LINIERS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.935315805686784,
+        "lon": -60.69873012410185,
+        "x": 5434653.15,
+        "y": 6356174.77
+      }
+    },
+    {
+      "tokens": [
+        "Donado",
+        "French"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Donado y\nFrench"
+        }
+      ],
+      "id": "pt020",
+      "clave": "DONADO||FRENCH",
+      "status": "auto",
+      "calle1": "DONADO",
+      "calle2": "FRENCH",
+      "candidatos": [
+        [
+          "DONADO"
+        ],
+        [
+          "FRENCH"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92181312874204,
+        "lon": -60.72770312191271,
+        "x": 5431933.13,
+        "y": 6357653.97
+      }
+    }
+  ]
+}

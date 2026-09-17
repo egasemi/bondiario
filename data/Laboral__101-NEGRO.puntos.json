@@ -1,0 +1,687 @@
+{
+  "linea": "101",
+  "puntos": [
+    {
+      "tokens": [
+        "RUEDA",
+        "PUNID"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "RUEDA -\nPUNID"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "FIN",
+          "label_raw": "RUEDA -\nPUNID"
+        }
+      ],
+      "id": "pt000",
+      "clave": "PUNID||RUEDA",
+      "status": "auto",
+      "calle1": "RUEDA",
+      "calle2": "PROVINCIAS UNIDAS",
+      "candidatos": [
+        [
+          "RUEDA"
+        ],
+        [
+          "PROVINCIAS UNIDAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96277437354009,
+        "lon": -60.711688739858374,
+        "x": 5433461.78,
+        "y": 6353121.310000002
+      }
+    },
+    {
+      "tokens": [
+        "PUNID",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "PUNID -\nPELLE"
+        }
+      ],
+      "id": "pt001",
+      "clave": "PELLE||PUNID",
+      "status": "auto",
+      "calle1": "PROVINCIAS UNIDAS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94857588185433,
+        "lon": -60.712265937802975,
+        "x": 5433397.165,
+        "y": 6354695.66
+      }
+    },
+    {
+      "tokens": [
+        "PUNID",
+        "CORDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "PUNID -\nCORDO"
+        }
+      ],
+      "id": "pt002",
+      "clave": "CORDO||PUNID",
+      "status": "auto",
+      "calle1": "PROVINCIAS UNIDAS",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93299415474353,
+        "lon": -60.71298787085509,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "PUNID",
+        "JJPAS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "PUNID -\nJJPAS"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "9",
+          "label_raw": "JJPAS -\nPUNID"
+        }
+      ],
+      "id": "pt003",
+      "clave": "JJPAS||PUNID",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92028436576335,
+        "lon": -60.71355577996964,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JJPAS",
+        "FORMO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "JJPAS -\nFORMO"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "8",
+          "label_raw": "FORMO -\nJJPAS"
+        }
+      ],
+      "id": "pt004",
+      "clave": "FORMO||JJPAS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "FORMOSA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91958972540166,
+        "lon": -60.691605822776495,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SABIN",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "SABIN -\nAVELL"
+        }
+      ],
+      "id": "pt005",
+      "clave": "AVELL||SABIN",
+      "status": "auto",
+      "calle1": "SABIN",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "SABIN"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.928868705799744,
+        "lon": -60.676568618817036,
+        "x": 5436721.195,
+        "y": 6356903.32
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "SLORE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "AVELL -\nSLORE"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "6",
+          "label_raw": "AVELL -\nSLORE"
+        }
+      ],
+      "id": "pt006",
+      "clave": "AVELL||SLORE",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "SAN LORENZO",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "SAN LORENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.936799168998554,
+        "lon": -60.67853998036973,
+        "x": 5436542.475,
+        "y": 6356022.595
+      }
+    },
+    {
+      "tokens": [
+        "TUCUM",
+        "AvFRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "TUCUM -\nAvFRA"
+        }
+      ],
+      "id": "pt007",
+      "clave": "AVFRA||TUCUM",
+      "status": "auto",
+      "candidatos": [
+        [
+          "TUCUMAN"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93689171914328,
+        "lon": -60.66435306015895,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "SLORE -\nOROÑO"
+        }
+      ],
+      "id": "pt008",
+      "clave": "OROÑO||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94143114319429,
+        "lon": -60.65272565144909,
+        "x": 5438959.875,
+        "y": 6355524.130000002
+      }
+    },
+    {
+      "tokens": [
+        "LAPRI",
+        "RIOJA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "LAPRI -\nRIOJA"
+        }
+      ],
+      "id": "pt009",
+      "clave": "LAPRI||RIOJA",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "RIOJA",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "RIOJA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94855003047952,
+        "lon": -60.63425558263375,
+        "x": 5440691.9,
+        "y": 6354745.15
+      }
+    },
+    {
+      "tokens": [
+        "LAPRI",
+        "MONTE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "LAPRI -\nMONTE"
+        }
+      ],
+      "id": "pt010",
+      "clave": "LAPRI||MONTE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "MONTEAGUDO",
+          "MONTECARLO",
+          "MONTEVIDEO",
+          "MONTE FLORES",
+          "MONTES DE OCA",
+          "MONTES CARBALLO 1704"
+        ]
+      ],
+      "calle1": "LAPRIDA",
+      "calle2": "MONTEVIDEO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95683242943659,
+        "lon": -60.636681879289796,
+        "x": 5440470.57,
+        "y": 6353825.21
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "PELLE",
+        "ALEM."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "PELLE -\nALEM."
+        }
+      ],
+      "id": "pt011",
+      "clave": "ALEM||PELLE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "ALEM",
+          "ALEMANIA"
+        ]
+      ],
+      "calle1": "PELLEGRINI",
+      "calle2": "ALEM",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95904250825736,
+        "lon": -60.63103620685202,
+        "x": 5440999.915,
+        "y": 6353583.275
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "BERU",
+        "BERU",
+        "RIOBAM RIOBAM"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "FIN",
+          "label_raw": "BERU - BERU -\nRIOBAM RIOBAM"
+        }
+      ],
+      "id": "pt012",
+      "clave": "unparsed::BERU",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.966237852704424,
+        "lon": -60.62426098671592,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AYACU",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "1",
+          "label_raw": "AYACU -\nPELLE"
+        }
+      ],
+      "id": "pt013",
+      "clave": "AYACU||PELLE",
+      "status": "auto",
+      "calle1": "AYACUCHO",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "AYACUCHO"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95929760240531,
+        "lon": -60.62961275540335,
+        "x": 5441133.175,
+        "y": 6353555.78
+      }
+    },
+    {
+      "tokens": [
+        "MAIPU",
+        "9JULI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "2",
+          "label_raw": "MAIPU -\n9JULI"
+        }
+      ],
+      "id": "pt014",
+      "clave": "9JULI||MAIPU",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95437900580663,
+        "lon": -60.63721346392087,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "CORRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "3",
+          "label_raw": "STAFE -\nCORRI"
+        }
+      ],
+      "id": "pt015",
+      "clave": "CORRI||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94430721618231,
+        "lon": -60.64201447273118,
+        "x": 5439963.5,
+        "y": 6355211.31
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "4",
+          "label_raw": "STAFE -\nOROÑO"
+        }
+      ],
+      "id": "pt016",
+      "clave": "OROÑO||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94235971512325,
+        "lon": -60.65295938589818,
+        "x": 5438938.655,
+        "y": 6355421.01
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "VMUJI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "5",
+          "label_raw": "STAFE -\nVMUJI"
+        }
+      ],
+      "id": "pt017",
+      "clave": "STAFE||VMUJI",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "VERA MUJICA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "VERA MUJICA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93992820887453,
+        "lon": -60.66653505645672,
+        "x": 5437667.4,
+        "y": 6355682.73
+      }
+    },
+    {
+      "tokens": [
+        "AVELL",
+        "CASIL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "7",
+          "label_raw": "AVELL -\nCASIL"
+        }
+      ],
+      "id": "pt018",
+      "clave": "AVELL||CASIL",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "CASILDA",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "CASILDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.928098593091924,
+        "lon": -60.67636939991592,
+        "x": 5436739.28,
+        "y": 6356988.85
+      }
+    },
+    {
+      "tokens": [
+        "PUNID",
+        "MENDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "10",
+          "label_raw": "PUNID -\nMENDO"
+        }
+      ],
+      "id": "pt019",
+      "clave": "MENDO||PUNID",
+      "status": "auto",
+      "calle1": "PROVINCIAS UNIDAS",
+      "calle2": "MENDOZA",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        [
+          "MENDOZA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94023050784969,
+        "lon": -60.71261641333929,
+        "x": 5433358.131250002,
+        "y": 6355620.99875
+      }
+    }
+  ]
+}

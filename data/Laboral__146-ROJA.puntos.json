@@ -1,0 +1,799 @@
+{
+  "linea": "146",
+  "puntos": [
+    {
+      "tokens": [
+        "M.SANTAFESINO",
+        "ISOLA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "M.SANTA\nFESINO -\nISOLA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 27,
+          "pos_label": "FIN",
+          "label_raw": "M.SANTA\nFESINO -\nISOLA"
+        }
+      ],
+      "id": "pt000",
+      "clave": "ISOLA||MSANTAFESINO",
+      "status": "auto",
+      "calle1": "MAESTROS SANTAFESINOS",
+      "calle2": "ISOLA",
+      "candidatos": [
+        [
+          "MAESTROS SANTAFESINOS"
+        ],
+        [
+          "ISOLA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991296932138866,
+        "lon": -60.62303007581896,
+        "x": 5441769.65,
+        "y": 6350010.5
+      }
+    },
+    {
+      "tokens": [
+        "GRAND",
+        "URIBU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "GRAND -\nURIBU"
+        }
+      ],
+      "id": "pt001",
+      "clave": "GRAND||URIBU",
+      "status": "auto",
+      "calle1": "GRANDOLI",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "GRANDOLI"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.990083382987734,
+        "lon": -60.62847877710324,
+        "x": 5441259.585,
+        "y": 6350142.0625
+      }
+    },
+    {
+      "tokens": [
+        "BERUT",
+        "GABOT"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "BERUT -\nGABOT"
+        }
+      ],
+      "id": "pt002",
+      "clave": "BERUT||GABOT",
+      "status": "auto",
+      "calle1": "BERUTI",
+      "calle2": "GABOTO",
+      "candidatos": [
+        [
+          "BERUTI"
+        ],
+        [
+          "GABOTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97650865830917,
+        "lon": -60.626833878192514,
+        "x": 5441404.36,
+        "y": 6351648.51
+      }
+    },
+    {
+      "tokens": [
+        "NECOC",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "NECOC -\nPELLE"
+        }
+      ],
+      "id": "pt003",
+      "clave": "NECOC||PELLE",
+      "status": "auto",
+      "calle1": "NECOCHEA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "NECOCHEA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.959782021738164,
+        "lon": -60.62690522093514,
+        "x": 5441386.645,
+        "y": 6353503.565
+      }
+    },
+    {
+      "tokens": [
+        "MAIPU",
+        "STAFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "MAIPU -\nSTAFE"
+        }
+      ],
+      "id": "pt004",
+      "clave": "MAIPU||STAFE",
+      "status": "auto",
+      "calle1": "MAIPU",
+      "calle2": "SANTA FE",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94611665181927,
+        "lon": -60.63496046423693,
+        "x": 5440624.36,
+        "y": 6355014.63
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "CORRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "STAFE -\nCORRI"
+        }
+      ],
+      "id": "pt005",
+      "clave": "CORRI||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94430721618231,
+        "lon": -60.64201447273118,
+        "x": 5439963.5,
+        "y": 6355211.31
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "STAFE -\nOROÑO"
+        }
+      ],
+      "id": "pt006",
+      "clave": "OROÑO||STAFE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94235971512325,
+        "lon": -60.65295938589818,
+        "x": 5438938.655,
+        "y": 6355421.01
+      }
+    },
+    {
+      "tokens": [
+        "STAFE",
+        "VMUJI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "STAFE -\nVMUJI"
+        }
+      ],
+      "id": "pt007",
+      "clave": "STAFE||VMUJI",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "VERA MUJICA",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "VERA MUJICA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93992820887453,
+        "lon": -60.66653505645672,
+        "x": 5437667.4,
+        "y": 6355682.73
+      }
+    },
+    {
+      "tokens": [
+        "SNICO",
+        "BORDA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "SNICO -\nBORDA"
+        }
+      ],
+      "id": "pt008",
+      "clave": "BORDA||SNICO",
+      "status": "auto",
+      "calle1": "SAN NICOLAS",
+      "calle2": "BORDABEHERE",
+      "candidatos": [
+        [
+          "SAN NICOLAS"
+        ],
+        [
+          "BORDABEHERE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.933374653654404,
+        "lon": -60.67058229932671,
+        "x": 5437284.28,
+        "y": 6356407.16
+      }
+    },
+    {
+      "tokens": [
+        "ALBER",
+        "RECON"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "ALBER -\nRECON"
+        }
+      ],
+      "id": "pt009",
+      "clave": "ALBER||RECON",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ALBERDI",
+          "ALBERTI",
+          "ALBERINI",
+          "ALBERTO J PAZ"
+        ],
+        [
+          "RECONQUISTA"
+        ]
+      ],
+      "calle1": "ALBERDI",
+      "calle2": "RECONQUISTA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91807214999239,
+        "lon": -60.683349404037386,
+        "x": 5436079.22,
+        "y": 6358096.635
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "JJPAS",
+        "SOLIS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "JJPAS -\nSOLIS"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "3",
+          "label_raw": "JJPAS -\nSOLIS"
+        }
+      ],
+      "id": "pt010",
+      "clave": "JJPAS||SOLIS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SOLIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.919947861208314,
+        "lon": -60.704202420897104,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JJPAS",
+        "CIRCU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "JJPAS -\nCIRCU"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "2",
+          "label_raw": "JJPAS -\nCIRCU"
+        }
+      ],
+      "id": "pt011",
+      "clave": "CIRCU||JJPAS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CIRCUNVALACION"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92055169439825,
+        "lon": -60.72298999519662,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MESTR",
+        "TARRA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "MESTR -\nTARRA"
+        }
+      ],
+      "id": "pt012",
+      "clave": "MESTR||TARRA",
+      "status": "auto",
+      "calle1": "MARTINEZ ESTRADA",
+      "calle2": "TARRAGONA",
+      "candidatos": [
+        [
+          "MARTINEZ ESTRADA"
+        ],
+        [
+          "TARRAGONA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91130225683674,
+        "lon": -60.73532381407372,
+        "x": 5431212.17,
+        "y": 6358814.75
+      }
+    },
+    {
+      "tokens": [
+        "AV.CENTRAL",
+        "H.PUJATO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "FIN",
+          "label_raw": "AV.\nCENTRAL -\nH.PUJAT\nO"
+        }
+      ],
+      "id": "pt013",
+      "clave": "AVCENTRAL||HPUJATO",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "AV.CENT RAL",
+        "H.PUJATO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "INICIO",
+          "label_raw": "AV.\nCENT RAL\n-\nH.PUJAT\nO"
+        }
+      ],
+      "id": "pt014",
+      "clave": "AVCENT RAL||HPUJATO",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "GAUNA",
+        "COLOM"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "1",
+          "label_raw": "GAUNA -\nCOLOM"
+        }
+      ],
+      "id": "pt015",
+      "clave": "COLOM||GAUNA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "COLOMBO",
+          "COLOMBIA",
+          "COLOMBRES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91239190803495,
+        "lon": -60.73057262458468,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JJPAS",
+        "ALBER"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "4",
+          "label_raw": "JJPAS -\nALBER"
+        }
+      ],
+      "id": "pt016",
+      "clave": "ALBER||JJPAS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ALBERDI",
+          "ALBERTI",
+          "ALBERINI",
+          "ALBERTO J PAZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91932866938154,
+        "lon": -60.68234116372667,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SALTA",
+        "CAFFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "5",
+          "label_raw": "SALTA -\nCAFFE"
+        }
+      ],
+      "id": "pt017",
+      "clave": "CAFFE||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93356876306806,
+        "lon": -60.66918960358699,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "CAFFE",
+        "CORDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "6",
+          "label_raw": "CAFFE -\nCORDO"
+        }
+      ],
+      "id": "pt018",
+      "clave": "CAFFE||CORDO",
+      "status": "auto",
+      "calle1": "CAFFERATA",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "CAFFERATA"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94054267909362,
+        "lon": -60.670951201305705,
+        "x": 5437254.84,
+        "y": 6355611.96
+      }
+    },
+    {
+      "tokens": [
+        "OvLAG",
+        "SLUIS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "7",
+          "label_raw": "OvLAG -\nSLUIS"
+        }
+      ],
+      "id": "pt019",
+      "clave": "OVLAG||SLUIS",
+      "status": "auto",
+      "calle1": "OVIDIO LAGOS",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94486592195775,
+        "lon": -60.662101110427706,
+        "x": 5438085.5,
+        "y": 6355137.72
+      }
+    },
+    {
+      "tokens": [
+        "SLUIS",
+        "MOREN"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "8",
+          "label_raw": "SLUIS -\nMOREN"
+        }
+      ],
+      "id": "pt020",
+      "clave": "MOREN||SLUIS",
+      "status": "auto",
+      "calle1": "SAN LUIS",
+      "calle2": "MORENO",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        [
+          "MORENO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94680730327827,
+        "lon": -60.65123844923559,
+        "x": 5439102.64,
+        "y": 6354928.74
+      }
+    },
+    {
+      "tokens": [
+        "MENDO",
+        "ALEM."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "9",
+          "label_raw": "MENDO -\nALEM."
+        }
+      ],
+      "id": "pt021",
+      "clave": "ALEM||MENDO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "ALEM",
+          "ALEMANIA"
+        ]
+      ],
+      "calle1": "MENDOZA",
+      "calle2": "ALEM",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95322297286961,
+        "lon": -60.629604706961715,
+        "x": 5441129.9,
+        "y": 6354229.5
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "COLON",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "10",
+          "label_raw": "COLON -\n27FEB"
+        }
+      ],
+      "id": "pt022",
+      "clave": "27FEB||COLON",
+      "status": "auto",
+      "candidatos": [
+        [
+          "COLON",
+          "COLON NORTE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96984655364042,
+        "lon": -60.63085801186243,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "AYOLA",
+        "GRAND"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 26,
+          "pos_label": "11",
+          "label_raw": "AYOLA -\nGRAND"
+        }
+      ],
+      "id": "pt023",
+      "clave": "AYOLA||GRAND",
+      "status": "auto",
+      "calle1": "AYOLAS",
+      "calle2": "GRANDOLI",
+      "candidatos": [
+        [
+          "AYOLAS"
+        ],
+        [
+          "GRANDOLI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.980004567114236,
+        "lon": -60.62774923017379,
+        "x": 5441321.105,
+        "y": 6351260.28
+      }
+    }
+  ]
+}

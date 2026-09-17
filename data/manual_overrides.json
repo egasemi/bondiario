@@ -1,0 +1,1904 @@
+{
+  "OROÑO||SALTA": {
+    "status": "ok",
+    "lat": -32.93673411275052,
+    "lon": -60.6515429177582,
+    "manual": true
+  },
+  "unparsed::Ciudad Universitaria": {
+    "status": "ok",
+    "lat": -32.966263589565266,
+    "lon": -60.62418669462205,
+    "manual": true
+  },
+  "CAFFE||SALTA": {
+    "status": "ok",
+    "lat": -32.93356876306806,
+    "lon": -60.66918960358699,
+    "manual": true
+  },
+  "27FEB||COLON": {
+    "status": "ok",
+    "lat": -32.96984655364042,
+    "lon": -60.63085801186243,
+    "manual": true
+  },
+  "BVSEG||OROÑO": {
+    "status": "ok",
+    "lat": -32.97635953955821,
+    "lon": -60.66151169378635,
+    "manual": true
+  },
+  "BATTLE||ORDOÑEZ Y OV LAGOS": {
+    "status": "ok",
+    "lat": -33.00973670330604,
+    "lon": -60.67735128004273,
+    "manual": true
+  },
+  "CAFFE||MONTE": {
+    "status": "ok",
+    "lat": -32.95026869606863,
+    "lon": -60.67339857792264,
+    "manual": true
+  },
+  "BVSEG||OVLAG": {
+    "status": "ok",
+    "lat": -32.97494876663608,
+    "lon": -60.66939658178918,
+    "manual": true
+  },
+  "1 DE MAYO||SAN JUAN": {
+    "status": "ok",
+    "lat": -32.951779626674735,
+    "lon": -60.630688517375745,
+    "manual": true
+  },
+  "BSAS||PELLE": {
+    "status": "ok",
+    "lat": -32.958255080019335,
+    "lon": -60.635431273127274,
+    "manual": true
+  },
+  "E RIOS||SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94853698601894,
+    "lon": -60.64161354044973,
+    "manual": true
+  },
+  "unparsed::Logaritmo": {
+    "status": "ok",
+    "lat": -32.8729013380483,
+    "lon": -60.744481086730964,
+    "manual": true
+  },
+  "27FEB||PARAG": {
+    "status": "ok",
+    "lat": -32.96659616556919,
+    "lon": -60.64906258137438,
+    "manual": true
+  },
+  "27FEB||CORRI": {
+    "status": "ok",
+    "lat": -32.96684262918133,
+    "lon": -60.647682587307884,
+    "manual": true
+  },
+  "LEVI||VDP": {
+    "status": "ok",
+    "lat": -32.88151844847773,
+    "lon": -60.72838175094388,
+    "manual": true
+  },
+  "JBJUSTO||MEXICO": {
+    "status": "ok",
+    "lat": -32.915075313708506,
+    "lon": -60.719492611997524,
+    "manual": true
+  },
+  "OV LAGOS||TUCUMAN": {
+    "status": "ok",
+    "lat": -32.93762283907589,
+    "lon": -60.66026871810705,
+    "manual": true
+  },
+  "PTE ROCCA||SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.9428831580827,
+    "lon": -60.64454877744822,
+    "manual": true
+  },
+  "OV ANDRADE||OV LAGOS": {
+    "status": "ok",
+    "lat": -32.99658426428023,
+    "lon": -60.67458967206045,
+    "manual": true
+  },
+  "JJPASO||NICARAGUA": {
+    "status": "ok",
+    "lat": -32.920492652583974,
+    "lon": -60.72137582058062,
+    "manual": true
+  },
+  "DONADO||JJ PASO": {
+    "status": "ok",
+    "lat": -32.92064467213504,
+    "lon": -60.72774914966584,
+    "manual": true
+  },
+  "CULLEN||EVA PERÓN": {
+    "status": "ok",
+    "lat": -32.93362705083023,
+    "lon": -60.70944305693824,
+    "manual": true
+  },
+  "CÓRDOBA||OV LAGOS": {
+    "status": "ok",
+    "lat": -32.942250654435604,
+    "lon": -60.66143745490974,
+    "manual": true
+  },
+  "1º MAYO||SAN LUIS": {
+    "status": "ok",
+    "lat": -32.95052808651528,
+    "lon": -60.63040938419133,
+    "manual": true
+  },
+  "S BAYO||SANTA FE": {
+    "status": "ok",
+    "lat": -32.93675566917735,
+    "lon": -60.684210846858136,
+    "manual": true
+  },
+  "MATIE||PPER": {
+    "status": "ok",
+    "lat": -32.95918226542554,
+    "lon": -60.69395790398763,
+    "manual": true
+  },
+  "AVELL||PPER": {
+    "status": "ok",
+    "lat": -32.95760474980817,
+    "lon": -60.683796260735605,
+    "manual": true
+  },
+  "27FEB||NECOC": {
+    "status": "ok",
+    "lat": -32.9700888925659,
+    "lon": -60.62949628384139,
+    "manual": true
+  },
+  "O LAGOS||QUINTANA": {
+    "status": "ok",
+    "lat": -32.97839383694055,
+    "lon": -60.67023217213723,
+    "manual": true
+  },
+  "AVFRA||PELL": {
+    "status": "ok",
+    "lat": -32.952381841724026,
+    "lon": -60.66825672500243,
+    "manual": true
+  },
+  "unparsed::SLORENZ": {
+    "status": "ok",
+    "lat": -32.94599602682921,
+    "lon": -60.63335821116553,
+    "manual": true
+  },
+  "3FEBR||MITRE": {
+    "status": "ok",
+    "lat": -32.952517831518485,
+    "lon": -60.64113687680485,
+    "manual": true
+  },
+  "3FEBR||OROÑO": {
+    "status": "ok",
+    "lat": -32.95007268219195,
+    "lon": -60.65490094592427,
+    "manual": true
+  },
+  "27FEB||OVLAG": {
+    "status": "ok",
+    "lat": -32.9634900862919,
+    "lon": -60.666591773710444,
+    "manual": true
+  },
+  "27FEB||AVELL": {
+    "status": "ok",
+    "lat": -32.960262740135065,
+    "lon": -60.68446768391065,
+    "manual": true
+  },
+  "unparsed::LAGOSQUINTANA": {
+    "status": "ok",
+    "lat": -32.97839383694055,
+    "lon": -60.67023217213723,
+    "manual": true
+  },
+  "B ORDOÑEZ||LAGOS": {
+    "status": "ok",
+    "lat": -33.00973670330604,
+    "lon": -60.67735128004273,
+    "manual": true
+  },
+  "LAGOS||URIBURU": {
+    "status": "ok",
+    "lat": -32.99151360570888,
+    "lon": -60.673389719929155,
+    "manual": true
+  },
+  "BIEDMA||LAGOS": {
+    "status": "ok",
+    "lat": -32.97724873640207,
+    "lon": -60.66995469322726,
+    "manual": true
+  },
+  "27 DE FEBRERO||LAGOS": {
+    "status": "ok",
+    "lat": -32.9634900862919,
+    "lon": -60.666591773710444,
+    "manual": true
+  },
+  "GALVEZ||ROCA": {
+    "status": "ok",
+    "lat": -32.9675009832912,
+    "lon": -60.65074269405404,
+    "manual": true
+  },
+  "PELLEGRINI||ROCA": {
+    "status": "ok",
+    "lat": -32.95603693433064,
+    "lon": -60.64785439101482,
+    "manual": true
+  },
+  "PCIASUNIDAS||RUEDA": {
+    "status": "ok",
+    "lat": -32.962774373540086,
+    "lon": -60.711688739858374,
+    "manual": true
+  },
+  "BARRA||BVSEG": {
+    "status": "ok",
+    "lat": -32.97085264623853,
+    "lon": -60.70561030398767,
+    "manual": true
+  },
+  "ALDAO||BVSEG": {
+    "status": "ok",
+    "lat": -32.970566106758206,
+    "lon": -60.69479359258763,
+    "manual": true
+  },
+  "FMORE||PPER": {
+    "status": "ok",
+    "lat": -32.9586902085625,
+    "lon": -60.69302822458392,
+    "manual": true
+  },
+  "CAFFE||PPER": {
+    "status": "ok",
+    "lat": -32.956583394566906,
+    "lon": -60.674997615403925,
+    "manual": true
+  },
+  "AVFRA||CERRI": {
+    "status": "ok",
+    "lat": -32.95696888504469,
+    "lon": -60.66941184772233,
+    "manual": true
+  },
+  "MONTE||OROÑ0": {
+    "status": "ok",
+    "lat": -32.95343557316691,
+    "lon": -60.65574880546077,
+    "manual": true
+  },
+  "AVFRA||STAFE": {
+    "status": "ok",
+    "lat": -32.940171114745404,
+    "lon": -60.66518169727638,
+    "manual": true
+  },
+  "AGNET||STAFE": {
+    "status": "ok",
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "manual": true
+  },
+  "EVAPE||PUNI": {
+    "status": "ok",
+    "lat": -32.93299415474353,
+    "lon": -60.71298787085509,
+    "manual": true
+  },
+  "CARBALLO||SABIN": {
+    "status": "ok",
+    "lat": -32.922299308986354,
+    "lon": -60.68567597443323,
+    "manual": true
+  },
+  "OV LAGOS||URIBURU": {
+    "status": "ok",
+    "lat": -32.99151360570888,
+    "lon": -60.67338971992913,
+    "manual": true
+  },
+  "BSAS||SLUIS": {
+    "status": "ok",
+    "lat": -32.949994901139696,
+    "lon": -60.63335742502537,
+    "manual": true
+  },
+  "27FEB||ALEM": {
+    "status": "ok",
+    "lat": -32.96935179978545,
+    "lon": -60.63363047053328,
+    "manual": true
+  },
+  "BVSEG||JMROS": {
+    "status": "ok",
+    "lat": -32.98029411131242,
+    "lon": -60.639491095877965,
+    "manual": true
+  },
+  "JMROS||URIBU": {
+    "status": "ok",
+    "lat": -32.9905182978758,
+    "lon": -60.64203128787136,
+    "manual": true
+  },
+  "ARIJN||OVLAG": {
+    "status": "ok",
+    "lat": -33.00383724610716,
+    "lon": -60.676164713827475,
+    "manual": true
+  },
+  "CERESETTO||JPABLOII": {
+    "status": "ok",
+    "lat": -33.009336676976,
+    "lon": -60.67360418942377,
+    "manual": true
+  },
+  "CIRCU||JJPAS": {
+    "status": "ok",
+    "lat": -32.92055169439825,
+    "lon": -60.72298999519662,
+    "manual": true
+  },
+  "JJPAS||SOLIS": {
+    "status": "ok",
+    "lat": -32.919947861208314,
+    "lon": -60.704202420897104,
+    "manual": true
+  },
+  "ALBER||JJPAS": {
+    "status": "ok",
+    "lat": -32.91932866938154,
+    "lon": -60.68234116372667,
+    "manual": true
+  },
+  "COLOM||GAUNA": {
+    "status": "ok",
+    "lat": -32.91239190803495,
+    "lon": -60.73057262458468,
+    "manual": true
+  },
+  "AVELLANEDA||V SARSFIELD": {
+    "status": "ok",
+    "lat": -32.92487070810587,
+    "lon": -60.67554064899685,
+    "manual": true
+  },
+  "CALLAO||SALTA": {
+    "status": "ok",
+    "lat": -32.935521002399845,
+    "lon": -60.65831540932497,
+    "manual": true
+  },
+  "9JULI||MAIPU": {
+    "status": "ok",
+    "lat": -32.95437900580663,
+    "lon": -60.63721346392087,
+    "manual": true
+  },
+  "NUÑEZ||RONDE": {
+    "status": "ok",
+    "lat": -32.88452006267614,
+    "lon": -60.69542812368518,
+    "manual": true
+  },
+  "CIUDA||RUT11": {
+    "status": "ok",
+    "lat": -32.8710450733991,
+    "lon": -60.69967746734619,
+    "manual": true
+  },
+  "unparsed::V.G.GALVEZ": {
+    "status": "ok",
+    "lat": -33.036743393373776,
+    "lon": -60.65474510192872,
+    "manual": true
+  },
+  "ACEVEDO||JBJUSTO": {
+    "status": "ok",
+    "lat": -32.91586953318194,
+    "lon": -60.74910971343129,
+    "manual": true
+  },
+  "27FEB||SARMI": {
+    "status": "ok",
+    "lat": -32.96759402836484,
+    "lon": -60.64347798586588,
+    "manual": true
+  },
+  "ALBERDI||V SARSFIELD": {
+    "status": "ok",
+    "lat": -32.9249231958004,
+    "lon": -60.67788669453912,
+    "manual": true
+  },
+  "CORRIENTES||SALTA": {
+    "status": "ok",
+    "lat": -32.93869361378777,
+    "lon": -60.64059805470917,
+    "manual": true
+  },
+  "E RIOS||S JUAN": {
+    "status": "ok",
+    "lat": -32.94965395873257,
+    "lon": -60.6418953810588,
+    "manual": true
+  },
+  "ESPAÑA||PELLIGRINI": {
+    "status": "ok",
+    "lat": -32.955790745698316,
+    "lon": -60.64923331006514,
+    "manual": true
+  },
+  "ARIJON||LAGOS": {
+    "status": "ok",
+    "lat": -33.00383724610716,
+    "lon": -60.676164713827475,
+    "manual": true
+  },
+  "BATTLE ORDOÑEZ||OV LAGOS": {
+    "status": "ok",
+    "lat": -33.00973670330604,
+    "lon": -60.67735128004273,
+    "manual": true
+  },
+  "FERNANDO RUIZ||OV LAGOS": {
+    "status": "ok",
+    "lat": -33.0138189162288,
+    "lon": -60.67824880791067,
+    "manual": true
+  },
+  "AGNET||CORDO": {
+    "status": "ok",
+    "lat": -32.93534872071384,
+    "lon": -60.70001817817083,
+    "manual": true
+  },
+  "AVFRA||CORDO": {
+    "status": "ok",
+    "lat": -32.94151805336414,
+    "lon": -60.66552166714732,
+    "manual": true
+  },
+  "MONTE||OVLAG": {
+    "status": "ok",
+    "lat": -32.95197305920555,
+    "lon": -60.663904883055714,
+    "manual": true
+  },
+  "OVLAG||VIAMT": {
+    "status": "ok",
+    "lat": -32.96118126457352,
+    "lon": -60.666018516835464,
+    "manual": true
+  },
+  "PPER||SNICO": {
+    "status": "ok",
+    "lat": -32.956753878751364,
+    "lon": -60.67646803299437,
+    "manual": true
+  },
+  "27FEB||MATIE": {
+    "status": "ok",
+    "lat": -32.958746476325125,
+    "lon": -60.69396941751563,
+    "manual": true
+  },
+  "BVSEG||GARZO": {
+    "status": "ok",
+    "lat": -32.97082188745866,
+    "lon": -60.70445449609267,
+    "manual": true
+  },
+  "GUEMES||OV LAGOS": {
+    "status": "ok",
+    "lat": -32.93176470470958,
+    "lon": -60.65878946777228,
+    "manual": true
+  },
+  "BAORDOÑEZ||OROÑO": {
+    "status": "ok",
+    "lat": -33.009424320546636,
+    "lon": -60.66459465727239,
+    "manual": true
+  },
+  "BSAS||SEGUI": {
+    "status": "ok",
+    "lat": -32.98004188135883,
+    "lon": -60.64090524625116,
+    "manual": true
+  },
+  "ESPAÑ||SLUIS": {
+    "status": "ok",
+    "lat": -32.94753372557084,
+    "lon": -60.64716938658163,
+    "manual": true
+  },
+  "AGNET||SJUAN": {
+    "status": "ok",
+    "lat": -32.94072997323141,
+    "lon": -60.6998132446722,
+    "manual": true
+  },
+  "FRANCIA||SALTA": {
+    "status": "ok",
+    "lat": -32.93454301584157,
+    "lon": -60.66376121418787,
+    "manual": true
+  },
+  "ISOLA||MAESTRO SANTAFECINO": {
+    "status": "ok",
+    "lat": -32.991296932138866,
+    "lon": -60.62303007581896,
+    "manual": true
+  },
+  "ALBER||CASIL": {
+    "status": "ok",
+    "lat": -32.92807238218632,
+    "lon": -60.6754807311919,
+    "manual": true
+  },
+  "AVELLANEDA||DR CABALLERO": {
+    "status": "ok",
+    "lat": -33.00183686695495,
+    "lon": -60.6892412206721,
+    "manual": true
+  },
+  "1JUNT||27FEB": {
+    "status": "ok",
+    "lat": -32.96815622334049,
+    "lon": -60.640748590706444,
+    "manual": true
+  },
+  "27FEB||LAPRI": {
+    "status": "ok",
+    "lat": -32.96829385993071,
+    "lon": -60.639561423538005,
+    "manual": true
+  },
+  "ALEM||BVSEG": {
+    "status": "ok",
+    "lat": -32.980825989699476,
+    "lon": -60.63651030750071,
+    "manual": true
+  },
+  "27FEB||AYACU": {
+    "status": "ok",
+    "lat": -32.96960584032892,
+    "lon": -60.632207389309286,
+    "manual": true
+  },
+  "3FEBR||BSAS": {
+    "status": "ok",
+    "lat": -32.95371125216042,
+    "lon": -60.63430452927838,
+    "manual": true
+  },
+  "AVFRA||RIOJA": {
+    "status": "ok",
+    "lat": -32.94267144321484,
+    "lon": -60.665812023504984,
+    "manual": true
+  },
+  "E RIOS||PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95678007735076,
+    "lon": -60.64368660465688,
+    "manual": true
+  },
+  "CORDO||PUNID": {
+    "status": "ok",
+    "lat": -32.93299415474353,
+    "lon": -60.71298787085509,
+    "manual": true
+  },
+  "JJPAS||PUNID": {
+    "status": "ok",
+    "lat": -32.92028436576335,
+    "lon": -60.71355577996964,
+    "manual": true
+  },
+  "FORMO||JJPAS": {
+    "status": "ok",
+    "lat": -32.91958972540166,
+    "lon": -60.691605822776495,
+    "manual": true
+  },
+  "AVFRA||TUCUM": {
+    "status": "ok",
+    "lat": -32.93689171914328,
+    "lon": -60.66435306015895,
+    "manual": true
+  },
+  "unparsed::BARRIOOLIMPICO": {
+    "status": "ok",
+    "lat": -32.88149146524831,
+    "lon": -60.71489995052147,
+    "manual": true
+  },
+  "CGRA||PALES": {
+    "status": "ok",
+    "lat": -32.88598112433895,
+    "lon": -60.710115295263066,
+    "manual": true
+  },
+  "RONDE||SALVA": {
+    "status": "ok",
+    "lat": -32.88225930103433,
+    "lon": -60.696349601848,
+    "manual": true
+  },
+  "AVFRA||SALTA": {
+    "status": "ok",
+    "lat": -32.93454301584157,
+    "lon": -60.66376121418787,
+    "manual": true
+  },
+  "B LEVI||VILLA DEL PARQUE": {
+    "status": "ok",
+    "lat": -32.88151844847773,
+    "lon": -60.72838175094388,
+    "manual": true
+  },
+  "ALBERDI||CARBALLO": {
+    "status": "ok",
+    "lat": -32.922169393724715,
+    "lon": -60.68009751971819,
+    "manual": true
+  },
+  "E LOPEZ||MORENO": {
+    "status": "ok",
+    "lat": -32.93251050948136,
+    "lon": -60.64754255360958,
+    "manual": true
+  },
+  "AV AVELLANEDA||CARBALLO": {
+    "status": "ok",
+    "lat": -32.92197867092564,
+    "lon": -60.67481468220162,
+    "manual": true
+  },
+  "J GRANEL||VIEYTES": {
+    "status": "ok",
+    "lat": -32.88806784889861,
+    "lon": -60.72734603692589,
+    "manual": true
+  },
+  "B LEVI||CALDERON": {
+    "status": "ok",
+    "lat": -32.88163631075015,
+    "lon": -60.73128405374447,
+    "manual": true
+  },
+  "unparsed::GDRO.BAIGORRIA": {
+    "status": "ok",
+    "lat": -32.858500752008666,
+    "lon": -60.71553468704224,
+    "manual": true
+  },
+  "BELGR||RUT11": {
+    "status": "ok",
+    "lat": -32.863799862842995,
+    "lon": -60.70188760757447,
+    "manual": true
+  },
+  "AYACU||CIRCU": {
+    "status": "ok",
+    "lat": -33.015806883111814,
+    "lon": -60.63463926315308,
+    "manual": true
+  },
+  "AGUIR||FILIP": {
+    "status": "ok",
+    "lat": -33.029246400504725,
+    "lon": -60.63702106475831,
+    "manual": true
+  },
+  "FILIP||SAGU": {
+    "status": "ok",
+    "lat": -33.02928238039798,
+    "lon": -60.637106895446784,
+    "manual": true
+  },
+  "unparsed::MINITERMINALB.RUCCI": {
+    "status": "ok",
+    "lat": -32.88707660158691,
+    "lon": -60.716210603713996,
+    "manual": true
+  },
+  "34||GRANDOLI": {
+    "status": "ok",
+    "lat": -32.88710137759323,
+    "lon": -60.73019027709962,
+    "manual": true
+  },
+  "BAIGORRIA||BUCHARDO": {
+    "status": "ok",
+    "lat": -32.89395027189452,
+    "lon": -60.71773812625615,
+    "manual": true
+  },
+  "CIRCU||JBJUS": {
+    "status": "ok",
+    "lat": -32.93367251415637,
+    "lon": -60.72217419977248,
+    "manual": true
+  },
+  "AVELL||JINGE": {
+    "status": "ok",
+    "lat": -32.91593721967238,
+    "lon": -60.67330033354431,
+    "manual": true
+  },
+  "JUNIN||THEDY": {
+    "status": "ok",
+    "lat": -32.92642849378689,
+    "lon": -60.665882619952264,
+    "manual": true
+  },
+  "27FEB||BALCA": {
+    "status": "ok",
+    "lat": -32.96512817079854,
+    "lon": -60.65727101209578,
+    "manual": true
+  },
+  "JCURA||OVLAG": {
+    "status": "ok",
+    "lat": -32.969787385880124,
+    "lon": -60.66809765910832,
+    "manual": true
+  },
+  "BVSEG||LAVAL": {
+    "status": "ok",
+    "lat": -32.97196910737185,
+    "lon": -60.685997119605624,
+    "manual": true
+  },
+  "BVSEG||ROUIL": {
+    "status": "ok",
+    "lat": -32.970732056706886,
+    "lon": -60.701061999345164,
+    "manual": true
+  },
+  "JPABLOII||MARADONA": {
+    "status": "ok",
+    "lat": -32.97988797193998,
+    "lon": -60.710587095294656,
+    "manual": true
+  },
+  "27 DE FEBRERO||OROÑO": {
+    "status": "ok",
+    "lat": -32.96488076308899,
+    "lon": -60.65864329721942,
+    "manual": true
+  },
+  "unparsed::Aeropuerto": {
+    "status": "ok",
+    "lat": -32.91915122132608,
+    "lon": -60.78074455261231,
+    "manual": true
+  },
+  "CALASANZ||SUINDA": {
+    "status": "ok",
+    "lat": -32.940865628239024,
+    "lon": -60.75989185923811,
+    "manual": true
+  },
+  "DONADO||PERON": {
+    "status": "ok",
+    "lat": -32.930402327728515,
+    "lon": -60.72736880804071,
+    "manual": true
+  },
+  "PERON||UNIDAS": {
+    "status": "ok",
+    "lat": -32.93299415474353,
+    "lon": -60.71298787085509,
+    "manual": true
+  },
+  "MATIENZO||PERON": {
+    "status": "ok",
+    "lat": -32.936255105101495,
+    "lon": -60.69484179260267,
+    "manual": true
+  },
+  "ENTRA RIOS||SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.94360409741965,
+    "lon": -60.64038098991533,
+    "manual": true
+  },
+  "JORGE CURA||OROÑO": {
+    "status": "ok",
+    "lat": -32.97117963464596,
+    "lon": -60.66034943503427,
+    "manual": true
+  },
+  "P UNIDAS||PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.94857588185433,
+    "lon": -60.71226593780296,
+    "manual": true
+  },
+  "F MORE||PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.94807135906536,
+    "lon": -60.693441609409135,
+    "manual": true
+  },
+  "MITRE||ZEBALLOS": {
+    "status": "ok",
+    "lat": -32.95474563399682,
+    "lon": -60.641702781909416,
+    "manual": true
+  },
+  "OVIDIO LAGOS||SALTA": {
+    "status": "ok",
+    "lat": -32.93527659882049,
+    "lon": -60.659676244501966,
+    "manual": true
+  },
+  "ALBER||SALTA": {
+    "status": "ok",
+    "lat": -32.93327894009393,
+    "lon": -60.67112299439836,
+    "manual": true
+  },
+  "27FE||PUNID": {
+    "status": "ok",
+    "lat": -32.959358644342906,
+    "lon": -60.711826011049666,
+    "manual": true
+  },
+  "PPER||PUNID": {
+    "status": "ok",
+    "lat": -32.96797671019971,
+    "lon": -60.711483128369736,
+    "manual": true
+  },
+  "BVSEG||ROUL": {
+    "status": "ok",
+    "lat": -32.970732056706886,
+    "lon": -60.701061999345164,
+    "manual": true
+  },
+  "unparsed::Parque Industrial": {
+    "status": "ok",
+    "lat": -32.988183774123975,
+    "lon": -60.734438896179206,
+    "manual": true
+  },
+  "27 DE FEBRERO||PLFUNES": {
+    "status": "ok",
+    "lat": -32.95891362497749,
+    "lon": -60.70045879034763,
+    "manual": true
+  },
+  "9 DE JULIO||OVLAGOS": {
+    "status": "ok",
+    "lat": -32.949668369661644,
+    "lon": -60.663319900357486,
+    "manual": true
+  },
+  "OV LAGOS||PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.95309834425215,
+    "lon": -60.66419049967071,
+    "manual": true
+  },
+  "RIVA||SNICO": {
+    "status": "ok",
+    "lat": -32.97753718324701,
+    "lon": -60.6817159126675,
+    "manual": true
+  },
+  "27FEB||SNICO": {
+    "status": "ok",
+    "lat": -32.96148026911203,
+    "lon": -60.67766681776937,
+    "manual": true
+  },
+  "FERRAZA||FRANCIA": {
+    "status": "ok",
+    "lat": -32.982861920636886,
+    "lon": -60.676264716680876,
+    "manual": true
+  },
+  "SNICO||ZEBAB": {
+    "status": "ok",
+    "lat": -32.94887722188288,
+    "lon": -60.674474759368714,
+    "manual": true
+  },
+  "ALBERDI||J INGENIEROS": {
+    "status": "ok",
+    "lat": -32.916254710404885,
+    "lon": -60.68480816475694,
+    "manual": true
+  },
+  "AVELLANEDA||J INGENIEROS": {
+    "status": "ok",
+    "lat": -32.91593721967238,
+    "lon": -60.67330033354431,
+    "manual": true
+  },
+  "MORENO||SALTA": {
+    "status": "ok",
+    "lat": -32.93721703500008,
+    "lon": -60.648832439985945,
+    "manual": true
+  },
+  "unparsed::OROÑO YGABOTO": {
+    "status": "ok",
+    "lat": -32.970636307776665,
+    "lon": -60.66008289477225,
+    "manual": true
+  },
+  "unparsed::O.LAGOS YSEGUI": {
+    "status": "ok",
+    "lat": -32.97494876663608,
+    "lon": -60.66939658178918,
+    "manual": true
+  },
+  "unparsed::ACEDEVEDO YFRANCIA": {
+    "status": "ok",
+    "lat": -32.98421176790353,
+    "lon": -60.677058447207244,
+    "manual": true
+  },
+  "unparsed::WINTER YN.HUAPI": {
+    "status": "ok",
+    "lat": -32.98501687273731,
+    "lon": -60.68646807862025,
+    "manual": true
+  },
+  "unparsed::ACEVEDO YFRANCIA": {
+    "status": "ok",
+    "lat": -32.98421176790353,
+    "lon": -60.677058447207244,
+    "manual": true
+  },
+  "LAGOS||SEGUI": {
+    "status": "ok",
+    "lat": -32.97494876663608,
+    "lon": -60.66939658178918,
+    "manual": true
+  },
+  "ESTANISLAO LOPEZ||OROÑO": {
+    "status": "ok",
+    "lat": -32.930781158256416,
+    "lon": -60.65003323453935,
+    "manual": true
+  },
+  "ING THEDY||VELEZ SARSFIELD": {
+    "status": "ok",
+    "lat": -32.92463233314986,
+    "lon": -60.66546851437437,
+    "manual": true
+  },
+  "CORDIVIOLA||GENOVA": {
+    "status": "ok",
+    "lat": -32.91491100416882,
+    "lon": -60.67531211618541,
+    "manual": true
+  },
+  "CABAL||GÉNOVA": {
+    "status": "ok",
+    "lat": -32.91570637408574,
+    "lon": -60.702773779497555,
+    "manual": true
+  },
+  "J M ROSAS||S JUAN": {
+    "status": "ok",
+    "lat": -32.951496341495925,
+    "lon": -60.632183725221786,
+    "manual": true
+  },
+  "CON VJO SODINI||LAGOS": {
+    "status": "ok",
+    "lat": -33.02599015934765,
+    "lon": -60.68113803863526,
+    "manual": true
+  },
+  "unparsed::Uriburu e Italia": {
+    "status": "ok",
+    "lat": -32.99107226310915,
+    "lon": -60.65953974707372,
+    "manual": true
+  },
+  "unparsed::CASINO": {
+    "status": "ok",
+    "lat": -33.011506524570876,
+    "lon": -60.662319660186775,
+    "manual": true
+  },
+  "3FEB||PARA": {
+    "status": "ok",
+    "lat": -32.95176790038069,
+    "lon": -60.64532625325787,
+    "manual": true
+  },
+  "27FEB||MITRE": {
+    "status": "ok",
+    "lat": -32.96734621433628,
+    "lon": -60.644866550975536,
+    "manual": true
+  },
+  "3FEBR||FRANC": {
+    "status": "ok",
+    "lat": -32.94788081989376,
+    "lon": -60.667123545930956,
+    "manual": true
+  },
+  "3FEBR||AVELL": {
+    "status": "ok",
+    "lat": -32.94542853795872,
+    "lon": -60.680721256175566,
+    "manual": true
+  },
+  "3FEBR||PARAN": {
+    "status": "ok",
+    "lat": -32.943326691983735,
+    "lon": -60.69245964892328,
+    "manual": true
+  },
+  "AV DEL ROSARIO||LITUANIA": {
+    "status": "ok",
+    "lat": -32.998108461130734,
+    "lon": -60.620315670620855,
+    "manual": true
+  },
+  "ANDRADE||SAN MARTIN": {
+    "status": "ok",
+    "lat": -32.99582157809776,
+    "lon": -60.647805456714856,
+    "manual": true
+  },
+  "FELIPE MORE||SANTA FE": {
+    "status": "ok",
+    "lat": -32.93516855270878,
+    "lon": -60.69363414319127,
+    "manual": true
+  },
+  "JJPASO||PUNIDAS": {
+    "status": "ok",
+    "lat": -32.92028436576335,
+    "lon": -60.71355577996964,
+    "manual": true
+  },
+  "MINI||TERMINALBRUCCI": {
+    "status": "ok",
+    "lat": -32.88711939650258,
+    "lon": -60.71629106998444,
+    "manual": true
+  },
+  "AV DELROSARIO||LITUANIA": {
+    "status": "ok",
+    "lat": -32.998108461130734,
+    "lon": -60.620315670620855,
+    "manual": true
+  },
+  "JJPAS||OLAVA": {
+    "status": "ok",
+    "lat": -32.919952646536295,
+    "lon": -60.704393285378316,
+    "manual": true
+  },
+  "JJPAS||TARRA": {
+    "status": "ok",
+    "lat": -32.92084110280599,
+    "lon": -60.73487575202852,
+    "manual": true
+  },
+  "D IRALA||ROBLES": {
+    "status": "ok",
+    "lat": -32.88002459828635,
+    "lon": -60.729877397130394,
+    "manual": true
+  },
+  "PALLIERI||PEYRANO": {
+    "status": "ok",
+    "lat": -32.88717990680597,
+    "lon": -60.71599980794154,
+    "manual": true
+  },
+  "LAPORTE||PINTOR MUSTO": {
+    "status": "ok",
+    "lat": -32.8729542293942,
+    "lon": -60.69582338098605,
+    "manual": true
+  },
+  "E RIOS||SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94965395873257,
+    "lon": -60.6418953810588,
+    "manual": true
+  },
+  "BEMPORAT||CALLE 1716": {
+    "status": "ok",
+    "lat": -32.90912253315647,
+    "lon": -60.681785157921446,
+    "manual": true
+  },
+  "HERNANDEZ||NANSEN": {
+    "status": "ok",
+    "lat": -32.90912253315647,
+    "lon": -60.681785157921446,
+    "manual": true
+  },
+  "A THOMAS||PUCCIO": {
+    "status": "ok",
+    "lat": -32.893771485315625,
+    "lon": -60.68768414076364,
+    "manual": true
+  },
+  "J AGÜERO||M FIERRO": {
+    "status": "ok",
+    "lat": -32.87770204574496,
+    "lon": -60.69580790119849,
+    "manual": true
+  },
+  "J M ROSA||RONDEAU": {
+    "status": "ok",
+    "lat": -32.87131403304355,
+    "lon": -60.6996010832664,
+    "manual": true
+  },
+  "FRONDIZI||NANSEN": {
+    "status": "ok",
+    "lat": -32.90893838079254,
+    "lon": -60.67841000122015,
+    "manual": true
+  },
+  "GORRITI||SMDE ORO": {
+    "status": "ok",
+    "lat": -32.92329372166014,
+    "lon": -60.67361561931169,
+    "manual": true
+  },
+  "PTE PERON||ROUILLON": {
+    "status": "ok",
+    "lat": -32.96289535871648,
+    "lon": -60.70136613562453,
+    "manual": true
+  },
+  "ROULLION||SEGUI IDA": {
+    "status": "ok",
+    "lat": -32.970732056706886,
+    "lon": -60.701061999345164,
+    "manual": true
+  },
+  "CISNEROS||ROULLION VTA": {
+    "status": "ok",
+    "lat": -32.97863649264409,
+    "lon": -60.700755843580566,
+    "manual": true
+  },
+  "ROULLION||SEGUI VTA": {
+    "status": "ok",
+    "lat": -32.970732056706886,
+    "lon": -60.701061999345164,
+    "manual": true
+  },
+  "GARCIA DEL COSIO||M ROSARINOS": {
+    "status": "ok",
+    "lat": -32.90144171883403,
+    "lon": -60.747274457708265,
+    "manual": true
+  },
+  "ACEBEDO||JJ PASO": {
+    "status": "ok",
+    "lat": -32.92123060295849,
+    "lon": -60.749064971687346,
+    "manual": true
+  },
+  "JJPASO||OLMOS": {
+    "status": "ok",
+    "lat": -32.921103756078416,
+    "lon": -60.74444420075767,
+    "manual": true
+  },
+  "PROV UNIDAS||RIOBAMBA": {
+    "status": "ok",
+    "lat": -32.95451517775236,
+    "lon": -60.712012518966155,
+    "manual": true
+  },
+  "BRASIL||MENDOZA": {
+    "status": "ok",
+    "lat": -32.94041947135302,
+    "lon": -60.71955701472375,
+    "manual": true
+  },
+  "MENDOZA||OV LAGOS": {
+    "status": "ok",
+    "lat": -32.94738393603014,
+    "lon": -60.66274012634298,
+    "manual": true
+  },
+  "BERUTTI||RIOBAMBA": {
+    "status": "ok",
+    "lat": -32.966237852704424,
+    "lon": -60.62426098671592,
+    "manual": true
+  },
+  "1RO DE MAYO||SAN JUAN": {
+    "status": "ok",
+    "lat": -32.951779626674735,
+    "lon": -60.630688517375745,
+    "manual": true
+  },
+  "OV LAGOS||SAN JUAN": {
+    "status": "ok",
+    "lat": -32.94598698101594,
+    "lon": -60.66238557886655,
+    "manual": true
+  },
+  "OVIDIO LAGOS||SANTA FE": {
+    "status": "ok",
+    "lat": -32.94090519122722,
+    "lon": -60.66109766175962,
+    "manual": true
+  },
+  "J M ROSAS||MENDOZA": {
+    "status": "ok",
+    "lat": -32.95271777174304,
+    "lon": -60.63251432699318,
+    "manual": true
+  },
+  "ENTRE RIOS||SALTA": {
+    "status": "ok",
+    "lat": -32.93893481039364,
+    "lon": -60.63920672182775,
+    "manual": true
+  },
+  "BERITTI||GABOTO": {
+    "status": "ok",
+    "lat": -32.97650865830917,
+    "lon": -60.626833878192514,
+    "manual": true
+  },
+  "BVSEG||VALPA": {
+    "status": "ok",
+    "lat": -32.97123333277131,
+    "lon": -60.69009326264474,
+    "manual": true
+  },
+  "THEDY||VELEZ": {
+    "status": "ok",
+    "lat": -32.92463233314986,
+    "lon": -60.66546851437437,
+    "manual": true
+  },
+  "1 DE MAYO||URIBURU": {
+    "status": "ok",
+    "lat": -32.990465657459076,
+    "lon": -60.64040410616673,
+    "manual": true
+  },
+  "DFUNES||SMARTIN": {
+    "status": "ok",
+    "lat": -32.97589911861443,
+    "lon": -60.64401809575532,
+    "manual": true
+  },
+  "IRIONDO||PTEPERON": {
+    "status": "ok",
+    "lat": -32.95641283504724,
+    "lon": -60.673537951169145,
+    "manual": true
+  },
+  "BERHNAIN||URIZAR": {
+    "status": "ok",
+    "lat": -32.94009455295981,
+    "lon": -60.73170758252928,
+    "manual": true
+  },
+  "MENDOZA||SANCHEZ LORIA": {
+    "status": "ok",
+    "lat": -32.94009455295981,
+    "lon": -60.73170758252928,
+    "manual": true
+  },
+  "CLMUNICIPI O||SEGUI": {
+    "status": "ok",
+    "lat": -32.97163142634858,
+    "lon": -60.73400872586491,
+    "manual": true
+  },
+  "C1711||COLOMBRES": {
+    "status": "ok",
+    "lat": -32.96251748247076,
+    "lon": -60.72495487955414,
+    "manual": true
+  },
+  "OV LAGOS||SANTA FE": {
+    "status": "ok",
+    "lat": -32.94090519122722,
+    "lon": -60.66109766175962,
+    "manual": true
+  },
+  "MGONZALEZ VTA||RIVAROLA": {
+    "status": "ok",
+    "lat": -32.966403132011116,
+    "lon": -60.73094575325069,
+    "manual": true
+  },
+  "3 DE FEBRERO||OV LAGOS": {
+    "status": "ok",
+    "lat": -32.94861124555858,
+    "lon": -60.66305160506252,
+    "manual": true
+  },
+  "unparsed::J.CURA YOROÑO": {
+    "status": "ok",
+    "lat": -32.97117963464596,
+    "lon": -60.66034943503427,
+    "manual": true
+  },
+  "unparsed::CORRIENTES Y27 DEFEBRERO": {
+    "status": "ok",
+    "lat": -32.96684262918133,
+    "lon": -60.647682587307884,
+    "manual": true
+  },
+  "27FEB||ITALI": {
+    "status": "ok",
+    "lat": -32.965855127510224,
+    "lon": -60.653206996980636,
+    "manual": true
+  },
+  "unparsed::27 de Febrero e Italia": {
+    "status": "ok",
+    "lat": -32.965855127510224,
+    "lon": -60.653206996980636,
+    "manual": true
+  },
+  "OCAMPO||RICHIERI": {
+    "status": "ok",
+    "lat": -32.94942399117836,
+    "lon": -60.664682541571246,
+    "manual": true
+  },
+  "COPACABA NA||LAGOS": {
+    "status": "ok",
+    "lat": -33.02814794375835,
+    "lon": -60.68171696993667,
+    "manual": true
+  },
+  "AV DEL ROSARIO||SAN MARTIN": {
+    "status": "ok",
+    "lat": -32.9998460532058,
+    "lon": -60.64867579821,
+    "manual": true
+  },
+  "9JULI||AVELL": {
+    "status": "ok",
+    "lat": -32.94648770190334,
+    "lon": -60.68098864388831,
+    "manual": true
+  },
+  "9JULI||FRANC": {
+    "status": "ok",
+    "lat": -32.948938351940285,
+    "lon": -60.66738975149234,
+    "manual": true
+  },
+  "9JULI||ALVEA": {
+    "status": "ok",
+    "lat": -32.95088827337895,
+    "lon": -60.65651683151397,
+    "manual": true
+  },
+  "unparsed::Paso del Bosque": {
+    "status": "ok",
+    "lat": -32.906974007448945,
+    "lon": -60.720984935760505,
+    "manual": true
+  },
+  "ONCATIVO||PAUNERO": {
+    "status": "ok",
+    "lat": -32.880678706167444,
+    "lon": -60.725811032168245,
+    "manual": true
+  },
+  "ALBERINI||PASAJE PEATONAL(ENTR": {
+    "status": "ok",
+    "lat": -32.88092030680634,
+    "lon": -60.73139074903598,
+    "manual": true
+  },
+  "CISNEROS IDA||ROULLION": {
+    "status": "ok",
+    "lat": -32.97863649264409,
+    "lon": -60.700755843580566,
+    "manual": true
+  },
+  "27 DE FEBRERO||ROULLION": {
+    "status": "ok",
+    "lat": -32.959080574480865,
+    "lon": -60.701513806303986,
+    "manual": true
+  },
+  "BERUTTI||DEAN FUNES": {
+    "status": "ok",
+    "lat": -32.978859342781426,
+    "lon": -60.62743201551787,
+    "manual": true
+  },
+  "CASIANO CASAS||L VILA": {
+    "status": "ok",
+    "lat": -32.90114135403384,
+    "lon": -60.70514727610918,
+    "manual": true
+  },
+  "unparsed::Paso Del Bosque": {
+    "status": "ok",
+    "lat": -32.9072442300709,
+    "lon": -60.72086691856385,
+    "manual": true
+  },
+  "EVA PERON||MATIENZO": {
+    "status": "ok",
+    "lat": -32.936255105101495,
+    "lon": -60.69484179260267,
+    "manual": true
+  },
+  "AV ROSARIO||LITUANIA": {
+    "status": "ok",
+    "lat": -32.998108461130734,
+    "lon": -60.620315670620855,
+    "manual": true
+  },
+  "DNADO||MENDO": {
+    "status": "ok",
+    "lat": -32.94063810468645,
+    "lon": -60.72698263915563,
+    "manual": true
+  },
+  "JDPER||SESTE": {
+    "status": "ok",
+    "lat": -33.01073279763663,
+    "lon": -60.614866018295295,
+    "manual": true
+  },
+  "BROWN_||OLAGOS": {
+    "status": "ok",
+    "lat": -32.932940710223846,
+    "lon": -60.659086339234484,
+    "manual": true
+  },
+  "AVELL_||PELLEG": {
+    "status": "ok",
+    "lat": -32.94994076105554,
+    "lon": -60.681860495959064,
+    "manual": true
+  },
+  "GUATEMALA||^MENDOZA": {
+    "status": "ok",
+    "lat": -32.94035567569906,
+    "lon": -60.71726798087035,
+    "manual": true
+  },
+  "PROV UNIDAS||^RIOBAMBA": {
+    "status": "ok",
+    "lat": -32.95451517775236,
+    "lon": -60.712012518966155,
+    "manual": true
+  },
+  "AVENIDA SALVADOR ALLENDE||NANSEN": {
+    "status": "ok",
+    "lat": -32.90916068039301,
+    "lon": -60.68178390036247,
+    "manual": true
+  },
+  "ALBERDI||JJPASO": {
+    "status": "ok",
+    "lat": -32.91932866938154,
+    "lon": -60.68234116372667,
+    "manual": true
+  },
+  "OVLAGOS||PTEPERON": {
+    "status": "ok",
+    "lat": -32.95539018028206,
+    "lon": -60.66473297427419,
+    "manual": true
+  },
+  "AVFRANCIA||PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.952381841724026,
+    "lon": -60.66825672500243,
+    "manual": true
+  },
+  "unparsed::^Paso Del Bosque": {
+    "status": "ok",
+    "lat": -32.906829888380024,
+    "lon": -60.721263885498054,
+    "manual": true
+  },
+  "JJPASO||^PUNIDAS": {
+    "status": "ok",
+    "lat": -32.920231958184765,
+    "lon": -60.71336746215821,
+    "manual": true
+  },
+  "FRAGA||^JUNIN": {
+    "status": "ok",
+    "lat": -32.92751701184514,
+    "lon": -60.71079893201406,
+    "manual": true
+  },
+  "TUCUMAN||^SOLIS": {
+    "status": "ok",
+    "lat": -32.93229398494115,
+    "lon": -60.703743711496536,
+    "manual": true
+  },
+  "MATIENZO||^EVA PERON": {
+    "status": "ok",
+    "lat": -32.936255105101495,
+    "lon": -60.69484179260267,
+    "manual": true
+  },
+  "AVELLANEDA||^SAN LORENZO": {
+    "status": "ok",
+    "lat": -32.936799168998554,
+    "lon": -60.67853998036973,
+    "manual": true
+  },
+  "CAFFERATA||^SANTA FE": {
+    "status": "ok",
+    "lat": -32.93919661258866,
+    "lon": -60.6706111598466,
+    "manual": true
+  },
+  "OROÑO||^SAN LUIS": {
+    "status": "ok",
+    "lat": -32.946326271596945,
+    "lon": -60.65395649081667,
+    "manual": true
+  },
+  "ENTRE RIOS||^SAN LUIS": {
+    "status": "ok",
+    "lat": -32.94853698601894,
+    "lon": -60.64161354044973,
+    "manual": true
+  },
+  "27 DE FEBRERO||^ENTRE RIOS": {
+    "status": "ok",
+    "lat": -32.96709411628462,
+    "lon": -60.64627850187403,
+    "manual": true
+  },
+  "URIBURU||^ENTRE RIOS": {
+    "status": "ok",
+    "lat": -32.99084380687724,
+    "lon": -60.6522751981664,
+    "manual": true
+  },
+  "SAN MARTIN||^LAMADRID": {
+    "status": "ok",
+    "lat": -32.99707009346921,
+    "lon": -60.648075657541135,
+    "manual": true
+  },
+  "LITUANIA||^AV ROSARIO": {
+    "status": "ok",
+    "lat": -32.998108461130734,
+    "lon": -60.620315670620855,
+    "manual": true
+  },
+  "BATLLE||ORDOÑEZ Y SAN MARTÍN": {
+    "status": "ok",
+    "lat": -33.00890604858609,
+    "lon": -60.650617307895594,
+    "manual": true
+  },
+  "BATLLE||ORDOÑEZ Y AYACUCHO": {
+    "status": "ok",
+    "lat": -33.00854653839455,
+    "lon": -60.6357980269768,
+    "manual": true
+  },
+  "BS AS||BV SEGUI": {
+    "status": "ok",
+    "lat": -32.98004188135883,
+    "lon": -60.64090524625116,
+    "manual": true
+  },
+  "BS AS||PELLEGRINI": {
+    "status": "ok",
+    "lat": -32.958255080019335,
+    "lon": -60.635431273127274,
+    "manual": true
+  },
+  "CORRIENTE S||SANTA FE": {
+    "status": "ok",
+    "lat": -32.94430721618231,
+    "lon": -60.64201447273118,
+    "manual": true
+  },
+  "CATAMARC A||SAN NICOLÁS": {
+    "status": "ok",
+    "lat": -32.934488335051704,
+    "lon": -60.67084368401375,
+    "manual": true
+  },
+  "NUÑEZ||RONDEAU": {
+    "status": "ok",
+    "lat": -32.88452006267614,
+    "lon": -60.69542812368518,
+    "manual": true
+  },
+  "CIUDADELA (BAIGORRIA )||RUTA 11": {
+    "status": "ok",
+    "lat": -32.87115320638642,
+    "lon": -60.69989204406739,
+    "manual": true
+  },
+  "EVA PERÓN||RUTA 11 (BAIGORRIA )": {
+    "status": "ok",
+    "lat": -32.85799605827523,
+    "lon": -60.70362567901612,
+    "manual": true
+  },
+  "ARENALES||RUTA 11": {
+    "status": "ok",
+    "lat": -32.85810420717413,
+    "lon": -60.70366859436036,
+    "manual": true
+  },
+  "CIUDADELA||RUTA 11": {
+    "status": "ok",
+    "lat": -32.87111716207196,
+    "lon": -60.69972038269044,
+    "manual": true
+  },
+  "ALBERDI||SALTA": {
+    "status": "ok",
+    "lat": -32.93327894009393,
+    "lon": -60.67112299439836,
+    "manual": true
+  },
+  "NEUQUEN||PROV UNIDAS": {
+    "status": "ok",
+    "lat": -32.94456960616171,
+    "lon": -60.71241485377939,
+    "manual": true
+  },
+  "unparsed::BERU": {
+    "status": "ok",
+    "lat": -32.966237852704424,
+    "lon": -60.62426098671592,
+    "manual": true
+  },
+  "BAIGORRIA||C CASAS": {
+    "status": "ok",
+    "lat": -32.89390526888795,
+    "lon": -60.716308961853315,
+    "manual": true
+  },
+  "MAGALDI||URIZAR": {
+    "status": "ok",
+    "lat": -32.936757865019864,
+    "lon": -60.744109503570535,
+    "manual": true
+  },
+  "AMUCHASTEG UI IDA||MENDOZA": {
+    "status": "ok",
+    "lat": -32.940116746958665,
+    "lon": -60.73249016949194,
+    "manual": true
+  },
+  "C ALDAO||SANTA FE": {
+    "status": "ok",
+    "lat": -32.93524320599988,
+    "lon": -60.696164336996844,
+    "manual": true
+  },
+  "PERON||UNIDAS VTA": {
+    "status": "ok",
+    "lat": -32.93299415474353,
+    "lon": -60.71298787085509,
+    "manual": true
+  },
+  "DONADO VTA||PERON": {
+    "status": "ok",
+    "lat": -32.930402327728515,
+    "lon": -60.72736880804071,
+    "manual": true
+  },
+  "AMUCHASTEG UI VTA||MENDOZA": {
+    "status": "ok",
+    "lat": -32.940116746958665,
+    "lon": -60.73249016949194,
+    "manual": true
+  },
+  "MAGALDI VTA||URIZAR": {
+    "status": "ok",
+    "lat": -32.936757865019864,
+    "lon": -60.744109503570535,
+    "manual": true
+  },
+  "unparsed::CORRIENTES Y27 DE FEBRERO": {
+    "status": "ok",
+    "lat": -32.96684262918133,
+    "lon": -60.647682587307884,
+    "manual": true
+  },
+  "AV DEL||SAN MARTIN": {
+    "status": "ok",
+    "lat": -32.9998460532058,
+    "lon": -60.64867579821,
+    "manual": true
+  },
+  "ACAPULCO(FUNES)||MAR DELPLAZA": {
+    "status": "ok",
+    "lat": -32.91461198240357,
+    "lon": -60.864815711975105,
+    "manual": true
+  },
+  "unparsed::MINI": {
+    "status": "ok",
+    "lat": -32.88710137759323,
+    "lon": -60.71619987487794,
+    "manual": true
+  },
+  "27 DE FEBRERO||DA ROULLION": {
+    "status": "ok",
+    "lat": -32.959080574480865,
+    "lon": -60.701513806303986,
+    "manual": true
+  },
+  "C LIMITE||SEGUI": {
+    "status": "ok",
+    "lat": -32.97163142634858,
+    "lon": -60.73400872586491,
+    "manual": true
+  },
+  "BS AS||URIBURU": {
+    "status": "ok",
+    "lat": -32.990567327573636,
+    "lon": -60.64355894321434,
+    "manual": true
+  },
+  "BATLLE||LAGOS": {
+    "status": "ok",
+    "lat": -33.00973670330604,
+    "lon": -60.67735128004273,
+    "manual": true
+  },
+  "INTEDENTE LAMAS||SORRENTO": {
+    "status": "ok",
+    "lat": -32.907260450098114,
+    "lon": -60.69382498633758,
+    "manual": true
+  },
+  "GODOY||IRIONDO": {
+    "status": "ok",
+    "lat": -32.96884817336895,
+    "lon": -60.6766817170779,
+    "manual": true
+  },
+  "25 DE MAYO||CORDOBA": {
+    "status": "ok",
+    "lat": -32.9311443408612,
+    "lon": -60.72315722000757,
+    "manual": true
+  },
+  "ALBER||JINGE": {
+    "status": "ok",
+    "lat": -32.916254710404885,
+    "lon": -60.68480816475694,
+    "manual": true
+  },
+  "AVENIDA DEL ROSARIO||SAAVEDRA": {
+    "status": "ok",
+    "lat": -32.84847843887372,
+    "lon": -60.794928073883064,
+    "manual": true
+  },
+  "25 DE MAYO||34": {
+    "status": "ok",
+    "lat": -32.89320957792869,
+    "lon": -60.720212459564216,
+    "manual": true
+  },
+  "ARENA||RUT11": {
+    "status": "ok",
+    "lat": -32.858032107922845,
+    "lon": -60.70345401763917,
+    "manual": true
+  },
+  "CALLE 1752||^CALLE 1739": {
+    "status": "ok",
+    "lat": -32.85336355666639,
+    "lon": -60.783641338348396,
+    "manual": true
+  },
+  "BAIGORRIA||JUAN PABLO II": {
+    "status": "ok",
+    "lat": -32.89371407122298,
+    "lon": -60.71917176246644,
+    "manual": true
+  },
+  "C1635||CALAS": {
+    "status": "ok",
+    "lat": -32.940796715679625,
+    "lon": -60.760903684709994,
+    "manual": true
+  },
+  "JDPERON (VGG)||SDIEGO": {
+    "status": "ok",
+    "lat": -33.01895554820557,
+    "lon": -60.6181812286377,
+    "manual": true
+  },
+  "FILIP||MOSCO": {
+    "status": "ok",
+    "lat": -33.02575628104276,
+    "lon": -60.63714981079102,
+    "manual": true
+  },
+  "JDPER||S MAR": {
+    "status": "ok",
+    "lat": -33.02545043924613,
+    "lon": -60.62455415725709,
+    "manual": true
+  },
+  "17OCT||SDIEG": {
+    "status": "ok",
+    "lat": -33.018505745790826,
+    "lon": -60.60899734497071,
+    "manual": true
+  },
+  "DONAD||JJPAS": {
+    "status": "ok",
+    "lat": -32.92064467213504,
+    "lon": -60.72774914966584,
+    "manual": true
+  },
+  "JNEWE||LORIA": {
+    "status": "ok",
+    "lat": -32.90847736931955,
+    "lon": -60.73308037704464,
+    "manual": true
+  },
+  "JNEWE||JPAII": {
+    "status": "ok",
+    "lat": -32.908379156077324,
+    "lon": -60.725748538970954,
+    "manual": true
+  },
+  "CISNEROS IDA||DA ROULLION": {
+    "status": "ok",
+    "lat": -32.97863649264409,
+    "lon": -60.700755843580566,
+    "manual": true
+  }
+}

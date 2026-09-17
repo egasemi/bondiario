@@ -1,0 +1,858 @@
+{
+  "linea": "106",
+  "puntos": [
+    {
+      "tokens": [
+        "Avenida del Rosario",
+        "Saavedra"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Avenida del\nRosario y\nSaavedra"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "FIN",
+          "label_raw": "Avenida del\nRosario y\nSaavedra"
+        }
+      ],
+      "id": "pt000",
+      "clave": "AVENIDA DEL ROSARIO||SAAVEDRA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SAAVEDRA",
+          "SAAVEDRA LAMAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.84847843887372,
+        "lon": -60.794928073883064,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "34",
+        "25 de Mayo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "34 y 25 de\nMayo"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "14",
+          "label_raw": "34 y 25 de\nMayo"
+        }
+      ],
+      "id": "pt001",
+      "clave": "25 DE MAYO||34",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "25 DE MAYO AV CIRCUNVALACION"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89320957792869,
+        "lon": -60.720212459564216,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "34",
+        "Grandoli"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "34 y Grandoli"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "34 y\nGrandoli"
+        }
+      ],
+      "id": "pt002",
+      "clave": "34||GRANDOLI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "GRANDOLI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88710137759323,
+        "lon": -60.73019027709962,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Baigorria",
+        "Buchardo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Baigorria y\nBuchardo"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Baigorria y\nBuchardo"
+        }
+      ],
+      "id": "pt003",
+      "clave": "BAIGORRIA||BUCHARDO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BAIGORRIA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.89395027189452,
+        "lon": -60.71773812625615,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Casiano Casas",
+        "Esquivel"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Casiano\nCasas y\nEsquivel"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Casiano\nCasas y\nEsquivel"
+        }
+      ],
+      "id": "pt004",
+      "clave": "CASIANO CASAS||ESQUIVEL",
+      "status": "auto",
+      "calle1": "CASIANO CASAS",
+      "calle2": "ESQUIVEL",
+      "candidatos": [
+        [
+          "CASIANO CASAS"
+        ],
+        [
+          "ESQUIVEL"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90114256918144,
+        "lon": -60.705307503400356,
+        "x": 5434012.65,
+        "y": 6359960.705
+      }
+    },
+    {
+      "tokens": [
+        "Sorrento",
+        "Intedente Lamas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Sorrento y\nIntedente\nLamas"
+        }
+      ],
+      "id": "pt005",
+      "clave": "INTEDENTE LAMAS||SORRENTO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SORRENTO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.907260450098114,
+        "lon": -60.69382498633758,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Sabin",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Sabin y\nAvellaneda"
+        }
+      ],
+      "id": "pt006",
+      "clave": "AVELLANEDA||SABIN",
+      "status": "auto",
+      "calle1": "SABIN",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "SABIN"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.928868705799744,
+        "lon": -60.676568618817036,
+        "x": 5436721.195,
+        "y": 6356903.32
+      }
+    },
+    {
+      "tokens": [
+        "Salta",
+        "Francia"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Salta y\nFrancia"
+        }
+      ],
+      "id": "pt007",
+      "clave": "FRANCIA||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93454301584157,
+        "lon": -60.66376121418787,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Salta",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Salta y\nOroño"
+        }
+      ],
+      "id": "pt008",
+      "clave": "OROÑO||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93673411275052,
+        "lon": -60.6515429177582,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Salta",
+        "Entre Rios"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Salta y Entre\nRios"
+        }
+      ],
+      "id": "pt009",
+      "clave": "ENTRE RIOS||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93893481039364,
+        "lon": -60.63920672182775,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San Lorenzo",
+        "Laprida"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "San Lorenzo\ny Laprida"
+        }
+      ],
+      "id": "pt010",
+      "clave": "LAPRIDA||SAN LORENZO",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94599602682921,
+        "lon": -60.633358211165536,
+        "x": 5440774.11,
+        "y": 6355028.91
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Laprida y\nPellegrini"
+        }
+      ],
+      "id": "pt011",
+      "clave": "LAPRIDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95797907858964,
+        "lon": -60.636972187793276,
+        "x": 5440444.195,
+        "y": 6353697.875
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Laprida y 27\nde Febrero"
+        }
+      ],
+      "id": "pt012",
+      "clave": "27 DE FEBRERO||LAPRIDA",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.968293859930704,
+        "lon": -60.639561423538005,
+        "x": 5440209.05,
+        "y": 6352552.43
+      }
+    },
+    {
+      "tokens": [
+        "Amenabar",
+        "Colón"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "Amenabar y\nColón"
+        }
+      ],
+      "id": "pt013",
+      "clave": "AMENABAR||COLÓN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "AMENABAR"
+        ],
+        [
+          "COLON",
+          "COLON NORTE"
+        ]
+      ],
+      "calle1": "AMENABAR",
+      "calle2": "COLON",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.974443544276255,
+        "lon": -60.632013310845025,
+        "x": 5440918.81,
+        "y": 6351874.65
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "Grandoli",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "14 FIN",
+          "label_raw": "Grandoli y\nUriburu"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Grandoli y\nUriburu"
+        }
+      ],
+      "id": "pt014",
+      "clave": "GRANDOLI||URIBURU",
+      "status": "auto",
+      "calle1": "GRANDOLI",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "GRANDOLI"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.990083382987734,
+        "lon": -60.62847877710324,
+        "x": 5441259.585,
+        "y": 6350142.0625
+      }
+    },
+    {
+      "tokens": [
+        "Maestro Santafecino",
+        "Isola"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Maestro\nSantafecino y\nIsola"
+        }
+      ],
+      "id": "pt015",
+      "clave": "ISOLA||MAESTRO SANTAFECINO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ISOLA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991296932138866,
+        "lon": -60.62303007581896,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Beritti",
+        "Gaboto"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Beritti y\nGaboto"
+        }
+      ],
+      "id": "pt016",
+      "clave": "BERITTI||GABOTO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "GABOTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97650865830917,
+        "lon": -60.626833878192514,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Primera Junta",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Primera\nJunta y 27\nde Febrero"
+        }
+      ],
+      "id": "pt017",
+      "clave": "27 DE FEBRERO||PRIMERA JUNTA",
+      "status": "auto",
+      "calle1": "PRIMERA JUNTA",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "PRIMERA JUNTA"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96815622334049,
+        "lon": -60.640748590706444,
+        "x": 5440097.97,
+        "y": 6352567.02
+      }
+    },
+    {
+      "tokens": [
+        "Maipu",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Maipu y\nPellegrini"
+        }
+      ],
+      "id": "pt018",
+      "clave": "MAIPU||PELLEGRINI",
+      "status": "auto",
+      "calle1": "MAIPU",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9577691334772,
+        "lon": -60.63814576065071,
+        "x": 5440334.325,
+        "y": 6353720.495
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "San Martin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Santa Fe y\nSan Martin"
+        }
+      ],
+      "id": "pt019",
+      "clave": "SAN MARTIN||SANTA FE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "SAN MARTIN",
+          "SAN MARTIN / LIMITE MUNICIPAL"
+        ]
+      ],
+      "calle1": "SANTA FE",
+      "calle2": "SAN MARTIN",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94561746713212,
+        "lon": -60.63645390903286,
+        "x": 5440484.37,
+        "y": 6355069.15
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Catamarca",
+        "Paraguay"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Catamarca y\nParaguay"
+        }
+      ],
+      "id": "pt020",
+      "clave": "CATAMARCA||PARAGUAY",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "PARAGUAY",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "PARAGUAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.939610942479646,
+        "lon": -60.642253634107576,
+        "x": 5439937.96,
+        "y": 6355732.02
+      }
+    },
+    {
+      "tokens": [
+        "Catamarca",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Catamarca y\nOroño"
+        }
+      ],
+      "id": "pt021",
+      "clave": "CATAMARCA||OROÑO",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93789123037083,
+        "lon": -60.65183401244881,
+        "x": 5439040.83,
+        "y": 6355917.245
+      }
+    },
+    {
+      "tokens": [
+        "Catamarca",
+        "Francia"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Catamarca y\nFrancia"
+        }
+      ],
+      "id": "pt022",
+      "clave": "CATAMARCA||FRANCIA",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93570420303537,
+        "lon": -60.664053025061655,
+        "x": 5437896.565,
+        "y": 6356152.665
+      }
+    },
+    {
+      "tokens": [
+        "Sabin",
+        "Casilda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Sabin y\nCasilda"
+        }
+      ],
+      "id": "pt023",
+      "clave": "CASILDA||SABIN",
+      "status": "auto",
+      "calle1": "SABIN",
+      "calle2": "CASILDA",
+      "candidatos": [
+        [
+          "SABIN"
+        ],
+        [
+          "CASILDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92814101170624,
+        "lon": -60.677834789201604,
+        "x": 5436602.25,
+        "y": 6356983.265000002
+      }
+    },
+    {
+      "tokens": [
+        "Sorrento",
+        "Sabin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Sorrento y\nSabin"
+        }
+      ],
+      "id": "pt024",
+      "clave": "SABIN||SORRENTO",
+      "status": "auto",
+      "calle1": "SORRENTO",
+      "calle2": "SABIN",
+      "candidatos": [
+        [
+          "SORRENTO"
+        ],
+        [
+          "SABIN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.907260450098114,
+        "lon": -60.69382498633758,
+        "x": 5435091.42,
+        "y": 6359289.32
+      }
+    }
+  ]
+}

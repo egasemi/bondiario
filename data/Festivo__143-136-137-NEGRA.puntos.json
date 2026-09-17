@@ -1,0 +1,806 @@
+{
+  "linea": "143-136- 137",
+  "puntos": [
+    {
+      "tokens": [
+        "Oroño",
+        "Batlle y Ordoñez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Oroño y\nBatlle y\nOrdoñez"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 29,
+          "pos_label": "FIN",
+          "label_raw": "Oroño-\nBatlle y\nOrdoñez"
+        }
+      ],
+      "id": "pt000",
+      "clave": "BATLLE Y ORDOÑEZ||OROÑO",
+      "status": "auto",
+      "calle1": "ORONO",
+      "calle2": "BATLLE Y ORDONEZ",
+      "candidatos": [
+        [
+          "ORONO"
+        ],
+        [
+          "BATLLE Y ORDONEZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00942432054662,
+        "lon": -60.66459465727235,
+        "x": 5437897.526000002,
+        "y": 6347976.266000002
+      }
+    },
+    {
+      "tokens": [
+        "Batlle",
+        "Ordoñez y San Martín"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Batlle y\nOrdoñez y\nSan\nMartín"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 28,
+          "pos_label": "12",
+          "label_raw": "Batlle y\nOrdoñez\ny San\nMartín"
+        }
+      ],
+      "id": "pt001",
+      "clave": "BATLLE||ORDOÑEZ Y SAN MARTÍN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BATLLE Y ORDONEZ"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00890604858609,
+        "lon": -60.650617307895594,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Batlle",
+        "Ordoñez y Ayacucho"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Batlle y\nOrdoñez y\nAyacucho"
+        }
+      ],
+      "id": "pt002",
+      "clave": "BATLLE||ORDOÑEZ Y AYACUCHO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BATLLE Y ORDONEZ"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00854653839455,
+        "lon": -60.6357980269768,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ayacucho",
+        "URIBU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Ayacucho\ny URIBU"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AYACUCHO||URIBU",
+      "status": "auto",
+      "calle1": "AYACUCHO",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "AYACUCHO"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.990379132386025,
+        "lon": -60.63692199166234,
+        "x": 5440470.63,
+        "y": 6350104.516666668
+      }
+    },
+    {
+      "tokens": [
+        "Bs. As.",
+        "Bv. Segui"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Bs. As. y\nBv. Segui"
+        }
+      ],
+      "id": "pt004",
+      "clave": "BS AS||BV SEGUI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.98004188135883,
+        "lon": -60.64090524625116,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Bs. As.",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Bs. As. Y\nPellegrini"
+        }
+      ],
+      "id": "pt005",
+      "clave": "BS AS||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.958255080019335,
+        "lon": -60.635431273127274,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San Juan",
+        "Maipú"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "San Juan\ny Maipú"
+        }
+      ],
+      "id": "pt006",
+      "clave": "MAIPÚ||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ],
+        [
+          "MAIPU"
+        ]
+      ],
+      "calle1": "SAN JUAN",
+      "calle2": "MAIPU",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95069588232014,
+        "lon": -60.63620871922993,
+        "x": 5440510.7,
+        "y": 6354506.06
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Corriente s",
+        "Santa Fe"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Corriente\ns y Santa\nFe"
+        }
+      ],
+      "id": "pt007",
+      "clave": "CORRIENTE S||SANTA FE",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94430721618231,
+        "lon": -60.64201447273118,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Santa Fe",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Santa Fe\ny Oroño"
+        }
+      ],
+      "id": "pt008",
+      "clave": "OROÑO||SANTA FE",
+      "status": "auto",
+      "calle1": "SANTA FE",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SANTA FE"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94235971512325,
+        "lon": -60.65295938589818,
+        "x": 5438938.655,
+        "y": 6355421.01
+      }
+    },
+    {
+      "tokens": [
+        "San Nicolás",
+        "Catamarc a"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "San\nNicolás y\nCatamarc\na"
+        }
+      ],
+      "id": "pt009",
+      "clave": "CATAMARC A||SAN NICOLÁS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN NICOLAS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.934488335051704,
+        "lon": -60.67084368401375,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Rondeau",
+        "Sorrento"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Rondeau\ny\nSorrento"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 19,
+          "pos_label": "3",
+          "label_raw": "Rondeau\ny\nSorrento"
+        }
+      ],
+      "id": "pt010",
+      "clave": "RONDEAU||SORRENTO",
+      "status": "auto",
+      "calle1": "RONDEAU",
+      "calle2": "SORRENTO",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        [
+          "SORRENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90709206333902,
+        "lon": -60.68857386231627,
+        "x": 5435582.560000002,
+        "y": 6359311.215
+      }
+    },
+    {
+      "tokens": [
+        "Rondeau",
+        "Nuñez"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Rondeau\ny Nuñez"
+        }
+      ],
+      "id": "pt011",
+      "clave": "NUÑEZ||RONDEAU",
+      "status": "auto",
+      "candidatos": [
+        [
+          "RONDEAU"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88452006267614,
+        "lon": -60.69542812368518,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ruta 11",
+        "Ciudadela (Baigorria )"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Ruta 11 y\nCiudadela\n(Baigorria\n)"
+        }
+      ],
+      "id": "pt012",
+      "clave": "CIUDADELA (BAIGORRIA )||RUTA 11",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.87115320638642,
+        "lon": -60.69989204406739,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Eva Perón",
+        "Ruta 11 (Baigorria )"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "Eva Perón\ny Ruta 11\n(Baigorria\n)"
+        }
+      ],
+      "id": "pt013",
+      "clave": "EVA PERÓN||RUTA 11 (BAIGORRIA )",
+      "status": "auto",
+      "candidatos": [
+        [
+          "EVA PERON"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.85799605827523,
+        "lon": -60.70362567901612,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Galpón Baigorria"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "FIN",
+          "label_raw": "Galpón\nBaigorria"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "INICIO",
+          "label_raw": "Galpón\nBaigorria"
+        }
+      ],
+      "id": "pt014",
+      "clave": "unparsed::Galpón Baigorria",
+      "status": "manual",
+      "candidatos": []
+    },
+    {
+      "tokens": [
+        "Arenales",
+        "Ruta 11"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "1",
+          "label_raw": "Arenales\ny Ruta 11"
+        }
+      ],
+      "id": "pt015",
+      "clave": "ARENALES||RUTA 11",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ARENALES"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.85810420717413,
+        "lon": -60.70366859436036,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ruta 11",
+        "Ciudadela"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "2",
+          "label_raw": "Ruta 11 y\nCiudadela"
+        }
+      ],
+      "id": "pt016",
+      "clave": "CIUDADELA||RUTA 11",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "CIUDADELA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.87111716207196,
+        "lon": -60.69972038269044,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Alberdi",
+        "Salta"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 20,
+          "pos_label": "4",
+          "label_raw": "Alberdi y\nSalta"
+        }
+      ],
+      "id": "pt017",
+      "clave": "ALBERDI||SALTA",
+      "status": "auto",
+      "calle1": "ALBERDI",
+      "calle2": "SALTA AV",
+      "candidatos": [
+        [
+          "ALBERDI"
+        ],
+        [
+          "SALTA AV"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93327894009393,
+        "lon": -60.67112299439836,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Tucumán",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 21,
+          "pos_label": "5",
+          "label_raw": "Tucumán\ny Oroño"
+        }
+      ],
+      "id": "pt018",
+      "clave": "OROÑO||TUCUMÁN",
+      "status": "auto",
+      "calle1": "TUCUMAN",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "TUCUMAN"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93907945637397,
+        "lon": -60.65213336299179,
+        "x": 5439013.65,
+        "y": 6355785.29
+      }
+    },
+    {
+      "tokens": [
+        "España",
+        "San Luis"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 22,
+          "pos_label": "6",
+          "label_raw": "España y\nSan Luis"
+        }
+      ],
+      "id": "pt019",
+      "clave": "ESPAÑA||SAN LUIS",
+      "status": "auto",
+      "calle1": "ESPANA",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "ESPANA"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94753372557084,
+        "lon": -60.64716938658163,
+        "x": 5439483.64,
+        "y": 6354850.52
+      }
+    },
+    {
+      "tokens": [
+        "San Luis",
+        "Laprida"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "7",
+          "label_raw": "San Luis\ny Laprida"
+        }
+      ],
+      "id": "pt020",
+      "clave": "LAPRIDA||SAN LUIS",
+      "status": "auto",
+      "calle1": "SAN LUIS",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.949768663266646,
+        "lon": -60.63460339888335,
+        "x": 5440660.19,
+        "y": 6354609.8
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "8",
+          "label_raw": "Laprida y\nPellegrini"
+        }
+      ],
+      "id": "pt021",
+      "clave": "LAPRIDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95797907858964,
+        "lon": -60.636972187793276,
+        "x": 5440444.195,
+        "y": 6353697.875
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "Bv. Segui"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "9",
+          "label_raw": "Laprida y\nBv. Segui"
+        }
+      ],
+      "id": "pt022",
+      "clave": "BV SEGUI||LAPRIDA",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.979764321752,
+        "lon": -60.64245517437364,
+        "x": 5439946.28,
+        "y": 6351278.630000002
+      }
+    },
+    {
+      "tokens": [
+        "Uriburu",
+        "Ayacucho"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 26,
+          "pos_label": "10",
+          "label_raw": "Uriburu y\nAyacucho"
+        }
+      ],
+      "id": "pt023",
+      "clave": "AYACUCHO||URIBURU",
+      "status": "auto",
+      "calle1": "URIBURU",
+      "calle2": "AYACUCHO",
+      "candidatos": [
+        [
+          "URIBURU"
+        ],
+        [
+          "AYACUCHO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.990379132386025,
+        "lon": -60.63692199166234,
+        "x": 5440470.63,
+        "y": 6350104.516666668
+      }
+    },
+    {
+      "tokens": [
+        "Ayacucho",
+        "Arijón"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 27,
+          "pos_label": "11",
+          "label_raw": "Ayacucho\ny Arijón"
+        }
+      ],
+      "id": "pt024",
+      "clave": "ARIJÓN||AYACUCHO",
+      "status": "auto",
+      "calle1": "AYACUCHO",
+      "calle2": "ARIJON",
+      "candidatos": [
+        [
+          "AYACUCHO"
+        ],
+        [
+          "ARIJON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.002624642720676,
+        "lon": -60.636057835388016,
+        "x": 5440559.61,
+        "y": 6348746.890000002
+      }
+    }
+  ]
+}

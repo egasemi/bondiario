@@ -1,0 +1,550 @@
+{
+  "linea": "128",
+  "puntos": [
+    {
+      "tokens": [
+        "URQUIZA",
+        "FRANCIA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "URQUIZA -\nFRANCIA"
+        }
+      ],
+      "id": "pt000",
+      "clave": "FRANCIA||URQUIZA",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93805676766283,
+        "lon": -60.664647482171475,
+        "x": 5437842.615,
+        "y": 6355891.4
+      }
+    },
+    {
+      "tokens": [
+        "CAFFE",
+        "CORDO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "CAFFE -\nCORDO"
+        }
+      ],
+      "id": "pt001",
+      "clave": "CAFFE||CORDO",
+      "status": "auto",
+      "calle1": "CAFFERATA",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "CAFFERATA"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94054267909362,
+        "lon": -60.670951201305705,
+        "x": 5437254.84,
+        "y": 6355611.96
+      }
+    },
+    {
+      "tokens": [
+        "CAFFE",
+        "MONTE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "CAFFE -\nMONTE"
+        }
+      ],
+      "id": "pt002",
+      "clave": "CAFFE||MONTE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "CAFFERATA"
+        ],
+        [
+          "MONTEAGUDO",
+          "MONTECARLO",
+          "MONTEVIDEO",
+          "MONTE FLORES",
+          "MONTES DE OCA",
+          "MONTES CARBALLO 1704"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95026869606863,
+        "lon": -60.67339857792264,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "CAFFE",
+        "SAAVE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "CAFFE -\nSAAVE"
+        }
+      ],
+      "id": "pt003",
+      "clave": "CAFFE||SAAVE",
+      "status": "auto",
+      "candidatos": [
+        [
+          "CAFFERATA"
+        ],
+        [
+          "SAAVEDRA",
+          "SAAVEDRA LAMAS"
+        ]
+      ],
+      "calle1": "CAFFERATA",
+      "calle2": "SAAVEDRA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97204079048682,
+        "lon": -60.678918065935065,
+        "x": 5436532.31,
+        "y": 6352113.83
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "BIEDM",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "BIEDM -\nOvLAG"
+        }
+      ],
+      "id": "pt004",
+      "clave": "BIEDM||OVLAG",
+      "status": "auto",
+      "calle1": "BIEDMA",
+      "calle2": "OVIDIO LAGOS",
+      "candidatos": [
+        [
+          "BIEDMA"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.977248736402075,
+        "lon": -60.66995469322726,
+        "x": 5437373.93,
+        "y": 6351541.6
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "BvSEG -\nOROÑO"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 15,
+          "pos_label": "4",
+          "label_raw": "BvSEG -\nOROÑO"
+        }
+      ],
+      "id": "pt005",
+      "clave": "BVSEG||OROÑO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97635953955821,
+        "lon": -60.66151169378635,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MITRE",
+        "AYOLA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "MITRE -\nAYOLA"
+        }
+      ],
+      "id": "pt006",
+      "clave": "AYOLA||MITRE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "AYOLAS",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "AYOLAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97652741702439,
+        "lon": -60.64717914731819,
+        "x": 5439502.49,
+        "y": 6351634.92
+      }
+    },
+    {
+      "tokens": [
+        "MITRE",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "MITRE -\nPELLE"
+        }
+      ],
+      "id": "pt007",
+      "clave": "MITRE||PELLE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95703159069181,
+        "lon": -60.64227731876921,
+        "x": 5439947.525,
+        "y": 6353799.945
+      }
+    },
+    {
+      "tokens": [
+        "MITRE",
+        "SLUIS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "MITRE -\nSLUIS"
+        }
+      ],
+      "id": "pt008",
+      "clave": "MITRE||SLUIS",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94877885340193,
+        "lon": -60.640216821434855,
+        "x": 5440134.62,
+        "y": 6354716.4
+      }
+    },
+    {
+      "tokens": [
+        "SLORE",
+        "LAPRIDA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "FIN",
+          "label_raw": "SLORE -\nLAPRIDA"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "INICIO",
+          "label_raw": "SLORE -\nLAPRIDA"
+        }
+      ],
+      "id": "pt009",
+      "clave": "LAPRIDA||SLORE",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94599602682921,
+        "lon": -60.633358211165536,
+        "x": 5440774.11,
+        "y": 6355028.91
+      }
+    },
+    {
+      "tokens": [
+        "SJUAN",
+        "ERIOS"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "1",
+          "label_raw": "SJUAN -\nERIOS"
+        }
+      ],
+      "id": "pt010",
+      "clave": "ERIOS||SJUAN",
+      "status": "auto",
+      "calle1": "SAN JUAN",
+      "calle2": "ENTRE RIOS",
+      "candidatos": [
+        [
+          "SAN JUAN"
+        ],
+        [
+          "ENTRE RIOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.949653958732576,
+        "lon": -60.6418953810588,
+        "x": 5439978.25,
+        "y": 6354618.39
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "2",
+          "label_raw": "ERIOS -\nPELLE"
+        }
+      ],
+      "id": "pt011",
+      "clave": "ERIOS||PELLE",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95678007735076,
+        "lon": -60.64368660465688,
+        "x": 5439815.585,
+        "y": 6353827.035
+      }
+    },
+    {
+      "tokens": [
+        "ERIOS",
+        "AYOLA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "3",
+          "label_raw": "ERIOS -\nAYOLA"
+        }
+      ],
+      "id": "pt012",
+      "clave": "AYOLA||ERIOS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "AYOLAS",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "AYOLAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.978003685189364,
+        "lon": -60.63891702583494,
+        "x": 5440275.83,
+        "y": 6351475.91
+      }
+    },
+    {
+      "tokens": [
+        "BvSEG",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "5",
+          "label_raw": "BvSEG -\nOvLAG"
+        }
+      ],
+      "id": "pt013",
+      "clave": "BVSEG||OVLAG",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97494876663608,
+        "lon": -60.66939658178918,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SNICO",
+        "GARAY"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 17,
+          "pos_label": "6",
+          "label_raw": "SNICO -\nGARAY"
+        }
+      ],
+      "id": "pt014",
+      "clave": "GARAY||SNICO",
+      "status": "auto",
+      "calle1": "SAN NICOLAS",
+      "calle2": "GARAY",
+      "candidatos": [
+        [
+          "SAN NICOLAS"
+        ],
+        [
+          "GARAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.968358183544794,
+        "lon": -60.67941112954752,
+        "x": 5436483.58,
+        "y": 6352521.96
+      }
+    },
+    {
+      "tokens": [
+        "SNICO",
+        "ZEBAB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 18,
+          "pos_label": "7",
+          "label_raw": "SNICO -\nZEBAB"
+        }
+      ],
+      "id": "pt015",
+      "clave": "SNICO||ZEBAB",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN NICOLAS"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94887722188288,
+        "lon": -60.674474759368714,
+        "manual": true
+      }
+    }
+  ]
+}

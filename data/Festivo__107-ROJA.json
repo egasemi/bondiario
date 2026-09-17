@@ -1,0 +1,3029 @@
+{
+  "linea": "107",
+  "ida": {
+    "sentido": "IDA",
+    "puntos": [
+      {
+        "col": 1,
+        "pos_label": "INICIO",
+        "label_raw": "BATTLE -\nAREQUIP\nA",
+        "label_guess": "BATTLE - AREQUIPA"
+      },
+      {
+        "col": 2,
+        "pos_label": "1",
+        "label_raw": "V.D.P -\nLEVI.",
+        "label_guess": "V.D.P - LEVI."
+      },
+      {
+        "col": 3,
+        "pos_label": "2",
+        "label_raw": "GRAND -\nGAZCO",
+        "label_guess": "GRAND - GAZCO"
+      },
+      {
+        "col": 4,
+        "pos_label": "3",
+        "label_raw": "PEYRA -\nPALLI",
+        "label_guess": "PEYRA - PALLI"
+      },
+      {
+        "col": 5,
+        "pos_label": "4",
+        "label_raw": "BAIGO -\nAVALO",
+        "label_guess": "BAIGO - AVALO"
+      },
+      {
+        "col": 6,
+        "pos_label": "5",
+        "label_raw": "SUPER -\nRONDE",
+        "label_guess": "SUPER - RONDE"
+      },
+      {
+        "col": 7,
+        "pos_label": "6",
+        "label_raw": "ALBER -\nGENOV",
+        "label_guess": "ALBER - GENOV"
+      },
+      {
+        "col": 8,
+        "pos_label": "7",
+        "label_raw": "ALBER -\nAVELL",
+        "label_guess": "ALBER - AVELL"
+      },
+      {
+        "col": 9,
+        "pos_label": "8",
+        "label_raw": "AVELL -\nSLORE",
+        "label_guess": "AVELL - SLORE"
+      },
+      {
+        "col": 10,
+        "pos_label": "9",
+        "label_raw": "SLORE -\nOROÑO",
+        "label_guess": "SLORE - OROÑO"
+      },
+      {
+        "col": 11,
+        "pos_label": "10",
+        "label_raw": "SLORE -\nERIOS",
+        "label_guess": "SLORE - ERIOS"
+      },
+      {
+        "col": 12,
+        "pos_label": "11",
+        "label_raw": "ERIOS -\nPELLE",
+        "label_guess": "ERIOS - PELLE"
+      },
+      {
+        "col": 13,
+        "pos_label": "12",
+        "label_raw": "ERIOS -\nAMENA",
+        "label_guess": "ERIOS - AMENA"
+      },
+      {
+        "col": 14,
+        "pos_label": "13",
+        "label_raw": "AMENA -\nCOLON",
+        "label_guess": "AMENA - COLON"
+      },
+      {
+        "col": 15,
+        "pos_label": "14",
+        "label_raw": "NECOC -\nURIBU",
+        "label_guess": "NECOC - URIBU"
+      },
+      {
+        "col": 16,
+        "pos_label": "FIN",
+        "label_raw": "M.SANTA\nFESINO -\nISOLA",
+        "label_guess": "M.SANTAFESINO - ISOLA"
+      }
+    ],
+    "servicios": [
+      {
+        "id": "2__0",
+        "servicio": "2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "05:05"
+          },
+          {
+            "col": 2,
+            "hora": "05:06"
+          },
+          {
+            "col": 3,
+            "hora": "05:09"
+          },
+          {
+            "col": 4,
+            "hora": "05:14"
+          },
+          {
+            "col": 5,
+            "hora": "05:20"
+          },
+          {
+            "col": 6,
+            "hora": "05:24"
+          },
+          {
+            "col": 7,
+            "hora": "05:32"
+          },
+          {
+            "col": 8,
+            "hora": "05:36"
+          },
+          {
+            "col": 9,
+            "hora": "05:39"
+          },
+          {
+            "col": 10,
+            "hora": "05:49"
+          },
+          {
+            "col": 11,
+            "hora": "05:53"
+          },
+          {
+            "col": 12,
+            "hora": "05:59"
+          },
+          {
+            "col": 13,
+            "hora": "06:04"
+          },
+          {
+            "col": 14,
+            "hora": "06:09"
+          },
+          {
+            "col": 15,
+            "hora": "06:13"
+          },
+          {
+            "col": 16,
+            "hora": "06:18"
+          }
+        ]
+      },
+      {
+        "id": "3__1",
+        "servicio": "3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "06:05"
+          },
+          {
+            "col": 2,
+            "hora": "06:06"
+          },
+          {
+            "col": 3,
+            "hora": "06:09"
+          },
+          {
+            "col": 4,
+            "hora": "06:14"
+          },
+          {
+            "col": 5,
+            "hora": "06:20"
+          },
+          {
+            "col": 6,
+            "hora": "06:25"
+          },
+          {
+            "col": 7,
+            "hora": "06:32"
+          },
+          {
+            "col": 8,
+            "hora": "06:37"
+          },
+          {
+            "col": 9,
+            "hora": "06:40"
+          },
+          {
+            "col": 10,
+            "hora": "06:50"
+          },
+          {
+            "col": 11,
+            "hora": "06:54"
+          },
+          {
+            "col": 12,
+            "hora": "07:00"
+          },
+          {
+            "col": 13,
+            "hora": "07:06"
+          },
+          {
+            "col": 14,
+            "hora": "07:11"
+          },
+          {
+            "col": 15,
+            "hora": "07:16"
+          },
+          {
+            "col": 16,
+            "hora": "07:21"
+          }
+        ]
+      },
+      {
+        "id": "1__2",
+        "servicio": "1",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "07:18"
+          },
+          {
+            "col": 2,
+            "hora": "07:20"
+          },
+          {
+            "col": 3,
+            "hora": "07:23"
+          },
+          {
+            "col": 4,
+            "hora": "07:28"
+          },
+          {
+            "col": 5,
+            "hora": "07:34"
+          },
+          {
+            "col": 6,
+            "hora": "07:39"
+          },
+          {
+            "col": 7,
+            "hora": "07:47"
+          },
+          {
+            "col": 8,
+            "hora": "07:53"
+          },
+          {
+            "col": 9,
+            "hora": "07:56"
+          },
+          {
+            "col": 10,
+            "hora": "08:06"
+          },
+          {
+            "col": 11,
+            "hora": "08:12"
+          },
+          {
+            "col": 12,
+            "hora": "08:19"
+          },
+          {
+            "col": 13,
+            "hora": "08:25"
+          },
+          {
+            "col": 14,
+            "hora": "08:30"
+          },
+          {
+            "col": 15,
+            "hora": "08:35"
+          },
+          {
+            "col": 16,
+            "hora": "08:41"
+          }
+        ]
+      },
+      {
+        "id": "52__3",
+        "servicio": "52",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "08:26"
+          },
+          {
+            "col": 2,
+            "hora": "08:28"
+          },
+          {
+            "col": 3,
+            "hora": "08:31"
+          },
+          {
+            "col": 4,
+            "hora": "08:36"
+          },
+          {
+            "col": 5,
+            "hora": "08:42"
+          },
+          {
+            "col": 6,
+            "hora": "08:48"
+          },
+          {
+            "col": 7,
+            "hora": "08:56"
+          },
+          {
+            "col": 8,
+            "hora": "09:01"
+          },
+          {
+            "col": 9,
+            "hora": "09:04"
+          },
+          {
+            "col": 10,
+            "hora": "09:15"
+          },
+          {
+            "col": 11,
+            "hora": "09:20"
+          },
+          {
+            "col": 12,
+            "hora": "09:28"
+          },
+          {
+            "col": 13,
+            "hora": "09:34"
+          },
+          {
+            "col": 14,
+            "hora": "09:39"
+          },
+          {
+            "col": 15,
+            "hora": "09:44"
+          },
+          {
+            "col": 16,
+            "hora": "09:50"
+          }
+        ]
+      },
+      {
+        "id": "51__4",
+        "servicio": "51",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "09:34"
+          },
+          {
+            "col": 2,
+            "hora": "09:36"
+          },
+          {
+            "col": 3,
+            "hora": "09:39"
+          },
+          {
+            "col": 4,
+            "hora": "09:44"
+          },
+          {
+            "col": 5,
+            "hora": "09:50"
+          },
+          {
+            "col": 6,
+            "hora": "09:56"
+          },
+          {
+            "col": 7,
+            "hora": "10:04"
+          },
+          {
+            "col": 8,
+            "hora": "10:09"
+          },
+          {
+            "col": 9,
+            "hora": "10:12"
+          },
+          {
+            "col": 10,
+            "hora": "10:23"
+          },
+          {
+            "col": 11,
+            "hora": "10:28"
+          },
+          {
+            "col": 12,
+            "hora": "10:36"
+          },
+          {
+            "col": 13,
+            "hora": "10:42"
+          },
+          {
+            "col": 14,
+            "hora": "10:47"
+          },
+          {
+            "col": 15,
+            "hora": "10:52"
+          },
+          {
+            "col": 16,
+            "hora": "10:58"
+          }
+        ]
+      },
+      {
+        "id": "5__5",
+        "servicio": "5",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "10:43"
+          },
+          {
+            "col": 2,
+            "hora": "10:45"
+          },
+          {
+            "col": 3,
+            "hora": "10:48"
+          },
+          {
+            "col": 4,
+            "hora": "10:53"
+          },
+          {
+            "col": 5,
+            "hora": "10:59"
+          },
+          {
+            "col": 6,
+            "hora": "11:05"
+          },
+          {
+            "col": 7,
+            "hora": "11:13"
+          },
+          {
+            "col": 8,
+            "hora": "11:18"
+          },
+          {
+            "col": 9,
+            "hora": "11:21"
+          },
+          {
+            "col": 10,
+            "hora": "11:32"
+          },
+          {
+            "col": 11,
+            "hora": "11:37"
+          },
+          {
+            "col": 12,
+            "hora": "11:45"
+          },
+          {
+            "col": 13,
+            "hora": "11:51"
+          },
+          {
+            "col": 14,
+            "hora": "11:56"
+          },
+          {
+            "col": 15,
+            "hora": "12:01"
+          },
+          {
+            "col": 16,
+            "hora": "12:07"
+          }
+        ]
+      },
+      {
+        "id": "50__6",
+        "servicio": "50",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "11:51"
+          },
+          {
+            "col": 2,
+            "hora": "11:53"
+          },
+          {
+            "col": 3,
+            "hora": "11:56"
+          },
+          {
+            "col": 4,
+            "hora": "12:01"
+          },
+          {
+            "col": 5,
+            "hora": "12:07"
+          },
+          {
+            "col": 6,
+            "hora": "12:13"
+          },
+          {
+            "col": 7,
+            "hora": "12:21"
+          },
+          {
+            "col": 8,
+            "hora": "12:26"
+          },
+          {
+            "col": 9,
+            "hora": "12:29"
+          },
+          {
+            "col": 10,
+            "hora": "12:40"
+          },
+          {
+            "col": 11,
+            "hora": "12:45"
+          },
+          {
+            "col": 12,
+            "hora": "12:53"
+          },
+          {
+            "col": 13,
+            "hora": "12:59"
+          },
+          {
+            "col": 14,
+            "hora": "13:04"
+          },
+          {
+            "col": 15,
+            "hora": "13:09"
+          },
+          {
+            "col": 16,
+            "hora": "13:15"
+          }
+        ]
+      },
+      {
+        "id": "4__7",
+        "servicio": "4",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "12:59"
+          },
+          {
+            "col": 2,
+            "hora": "13:01"
+          },
+          {
+            "col": 3,
+            "hora": "13:04"
+          },
+          {
+            "col": 4,
+            "hora": "13:09"
+          },
+          {
+            "col": 5,
+            "hora": "13:15"
+          },
+          {
+            "col": 6,
+            "hora": "13:21"
+          },
+          {
+            "col": 7,
+            "hora": "13:29"
+          },
+          {
+            "col": 8,
+            "hora": "13:34"
+          },
+          {
+            "col": 9,
+            "hora": "13:37"
+          },
+          {
+            "col": 10,
+            "hora": "13:48"
+          },
+          {
+            "col": 11,
+            "hora": "13:53"
+          },
+          {
+            "col": 12,
+            "hora": "14:01"
+          },
+          {
+            "col": 13,
+            "hora": "14:07"
+          },
+          {
+            "col": 14,
+            "hora": "14:12"
+          },
+          {
+            "col": 15,
+            "hora": "14:17"
+          },
+          {
+            "col": 16,
+            "hora": "14:23"
+          }
+        ]
+      },
+      {
+        "id": "2__8",
+        "servicio": "2",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "14:07"
+          },
+          {
+            "col": 2,
+            "hora": "14:09"
+          },
+          {
+            "col": 3,
+            "hora": "14:12"
+          },
+          {
+            "col": 4,
+            "hora": "14:17"
+          },
+          {
+            "col": 5,
+            "hora": "14:23"
+          },
+          {
+            "col": 6,
+            "hora": "14:29"
+          },
+          {
+            "col": 7,
+            "hora": "14:37"
+          },
+          {
+            "col": 8,
+            "hora": "14:42"
+          },
+          {
+            "col": 9,
+            "hora": "14:45"
+          },
+          {
+            "col": 10,
+            "hora": "14:56"
+          },
+          {
+            "col": 11,
+            "hora": "15:01"
+          },
+          {
+            "col": 12,
+            "hora": "15:09"
+          },
+          {
+            "col": 13,
+            "hora": "15:15"
+          },
+          {
+            "col": 14,
+            "hora": "15:20"
+          },
+          {
+            "col": 15,
+            "hora": "15:25"
+          },
+          {
+            "col": 16,
+            "hora": "15:30"
+          }
+        ]
+      },
+      {
+        "id": "3__9",
+        "servicio": "3",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "15:15"
+          },
+          {
+            "col": 2,
+            "hora": "15:17"
+          },
+          {
+            "col": 3,
+            "hora": "15:20"
+          },
+          {
+            "col": 4,
+            "hora": "15:25"
+          },
+          {
+            "col": 5,
+            "hora": "15:31"
+          },
+          {
+            "col": 6,
+            "hora": "15:37"
+          },
+          {
+            "col": 7,
+            "hora": "15:45"
+          },
+          {
+            "col": 8,
+            "hora": "15:50"
+          },
+          {
+            "col": 9,
+            "hora": "15:53"
+          },
+          {
+            "col": 10,
+            "hora": "16:04"
+          },
+          {
+            "col": 11,
+            "hora": "16:09"
+          },
+          {
+            "col": 12,
+            "hora": "16:17"
+          },
+          {
+            "col": 13,
+            "hora": "16:23"
+          },
+          {
+            "col": 14,
+            "hora": "16:28"
+          },
+          {
+            "col": 15,
+            "hora": "16:33"
+          },
+          {
+            "col": 16,
+            "hora": "16:39"
+          }
+        ]
+      },
+      {
+        "id": "4__10",
+        "servicio": "4",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "16:12"
+          },
+          {
+            "col": 2,
+            "hora": "16:14"
+          },
+          {
+            "col": 3,
+            "hora": "16:18"
+          },
+          {
+            "col": 4,
+            "hora": "16:24"
+          },
+          {
+            "col": 5,
+            "hora": "16:30"
+          },
+          {
+            "col": 6,
+            "hora": "16:37"
+          },
+          {
+            "col": 7,
+            "hora": "16:45"
+          },
+          {
+            "col": 8,
+            "hora": "16:50"
+          },
+          {
+            "col": 9,
+            "hora": "16:53"
+          },
+          {
+            "col": 10,
+            "hora": "17:04"
+          },
+          {
+            "col": 11,
+            "hora": "17:10"
+          },
+          {
+            "col": 12,
+            "hora": "17:18"
+          },
+          {
+            "col": 13,
+            "hora": "17:25"
+          },
+          {
+            "col": 14,
+            "hora": "17:30"
+          },
+          {
+            "col": 15,
+            "hora": "17:35"
+          },
+          {
+            "col": 16,
+            "hora": "17:41"
+          }
+        ]
+      },
+      {
+        "id": "5__11",
+        "servicio": "5",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "16:55"
+          },
+          {
+            "col": 2,
+            "hora": "16:57"
+          },
+          {
+            "col": 3,
+            "hora": "17:01"
+          },
+          {
+            "col": 4,
+            "hora": "17:07"
+          },
+          {
+            "col": 5,
+            "hora": "17:13"
+          },
+          {
+            "col": 6,
+            "hora": "17:20"
+          },
+          {
+            "col": 7,
+            "hora": "17:28"
+          },
+          {
+            "col": 8,
+            "hora": "17:33"
+          },
+          {
+            "col": 9,
+            "hora": "17:36"
+          },
+          {
+            "col": 10,
+            "hora": "17:47"
+          },
+          {
+            "col": 11,
+            "hora": "17:53"
+          },
+          {
+            "col": 12,
+            "hora": "18:01"
+          },
+          {
+            "col": 13,
+            "hora": "18:08"
+          },
+          {
+            "col": 14,
+            "hora": "18:13"
+          },
+          {
+            "col": 15,
+            "hora": "18:18"
+          },
+          {
+            "col": 16,
+            "hora": "18:24"
+          }
+        ]
+      },
+      {
+        "id": "53__12",
+        "servicio": "53",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "17:36"
+          },
+          {
+            "col": 2,
+            "hora": "17:38"
+          },
+          {
+            "col": 3,
+            "hora": "17:42"
+          },
+          {
+            "col": 4,
+            "hora": "17:48"
+          },
+          {
+            "col": 5,
+            "hora": "17:54"
+          },
+          {
+            "col": 6,
+            "hora": "18:01"
+          },
+          {
+            "col": 7,
+            "hora": "18:09"
+          },
+          {
+            "col": 8,
+            "hora": "18:14"
+          },
+          {
+            "col": 9,
+            "hora": "18:17"
+          },
+          {
+            "col": 10,
+            "hora": "18:28"
+          },
+          {
+            "col": 11,
+            "hora": "18:34"
+          },
+          {
+            "col": 12,
+            "hora": "18:42"
+          },
+          {
+            "col": 13,
+            "hora": "18:49"
+          },
+          {
+            "col": 14,
+            "hora": "18:54"
+          },
+          {
+            "col": 15,
+            "hora": "18:59"
+          },
+          {
+            "col": 16,
+            "hora": "19:05"
+          }
+        ]
+      },
+      {
+        "id": "55__13",
+        "servicio": "55",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "18:17"
+          },
+          {
+            "col": 2,
+            "hora": "18:19"
+          },
+          {
+            "col": 3,
+            "hora": "18:23"
+          },
+          {
+            "col": 4,
+            "hora": "18:29"
+          },
+          {
+            "col": 5,
+            "hora": "18:35"
+          },
+          {
+            "col": 6,
+            "hora": "18:42"
+          },
+          {
+            "col": 7,
+            "hora": "18:50"
+          },
+          {
+            "col": 8,
+            "hora": "18:55"
+          },
+          {
+            "col": 9,
+            "hora": "18:58"
+          },
+          {
+            "col": 10,
+            "hora": "19:09"
+          },
+          {
+            "col": 11,
+            "hora": "19:15"
+          },
+          {
+            "col": 12,
+            "hora": "19:23"
+          },
+          {
+            "col": 13,
+            "hora": "19:30"
+          },
+          {
+            "col": 14,
+            "hora": "19:35"
+          },
+          {
+            "col": 15,
+            "hora": "19:40"
+          },
+          {
+            "col": 16,
+            "hora": "19:46"
+          }
+        ]
+      },
+      {
+        "id": "56__14",
+        "servicio": "56",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "18:58"
+          },
+          {
+            "col": 2,
+            "hora": "19:00"
+          },
+          {
+            "col": 3,
+            "hora": "19:04"
+          },
+          {
+            "col": 4,
+            "hora": "19:10"
+          },
+          {
+            "col": 5,
+            "hora": "19:16"
+          },
+          {
+            "col": 6,
+            "hora": "19:23"
+          },
+          {
+            "col": 7,
+            "hora": "19:31"
+          },
+          {
+            "col": 8,
+            "hora": "19:36"
+          },
+          {
+            "col": 9,
+            "hora": "19:39"
+          },
+          {
+            "col": 10,
+            "hora": "19:50"
+          },
+          {
+            "col": 11,
+            "hora": "19:55"
+          },
+          {
+            "col": 12,
+            "hora": "20:03"
+          },
+          {
+            "col": 13,
+            "hora": "20:09"
+          },
+          {
+            "col": 14,
+            "hora": "20:14"
+          },
+          {
+            "col": 15,
+            "hora": "20:19"
+          },
+          {
+            "col": 16,
+            "hora": "20:24"
+          }
+        ]
+      },
+      {
+        "id": "7__15",
+        "servicio": "7",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "19:42"
+          },
+          {
+            "col": 2,
+            "hora": "19:44"
+          },
+          {
+            "col": 3,
+            "hora": "19:48"
+          },
+          {
+            "col": 4,
+            "hora": "19:54"
+          },
+          {
+            "col": 5,
+            "hora": "20:00"
+          },
+          {
+            "col": 6,
+            "hora": "20:06"
+          },
+          {
+            "col": 7,
+            "hora": "20:14"
+          },
+          {
+            "col": 8,
+            "hora": "20:20"
+          },
+          {
+            "col": 9,
+            "hora": "20:23"
+          },
+          {
+            "col": 10,
+            "hora": "20:34"
+          },
+          {
+            "col": 11,
+            "hora": "20:39"
+          },
+          {
+            "col": 12,
+            "hora": "20:47"
+          },
+          {
+            "col": 13,
+            "hora": "20:54"
+          },
+          {
+            "col": 14,
+            "hora": "20:59"
+          },
+          {
+            "col": 15,
+            "hora": "21:04"
+          },
+          {
+            "col": 16,
+            "hora": "21:10"
+          }
+        ]
+      },
+      {
+        "id": "9__16",
+        "servicio": "9",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "20:32"
+          },
+          {
+            "col": 2,
+            "hora": "20:34"
+          },
+          {
+            "col": 3,
+            "hora": "20:37"
+          },
+          {
+            "col": 4,
+            "hora": "20:42"
+          },
+          {
+            "col": 5,
+            "hora": "20:48"
+          },
+          {
+            "col": 6,
+            "hora": "20:53"
+          },
+          {
+            "col": 7,
+            "hora": "21:01"
+          },
+          {
+            "col": 8,
+            "hora": "21:07"
+          },
+          {
+            "col": 9,
+            "hora": "21:10"
+          },
+          {
+            "col": 10,
+            "hora": "21:20"
+          },
+          {
+            "col": 11,
+            "hora": "21:26"
+          },
+          {
+            "col": 12,
+            "hora": "21:33"
+          },
+          {
+            "col": 13,
+            "hora": "21:39"
+          },
+          {
+            "col": 14,
+            "hora": "21:44"
+          },
+          {
+            "col": 15,
+            "hora": "21:49"
+          },
+          {
+            "col": 16,
+            "hora": "21:55"
+          }
+        ]
+      },
+      {
+        "id": "54__17",
+        "servicio": "54",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "21:26"
+          },
+          {
+            "col": 2,
+            "hora": "21:27"
+          },
+          {
+            "col": 3,
+            "hora": "21:31"
+          },
+          {
+            "col": 4,
+            "hora": "21:36"
+          },
+          {
+            "col": 5,
+            "hora": "21:41"
+          },
+          {
+            "col": 6,
+            "hora": "21:47"
+          },
+          {
+            "col": 7,
+            "hora": "21:54"
+          },
+          {
+            "col": 8,
+            "hora": "21:59"
+          },
+          {
+            "col": 9,
+            "hora": "22:02"
+          },
+          {
+            "col": 10,
+            "hora": "22:13"
+          },
+          {
+            "col": 11,
+            "hora": "22:17"
+          },
+          {
+            "col": 12,
+            "hora": "22:24"
+          },
+          {
+            "col": 13,
+            "hora": "22:29"
+          },
+          {
+            "col": 14,
+            "hora": "22:33"
+          },
+          {
+            "col": 15,
+            "hora": "22:38"
+          },
+          {
+            "col": 16,
+            "hora": "22:43"
+          }
+        ]
+      },
+      {
+        "id": "56__18",
+        "servicio": "56",
+        "paradas": [
+          {
+            "col": 1,
+            "hora": "22:02"
+          },
+          {
+            "col": 2,
+            "hora": "22:03"
+          },
+          {
+            "col": 3,
+            "hora": "22:07"
+          },
+          {
+            "col": 4,
+            "hora": "22:12"
+          },
+          {
+            "col": 5,
+            "hora": "22:17"
+          },
+          {
+            "col": 6,
+            "hora": "22:23"
+          },
+          {
+            "col": 7,
+            "hora": "22:30"
+          },
+          {
+            "col": 8,
+            "hora": "22:35"
+          },
+          {
+            "col": 9,
+            "hora": "22:38"
+          },
+          {
+            "col": 10,
+            "hora": "22:48"
+          },
+          {
+            "col": 11,
+            "hora": "22:53"
+          },
+          {
+            "col": 12,
+            "hora": "22:59"
+          },
+          {
+            "col": 13,
+            "hora": "23:04"
+          },
+          {
+            "col": 14,
+            "hora": "23:09"
+          },
+          {
+            "col": 15,
+            "hora": "23:13"
+          },
+          {
+            "col": 16,
+            "hora": "23:18"
+          }
+        ]
+      }
+    ],
+    "bandera": "Roja",
+    "dia": "Domingos y feriados"
+  },
+  "vuelta": {
+    "sentido": "VUELTA",
+    "puntos": [
+      {
+        "col": 17,
+        "pos_label": "INICIO",
+        "label_raw": "M.SANTA\nFESINO -\nISOLA",
+        "label_guess": "M.SANTAFESINO - ISOLA"
+      },
+      {
+        "col": 18,
+        "pos_label": "1",
+        "label_raw": "PAVON -\nURIBU",
+        "label_guess": "PAVON - URIBU"
+      },
+      {
+        "col": 19,
+        "pos_label": "2",
+        "label_raw": "NECOC -\nGABOT",
+        "label_guess": "NECOC - GABOT"
+      },
+      {
+        "col": 20,
+        "pos_label": "3",
+        "label_raw": "CORRI -\nAMENA",
+        "label_guess": "CORRI - AMENA"
+      },
+      {
+        "col": 21,
+        "pos_label": "4",
+        "label_raw": "CORRI -\nPELLE",
+        "label_guess": "CORRI - PELLE"
+      },
+      {
+        "col": 22,
+        "pos_label": "5",
+        "label_raw": "CORRI -\nSTAFE",
+        "label_guess": "CORRI - STAFE"
+      },
+      {
+        "col": 23,
+        "pos_label": "6",
+        "label_raw": "STAFE -\nOROÑO",
+        "label_guess": "STAFE - OROÑO"
+      },
+      {
+        "col": 24,
+        "pos_label": "7",
+        "label_raw": "STAFE -\nCAFFE",
+        "label_guess": "STAFE - CAFFE"
+      },
+      {
+        "col": 25,
+        "pos_label": "8",
+        "label_raw": "STAFE -\nAVELL",
+        "label_guess": "STAFE - AVELL"
+      },
+      {
+        "col": 26,
+        "pos_label": "9",
+        "label_raw": "ALBER -\nCASIL",
+        "label_guess": "ALBER - CASIL"
+      },
+      {
+        "col": 27,
+        "pos_label": "10",
+        "label_raw": "ALBER -\nGENOV",
+        "label_guess": "ALBER - GENOV"
+      },
+      {
+        "col": 28,
+        "pos_label": "11",
+        "label_raw": "RONDE -\nBAIGO",
+        "label_guess": "RONDE - BAIGO"
+      },
+      {
+        "col": 29,
+        "pos_label": "12",
+        "label_raw": "BAIGO -\nAVALO",
+        "label_guess": "BAIGO - AVALO"
+      },
+      {
+        "col": 30,
+        "pos_label": "13",
+        "label_raw": "PALLI -\nPEYRA",
+        "label_guess": "PALLI - PEYRA"
+      },
+      {
+        "col": 31,
+        "pos_label": "14",
+        "label_raw": "GRAND -\nGAZCO",
+        "label_guess": "GRAND - GAZCO"
+      },
+      {
+        "col": 32,
+        "pos_label": "15",
+        "label_raw": "CALDE -\nLEVI.",
+        "label_guess": "CALDE - LEVI."
+      },
+      {
+        "col": 33,
+        "pos_label": "FIN",
+        "label_raw": "BATTLE -\nAREQUIP\nA",
+        "label_guess": "BATTLE - AREQUIPA"
+      }
+    ],
+    "servicios": [
+      {
+        "id": "2__19",
+        "servicio": "2",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "06:25"
+          },
+          {
+            "col": 18,
+            "hora": "06:29"
+          },
+          {
+            "col": 19,
+            "hora": "06:34"
+          },
+          {
+            "col": 20,
+            "hora": "06:39"
+          },
+          {
+            "col": 21,
+            "hora": "06:45"
+          },
+          {
+            "col": 22,
+            "hora": "06:51"
+          },
+          {
+            "col": 23,
+            "hora": "06:56"
+          },
+          {
+            "col": 24,
+            "hora": "07:02"
+          },
+          {
+            "col": 25,
+            "hora": "07:06"
+          },
+          {
+            "col": 26,
+            "hora": "07:09"
+          },
+          {
+            "col": 27,
+            "hora": "07:15"
+          },
+          {
+            "col": 28,
+            "hora": "07:23"
+          },
+          {
+            "col": 29,
+            "hora": "07:29"
+          },
+          {
+            "col": 30,
+            "hora": "07:32"
+          },
+          {
+            "col": 31,
+            "hora": "07:37"
+          },
+          {
+            "col": 32,
+            "hora": "07:39"
+          },
+          {
+            "col": 33,
+            "hora": "07:43"
+          }
+        ]
+      },
+      {
+        "id": "3__20",
+        "servicio": "3",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "07:40"
+          },
+          {
+            "col": 18,
+            "hora": "07:44"
+          },
+          {
+            "col": 19,
+            "hora": "07:49"
+          },
+          {
+            "col": 20,
+            "hora": "07:55"
+          },
+          {
+            "col": 21,
+            "hora": "08:01"
+          },
+          {
+            "col": 22,
+            "hora": "08:09"
+          },
+          {
+            "col": 23,
+            "hora": "08:14"
+          },
+          {
+            "col": 24,
+            "hora": "08:20"
+          },
+          {
+            "col": 25,
+            "hora": "08:24"
+          },
+          {
+            "col": 26,
+            "hora": "08:27"
+          },
+          {
+            "col": 27,
+            "hora": "08:34"
+          },
+          {
+            "col": 28,
+            "hora": "08:42"
+          },
+          {
+            "col": 29,
+            "hora": "08:48"
+          },
+          {
+            "col": 30,
+            "hora": "08:52"
+          },
+          {
+            "col": 31,
+            "hora": "08:57"
+          },
+          {
+            "col": 32,
+            "hora": "09:00"
+          },
+          {
+            "col": 33,
+            "hora": "09:04"
+          }
+        ]
+      },
+      {
+        "id": "1__21",
+        "servicio": "1",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "08:49"
+          },
+          {
+            "col": 18,
+            "hora": "08:53"
+          },
+          {
+            "col": 19,
+            "hora": "08:58"
+          },
+          {
+            "col": 20,
+            "hora": "09:04"
+          },
+          {
+            "col": 21,
+            "hora": "09:10"
+          },
+          {
+            "col": 22,
+            "hora": "09:18"
+          },
+          {
+            "col": 23,
+            "hora": "09:23"
+          },
+          {
+            "col": 24,
+            "hora": "09:29"
+          },
+          {
+            "col": 25,
+            "hora": "09:33"
+          },
+          {
+            "col": 26,
+            "hora": "09:36"
+          },
+          {
+            "col": 27,
+            "hora": "09:43"
+          },
+          {
+            "col": 28,
+            "hora": "09:51"
+          },
+          {
+            "col": 29,
+            "hora": "09:57"
+          },
+          {
+            "col": 30,
+            "hora": "10:01"
+          },
+          {
+            "col": 31,
+            "hora": "10:06"
+          },
+          {
+            "col": 32,
+            "hora": "10:09"
+          },
+          {
+            "col": 33,
+            "hora": "10:13"
+          }
+        ]
+      },
+      {
+        "id": "52__22",
+        "servicio": "52",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "09:57"
+          },
+          {
+            "col": 18,
+            "hora": "10:01"
+          },
+          {
+            "col": 19,
+            "hora": "10:06"
+          },
+          {
+            "col": 20,
+            "hora": "10:12"
+          },
+          {
+            "col": 21,
+            "hora": "10:18"
+          },
+          {
+            "col": 22,
+            "hora": "10:26"
+          },
+          {
+            "col": 23,
+            "hora": "10:31"
+          },
+          {
+            "col": 24,
+            "hora": "10:37"
+          },
+          {
+            "col": 25,
+            "hora": "10:41"
+          },
+          {
+            "col": 26,
+            "hora": "10:44"
+          },
+          {
+            "col": 27,
+            "hora": "10:51"
+          },
+          {
+            "col": 28,
+            "hora": "10:59"
+          },
+          {
+            "col": 29,
+            "hora": "11:05"
+          },
+          {
+            "col": 30,
+            "hora": "11:09"
+          },
+          {
+            "col": 31,
+            "hora": "11:14"
+          },
+          {
+            "col": 32,
+            "hora": "11:17"
+          },
+          {
+            "col": 33,
+            "hora": "11:21"
+          }
+        ]
+      },
+      {
+        "id": "51__23",
+        "servicio": "51",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "11:05"
+          },
+          {
+            "col": 18,
+            "hora": "11:09"
+          },
+          {
+            "col": 19,
+            "hora": "11:14"
+          },
+          {
+            "col": 20,
+            "hora": "11:20"
+          },
+          {
+            "col": 21,
+            "hora": "11:26"
+          },
+          {
+            "col": 22,
+            "hora": "11:34"
+          },
+          {
+            "col": 23,
+            "hora": "11:39"
+          },
+          {
+            "col": 24,
+            "hora": "11:45"
+          },
+          {
+            "col": 25,
+            "hora": "11:49"
+          },
+          {
+            "col": 26,
+            "hora": "11:52"
+          },
+          {
+            "col": 27,
+            "hora": "11:59"
+          },
+          {
+            "col": 28,
+            "hora": "12:07"
+          },
+          {
+            "col": 29,
+            "hora": "12:13"
+          },
+          {
+            "col": 30,
+            "hora": "12:17"
+          },
+          {
+            "col": 31,
+            "hora": "12:22"
+          },
+          {
+            "col": 32,
+            "hora": "12:25"
+          },
+          {
+            "col": 33,
+            "hora": "12:29"
+          }
+        ]
+      },
+      {
+        "id": "5__24",
+        "servicio": "5",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "12:14"
+          },
+          {
+            "col": 18,
+            "hora": "12:18"
+          },
+          {
+            "col": 19,
+            "hora": "12:23"
+          },
+          {
+            "col": 20,
+            "hora": "12:29"
+          },
+          {
+            "col": 21,
+            "hora": "12:35"
+          },
+          {
+            "col": 22,
+            "hora": "12:43"
+          },
+          {
+            "col": 23,
+            "hora": "12:48"
+          },
+          {
+            "col": 24,
+            "hora": "12:54"
+          },
+          {
+            "col": 25,
+            "hora": "12:58"
+          },
+          {
+            "col": 26,
+            "hora": "13:01"
+          },
+          {
+            "col": 27,
+            "hora": "13:08"
+          },
+          {
+            "col": 28,
+            "hora": "13:16"
+          },
+          {
+            "col": 29,
+            "hora": "13:22"
+          },
+          {
+            "col": 30,
+            "hora": "13:26"
+          },
+          {
+            "col": 31,
+            "hora": "13:31"
+          },
+          {
+            "col": 32,
+            "hora": "13:34"
+          },
+          {
+            "col": 33,
+            "hora": "13:38"
+          }
+        ]
+      },
+      {
+        "id": "50__25",
+        "servicio": "50",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "13:22"
+          },
+          {
+            "col": 18,
+            "hora": "13:26"
+          },
+          {
+            "col": 19,
+            "hora": "13:31"
+          },
+          {
+            "col": 20,
+            "hora": "13:37"
+          },
+          {
+            "col": 21,
+            "hora": "13:43"
+          },
+          {
+            "col": 22,
+            "hora": "13:51"
+          },
+          {
+            "col": 23,
+            "hora": "13:56"
+          },
+          {
+            "col": 24,
+            "hora": "14:02"
+          },
+          {
+            "col": 25,
+            "hora": "14:06"
+          },
+          {
+            "col": 26,
+            "hora": "14:09"
+          },
+          {
+            "col": 27,
+            "hora": "14:16"
+          },
+          {
+            "col": 28,
+            "hora": "14:24"
+          },
+          {
+            "col": 29,
+            "hora": "14:30"
+          },
+          {
+            "col": 30,
+            "hora": "14:34"
+          },
+          {
+            "col": 31,
+            "hora": "14:39"
+          },
+          {
+            "col": 32,
+            "hora": "14:42"
+          },
+          {
+            "col": 33,
+            "hora": "14:46"
+          }
+        ]
+      },
+      {
+        "id": "4__26",
+        "servicio": "4",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "14:30"
+          },
+          {
+            "col": 18,
+            "hora": "14:34"
+          },
+          {
+            "col": 19,
+            "hora": "14:39"
+          },
+          {
+            "col": 20,
+            "hora": "14:45"
+          },
+          {
+            "col": 21,
+            "hora": "14:51"
+          },
+          {
+            "col": 22,
+            "hora": "14:59"
+          },
+          {
+            "col": 23,
+            "hora": "15:04"
+          },
+          {
+            "col": 24,
+            "hora": "15:10"
+          },
+          {
+            "col": 25,
+            "hora": "15:14"
+          },
+          {
+            "col": 26,
+            "hora": "15:17"
+          },
+          {
+            "col": 27,
+            "hora": "15:24"
+          },
+          {
+            "col": 28,
+            "hora": "15:32"
+          },
+          {
+            "col": 29,
+            "hora": "15:38"
+          },
+          {
+            "col": 30,
+            "hora": "15:42"
+          },
+          {
+            "col": 31,
+            "hora": "15:47"
+          },
+          {
+            "col": 32,
+            "hora": "15:50"
+          },
+          {
+            "col": 33,
+            "hora": "15:54"
+          }
+        ]
+      },
+      {
+        "id": "2__27",
+        "servicio": "2",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "15:37"
+          },
+          {
+            "col": 18,
+            "hora": "15:41"
+          },
+          {
+            "col": 19,
+            "hora": "15:47"
+          },
+          {
+            "col": 20,
+            "hora": "15:53"
+          },
+          {
+            "col": 21,
+            "hora": "15:59"
+          },
+          {
+            "col": 22,
+            "hora": "16:07"
+          },
+          {
+            "col": 23,
+            "hora": "16:12"
+          },
+          {
+            "col": 24,
+            "hora": "16:18"
+          },
+          {
+            "col": 25,
+            "hora": "16:22"
+          },
+          {
+            "col": 26,
+            "hora": "16:25"
+          },
+          {
+            "col": 27,
+            "hora": "16:32"
+          },
+          {
+            "col": 28,
+            "hora": "16:40"
+          },
+          {
+            "col": 29,
+            "hora": "16:46"
+          },
+          {
+            "col": 30,
+            "hora": "16:49"
+          },
+          {
+            "col": 31,
+            "hora": "16:54"
+          },
+          {
+            "col": 32,
+            "hora": "16:57"
+          },
+          {
+            "col": 33,
+            "hora": "17:01"
+          }
+        ]
+      },
+      {
+        "id": "54__28",
+        "servicio": "54",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "16:27"
+          },
+          {
+            "col": 18,
+            "hora": "16:32"
+          },
+          {
+            "col": 19,
+            "hora": "16:38"
+          },
+          {
+            "col": 20,
+            "hora": "16:44"
+          },
+          {
+            "col": 21,
+            "hora": "16:51"
+          },
+          {
+            "col": 22,
+            "hora": "16:59"
+          },
+          {
+            "col": 23,
+            "hora": "17:04"
+          },
+          {
+            "col": 24,
+            "hora": "17:10"
+          },
+          {
+            "col": 25,
+            "hora": "17:15"
+          },
+          {
+            "col": 26,
+            "hora": "17:18"
+          },
+          {
+            "col": 27,
+            "hora": "17:25"
+          },
+          {
+            "col": 28,
+            "hora": "17:33"
+          },
+          {
+            "col": 29,
+            "hora": "17:39"
+          },
+          {
+            "col": 30,
+            "hora": "17:43"
+          },
+          {
+            "col": 31,
+            "hora": "17:48"
+          },
+          {
+            "col": 32,
+            "hora": "17:52"
+          },
+          {
+            "col": 33,
+            "hora": "17:56"
+          }
+        ]
+      },
+      {
+        "id": "3__29",
+        "servicio": "3",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "16:55"
+          },
+          {
+            "col": 18,
+            "hora": "17:00"
+          },
+          {
+            "col": 19,
+            "hora": "17:06"
+          },
+          {
+            "col": 20,
+            "hora": "17:12"
+          },
+          {
+            "col": 21,
+            "hora": "17:19"
+          },
+          {
+            "col": 22,
+            "hora": "17:27"
+          },
+          {
+            "col": 23,
+            "hora": "17:32"
+          },
+          {
+            "col": 24,
+            "hora": "17:38"
+          },
+          {
+            "col": 25,
+            "hora": "17:43"
+          },
+          {
+            "col": 26,
+            "hora": "17:46"
+          },
+          {
+            "col": 27,
+            "hora": "17:53"
+          },
+          {
+            "col": 28,
+            "hora": "18:01"
+          },
+          {
+            "col": 29,
+            "hora": "18:07"
+          },
+          {
+            "col": 30,
+            "hora": "18:11"
+          },
+          {
+            "col": 31,
+            "hora": "18:16"
+          },
+          {
+            "col": 32,
+            "hora": "18:20"
+          },
+          {
+            "col": 33,
+            "hora": "18:24"
+          }
+        ]
+      },
+      {
+        "id": "56__30",
+        "servicio": "56",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "17:22"
+          },
+          {
+            "col": 18,
+            "hora": "17:27"
+          },
+          {
+            "col": 19,
+            "hora": "17:33"
+          },
+          {
+            "col": 20,
+            "hora": "17:39"
+          },
+          {
+            "col": 21,
+            "hora": "17:46"
+          },
+          {
+            "col": 22,
+            "hora": "17:54"
+          },
+          {
+            "col": 23,
+            "hora": "17:59"
+          },
+          {
+            "col": 24,
+            "hora": "18:05"
+          },
+          {
+            "col": 25,
+            "hora": "18:10"
+          },
+          {
+            "col": 26,
+            "hora": "18:13"
+          },
+          {
+            "col": 27,
+            "hora": "18:20"
+          },
+          {
+            "col": 28,
+            "hora": "18:28"
+          },
+          {
+            "col": 29,
+            "hora": "18:34"
+          },
+          {
+            "col": 30,
+            "hora": "18:38"
+          },
+          {
+            "col": 31,
+            "hora": "18:43"
+          },
+          {
+            "col": 32,
+            "hora": "18:47"
+          },
+          {
+            "col": 33,
+            "hora": "18:51"
+          }
+        ]
+      },
+      {
+        "id": "4__31",
+        "servicio": "4",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "17:49"
+          },
+          {
+            "col": 18,
+            "hora": "17:54"
+          },
+          {
+            "col": 19,
+            "hora": "18:00"
+          },
+          {
+            "col": 20,
+            "hora": "18:06"
+          },
+          {
+            "col": 21,
+            "hora": "18:13"
+          },
+          {
+            "col": 22,
+            "hora": "18:21"
+          },
+          {
+            "col": 23,
+            "hora": "18:26"
+          },
+          {
+            "col": 24,
+            "hora": "18:32"
+          },
+          {
+            "col": 25,
+            "hora": "18:37"
+          },
+          {
+            "col": 26,
+            "hora": "18:40"
+          },
+          {
+            "col": 27,
+            "hora": "18:47"
+          },
+          {
+            "col": 28,
+            "hora": "18:55"
+          },
+          {
+            "col": 29,
+            "hora": "19:01"
+          },
+          {
+            "col": 30,
+            "hora": "19:05"
+          },
+          {
+            "col": 31,
+            "hora": "19:10"
+          },
+          {
+            "col": 32,
+            "hora": "19:14"
+          },
+          {
+            "col": 33,
+            "hora": "19:18"
+          }
+        ]
+      },
+      {
+        "id": "5__32",
+        "servicio": "5",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "18:31"
+          },
+          {
+            "col": 18,
+            "hora": "18:36"
+          },
+          {
+            "col": 19,
+            "hora": "18:42"
+          },
+          {
+            "col": 20,
+            "hora": "18:48"
+          },
+          {
+            "col": 21,
+            "hora": "18:55"
+          },
+          {
+            "col": 22,
+            "hora": "19:03"
+          },
+          {
+            "col": 23,
+            "hora": "19:08"
+          },
+          {
+            "col": 24,
+            "hora": "19:14"
+          },
+          {
+            "col": 25,
+            "hora": "19:19"
+          },
+          {
+            "col": 26,
+            "hora": "19:22"
+          },
+          {
+            "col": 27,
+            "hora": "19:29"
+          },
+          {
+            "col": 28,
+            "hora": "19:37"
+          },
+          {
+            "col": 29,
+            "hora": "19:43"
+          },
+          {
+            "col": 30,
+            "hora": "19:47"
+          },
+          {
+            "col": 31,
+            "hora": "19:52"
+          },
+          {
+            "col": 32,
+            "hora": "19:56"
+          },
+          {
+            "col": 33,
+            "hora": "20:00"
+          }
+        ]
+      },
+      {
+        "id": "53__33",
+        "servicio": "53",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "19:15"
+          },
+          {
+            "col": 18,
+            "hora": "19:20"
+          },
+          {
+            "col": 19,
+            "hora": "19:26"
+          },
+          {
+            "col": 20,
+            "hora": "19:32"
+          },
+          {
+            "col": 21,
+            "hora": "19:39"
+          },
+          {
+            "col": 22,
+            "hora": "19:47"
+          },
+          {
+            "col": 23,
+            "hora": "19:52"
+          },
+          {
+            "col": 24,
+            "hora": "19:58"
+          },
+          {
+            "col": 25,
+            "hora": "20:03"
+          },
+          {
+            "col": 26,
+            "hora": "20:06"
+          },
+          {
+            "col": 27,
+            "hora": "20:13"
+          },
+          {
+            "col": 28,
+            "hora": "20:21"
+          },
+          {
+            "col": 29,
+            "hora": "20:27"
+          },
+          {
+            "col": 30,
+            "hora": "20:31"
+          },
+          {
+            "col": 31,
+            "hora": "20:36"
+          },
+          {
+            "col": 32,
+            "hora": "20:39"
+          },
+          {
+            "col": 33,
+            "hora": "20:43"
+          }
+        ]
+      },
+      {
+        "id": "55__34",
+        "servicio": "55",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "20:00"
+          },
+          {
+            "col": 18,
+            "hora": "20:04"
+          },
+          {
+            "col": 19,
+            "hora": "20:10"
+          },
+          {
+            "col": 20,
+            "hora": "20:16"
+          },
+          {
+            "col": 21,
+            "hora": "20:22"
+          },
+          {
+            "col": 22,
+            "hora": "20:30"
+          },
+          {
+            "col": 23,
+            "hora": "20:35"
+          },
+          {
+            "col": 24,
+            "hora": "20:41"
+          },
+          {
+            "col": 25,
+            "hora": "20:45"
+          },
+          {
+            "col": 26,
+            "hora": "20:48"
+          },
+          {
+            "col": 27,
+            "hora": "20:55"
+          },
+          {
+            "col": 28,
+            "hora": "21:04"
+          },
+          {
+            "col": 29,
+            "hora": "21:10"
+          },
+          {
+            "col": 30,
+            "hora": "21:13"
+          },
+          {
+            "col": 31,
+            "hora": "21:19"
+          },
+          {
+            "col": 32,
+            "hora": "21:22"
+          },
+          {
+            "col": 33,
+            "hora": "21:26"
+          }
+        ]
+      },
+      {
+        "id": "56__35",
+        "servicio": "56",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "20:31"
+          },
+          {
+            "col": 18,
+            "hora": "20:35"
+          },
+          {
+            "col": 19,
+            "hora": "20:40"
+          },
+          {
+            "col": 20,
+            "hora": "20:46"
+          },
+          {
+            "col": 21,
+            "hora": "20:52"
+          },
+          {
+            "col": 22,
+            "hora": "20:59"
+          },
+          {
+            "col": 23,
+            "hora": "21:04"
+          },
+          {
+            "col": 24,
+            "hora": "21:10"
+          },
+          {
+            "col": 25,
+            "hora": "21:15"
+          },
+          {
+            "col": 26,
+            "hora": "21:18"
+          },
+          {
+            "col": 27,
+            "hora": "21:24"
+          },
+          {
+            "col": 28,
+            "hora": "21:33"
+          },
+          {
+            "col": 29,
+            "hora": "21:39"
+          },
+          {
+            "col": 30,
+            "hora": "21:42"
+          },
+          {
+            "col": 31,
+            "hora": "21:47"
+          },
+          {
+            "col": 32,
+            "hora": "21:50"
+          },
+          {
+            "col": 33,
+            "hora": "21:54"
+          }
+        ]
+      },
+      {
+        "id": "7__36",
+        "servicio": "7",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "21:19"
+          },
+          {
+            "col": 18,
+            "hora": "21:23"
+          },
+          {
+            "col": 19,
+            "hora": "21:28"
+          },
+          {
+            "col": 20,
+            "hora": "21:33"
+          },
+          {
+            "col": 21,
+            "hora": "21:39"
+          },
+          {
+            "col": 22,
+            "hora": "21:46"
+          },
+          {
+            "col": 23,
+            "hora": "21:51"
+          },
+          {
+            "col": 24,
+            "hora": "21:57"
+          },
+          {
+            "col": 25,
+            "hora": "22:01"
+          },
+          {
+            "col": 26,
+            "hora": "22:04"
+          },
+          {
+            "col": 27,
+            "hora": "22:10"
+          },
+          {
+            "col": 28,
+            "hora": "22:19"
+          },
+          {
+            "col": 29,
+            "hora": "22:25"
+          },
+          {
+            "col": 30,
+            "hora": "22:27"
+          },
+          {
+            "col": 31,
+            "hora": "22:32"
+          },
+          {
+            "col": 32,
+            "hora": "22:35"
+          },
+          {
+            "col": 33,
+            "hora": "22:39"
+          }
+        ]
+      },
+      {
+        "id": "5__37",
+        "servicio": "5",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "21:55"
+          },
+          {
+            "col": 18,
+            "hora": "21:59"
+          },
+          {
+            "col": 19,
+            "hora": "22:04"
+          },
+          {
+            "col": 20,
+            "hora": "22:09"
+          },
+          {
+            "col": 21,
+            "hora": "22:15"
+          },
+          {
+            "col": 22,
+            "hora": "22:22"
+          },
+          {
+            "col": 23,
+            "hora": "22:26"
+          },
+          {
+            "col": 24,
+            "hora": "22:32"
+          },
+          {
+            "col": 25,
+            "hora": "22:35"
+          },
+          {
+            "col": 26,
+            "hora": "22:38"
+          },
+          {
+            "col": 27,
+            "hora": "22:44"
+          },
+          {
+            "col": 28,
+            "hora": "22:52"
+          },
+          {
+            "col": 29,
+            "hora": "22:57"
+          },
+          {
+            "col": 30,
+            "hora": "22:59"
+          },
+          {
+            "col": 31,
+            "hora": "23:04"
+          },
+          {
+            "col": 32,
+            "hora": "23:07"
+          },
+          {
+            "col": 33,
+            "hora": "23:10"
+          }
+        ]
+      },
+      {
+        "id": "54__38",
+        "servicio": "54",
+        "paradas": [
+          {
+            "col": 17,
+            "hora": "22:50"
+          },
+          {
+            "col": 18,
+            "hora": "22:54"
+          },
+          {
+            "col": 19,
+            "hora": "22:59"
+          },
+          {
+            "col": 20,
+            "hora": "23:04"
+          },
+          {
+            "col": 21,
+            "hora": "23:10"
+          },
+          {
+            "col": 22,
+            "hora": "23:16"
+          },
+          {
+            "col": 23,
+            "hora": "23:20"
+          },
+          {
+            "col": 24,
+            "hora": "23:26"
+          },
+          {
+            "col": 25,
+            "hora": "23:29"
+          },
+          {
+            "col": 26,
+            "hora": "23:32"
+          },
+          {
+            "col": 27,
+            "hora": "23:38"
+          },
+          {
+            "col": 28,
+            "hora": "23:46"
+          },
+          {
+            "col": 29,
+            "hora": "23:51"
+          },
+          {
+            "col": 30,
+            "hora": "23:54"
+          },
+          {
+            "col": 31,
+            "hora": "23:58"
+          },
+          {
+            "col": 32,
+            "hora": "00:01"
+          },
+          {
+            "col": 33,
+            "hora": "00:04"
+          }
+        ]
+      }
+    ],
+    "bandera": "Roja",
+    "dia": "Domingos y feriados"
+  }
+}

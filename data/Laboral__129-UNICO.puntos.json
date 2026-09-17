@@ -1,0 +1,772 @@
+{
+  "linea": "129",
+  "puntos": [
+    {
+      "tokens": [
+        "Urquiza",
+        "Magallanes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Urquiza y\nMagallanes"
+        }
+      ],
+      "id": "pt000",
+      "clave": "MAGALLANES||URQUIZA",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "MAGALLANES",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "MAGALLANES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93319882233013,
+        "lon": -60.704859546616554,
+        "x": 5434078.33,
+        "y": 6356405.74
+      }
+    },
+    {
+      "tokens": [
+        "Olavarria",
+        "Génova"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Olavarria y\nGénova"
+        }
+      ],
+      "id": "pt001",
+      "clave": "GÉNOVA||OLAVARRIA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "OLAVARRIA"
+        ],
+        [
+          "GENOVA",
+          "GENOVA -"
+        ]
+      ],
+      "calle1": "OLAVARRIA",
+      "calle2": "GENOVA",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.915755438924606,
+        "lon": -60.7045491449198,
+        "x": 5434094.43,
+        "y": 6358340.52
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "J. Ingenieros",
+        "Alberdi"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "J. Ingenieros y\nAlberdi"
+        }
+      ],
+      "id": "pt002",
+      "clave": "ALBERDI||J INGENIEROS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ALBERDI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.916254710404885,
+        "lon": -60.68480816475694,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "J. Ingenieros",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "J. Ingenieros y\nAvellaneda"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AVELLANEDA||J INGENIEROS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91593721967238,
+        "lon": -60.67330033354431,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Junin",
+        "Monteagudo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Junin y\nMonteagudo"
+        }
+      ],
+      "id": "pt004",
+      "clave": "JUNIN||MONTEAGUDO",
+      "status": "auto",
+      "calle1": "JUNIN",
+      "calle2": "MONTEAGUDO",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        [
+          "MONTEAGUDO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92646769152591,
+        "lon": -60.66745925108877,
+        "x": 5437571.515000002,
+        "y": 6357175.04
+      }
+    },
+    {
+      "tokens": [
+        "Salta",
+        "Moreno"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Salta y Moreno"
+        }
+      ],
+      "id": "pt005",
+      "clave": "MORENO||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "MORENO",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "MORENO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93721703500008,
+        "lon": -60.648832439985945,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Entre Ríos",
+        "San Luis"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Entre Ríos y\nSan Luis"
+        }
+      ],
+      "id": "pt006",
+      "clave": "ENTRE RÍOS||SAN LUIS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94853698601894,
+        "lon": -60.64161354044975,
+        "x": 5440003.85,
+        "y": 6354742.43
+      }
+    },
+    {
+      "tokens": [
+        "Entre Ríos",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Entre Ríos y\nPellegrini"
+        }
+      ],
+      "id": "pt007",
+      "clave": "ENTRE RÍOS||PELLEGRINI",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95678007735076,
+        "lon": -60.64368660465688,
+        "x": 5439815.585,
+        "y": 6353827.035
+      }
+    },
+    {
+      "tokens": [
+        "Entre Rios",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Entre Rios y 27\nde Febrero"
+        }
+      ],
+      "id": "pt008",
+      "clave": "27 DE FEBRERO||ENTRE RIOS",
+      "status": "auto",
+      "calle1": "ENTRE RIOS",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "ENTRE RIOS"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96709411628462,
+        "lon": -60.64627850187403,
+        "x": 5439580.26,
+        "y": 6352681.655
+      }
+    },
+    {
+      "tokens": [
+        "OROÑO YGABOTO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "OROÑO Y\nGABOTO"
+        }
+      ],
+      "id": "pt009",
+      "clave": "unparsed::OROÑO YGABOTO",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.970636307776665,
+        "lon": -60.66008289477225,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "O.LAGOS YSEGUI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "O.LAGOS Y\nSEGUI"
+        }
+      ],
+      "id": "pt010",
+      "clave": "unparsed::O.LAGOS YSEGUI",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97494876663608,
+        "lon": -60.66939658178918,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "ACEDEVEDO YFRANCIA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "ACEDEVEDO Y\nFRANCIA"
+        }
+      ],
+      "id": "pt011",
+      "clave": "unparsed::ACEDEVEDO YFRANCIA",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.98421176790353,
+        "lon": -60.677058447207244,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "WINTER YN.HUAPI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "FIN",
+          "label_raw": "WINTER Y\nN.HUAPI"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "WINTER Y\nN.HUAPI"
+        }
+      ],
+      "id": "pt012",
+      "clave": "unparsed::WINTER YN.HUAPI",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.98501687273731,
+        "lon": -60.68646807862025,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "ACEVEDO YFRANCIA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "ACEVEDO Y\nFRANCIA"
+        }
+      ],
+      "id": "pt013",
+      "clave": "unparsed::ACEVEDO YFRANCIA",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.98421176790353,
+        "lon": -60.677058447207244,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "LAGOS",
+        "SEGUI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "LAGOS Y SEGUI"
+        }
+      ],
+      "id": "pt014",
+      "clave": "LAGOS||SEGUI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97494876663608,
+        "lon": -60.66939658178918,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Oroño",
+        "Gaboto"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Oroño y\nGaboto"
+        }
+      ],
+      "id": "pt015",
+      "clave": "GABOTO||OROÑO",
+      "status": "auto",
+      "calle1": "ORONO",
+      "calle2": "GABOTO",
+      "candidatos": [
+        [
+          "ORONO"
+        ],
+        [
+          "GABOTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97063630777667,
+        "lon": -60.66008289477225,
+        "x": 5438292.145,
+        "y": 6352280.795
+      }
+    },
+    {
+      "tokens": [
+        "CORRIENTES Y27 DE FEBRERO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "CORRIENTES Y\n27 DE FEBRERO"
+        }
+      ],
+      "id": "pt016",
+      "clave": "unparsed::CORRIENTES Y27 DE FEBRERO",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96684262918133,
+        "lon": -60.647682587307884,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "CORRIENTES",
+        "PELLEGRINI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "CORRIENTES -\nPELLEGRINI"
+        }
+      ],
+      "id": "pt017",
+      "clave": "CORRIENTES||PELLEGRINI",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.956531143992855,
+        "lon": -60.645082104578954,
+        "x": 5439684.935000002,
+        "y": 6353853.845000002
+      }
+    },
+    {
+      "tokens": [
+        "Corrientes",
+        "San Luis"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Corrientes y\nSan Luis"
+        }
+      ],
+      "id": "pt018",
+      "clave": "CORRIENTES||SAN LUIS",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94827561969526,
+        "lon": -60.6430117146502,
+        "x": 5439872.93,
+        "y": 6354770.62
+      }
+    },
+    {
+      "tokens": [
+        "Jujuy",
+        "Paraguay"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Jujuy y\nParaguay"
+        }
+      ],
+      "id": "pt019",
+      "clave": "JUJUY||PARAGUAY",
+      "status": "auto",
+      "calle1": "JUJUY",
+      "calle2": "PARAGUAY",
+      "candidatos": [
+        [
+          "JUJUY"
+        ],
+        [
+          "PARAGUAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9372644221558,
+        "lon": -60.641663436942686,
+        "x": 5439991.57,
+        "y": 6355992.6
+      }
+    },
+    {
+      "tokens": [
+        "Estanislao Lopez",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Estanislao\nLopez y Oroño"
+        }
+      ],
+      "id": "pt020",
+      "clave": "ESTANISLAO LOPEZ||OROÑO",
+      "status": "auto",
+      "calle1": "ESTANISLAO LOPEZ",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "ESTANISLAO LOPEZ"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.930781158256416,
+        "lon": -60.65003323453935,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Ing. Thedy",
+        "Velez Sarsfield"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Ing. Thedy y\nVelez Sarsfield"
+        }
+      ],
+      "id": "pt021",
+      "clave": "ING THEDY||VELEZ SARSFIELD",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "VELEZ SARSFIELD"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92463233314986,
+        "lon": -60.66546851437437,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Genova",
+        "Cordiviola"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Genova y\nCordiviola"
+        }
+      ],
+      "id": "pt022",
+      "clave": "CORDIVIOLA||GENOVA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GENOVA",
+          "GENOVA -"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91491100416882,
+        "lon": -60.67531211618541,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Génova",
+        "Antelo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Génova y\nAntelo"
+        }
+      ],
+      "id": "pt023",
+      "clave": "ANTELO||GÉNOVA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GENOVA",
+          "GENOVA -"
+        ],
+        [
+          "ANTELO"
+        ]
+      ],
+      "calle1": "GENOVA",
+      "calle2": "ANTELO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.915221404186596,
+        "lon": -60.68672307379441,
+        "x": 5435761.58,
+        "y": 6358410.75
+      },
+      "resuelto_por_convergencia": 2
+    },
+    {
+      "tokens": [
+        "Génova",
+        "Cabal"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "12 FIN",
+          "label_raw": "Génova y Cabal"
+        }
+      ],
+      "id": "pt024",
+      "clave": "CABAL||GÉNOVA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "GENOVA",
+          "GENOVA -"
+        ],
+        [
+          "CABAL",
+          "CABALLITO CRIOLLO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91570637408574,
+        "lon": -60.702773779497555,
+        "manual": true
+      }
+    }
+  ]
+}

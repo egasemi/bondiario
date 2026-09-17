@@ -1,0 +1,805 @@
+{
+  "linea": "153",
+  "puntos": [
+    {
+      "tokens": [
+        "Logaritmo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Logaritmo"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 16,
+          "pos_label": "FIN",
+          "label_raw": "Logaritmo"
+        }
+      ],
+      "id": "pt000",
+      "clave": "unparsed::Logaritmo",
+      "status": "auto",
+      "candidatos": [],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.8729013380483,
+        "lon": -60.744481086730964,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Robles",
+        "D. Irala"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Robles y D.\nIrala"
+        }
+      ],
+      "id": "pt001",
+      "clave": "D IRALA||ROBLES",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ROBLES"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88002459828635,
+        "lon": -60.729877397130394,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Laguna",
+        "Oncativo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Laguna y\nOncativo"
+        }
+      ],
+      "id": "pt002",
+      "clave": "LAGUNA||ONCATIVO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "LAGUNA",
+          "LAGUNA BLANCA",
+          "LAGUNA DEL DESIERTO"
+        ],
+        [
+          "ONCATIVO"
+        ]
+      ],
+      "calle1": "LAGUNA",
+      "calle2": "ONCATIVO",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.880611807934436,
+        "lon": -60.72441043096414,
+        "x": 5432209.74,
+        "y": 6362225.58
+      },
+      "resuelto_por_convergencia": 3
+    },
+    {
+      "tokens": [
+        "Pallieri",
+        "Peyrano"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Pallieri y\nPeyrano"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Peyrano y\nPallieri"
+        }
+      ],
+      "id": "pt003",
+      "clave": "PALLIERI||PEYRANO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PEYRANO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.88717990680597,
+        "lon": -60.71599980794154,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Pintor Musto",
+        "Laporte"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Pintor Musto\ny Laporte"
+        }
+      ],
+      "id": "pt004",
+      "clave": "LAPORTE||PINTOR MUSTO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PINTOR MUSTO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.8729542293942,
+        "lon": -60.69582338098605,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Agrelo",
+        "Puccio"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Agrelo y\nPuccio"
+        }
+      ],
+      "id": "pt005",
+      "clave": "AGRELO||PUCCIO",
+      "status": "auto",
+      "calle1": "AGRELO",
+      "calle2": "PUCCIO",
+      "candidatos": [
+        [
+          "AGRELO"
+        ],
+        [
+          "PUCCIO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.894537553465206,
+        "lon": -60.690893164414284,
+        "x": 5435356.46,
+        "y": 6360702.166666668
+      }
+    },
+    {
+      "tokens": [
+        "Maza",
+        "Sorrento"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Maza y\nSorrento"
+        }
+      ],
+      "id": "pt006",
+      "clave": "MAZA||SORRENTO",
+      "status": "auto",
+      "calle1": "MAZA",
+      "calle2": "SORRENTO",
+      "candidatos": [
+        [
+          "MAZA"
+        ],
+        [
+          "SORRENTO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90691638547281,
+        "lon": -60.68481264179844,
+        "x": 5435934.31,
+        "y": 6359332.99
+      }
+    },
+    {
+      "tokens": [
+        "Avellaneda",
+        "V. Sarsfield"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Avellaneda y\nV. Sarsfield"
+        }
+      ],
+      "id": "pt007",
+      "clave": "AVELLANEDA||V SARSFIELD",
+      "status": "auto",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92487070810587,
+        "lon": -60.67554064899685,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "O.Lagos",
+        "Brown"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "O.Lagos y\nBrown"
+        }
+      ],
+      "id": "pt008",
+      "clave": "BROWN||OLAGOS",
+      "status": "auto",
+      "calle1": "OVIDIO LAGOS",
+      "calle2": "BROWN",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        [
+          "BROWN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.932940710223846,
+        "lon": -60.65908633923447,
+        "x": 5438359.15,
+        "y": 6356462.07
+      }
+    },
+    {
+      "tokens": [
+        "Salta",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Salta y\nOroño"
+        }
+      ],
+      "id": "pt009",
+      "clave": "OROÑO||SALTA",
+      "status": "auto",
+      "calle1": "SALTA AV",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "SALTA AV"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93673411275052,
+        "lon": -60.6515429177582,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "E. Rios",
+        "San Juan"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "E. Rios y San\nJuan"
+        }
+      ],
+      "id": "pt010",
+      "clave": "E RIOS||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94965395873257,
+        "lon": -60.6418953810588,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "E. Rios",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "E. Rios y\nPellegrini"
+        }
+      ],
+      "id": "pt011",
+      "clave": "E RIOS||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95678007735076,
+        "lon": -60.64368660465688,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "O.Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Pellegrini\ny O.Lagos"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Pellegrini y\nO.Lagos"
+        }
+      ],
+      "id": "pt012",
+      "clave": "OLAGOS||PELLEGRINI",
+      "status": "auto",
+      "calle1": "PELLEGRINI",
+      "calle2": "OVIDIO LAGOS",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95309834425215,
+        "lon": -60.66419049967071,
+        "x": 5437895.87,
+        "y": 6354223.46
+      }
+    },
+    {
+      "tokens": [
+        "Calle 1716",
+        "Bemporat"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Calle 1716 y\nBemporat"
+        }
+      ],
+      "id": "pt013",
+      "clave": "BEMPORAT||CALLE 1716",
+      "status": "auto",
+      "calle1": "1716",
+      "calle2": "BEMPORAT",
+      "candidatos": [
+        [
+          "1716"
+        ],
+        [
+          "BEMPORAT"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90912253315647,
+        "lon": -60.681785157921446,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Prov.Unidas",
+        "Neuquen"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Prov.Unidas -\nNeuquen"
+        }
+      ],
+      "id": "pt014",
+      "clave": "NEUQUEN||PROVUNIDAS",
+      "status": "auto",
+      "calle1": "PROVINCIAS UNIDAS",
+      "calle2": "NEUQUEN",
+      "candidatos": [
+        [
+          "PROVINCIAS UNIDAS"
+        ],
+        [
+          "NEUQUEN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94456960616171,
+        "lon": -60.71241485377939,
+        "x": 5433380.235,
+        "y": 6355139.890000002
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Pellegrini y\nAvellaneda"
+        }
+      ],
+      "id": "pt015",
+      "clave": "AVELLANEDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "PELLEGRINI",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94994076105553,
+        "lon": -60.681860495959064,
+        "x": 5436241.365,
+        "y": 6354563.1
+      }
+    },
+    {
+      "tokens": [
+        "Montevideo",
+        "Paraguay"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Montevideo\ny Paraguay"
+        }
+      ],
+      "id": "pt016",
+      "clave": "MONTEVIDEO||PARAGUAY",
+      "status": "auto",
+      "calle1": "MONTEVIDEO",
+      "calle2": "PARAGUAY",
+      "candidatos": [
+        [
+          "MONTEVIDEO"
+        ],
+        [
+          "PARAGUAY"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95513723029857,
+        "lon": -60.64617980410506,
+        "x": 5439581.35,
+        "y": 6354007.81
+      }
+    },
+    {
+      "tokens": [
+        "Corrientes",
+        "San Luis"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Corrientes y\nSan Luis"
+        }
+      ],
+      "id": "pt017",
+      "clave": "CORRIENTES||SAN LUIS",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "SAN LUIS",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "SAN LUIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94827561969526,
+        "lon": -60.6430117146502,
+        "x": 5439872.93,
+        "y": 6354770.62
+      }
+    },
+    {
+      "tokens": [
+        "Urquiza",
+        "España"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Urquiza y\nEspaña"
+        }
+      ],
+      "id": "pt018",
+      "clave": "ESPAÑA||URQUIZA",
+      "status": "auto",
+      "calle1": "URQUIZA",
+      "calle2": "ESPANA",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        [
+          "ESPANA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94145971998291,
+        "lon": -60.64564605241583,
+        "x": 5439621.96,
+        "y": 6355525.04
+      }
+    },
+    {
+      "tokens": [
+        "Callao",
+        "Salta"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Callao y\nSalta"
+        }
+      ],
+      "id": "pt019",
+      "clave": "CALLAO||SALTA",
+      "status": "auto",
+      "calle1": "CALLAO",
+      "calle2": "SALTA AV",
+      "candidatos": [
+        [
+          "CALLAO"
+        ],
+        [
+          "SALTA AV"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.935521002399845,
+        "lon": -60.65831540932497,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "V.Sarsfield",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "V.Sarsfield y\nAvellaneda"
+        }
+      ],
+      "id": "pt020",
+      "clave": "AVELLANEDA||VSARSFIELD",
+      "status": "auto",
+      "calle1": "VELEZ SARSFIELD",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "VELEZ SARSFIELD"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.924870708105864,
+        "lon": -60.67554064899685,
+        "x": 5436814.5,
+        "y": 6357347.34
+      }
+    },
+    {
+      "tokens": [
+        "Hernandez",
+        "Nansen"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "Hernandez y\nNansen"
+        }
+      ],
+      "id": "pt021",
+      "clave": "HERNANDEZ||NANSEN",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "NANSEN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.90912253315647,
+        "lon": -60.681785157921446,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "A. Thomas",
+        "Puccio"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "A. Thomas y\nPuccio"
+        }
+      ],
+      "id": "pt022",
+      "clave": "A THOMAS||PUCCIO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PUCCIO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.893771485315625,
+        "lon": -60.68768414076364,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "M. Fierro",
+        "j Agüero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "M. Fierro y j\nAgüero"
+        }
+      ],
+      "id": "pt023",
+      "clave": "J AGÜERO||M FIERRO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.87770204574496,
+        "lon": -60.69580790119849,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Alberini",
+        "O P n a c u a n ti e v r o o y Pe P a a t s o a n je a l("
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "Alberini y\nO P n a c u a n ti e v r o o y Pe P a a t s o a n je a l("
+        }
+      ],
+      "id": "pt024",
+      "clave": "ALBERINI||O P N A C U A N TI E V R O O Y PE P A A T S O A N JE A L(",
+      "status": "manual",
+      "candidatos": [
+        [
+          "ALBERINI"
+        ],
+        []
+      ]
+    }
+  ]
+}

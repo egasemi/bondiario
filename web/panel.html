@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Panel de resolución manual — Bondiario</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.9.2/proj4.js"></script>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #1a1d24; --panel-border: #2a2e37;
+    --text: #e8eaed; --text-dim: #9aa0a8; --accent: #4f9dff; --warn: #ffb84f; --ok: #4fd48a;
+  }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, sans-serif; }
+  #layout { display: grid; grid-template-columns: 400px 1fr; height: 100vh; }
+  #sidebar { border-right: 1px solid var(--panel-border); overflow-y: auto; padding: 14px; box-sizing: border-box; }
+  #sidebar h1 { font-size: 16px; margin: 0 0 4px; }
+  #sidebar p.hint { color: var(--text-dim); font-size: 12px; margin-top: 0; }
+  #resumen { font-size: 12px; color: var(--text-dim); margin-bottom: 10px; }
+  .punto-item {
+    background: var(--panel); border: 1px solid var(--panel-border); border-radius: 10px;
+    padding: 10px; margin-bottom: 10px; cursor: pointer;
+  }
+  .punto-item.selected { border-color: var(--accent); }
+  .punto-item .label { font-weight: 600; font-size: 13px; }
+  .punto-item .raw { color: var(--text-dim); font-size: 11px; margin-top: 2px; white-space: pre-wrap; }
+  .punto-item .uso { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 8px; margin-top: 6px; background: #3a2f1c; color: var(--warn); }
+  #map { height: 100%; }
+  #editor {
+    position: absolute; top: 12px; right: 12px; z-index: 1000;
+    background: rgba(26,29,36,0.95); border: 1px solid var(--panel-border); border-radius: 10px;
+    padding: 14px; width: 300px;
+  }
+  #editor h2 { font-size: 13px; margin: 0 0 8px; }
+  #editor input { width: 100%; box-sizing: border-box; background: #11141a; color: var(--text); border: 1px solid var(--panel-border); border-radius: 6px; padding: 6px 8px; font-size: 13px; margin-bottom: 8px; }
+  #editor .searchResults { max-height: 160px; overflow-y: auto; margin-bottom: 8px; }
+  .searchResults .item { padding: 5px 6px; font-size: 12px; border-radius: 6px; cursor: pointer; }
+  .searchResults .item:hover { background: #23262f; }
+  #editor button { width: 100%; background: var(--accent); color: #08111f; border: none; border-radius: 6px; padding: 8px; font-weight: 600; cursor: pointer; }
+  #editor button:disabled { opacity: 0.4; cursor: not-allowed; }
+  #editor .coords { font-size: 11px; color: var(--text-dim); margin-bottom: 8px; }
+  #saveMsg { font-size: 12px; margin-top: 8px; color: var(--ok); }
+  #vacio { text-align: center; color: var(--ok); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div id="layout">
+  <div id="sidebar">
+    <h1>Esquinas por resolver</h1>
+    <p class="hint">Cada esquina se resuelve una sola vez acá y queda guardada para siempre: se aplica automáticamente a todas las líneas y variantes de día que pasan por ese mismo punto.</p>
+    <div id="resumen"></div>
+    <div id="lista"></div>
+    <div id="vacio" style="display:none">✓ No quedan esquinas pendientes.</div>
+  </div>
+  <div style="position:relative">
+    <div id="map"></div>
+    <div id="editor" style="display:none">
+      <h2 id="editorTitulo">—</h2>
+      <div class="coords" id="editorCoords">sin coordenadas</div>
+      <input id="searchBox" placeholder="Buscar calle o intersección (ej: Pellegrini y Corrientes)" />
+      <div class="searchResults" id="searchResults"></div>
+      <button id="guardarBtn" disabled>Guardar posición</button>
+      <div id="saveMsg"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const GEOCODE_API = "https://ws.rosario.gob.ar/ubicaciones/public/geojson/ubicaciones";
+
+// EPSG:22185 (POSGAR94 / Argentina 5) tal como lo reporta pyproj:
+proj4.defs("EPSG:22185", "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=WGS84 +units=m +no_defs");
+
+let map, marker, pendingLatLon = null, pendientes = [], seleccionado = null;
+
+async function cargarPendientes() {
+  const res = await fetch("/api/pending");
+  pendientes = await res.json();
+  renderLista();
+}
+
+function resumenLineas(item) {
+  const lineas = [...new Set(item.ocurrencias.map(o => o.linea).filter(Boolean))];
+  return `usado en ${item.ocurrencias.length} cuadro(s) · línea(s): ${lineas.join(", ")}`;
+}
+
+function renderLista() {
+  const cont = document.getElementById("lista");
+  const resumen = document.getElementById("resumen");
+  const vacio = document.getElementById("vacio");
+  resumen.textContent = `${pendientes.length} esquinas únicas pendientes`;
+  vacio.style.display = pendientes.length ? "none" : "block";
+  cont.innerHTML = "";
+  for (const item of pendientes) {
+    const div = document.createElement("div");
+    div.className = "punto-item" + (seleccionado === item.clave ? " selected" : "");
+    const rawsUnicos = [...new Set(item.ocurrencias.flatMap(o => o.labels_raw))];
+    div.innerHTML = `
+      <div class="label">${item.tokens.join(" - ")}</div>
+      <div class="raw">${rawsUnicos.map(r => r.replace(/\n/g, ' / ')).join(' · ')}</div>
+      <span class="uso">${resumenLineas(item)}</span>
+    `;
+    div.addEventListener("click", () => seleccionarPunto(item.clave));
+    cont.appendChild(div);
+  }
+}
+
+/** Abre el editor para una clave. Si el punto está en la lista de
+ * pendientes se usa esa info; si no (por ejemplo, un punto ya resuelto que
+ * se abrió desde el mapa para corregirlo), se consulta al servidor, que
+ * busca la esquina esté o no resuelta. */
+async function seleccionarPunto(clave) {
+  seleccionado = clave;
+  renderLista();
+
+  let item = pendientes.find(x => x.clave === clave);
+  let estadoActual = null;
+  if (!item) {
+    const res = await fetch(`/api/punto?clave=${encodeURIComponent(clave)}`);
+    if (!res.ok) {
+      document.getElementById("saveMsg").textContent = "No se encontró ese punto.";
+      return;
+    }
+    item = await res.json();
+    estadoActual = item.estado_actual;
+  }
+
+  document.getElementById("editor").style.display = "block";
+  document.getElementById("editorTitulo").textContent = item.tokens.join(" - ");
+  document.getElementById("searchBox").value = "";
+  document.getElementById("searchResults").innerHTML = "";
+  document.getElementById("saveMsg").textContent = "";
+  pendingLatLon = null;
+  if (marker) { marker.remove(); marker = null; }
+  document.getElementById("guardarBtn").disabled = true;
+
+  if (estadoActual && estadoActual.status === "ok") {
+    // ya tiene una posición (posiblemente mal ubicada): se muestra para corregirla
+    marker = L.marker([estadoActual.lat, estadoActual.lon], { draggable: true }).addTo(map);
+    marker.on("dragend", () => {
+      const ll = marker.getLatLng();
+      setPending(ll.lat, ll.lng);
+    });
+    document.getElementById("editorCoords").textContent = `posición actual: lat ${estadoActual.lat.toFixed(6)}, lon ${estadoActual.lon.toFixed(6)}`;
+    map.setView([estadoActual.lat, estadoActual.lon], 17);
+  } else {
+    document.getElementById("editorCoords").textContent = "sin coordenadas";
+  }
+  document.getElementById("searchBox").focus();
+}
+
+function setMarker(lat, lon) {
+  if (marker) marker.remove();
+  marker = L.marker([lat, lon], { draggable: true }).addTo(map);
+  marker.on("dragend", () => {
+    const ll = marker.getLatLng();
+    setPending(ll.lat, ll.lng);
+  });
+  setPending(lat, lon);
+}
+
+function setPending(lat, lon) {
+  pendingLatLon = { lat, lon };
+  document.getElementById("editorCoords").textContent = `lat ${lat.toFixed(6)}, lon ${lon.toFixed(6)} (sin guardar)`;
+  document.getElementById("guardarBtn").disabled = false;
+}
+
+async function buscar(term) {
+  if (!term.trim()) { document.getElementById("searchResults").innerHTML = ""; return; }
+  const url = GEOCODE_API + "?" + new URLSearchParams({ term });
+  const res = await fetch(url);
+  const data = await res.json();
+  const cont = document.getElementById("searchResults");
+  cont.innerHTML = "";
+  for (const f of (data.features || []).slice(0, 15)) {
+    const div = document.createElement("div");
+    div.className = "item";
+    div.textContent = f.properties.name + (f.properties.subtipo ? ` (${f.properties.subtipo})` : "");
+    div.addEventListener("click", () => seleccionarFeature(f));
+    cont.appendChild(div);
+  }
+}
+
+function seleccionarFeature(f) {
+  const [x, y] = f.geometry.coordinates;
+  const [lon, lat] = proj4("EPSG:22185", "WGS84", [x, y]);
+  setMarker(lat, lon);
+  map.setView([lat, lon], 17);
+}
+
+async function guardar() {
+  if (!pendingLatLon || !seleccionado) return;
+  const claveGuardada = seleccionado;
+  const body = { clave: claveGuardada, lat: pendingLatLon.lat, lon: pendingLatLon.lon };
+  try {
+    const res = await fetch("/api/resolver", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    const data = await res.json();
+    document.getElementById("saveMsg").textContent = `Guardado ✓ (aplicado a ${data.cuadros_actualizados.length} cuadros)`;
+    document.getElementById("guardarBtn").disabled = true;
+
+    // avanzar automáticamente al siguiente pendiente de la lista
+    const idxActual = pendientes.findIndex(x => x.clave === claveGuardada);
+    pendientes = pendientes.filter(x => x.clave !== claveGuardada);
+    seleccionado = null;
+    renderLista();
+    if (idxActual !== -1 && pendientes.length) {
+      const siguienteIdx = Math.min(idxActual, pendientes.length - 1);
+      seleccionarPunto(pendientes[siguienteIdx].clave);
+    }
+  } catch (e) {
+    document.getElementById("saveMsg").textContent = "Error al guardar: " + e.message;
+    document.getElementById("saveMsg").style.color = "#ff6b6b";
+  }
+}
+
+function initMap() {
+  map = L.map("map").setView([-32.9468, -60.6393], 13);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', maxZoom: 19,
+  }).addTo(map);
+  map.on("click", (e) => {
+    if (!seleccionado) return;
+    setMarker(e.latlng.lat, e.latlng.lng);
+  });
+}
+
+document.getElementById("searchBox").addEventListener("input", (e) => {
+  clearTimeout(window._t);
+  window._t = setTimeout(() => buscar(e.target.value), 300);
+});
+document.getElementById("guardarBtn").addEventListener("click", guardar);
+
+initMap();
+cargarPendientes().then(() => {
+  const clave = new URLSearchParams(location.search).get("clave");
+  if (clave) seleccionarPunto(clave);
+});
+</script>
+</body>
+</html>

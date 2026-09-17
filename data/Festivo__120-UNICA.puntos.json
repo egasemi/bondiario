@@ -1,0 +1,527 @@
+{
+  "linea": "120",
+  "puntos": [
+    {
+      "tokens": [
+        "Rueda",
+        "P.Unidas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Rueda y\nP.Unidas"
+        }
+      ],
+      "id": "pt000",
+      "clave": "PUNIDAS||RUEDA",
+      "status": "auto",
+      "calle1": "RUEDA",
+      "calle2": "PROVINCIAS UNIDAS",
+      "candidatos": [
+        [
+          "RUEDA"
+        ],
+        [
+          "PROVINCIAS UNIDAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96277437354009,
+        "lon": -60.711688739858374,
+        "x": 5433461.78,
+        "y": 6353121.310000002
+      }
+    },
+    {
+      "tokens": [
+        "P. Unidas",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "P. Unidas y\nPellegrini"
+        }
+      ],
+      "id": "pt001",
+      "clave": "P UNIDAS||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94857588185433,
+        "lon": -60.71226593780296,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "Solis"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Pellegrini y\nSolis"
+        }
+      ],
+      "id": "pt002",
+      "clave": "PELLEGRINI||SOLIS",
+      "status": "auto",
+      "calle1": "PELLEGRINI",
+      "calle2": "SOLIS",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "SOLIS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94832997522802,
+        "lon": -60.70298929379374,
+        "x": 5434264.445,
+        "y": 6354728.76
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "F. More"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Pellegrini y\nF. More"
+        }
+      ],
+      "id": "pt003",
+      "clave": "F MORE||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94807135906536,
+        "lon": -60.693441609409135,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Pellegrini",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Pellegrini y\nAvellaneda"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AVELLANEDA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "PELLEGRINI",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "PELLEGRINI"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94994076105553,
+        "lon": -60.681860495959064,
+        "x": 5436241.365,
+        "y": 6354563.1
+      }
+    },
+    {
+      "tokens": [
+        "San Nicolas",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "San Nicolas\ny Pellegrini"
+        }
+      ],
+      "id": "pt005",
+      "clave": "PELLEGRINI||SAN NICOLAS",
+      "status": "auto",
+      "calle1": "SAN NICOLAS",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "SAN NICOLAS"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9511632442735,
+        "lon": -60.67505025864745,
+        "x": 5436879.05,
+        "y": 6354431.62
+      }
+    },
+    {
+      "tokens": [
+        "Cordoba",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Cordoba y\nCafferata"
+        }
+      ],
+      "id": "pt006",
+      "clave": "CAFFERATA||CORDOBA",
+      "status": "auto",
+      "calle1": "CORDOBA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94054267909362,
+        "lon": -60.670951201305705,
+        "x": 5437254.84,
+        "y": 6355611.96
+      }
+    },
+    {
+      "tokens": [
+        "Vera Mujica",
+        "Urquiza"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Vera Mujica\ny Urquiza"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Urquiza y\nVera Mujica"
+        }
+      ],
+      "id": "pt007",
+      "clave": "URQUIZA||VERA MUJICA",
+      "status": "auto",
+      "calle1": "VERA MUJICA",
+      "calle2": "URQUIZA",
+      "candidatos": [
+        [
+          "VERA MUJICA"
+        ],
+        [
+          "URQUIZA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93781405448205,
+        "lon": -60.665999636008976,
+        "x": 5437715.99,
+        "y": 6355917.52
+      }
+    },
+    {
+      "tokens": [
+        "Alvear",
+        "Montevideo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Alvear y\nMontevideo"
+        }
+      ],
+      "id": "pt008",
+      "clave": "ALVEAR||MONTEVIDEO",
+      "status": "auto",
+      "calle1": "ALVEAR",
+      "calle2": "MONTEVIDEO",
+      "candidatos": [
+        [
+          "ALVEAR"
+        ],
+        [
+          "MONTEVIDEO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.953193459081064,
+        "lon": -60.657099404368786,
+        "x": 5438558.99,
+        "y": 6354217.07
+      }
+    },
+    {
+      "tokens": [
+        "Mitre",
+        "Zeballos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Mitre y\nZeballos"
+        }
+      ],
+      "id": "pt009",
+      "clave": "MITRE||ZEBALLOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95474563399682,
+        "lon": -60.641702781909416,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Mitre",
+        "Santa Fe"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Mitre y\nSanta Fe"
+        }
+      ],
+      "id": "pt010",
+      "clave": "MITRE||SANTA FE",
+      "status": "auto",
+      "calle1": "MITRE",
+      "calle2": "SANTA FE",
+      "candidatos": [
+        [
+          "MITRE"
+        ],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94480926909014,
+        "lon": -60.63921680236013,
+        "x": 5440225.46,
+        "y": 6355157.22
+      }
+    },
+    {
+      "tokens": [
+        "Corrientes",
+        "Salta"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Corrientes y\nSalta"
+        }
+      ],
+      "id": "pt011",
+      "clave": "CORRIENTES||SALTA",
+      "status": "auto",
+      "calle1": "CORRIENTES",
+      "calle2": "SALTA AV",
+      "candidatos": [
+        [
+          "CORRIENTES"
+        ],
+        [
+          "SALTA AV"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93869361378777,
+        "lon": -60.64059805470917,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Jujuy",
+        "Balcarce"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Jujuy y\nBalcarce"
+        }
+      ],
+      "id": "pt012",
+      "clave": "BALCARCE||JUJUY",
+      "status": "auto",
+      "calle1": "JUJUY",
+      "calle2": "BALCARCE",
+      "candidatos": [
+        [
+          "JUJUY"
+        ],
+        [
+          "BALCARCE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93578719859622,
+        "lon": -60.649887081447076,
+        "x": 5439221.47,
+        "y": 6356151.72
+      }
+    },
+    {
+      "tokens": [
+        "Ovidio Lagos",
+        "Salta"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Ovidio\nLagos y\nSalta"
+        }
+      ],
+      "id": "pt013",
+      "clave": "OVIDIO LAGOS||SALTA",
+      "status": "auto",
+      "calle1": "OVIDIO LAGOS",
+      "calle2": "SALTA AV",
+      "candidatos": [
+        [
+          "OVIDIO LAGOS"
+        ],
+        [
+          "SALTA AV"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93527659882049,
+        "lon": -60.659676244501966,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Cafferata",
+        "Santa Fe"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Cafferata y\nSanta Fe"
+        }
+      ],
+      "id": "pt014",
+      "clave": "CAFFERATA||SANTA FE",
+      "status": "auto",
+      "calle1": "CAFFERATA",
+      "calle2": "SANTA FE",
+      "candidatos": [
+        [
+          "CAFFERATA"
+        ],
+        [
+          "SANTA FE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93919661258865,
+        "lon": -60.670611159846615,
+        "x": 5437285.69,
+        "y": 6355761.45
+      }
+    },
+    {
+      "tokens": [
+        "Cafferata",
+        "Pellegrini y Pellegrini y Pellegrini y Pellegrini y Pellegrini Avellaneda F. More Solis P.Unidas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Cafferata y Pellegrini y Pellegrini y Pellegrini y Pellegrini y\nPellegrini Avellaneda F. More Solis P.Unidas"
+        }
+      ],
+      "id": "pt015",
+      "clave": "CAFFERATA||PELLEGRINI Y PELLEGRINI Y PELLEGRINI Y PELLEGRINI Y PELLEGRINI AVELLANEDA F MORE SOLIS PUNIDAS",
+      "status": "manual",
+      "candidatos": [
+        [
+          "CAFFERATA"
+        ],
+        []
+      ]
+    }
+  ]
+}

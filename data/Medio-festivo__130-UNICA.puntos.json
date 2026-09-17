@@ -1,0 +1,408 @@
+{
+  "linea": "130",
+  "puntos": [
+    {
+      "tokens": [
+        "WINTE",
+        "CIPOLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "WINTE -\nCIPOLE"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 29,
+          "pos_label": "FIN",
+          "label_raw": "WINTE -\nCIPOLE"
+        }
+      ],
+      "id": "pt000",
+      "clave": "CIPOLE||WINTE",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "FSARM",
+        "OvLAG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "FSARM -\nOvLAG"
+        }
+      ],
+      "id": "pt001",
+      "clave": "FSARM||OVLAG",
+      "status": "auto",
+      "calle1": "FRAGATA SARMIENTO",
+      "calle2": "OVIDIO LAGOS",
+      "candidatos": [
+        [
+          "FRAGATA SARMIENTO"
+        ],
+        [
+          "OVIDIO LAGOS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9887456705418,
+        "lon": -60.67273246524198,
+        "x": 5437122.415,
+        "y": 6350264.85
+      }
+    },
+    {
+      "tokens": [
+        "OROÑO",
+        "AMEGH"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "OROÑO -\nAMEGH"
+        }
+      ],
+      "id": "pt002",
+      "clave": "AMEGH||OROÑO",
+      "status": "auto",
+      "calle1": "ORONO",
+      "calle2": "AMEGHINO",
+      "candidatos": [
+        [
+          "ORONO"
+        ],
+        [
+          "AMEGHINO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.98441332843262,
+        "lon": -60.66344450378855,
+        "x": 5437987.51,
+        "y": 6350750.85
+      }
+    },
+    {
+      "tokens": [
+        "OROÑO",
+        "BvSEG"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "OROÑO -\nBvSEG"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 26,
+          "pos_label": "3",
+          "label_raw": "OROÑO -\nBvSEG"
+        }
+      ],
+      "id": "pt003",
+      "clave": "BVSEG||OROÑO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ORONO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97635953955821,
+        "lon": -60.66151169378635,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "ITALI",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "ITALI -\n27FEB"
+        }
+      ],
+      "id": "pt004",
+      "clave": "27FEB||ITALI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "ITALIA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.965855127510224,
+        "lon": -60.653206996980636,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "ITALI",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "ITALI -\nPELLE"
+        }
+      ],
+      "id": "pt005",
+      "clave": "ITALI||PELLE",
+      "status": "auto",
+      "calle1": "ITALIA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "ITALIA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95554547363164,
+        "lon": -60.650606452796524,
+        "x": 5439167.725,
+        "y": 6353959.985
+      }
+    },
+    {
+      "tokens": [
+        "ITALI",
+        "SLORE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "ITALI -\nSLORE"
+        }
+      ],
+      "id": "pt006",
+      "clave": "ITALI||SLORE",
+      "status": "auto",
+      "calle1": "ITALIA",
+      "calle2": "SAN LORENZO",
+      "candidatos": [
+        [
+          "ITALIA"
+        ],
+        [
+          "SAN LORENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94239494132621,
+        "lon": -60.647298229963425,
+        "x": 5439468.09,
+        "y": 6355420.37
+      }
+    },
+    {
+      "tokens": [
+        "LAPRI",
+        "SJUAN"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 22,
+          "pos_label": "FIN",
+          "label_raw": "LAPRI -\nSJUAN"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 23,
+          "pos_label": "INICIO",
+          "label_raw": "LAPRI -\nSJUAN"
+        }
+      ],
+      "id": "pt007",
+      "clave": "LAPRI||SJUAN",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "SAN JUAN",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "SAN JUAN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95097113384171,
+        "lon": -60.63495538714743,
+        "x": 5440628.08,
+        "y": 6354476.24
+      }
+    },
+    {
+      "tokens": [
+        "SJUAN",
+        "DORRE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 24,
+          "pos_label": "1",
+          "label_raw": "SJUAN -\nDORRE"
+        }
+      ],
+      "id": "pt008",
+      "clave": "DORRE||SJUAN",
+      "status": "auto",
+      "calle1": "SAN JUAN",
+      "calle2": "DORREGO",
+      "candidatos": [
+        [
+          "SAN JUAN"
+        ],
+        [
+          "DORREGO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.948170414001616,
+        "lon": -60.65016888348832,
+        "x": 5439203.59,
+        "y": 6354778.18
+      }
+    },
+    {
+      "tokens": [
+        "DORRE",
+        "PELLE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 25,
+          "pos_label": "2",
+          "label_raw": "DORRE -\nPELLE"
+        }
+      ],
+      "id": "pt009",
+      "clave": "DORRE||PELLE",
+      "status": "auto",
+      "calle1": "DORREGO",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "DORREGO"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95530296677862,
+        "lon": -60.651965170032256,
+        "x": 5439040.515000002,
+        "y": 6353986.095000002
+      }
+    },
+    {
+      "tokens": [
+        "OROÑO",
+        "URIBU"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 27,
+          "pos_label": "4",
+          "label_raw": "OROÑO -\nURIBU"
+        }
+      ],
+      "id": "pt010",
+      "clave": "OROÑO||URIBU",
+      "status": "auto",
+      "calle1": "ORONO",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "ORONO"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991421169845886,
+        "lon": -60.665400241425836,
+        "x": 5437809.617500002,
+        "y": 6349972.475000002
+      }
+    },
+    {
+      "tokens": [
+        "URIBU",
+        "SUIPA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 28,
+          "pos_label": "5",
+          "label_raw": "URIBU -\nSUIPA"
+        }
+      ],
+      "id": "pt011",
+      "clave": "SUIPA||URIBU",
+      "status": "auto",
+      "calle1": "URIBURU",
+      "calle2": "SUIPACHA",
+      "candidatos": [
+        [
+          "URIBURU"
+        ],
+        [
+          "SUIPACHA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991613114931496,
+        "lon": -60.67675193125867,
+        "x": 5436748.77,
+        "y": 6349944.42
+      }
+    }
+  ]
+}

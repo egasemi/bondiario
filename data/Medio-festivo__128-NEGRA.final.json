@@ -1,0 +1,3589 @@
+{
+  "linea": "128",
+  "bandera": "Negra",
+  "dia": "Medio festivo",
+  "puntos": {
+    "pt000": {
+      "lat": -32.93805676766283,
+      "lon": -60.664647482171475,
+      "label": "URQUIZA - FRANCIA",
+      "clave": "FRANCIA||URQUIZA"
+    },
+    "pt001": {
+      "lat": -32.93773065316909,
+      "lon": -60.67877623880135,
+      "label": "STAFE - AVELL",
+      "clave": "AVELL||STAFE"
+    },
+    "pt002": {
+      "lat": -32.9545245940152,
+      "lon": -60.683018480575534,
+      "label": "AVELL - CERRI",
+      "clave": "AVELL||CERRI"
+    },
+    "pt003": {
+      "lat": -32.96943106064747,
+      "lon": -60.686780810081125,
+      "label": "AVELL - URUGU",
+      "clave": "AVELL||URUGU"
+    },
+    "pt004": {
+      "lat": -32.977248736402075,
+      "lon": -60.66995469322726,
+      "label": "BIEDM - OvLAG",
+      "clave": "BIEDM||OVLAG"
+    },
+    "pt005": {
+      "lat": -32.97635953955821,
+      "lon": -60.66151169378635,
+      "label": "BvSEG - OROÑO",
+      "clave": "BVSEG||OROÑO"
+    },
+    "pt006": {
+      "lat": -32.97652741702439,
+      "lon": -60.64717914731819,
+      "label": "MITRE - AYOLA",
+      "clave": "AYOLA||MITRE"
+    },
+    "pt007": {
+      "lat": -32.95703159069181,
+      "lon": -60.64227731876921,
+      "label": "MITRE - PELLE",
+      "clave": "MITRE||PELLE"
+    },
+    "pt008": {
+      "lat": -32.94877885340193,
+      "lon": -60.640216821434855,
+      "label": "MITRE - SLUIS",
+      "clave": "MITRE||SLUIS"
+    },
+    "pt009": {
+      "lat": -32.94599602682921,
+      "lon": -60.633358211165536,
+      "label": "SLORE - LAPRIDA",
+      "clave": "LAPRIDA||SLORE"
+    },
+    "pt010": {
+      "lat": -32.949653958732576,
+      "lon": -60.6418953810588,
+      "label": "SJUAN - ERIOS",
+      "clave": "ERIOS||SJUAN"
+    },
+    "pt011": {
+      "lat": -32.95678007735076,
+      "lon": -60.64368660465688,
+      "label": "ERIOS - PELLE",
+      "clave": "ERIOS||PELLE"
+    },
+    "pt012": {
+      "lat": -32.978003685189364,
+      "lon": -60.63891702583494,
+      "label": "ERIOS - AYOLA",
+      "clave": "AYOLA||ERIOS"
+    },
+    "pt013": {
+      "lat": -32.97494876663608,
+      "lon": -60.66939658178918,
+      "label": "BvSEG - OvLAG",
+      "clave": "BVSEG||OVLAG"
+    },
+    "pt014": {
+      "lat": -32.96828164558387,
+      "lon": -60.68649113479059,
+      "label": "AVELL - DFUNE",
+      "clave": "AVELL||DFUNE"
+    },
+    "pt015": {
+      "lat": -32.948798131044434,
+      "lon": -60.6815720205238,
+      "label": "AVELL - MONTE",
+      "clave": "AVELL||MONTE"
+    },
+    "pt016": {
+      "lat": -32.93907520391131,
+      "lon": -60.67911724157317,
+      "label": "AVELL - CORDO",
+      "clave": "AVELL||CORDO"
+    }
+  },
+  "viajes": [
+    {
+      "id": "DISCAP2__0",
+      "sentido": "ida",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 6300,
+          "punto": "pt000"
+        },
+        {
+          "t": 6660,
+          "punto": "pt001"
+        },
+        {
+          "t": 7020,
+          "punto": "pt002"
+        },
+        {
+          "t": 7200,
+          "punto": "pt003"
+        },
+        {
+          "t": 7500,
+          "punto": "pt004"
+        },
+        {
+          "t": 7680,
+          "punto": "pt005"
+        },
+        {
+          "t": 7920,
+          "punto": "pt006"
+        },
+        {
+          "t": 8280,
+          "punto": "pt007"
+        },
+        {
+          "t": 8460,
+          "punto": "pt008"
+        },
+        {
+          "t": 8640,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__1",
+      "sentido": "ida",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 11220,
+          "punto": "pt000"
+        },
+        {
+          "t": 11580,
+          "punto": "pt001"
+        },
+        {
+          "t": 11940,
+          "punto": "pt002"
+        },
+        {
+          "t": 12120,
+          "punto": "pt003"
+        },
+        {
+          "t": 12420,
+          "punto": "pt004"
+        },
+        {
+          "t": 12600,
+          "punto": "pt005"
+        },
+        {
+          "t": 12840,
+          "punto": "pt006"
+        },
+        {
+          "t": 13200,
+          "punto": "pt007"
+        },
+        {
+          "t": 13380,
+          "punto": "pt008"
+        },
+        {
+          "t": 13560,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__2",
+      "sentido": "ida",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 16200,
+          "punto": "pt000"
+        },
+        {
+          "t": 16560,
+          "punto": "pt001"
+        },
+        {
+          "t": 16920,
+          "punto": "pt002"
+        },
+        {
+          "t": 17100,
+          "punto": "pt003"
+        },
+        {
+          "t": 17400,
+          "punto": "pt004"
+        },
+        {
+          "t": 17580,
+          "punto": "pt005"
+        },
+        {
+          "t": 17820,
+          "punto": "pt006"
+        },
+        {
+          "t": 18180,
+          "punto": "pt007"
+        },
+        {
+          "t": 18360,
+          "punto": "pt008"
+        },
+        {
+          "t": 18540,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__3",
+      "sentido": "ida",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 19800,
+          "punto": "pt000"
+        },
+        {
+          "t": 20160,
+          "punto": "pt001"
+        },
+        {
+          "t": 20580,
+          "punto": "pt002"
+        },
+        {
+          "t": 20760,
+          "punto": "pt003"
+        },
+        {
+          "t": 21060,
+          "punto": "pt004"
+        },
+        {
+          "t": 21240,
+          "punto": "pt005"
+        },
+        {
+          "t": 21480,
+          "punto": "pt006"
+        },
+        {
+          "t": 21840,
+          "punto": "pt007"
+        },
+        {
+          "t": 22020,
+          "punto": "pt008"
+        },
+        {
+          "t": 22320,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__4",
+      "sentido": "ida",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 22200,
+          "punto": "pt000"
+        },
+        {
+          "t": 22620,
+          "punto": "pt001"
+        },
+        {
+          "t": 23100,
+          "punto": "pt002"
+        },
+        {
+          "t": 23340,
+          "punto": "pt003"
+        },
+        {
+          "t": 23700,
+          "punto": "pt004"
+        },
+        {
+          "t": 23940,
+          "punto": "pt005"
+        },
+        {
+          "t": 24240,
+          "punto": "pt006"
+        },
+        {
+          "t": 24660,
+          "punto": "pt007"
+        },
+        {
+          "t": 24840,
+          "punto": "pt008"
+        },
+        {
+          "t": 25200,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP3__5",
+      "sentido": "ida",
+      "servicio": "DISCAP3",
+      "paradas": [
+        {
+          "t": 24000,
+          "punto": "pt000"
+        },
+        {
+          "t": 24420,
+          "punto": "pt001"
+        },
+        {
+          "t": 24900,
+          "punto": "pt002"
+        },
+        {
+          "t": 25260,
+          "punto": "pt003"
+        },
+        {
+          "t": 25620,
+          "punto": "pt004"
+        },
+        {
+          "t": 25860,
+          "punto": "pt005"
+        },
+        {
+          "t": 26160,
+          "punto": "pt006"
+        },
+        {
+          "t": 26640,
+          "punto": "pt007"
+        },
+        {
+          "t": 26880,
+          "punto": "pt008"
+        },
+        {
+          "t": 27240,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__6",
+      "sentido": "ida",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 25740,
+          "punto": "pt000"
+        },
+        {
+          "t": 26160,
+          "punto": "pt001"
+        },
+        {
+          "t": 26640,
+          "punto": "pt002"
+        },
+        {
+          "t": 27000,
+          "punto": "pt003"
+        },
+        {
+          "t": 27420,
+          "punto": "pt004"
+        },
+        {
+          "t": 27660,
+          "punto": "pt005"
+        },
+        {
+          "t": 28020,
+          "punto": "pt006"
+        },
+        {
+          "t": 28500,
+          "punto": "pt007"
+        },
+        {
+          "t": 28740,
+          "punto": "pt008"
+        },
+        {
+          "t": 29100,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__7",
+      "sentido": "ida",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 27420,
+          "punto": "pt000"
+        },
+        {
+          "t": 27840,
+          "punto": "pt001"
+        },
+        {
+          "t": 28320,
+          "punto": "pt002"
+        },
+        {
+          "t": 28680,
+          "punto": "pt003"
+        },
+        {
+          "t": 29100,
+          "punto": "pt004"
+        },
+        {
+          "t": 29340,
+          "punto": "pt005"
+        },
+        {
+          "t": 29700,
+          "punto": "pt006"
+        },
+        {
+          "t": 30180,
+          "punto": "pt007"
+        },
+        {
+          "t": 30420,
+          "punto": "pt008"
+        },
+        {
+          "t": 30780,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP5__8",
+      "sentido": "ida",
+      "servicio": "DISCAP5",
+      "paradas": [
+        {
+          "t": 29160,
+          "punto": "pt000"
+        },
+        {
+          "t": 29580,
+          "punto": "pt001"
+        },
+        {
+          "t": 30060,
+          "punto": "pt002"
+        },
+        {
+          "t": 30420,
+          "punto": "pt003"
+        },
+        {
+          "t": 30840,
+          "punto": "pt004"
+        },
+        {
+          "t": 31080,
+          "punto": "pt005"
+        },
+        {
+          "t": 31440,
+          "punto": "pt006"
+        },
+        {
+          "t": 31920,
+          "punto": "pt007"
+        },
+        {
+          "t": 32160,
+          "punto": "pt008"
+        },
+        {
+          "t": 32520,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__9",
+      "sentido": "ida",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 30840,
+          "punto": "pt000"
+        },
+        {
+          "t": 31260,
+          "punto": "pt001"
+        },
+        {
+          "t": 31740,
+          "punto": "pt002"
+        },
+        {
+          "t": 32100,
+          "punto": "pt003"
+        },
+        {
+          "t": 32520,
+          "punto": "pt004"
+        },
+        {
+          "t": 32760,
+          "punto": "pt005"
+        },
+        {
+          "t": 33120,
+          "punto": "pt006"
+        },
+        {
+          "t": 33600,
+          "punto": "pt007"
+        },
+        {
+          "t": 33840,
+          "punto": "pt008"
+        },
+        {
+          "t": 34200,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__10",
+      "sentido": "ida",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 32580,
+          "punto": "pt000"
+        },
+        {
+          "t": 33000,
+          "punto": "pt001"
+        },
+        {
+          "t": 33480,
+          "punto": "pt002"
+        },
+        {
+          "t": 33840,
+          "punto": "pt003"
+        },
+        {
+          "t": 34260,
+          "punto": "pt004"
+        },
+        {
+          "t": 34500,
+          "punto": "pt005"
+        },
+        {
+          "t": 34860,
+          "punto": "pt006"
+        },
+        {
+          "t": 35340,
+          "punto": "pt007"
+        },
+        {
+          "t": 35580,
+          "punto": "pt008"
+        },
+        {
+          "t": 35940,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__11",
+      "sentido": "ida",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 34260,
+          "punto": "pt000"
+        },
+        {
+          "t": 34680,
+          "punto": "pt001"
+        },
+        {
+          "t": 35160,
+          "punto": "pt002"
+        },
+        {
+          "t": 35520,
+          "punto": "pt003"
+        },
+        {
+          "t": 35940,
+          "punto": "pt004"
+        },
+        {
+          "t": 36180,
+          "punto": "pt005"
+        },
+        {
+          "t": 36540,
+          "punto": "pt006"
+        },
+        {
+          "t": 37020,
+          "punto": "pt007"
+        },
+        {
+          "t": 37260,
+          "punto": "pt008"
+        },
+        {
+          "t": 37620,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP5__12",
+      "sentido": "ida",
+      "servicio": "DISCAP5",
+      "paradas": [
+        {
+          "t": 35940,
+          "punto": "pt000"
+        },
+        {
+          "t": 36360,
+          "punto": "pt001"
+        },
+        {
+          "t": 36840,
+          "punto": "pt002"
+        },
+        {
+          "t": 37200,
+          "punto": "pt003"
+        },
+        {
+          "t": 37620,
+          "punto": "pt004"
+        },
+        {
+          "t": 37860,
+          "punto": "pt005"
+        },
+        {
+          "t": 38220,
+          "punto": "pt006"
+        },
+        {
+          "t": 38700,
+          "punto": "pt007"
+        },
+        {
+          "t": 38940,
+          "punto": "pt008"
+        },
+        {
+          "t": 39300,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__13",
+      "sentido": "ida",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 37500,
+          "punto": "pt000"
+        },
+        {
+          "t": 37920,
+          "punto": "pt001"
+        },
+        {
+          "t": 38400,
+          "punto": "pt002"
+        },
+        {
+          "t": 38760,
+          "punto": "pt003"
+        },
+        {
+          "t": 39180,
+          "punto": "pt004"
+        },
+        {
+          "t": 39420,
+          "punto": "pt005"
+        },
+        {
+          "t": 39780,
+          "punto": "pt006"
+        },
+        {
+          "t": 40260,
+          "punto": "pt007"
+        },
+        {
+          "t": 40500,
+          "punto": "pt008"
+        },
+        {
+          "t": 40860,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP9__14",
+      "sentido": "ida",
+      "servicio": "DISCAP9",
+      "paradas": [
+        {
+          "t": 39060,
+          "punto": "pt000"
+        },
+        {
+          "t": 39480,
+          "punto": "pt001"
+        },
+        {
+          "t": 39960,
+          "punto": "pt002"
+        },
+        {
+          "t": 40320,
+          "punto": "pt003"
+        },
+        {
+          "t": 40740,
+          "punto": "pt004"
+        },
+        {
+          "t": 40980,
+          "punto": "pt005"
+        },
+        {
+          "t": 41340,
+          "punto": "pt006"
+        },
+        {
+          "t": 41820,
+          "punto": "pt007"
+        },
+        {
+          "t": 42060,
+          "punto": "pt008"
+        },
+        {
+          "t": 42420,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP4__15",
+      "sentido": "ida",
+      "servicio": "DISCAP4",
+      "paradas": [
+        {
+          "t": 40560,
+          "punto": "pt000"
+        },
+        {
+          "t": 40980,
+          "punto": "pt001"
+        },
+        {
+          "t": 41460,
+          "punto": "pt002"
+        },
+        {
+          "t": 41820,
+          "punto": "pt003"
+        },
+        {
+          "t": 42240,
+          "punto": "pt004"
+        },
+        {
+          "t": 42480,
+          "punto": "pt005"
+        },
+        {
+          "t": 42840,
+          "punto": "pt006"
+        },
+        {
+          "t": 43320,
+          "punto": "pt007"
+        },
+        {
+          "t": 43560,
+          "punto": "pt008"
+        },
+        {
+          "t": 43920,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__16",
+      "sentido": "ida",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 42060,
+          "punto": "pt000"
+        },
+        {
+          "t": 42480,
+          "punto": "pt001"
+        },
+        {
+          "t": 42960,
+          "punto": "pt002"
+        },
+        {
+          "t": 43320,
+          "punto": "pt003"
+        },
+        {
+          "t": 43740,
+          "punto": "pt004"
+        },
+        {
+          "t": 43980,
+          "punto": "pt005"
+        },
+        {
+          "t": 44340,
+          "punto": "pt006"
+        },
+        {
+          "t": 44820,
+          "punto": "pt007"
+        },
+        {
+          "t": 45060,
+          "punto": "pt008"
+        },
+        {
+          "t": 45420,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP3__17",
+      "sentido": "ida",
+      "servicio": "DISCAP3",
+      "paradas": [
+        {
+          "t": 43560,
+          "punto": "pt000"
+        },
+        {
+          "t": 43980,
+          "punto": "pt001"
+        },
+        {
+          "t": 44460,
+          "punto": "pt002"
+        },
+        {
+          "t": 44820,
+          "punto": "pt003"
+        },
+        {
+          "t": 45240,
+          "punto": "pt004"
+        },
+        {
+          "t": 45480,
+          "punto": "pt005"
+        },
+        {
+          "t": 45840,
+          "punto": "pt006"
+        },
+        {
+          "t": 46320,
+          "punto": "pt007"
+        },
+        {
+          "t": 46560,
+          "punto": "pt008"
+        },
+        {
+          "t": 46920,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP6__18",
+      "sentido": "ida",
+      "servicio": "DISCAP6",
+      "paradas": [
+        {
+          "t": 45180,
+          "punto": "pt000"
+        },
+        {
+          "t": 45600,
+          "punto": "pt001"
+        },
+        {
+          "t": 46080,
+          "punto": "pt002"
+        },
+        {
+          "t": 46440,
+          "punto": "pt003"
+        },
+        {
+          "t": 46860,
+          "punto": "pt004"
+        },
+        {
+          "t": 47040,
+          "punto": "pt005"
+        },
+        {
+          "t": 47400,
+          "punto": "pt006"
+        },
+        {
+          "t": 47880,
+          "punto": "pt007"
+        },
+        {
+          "t": 48120,
+          "punto": "pt008"
+        },
+        {
+          "t": 48480,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__19",
+      "sentido": "ida",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 46920,
+          "punto": "pt000"
+        },
+        {
+          "t": 47340,
+          "punto": "pt001"
+        },
+        {
+          "t": 47820,
+          "punto": "pt002"
+        },
+        {
+          "t": 48180,
+          "punto": "pt003"
+        },
+        {
+          "t": 48540,
+          "punto": "pt004"
+        },
+        {
+          "t": 48780,
+          "punto": "pt005"
+        },
+        {
+          "t": 49080,
+          "punto": "pt006"
+        },
+        {
+          "t": 49560,
+          "punto": "pt007"
+        },
+        {
+          "t": 49800,
+          "punto": "pt008"
+        },
+        {
+          "t": 50160,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__20",
+      "sentido": "ida",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 48780,
+          "punto": "pt000"
+        },
+        {
+          "t": 49200,
+          "punto": "pt001"
+        },
+        {
+          "t": 49680,
+          "punto": "pt002"
+        },
+        {
+          "t": 50040,
+          "punto": "pt003"
+        },
+        {
+          "t": 50400,
+          "punto": "pt004"
+        },
+        {
+          "t": 50580,
+          "punto": "pt005"
+        },
+        {
+          "t": 50880,
+          "punto": "pt006"
+        },
+        {
+          "t": 51360,
+          "punto": "pt007"
+        },
+        {
+          "t": 51600,
+          "punto": "pt008"
+        },
+        {
+          "t": 51960,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP3__21",
+      "sentido": "ida",
+      "servicio": "DISCAP3",
+      "paradas": [
+        {
+          "t": 50640,
+          "punto": "pt000"
+        },
+        {
+          "t": 51060,
+          "punto": "pt001"
+        },
+        {
+          "t": 51540,
+          "punto": "pt002"
+        },
+        {
+          "t": 51900,
+          "punto": "pt003"
+        },
+        {
+          "t": 52260,
+          "punto": "pt004"
+        },
+        {
+          "t": 52440,
+          "punto": "pt005"
+        },
+        {
+          "t": 52740,
+          "punto": "pt006"
+        },
+        {
+          "t": 53220,
+          "punto": "pt007"
+        },
+        {
+          "t": 53460,
+          "punto": "pt008"
+        },
+        {
+          "t": 53820,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP9__22",
+      "sentido": "ida",
+      "servicio": "DISCAP9",
+      "paradas": [
+        {
+          "t": 52500,
+          "punto": "pt000"
+        },
+        {
+          "t": 52920,
+          "punto": "pt001"
+        },
+        {
+          "t": 53400,
+          "punto": "pt002"
+        },
+        {
+          "t": 53760,
+          "punto": "pt003"
+        },
+        {
+          "t": 54120,
+          "punto": "pt004"
+        },
+        {
+          "t": 54300,
+          "punto": "pt005"
+        },
+        {
+          "t": 54600,
+          "punto": "pt006"
+        },
+        {
+          "t": 55080,
+          "punto": "pt007"
+        },
+        {
+          "t": 55320,
+          "punto": "pt008"
+        },
+        {
+          "t": 55680,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP4__23",
+      "sentido": "ida",
+      "servicio": "DISCAP4",
+      "paradas": [
+        {
+          "t": 54360,
+          "punto": "pt000"
+        },
+        {
+          "t": 54780,
+          "punto": "pt001"
+        },
+        {
+          "t": 55260,
+          "punto": "pt002"
+        },
+        {
+          "t": 55620,
+          "punto": "pt003"
+        },
+        {
+          "t": 55980,
+          "punto": "pt004"
+        },
+        {
+          "t": 56160,
+          "punto": "pt005"
+        },
+        {
+          "t": 56460,
+          "punto": "pt006"
+        },
+        {
+          "t": 56940,
+          "punto": "pt007"
+        },
+        {
+          "t": 57180,
+          "punto": "pt008"
+        },
+        {
+          "t": 57540,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__24",
+      "sentido": "ida",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 56220,
+          "punto": "pt000"
+        },
+        {
+          "t": 56640,
+          "punto": "pt001"
+        },
+        {
+          "t": 57120,
+          "punto": "pt002"
+        },
+        {
+          "t": 57480,
+          "punto": "pt003"
+        },
+        {
+          "t": 57840,
+          "punto": "pt004"
+        },
+        {
+          "t": 58020,
+          "punto": "pt005"
+        },
+        {
+          "t": 58320,
+          "punto": "pt006"
+        },
+        {
+          "t": 58800,
+          "punto": "pt007"
+        },
+        {
+          "t": 59040,
+          "punto": "pt008"
+        },
+        {
+          "t": 59400,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__25",
+      "sentido": "ida",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 58020,
+          "punto": "pt000"
+        },
+        {
+          "t": 58440,
+          "punto": "pt001"
+        },
+        {
+          "t": 58920,
+          "punto": "pt002"
+        },
+        {
+          "t": 59280,
+          "punto": "pt003"
+        },
+        {
+          "t": 59640,
+          "punto": "pt004"
+        },
+        {
+          "t": 59820,
+          "punto": "pt005"
+        },
+        {
+          "t": 60120,
+          "punto": "pt006"
+        },
+        {
+          "t": 60600,
+          "punto": "pt007"
+        },
+        {
+          "t": 60840,
+          "punto": "pt008"
+        },
+        {
+          "t": 61200,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP10__26",
+      "sentido": "ida",
+      "servicio": "DISCAP10",
+      "paradas": [
+        {
+          "t": 59700,
+          "punto": "pt000"
+        },
+        {
+          "t": 60120,
+          "punto": "pt001"
+        },
+        {
+          "t": 60600,
+          "punto": "pt002"
+        },
+        {
+          "t": 60960,
+          "punto": "pt003"
+        },
+        {
+          "t": 61380,
+          "punto": "pt004"
+        },
+        {
+          "t": 61560,
+          "punto": "pt005"
+        },
+        {
+          "t": 61920,
+          "punto": "pt006"
+        },
+        {
+          "t": 62400,
+          "punto": "pt007"
+        },
+        {
+          "t": 62640,
+          "punto": "pt008"
+        },
+        {
+          "t": 63000,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP4__27",
+      "sentido": "ida",
+      "servicio": "DISCAP4",
+      "paradas": [
+        {
+          "t": 61380,
+          "punto": "pt000"
+        },
+        {
+          "t": 61800,
+          "punto": "pt001"
+        },
+        {
+          "t": 62280,
+          "punto": "pt002"
+        },
+        {
+          "t": 62640,
+          "punto": "pt003"
+        },
+        {
+          "t": 63060,
+          "punto": "pt004"
+        },
+        {
+          "t": 63240,
+          "punto": "pt005"
+        },
+        {
+          "t": 63600,
+          "punto": "pt006"
+        },
+        {
+          "t": 64080,
+          "punto": "pt007"
+        },
+        {
+          "t": 64320,
+          "punto": "pt008"
+        },
+        {
+          "t": 64680,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP12__28",
+      "sentido": "ida",
+      "servicio": "DISCAP12",
+      "paradas": [
+        {
+          "t": 63060,
+          "punto": "pt000"
+        },
+        {
+          "t": 63480,
+          "punto": "pt001"
+        },
+        {
+          "t": 63960,
+          "punto": "pt002"
+        },
+        {
+          "t": 64320,
+          "punto": "pt003"
+        },
+        {
+          "t": 64740,
+          "punto": "pt004"
+        },
+        {
+          "t": 64920,
+          "punto": "pt005"
+        },
+        {
+          "t": 65280,
+          "punto": "pt006"
+        },
+        {
+          "t": 65760,
+          "punto": "pt007"
+        },
+        {
+          "t": 66000,
+          "punto": "pt008"
+        },
+        {
+          "t": 66360,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__29",
+      "sentido": "ida",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 64860,
+          "punto": "pt000"
+        },
+        {
+          "t": 65280,
+          "punto": "pt001"
+        },
+        {
+          "t": 65760,
+          "punto": "pt002"
+        },
+        {
+          "t": 66120,
+          "punto": "pt003"
+        },
+        {
+          "t": 66540,
+          "punto": "pt004"
+        },
+        {
+          "t": 66720,
+          "punto": "pt005"
+        },
+        {
+          "t": 67080,
+          "punto": "pt006"
+        },
+        {
+          "t": 67560,
+          "punto": "pt007"
+        },
+        {
+          "t": 67800,
+          "punto": "pt008"
+        },
+        {
+          "t": 68160,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP11__30",
+      "sentido": "ida",
+      "servicio": "DISCAP11",
+      "paradas": [
+        {
+          "t": 67020,
+          "punto": "pt000"
+        },
+        {
+          "t": 67440,
+          "punto": "pt001"
+        },
+        {
+          "t": 67920,
+          "punto": "pt002"
+        },
+        {
+          "t": 68280,
+          "punto": "pt003"
+        },
+        {
+          "t": 68700,
+          "punto": "pt004"
+        },
+        {
+          "t": 68880,
+          "punto": "pt005"
+        },
+        {
+          "t": 69240,
+          "punto": "pt006"
+        },
+        {
+          "t": 69720,
+          "punto": "pt007"
+        },
+        {
+          "t": 69960,
+          "punto": "pt008"
+        },
+        {
+          "t": 70320,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__31",
+      "sentido": "ida",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 69180,
+          "punto": "pt000"
+        },
+        {
+          "t": 69600,
+          "punto": "pt001"
+        },
+        {
+          "t": 70080,
+          "punto": "pt002"
+        },
+        {
+          "t": 70440,
+          "punto": "pt003"
+        },
+        {
+          "t": 70800,
+          "punto": "pt004"
+        },
+        {
+          "t": 71040,
+          "punto": "pt005"
+        },
+        {
+          "t": 71340,
+          "punto": "pt006"
+        },
+        {
+          "t": 71820,
+          "punto": "pt007"
+        },
+        {
+          "t": 72060,
+          "punto": "pt008"
+        },
+        {
+          "t": 72420,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__32",
+      "sentido": "ida",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 71580,
+          "punto": "pt000"
+        },
+        {
+          "t": 72000,
+          "punto": "pt001"
+        },
+        {
+          "t": 72480,
+          "punto": "pt002"
+        },
+        {
+          "t": 72840,
+          "punto": "pt003"
+        },
+        {
+          "t": 73200,
+          "punto": "pt004"
+        },
+        {
+          "t": 73380,
+          "punto": "pt005"
+        },
+        {
+          "t": 73680,
+          "punto": "pt006"
+        },
+        {
+          "t": 74160,
+          "punto": "pt007"
+        },
+        {
+          "t": 74400,
+          "punto": "pt008"
+        },
+        {
+          "t": 74760,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP11__33",
+      "sentido": "ida",
+      "servicio": "DISCAP11",
+      "paradas": [
+        {
+          "t": 73980,
+          "punto": "pt000"
+        },
+        {
+          "t": 74400,
+          "punto": "pt001"
+        },
+        {
+          "t": 74880,
+          "punto": "pt002"
+        },
+        {
+          "t": 75180,
+          "punto": "pt003"
+        },
+        {
+          "t": 75540,
+          "punto": "pt004"
+        },
+        {
+          "t": 75780,
+          "punto": "pt005"
+        },
+        {
+          "t": 76080,
+          "punto": "pt006"
+        },
+        {
+          "t": 76500,
+          "punto": "pt007"
+        },
+        {
+          "t": 76740,
+          "punto": "pt008"
+        },
+        {
+          "t": 77100,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP12__34",
+      "sentido": "ida",
+      "servicio": "DISCAP12",
+      "paradas": [
+        {
+          "t": 76380,
+          "punto": "pt000"
+        },
+        {
+          "t": 76800,
+          "punto": "pt001"
+        },
+        {
+          "t": 77280,
+          "punto": "pt002"
+        },
+        {
+          "t": 77520,
+          "punto": "pt003"
+        },
+        {
+          "t": 77880,
+          "punto": "pt004"
+        },
+        {
+          "t": 78060,
+          "punto": "pt005"
+        },
+        {
+          "t": 78360,
+          "punto": "pt006"
+        },
+        {
+          "t": 78780,
+          "punto": "pt007"
+        },
+        {
+          "t": 78960,
+          "punto": "pt008"
+        },
+        {
+          "t": 79320,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP10__35",
+      "sentido": "ida",
+      "servicio": "DISCAP10",
+      "paradas": [
+        {
+          "t": 79380,
+          "punto": "pt000"
+        },
+        {
+          "t": 79800,
+          "punto": "pt001"
+        },
+        {
+          "t": 80220,
+          "punto": "pt002"
+        },
+        {
+          "t": 80460,
+          "punto": "pt003"
+        },
+        {
+          "t": 80820,
+          "punto": "pt004"
+        },
+        {
+          "t": 81000,
+          "punto": "pt005"
+        },
+        {
+          "t": 81300,
+          "punto": "pt006"
+        },
+        {
+          "t": 81660,
+          "punto": "pt007"
+        },
+        {
+          "t": 81840,
+          "punto": "pt008"
+        },
+        {
+          "t": 82200,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP12__36",
+      "sentido": "ida",
+      "servicio": "DISCAP12",
+      "paradas": [
+        {
+          "t": 82380,
+          "punto": "pt000"
+        },
+        {
+          "t": 82800,
+          "punto": "pt001"
+        },
+        {
+          "t": 83220,
+          "punto": "pt002"
+        },
+        {
+          "t": 83460,
+          "punto": "pt003"
+        },
+        {
+          "t": 83760,
+          "punto": "pt004"
+        },
+        {
+          "t": 84000,
+          "punto": "pt005"
+        },
+        {
+          "t": 84240,
+          "punto": "pt006"
+        },
+        {
+          "t": 84660,
+          "punto": "pt007"
+        },
+        {
+          "t": 84840,
+          "punto": "pt008"
+        },
+        {
+          "t": 85140,
+          "punto": "pt009"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__37",
+      "sentido": "vuelta",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 8640,
+          "punto": "pt009"
+        },
+        {
+          "t": 8880,
+          "punto": "pt010"
+        },
+        {
+          "t": 9120,
+          "punto": "pt011"
+        },
+        {
+          "t": 9480,
+          "punto": "pt012"
+        },
+        {
+          "t": 9720,
+          "punto": "pt005"
+        },
+        {
+          "t": 9840,
+          "punto": "pt013"
+        },
+        {
+          "t": 10140,
+          "punto": "pt014"
+        },
+        {
+          "t": 10380,
+          "punto": "pt015"
+        },
+        {
+          "t": 10560,
+          "punto": "pt016"
+        },
+        {
+          "t": 10920,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__38",
+      "sentido": "vuelta",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 13560,
+          "punto": "pt009"
+        },
+        {
+          "t": 13800,
+          "punto": "pt010"
+        },
+        {
+          "t": 14040,
+          "punto": "pt011"
+        },
+        {
+          "t": 14400,
+          "punto": "pt012"
+        },
+        {
+          "t": 14640,
+          "punto": "pt005"
+        },
+        {
+          "t": 14760,
+          "punto": "pt013"
+        },
+        {
+          "t": 15060,
+          "punto": "pt014"
+        },
+        {
+          "t": 15360,
+          "punto": "pt015"
+        },
+        {
+          "t": 15540,
+          "punto": "pt016"
+        },
+        {
+          "t": 15900,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__39",
+      "sentido": "vuelta",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 18540,
+          "punto": "pt009"
+        },
+        {
+          "t": 18780,
+          "punto": "pt010"
+        },
+        {
+          "t": 19020,
+          "punto": "pt011"
+        },
+        {
+          "t": 19440,
+          "punto": "pt012"
+        },
+        {
+          "t": 19680,
+          "punto": "pt005"
+        },
+        {
+          "t": 19800,
+          "punto": "pt013"
+        },
+        {
+          "t": 20100,
+          "punto": "pt014"
+        },
+        {
+          "t": 20400,
+          "punto": "pt015"
+        },
+        {
+          "t": 20580,
+          "punto": "pt016"
+        },
+        {
+          "t": 21000,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__40",
+      "sentido": "vuelta",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 22320,
+          "punto": "pt009"
+        },
+        {
+          "t": 22560,
+          "punto": "pt010"
+        },
+        {
+          "t": 22860,
+          "punto": "pt011"
+        },
+        {
+          "t": 23280,
+          "punto": "pt012"
+        },
+        {
+          "t": 23460,
+          "punto": "pt005"
+        },
+        {
+          "t": 23640,
+          "punto": "pt013"
+        },
+        {
+          "t": 23940,
+          "punto": "pt014"
+        },
+        {
+          "t": 24240,
+          "punto": "pt015"
+        },
+        {
+          "t": 24420,
+          "punto": "pt016"
+        },
+        {
+          "t": 24840,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__41",
+      "sentido": "vuelta",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 25200,
+          "punto": "pt009"
+        },
+        {
+          "t": 25500,
+          "punto": "pt010"
+        },
+        {
+          "t": 25800,
+          "punto": "pt011"
+        },
+        {
+          "t": 26220,
+          "punto": "pt012"
+        },
+        {
+          "t": 26400,
+          "punto": "pt005"
+        },
+        {
+          "t": 26580,
+          "punto": "pt013"
+        },
+        {
+          "t": 26940,
+          "punto": "pt014"
+        },
+        {
+          "t": 27240,
+          "punto": "pt015"
+        },
+        {
+          "t": 27420,
+          "punto": "pt016"
+        },
+        {
+          "t": 27900,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP3__42",
+      "sentido": "vuelta",
+      "servicio": "DISCAP3",
+      "paradas": [
+        {
+          "t": 27240,
+          "punto": "pt009"
+        },
+        {
+          "t": 27540,
+          "punto": "pt010"
+        },
+        {
+          "t": 27840,
+          "punto": "pt011"
+        },
+        {
+          "t": 28260,
+          "punto": "pt012"
+        },
+        {
+          "t": 28500,
+          "punto": "pt005"
+        },
+        {
+          "t": 28620,
+          "punto": "pt013"
+        },
+        {
+          "t": 28980,
+          "punto": "pt014"
+        },
+        {
+          "t": 29280,
+          "punto": "pt015"
+        },
+        {
+          "t": 29400,
+          "punto": "pt016"
+        },
+        {
+          "t": 29880,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__43",
+      "sentido": "vuelta",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 29100,
+          "punto": "pt009"
+        },
+        {
+          "t": 29400,
+          "punto": "pt010"
+        },
+        {
+          "t": 29700,
+          "punto": "pt011"
+        },
+        {
+          "t": 30180,
+          "punto": "pt012"
+        },
+        {
+          "t": 30420,
+          "punto": "pt005"
+        },
+        {
+          "t": 30540,
+          "punto": "pt013"
+        },
+        {
+          "t": 30960,
+          "punto": "pt014"
+        },
+        {
+          "t": 31440,
+          "punto": "pt015"
+        },
+        {
+          "t": 31680,
+          "punto": "pt016"
+        },
+        {
+          "t": 32160,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__44",
+      "sentido": "vuelta",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 30780,
+          "punto": "pt009"
+        },
+        {
+          "t": 31080,
+          "punto": "pt010"
+        },
+        {
+          "t": 31380,
+          "punto": "pt011"
+        },
+        {
+          "t": 31860,
+          "punto": "pt012"
+        },
+        {
+          "t": 32100,
+          "punto": "pt005"
+        },
+        {
+          "t": 32220,
+          "punto": "pt013"
+        },
+        {
+          "t": 32640,
+          "punto": "pt014"
+        },
+        {
+          "t": 33120,
+          "punto": "pt015"
+        },
+        {
+          "t": 33360,
+          "punto": "pt016"
+        },
+        {
+          "t": 33840,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP5__45",
+      "sentido": "vuelta",
+      "servicio": "DISCAP5",
+      "paradas": [
+        {
+          "t": 32520,
+          "punto": "pt009"
+        },
+        {
+          "t": 32820,
+          "punto": "pt010"
+        },
+        {
+          "t": 33120,
+          "punto": "pt011"
+        },
+        {
+          "t": 33600,
+          "punto": "pt012"
+        },
+        {
+          "t": 33840,
+          "punto": "pt005"
+        },
+        {
+          "t": 33960,
+          "punto": "pt013"
+        },
+        {
+          "t": 34380,
+          "punto": "pt014"
+        },
+        {
+          "t": 34800,
+          "punto": "pt015"
+        },
+        {
+          "t": 35040,
+          "punto": "pt016"
+        },
+        {
+          "t": 35520,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__46",
+      "sentido": "vuelta",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 34200,
+          "punto": "pt009"
+        },
+        {
+          "t": 34500,
+          "punto": "pt010"
+        },
+        {
+          "t": 34800,
+          "punto": "pt011"
+        },
+        {
+          "t": 35280,
+          "punto": "pt012"
+        },
+        {
+          "t": 35460,
+          "punto": "pt005"
+        },
+        {
+          "t": 35640,
+          "punto": "pt013"
+        },
+        {
+          "t": 36000,
+          "punto": "pt014"
+        },
+        {
+          "t": 36420,
+          "punto": "pt015"
+        },
+        {
+          "t": 36600,
+          "punto": "pt016"
+        },
+        {
+          "t": 37080,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__47",
+      "sentido": "vuelta",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 35940,
+          "punto": "pt009"
+        },
+        {
+          "t": 36240,
+          "punto": "pt010"
+        },
+        {
+          "t": 36540,
+          "punto": "pt011"
+        },
+        {
+          "t": 37020,
+          "punto": "pt012"
+        },
+        {
+          "t": 37260,
+          "punto": "pt005"
+        },
+        {
+          "t": 37380,
+          "punto": "pt013"
+        },
+        {
+          "t": 37800,
+          "punto": "pt014"
+        },
+        {
+          "t": 38280,
+          "punto": "pt015"
+        },
+        {
+          "t": 38520,
+          "punto": "pt016"
+        },
+        {
+          "t": 39000,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__48",
+      "sentido": "vuelta",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 37620,
+          "punto": "pt009"
+        },
+        {
+          "t": 37920,
+          "punto": "pt010"
+        },
+        {
+          "t": 38220,
+          "punto": "pt011"
+        },
+        {
+          "t": 38700,
+          "punto": "pt012"
+        },
+        {
+          "t": 38940,
+          "punto": "pt005"
+        },
+        {
+          "t": 39060,
+          "punto": "pt013"
+        },
+        {
+          "t": 39480,
+          "punto": "pt014"
+        },
+        {
+          "t": 39960,
+          "punto": "pt015"
+        },
+        {
+          "t": 40200,
+          "punto": "pt016"
+        },
+        {
+          "t": 40680,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP5__49",
+      "sentido": "vuelta",
+      "servicio": "DISCAP5",
+      "paradas": [
+        {
+          "t": 39300,
+          "punto": "pt009"
+        },
+        {
+          "t": 39600,
+          "punto": "pt010"
+        },
+        {
+          "t": 39900,
+          "punto": "pt011"
+        },
+        {
+          "t": 40380,
+          "punto": "pt012"
+        },
+        {
+          "t": 40620,
+          "punto": "pt005"
+        },
+        {
+          "t": 40740,
+          "punto": "pt013"
+        },
+        {
+          "t": 41160,
+          "punto": "pt014"
+        },
+        {
+          "t": 41640,
+          "punto": "pt015"
+        },
+        {
+          "t": 41880,
+          "punto": "pt016"
+        },
+        {
+          "t": 42360,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__50",
+      "sentido": "vuelta",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 40860,
+          "punto": "pt009"
+        },
+        {
+          "t": 41160,
+          "punto": "pt010"
+        },
+        {
+          "t": 41460,
+          "punto": "pt011"
+        },
+        {
+          "t": 41940,
+          "punto": "pt012"
+        },
+        {
+          "t": 42180,
+          "punto": "pt005"
+        },
+        {
+          "t": 42300,
+          "punto": "pt013"
+        },
+        {
+          "t": 42720,
+          "punto": "pt014"
+        },
+        {
+          "t": 43200,
+          "punto": "pt015"
+        },
+        {
+          "t": 43440,
+          "punto": "pt016"
+        },
+        {
+          "t": 43920,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP9__51",
+      "sentido": "vuelta",
+      "servicio": "DISCAP9",
+      "paradas": [
+        {
+          "t": 42420,
+          "punto": "pt009"
+        },
+        {
+          "t": 42720,
+          "punto": "pt010"
+        },
+        {
+          "t": 43020,
+          "punto": "pt011"
+        },
+        {
+          "t": 43500,
+          "punto": "pt012"
+        },
+        {
+          "t": 43740,
+          "punto": "pt005"
+        },
+        {
+          "t": 43860,
+          "punto": "pt013"
+        },
+        {
+          "t": 44280,
+          "punto": "pt014"
+        },
+        {
+          "t": 44760,
+          "punto": "pt015"
+        },
+        {
+          "t": 45000,
+          "punto": "pt016"
+        },
+        {
+          "t": 45480,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP4__52",
+      "sentido": "vuelta",
+      "servicio": "DISCAP4",
+      "paradas": [
+        {
+          "t": 43920,
+          "punto": "pt009"
+        },
+        {
+          "t": 44220,
+          "punto": "pt010"
+        },
+        {
+          "t": 44520,
+          "punto": "pt011"
+        },
+        {
+          "t": 45000,
+          "punto": "pt012"
+        },
+        {
+          "t": 45240,
+          "punto": "pt005"
+        },
+        {
+          "t": 45360,
+          "punto": "pt013"
+        },
+        {
+          "t": 45780,
+          "punto": "pt014"
+        },
+        {
+          "t": 46260,
+          "punto": "pt015"
+        },
+        {
+          "t": 46500,
+          "punto": "pt016"
+        },
+        {
+          "t": 46980,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__53",
+      "sentido": "vuelta",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 45420,
+          "punto": "pt009"
+        },
+        {
+          "t": 45720,
+          "punto": "pt010"
+        },
+        {
+          "t": 46020,
+          "punto": "pt011"
+        },
+        {
+          "t": 46500,
+          "punto": "pt012"
+        },
+        {
+          "t": 46740,
+          "punto": "pt005"
+        },
+        {
+          "t": 46860,
+          "punto": "pt013"
+        },
+        {
+          "t": 47280,
+          "punto": "pt014"
+        },
+        {
+          "t": 47760,
+          "punto": "pt015"
+        },
+        {
+          "t": 48000,
+          "punto": "pt016"
+        },
+        {
+          "t": 48480,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP3__54",
+      "sentido": "vuelta",
+      "servicio": "DISCAP3",
+      "paradas": [
+        {
+          "t": 46920,
+          "punto": "pt009"
+        },
+        {
+          "t": 47220,
+          "punto": "pt010"
+        },
+        {
+          "t": 47520,
+          "punto": "pt011"
+        },
+        {
+          "t": 48000,
+          "punto": "pt012"
+        },
+        {
+          "t": 48240,
+          "punto": "pt005"
+        },
+        {
+          "t": 48360,
+          "punto": "pt013"
+        },
+        {
+          "t": 48780,
+          "punto": "pt014"
+        },
+        {
+          "t": 49200,
+          "punto": "pt015"
+        },
+        {
+          "t": 49440,
+          "punto": "pt016"
+        },
+        {
+          "t": 49920,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP6__55",
+      "sentido": "vuelta",
+      "servicio": "DISCAP6",
+      "paradas": [
+        {
+          "t": 48480,
+          "punto": "pt009"
+        },
+        {
+          "t": 48780,
+          "punto": "pt010"
+        },
+        {
+          "t": 49080,
+          "punto": "pt011"
+        },
+        {
+          "t": 49560,
+          "punto": "pt012"
+        },
+        {
+          "t": 49800,
+          "punto": "pt005"
+        },
+        {
+          "t": 49920,
+          "punto": "pt013"
+        },
+        {
+          "t": 50340,
+          "punto": "pt014"
+        },
+        {
+          "t": 50760,
+          "punto": "pt015"
+        },
+        {
+          "t": 50940,
+          "punto": "pt016"
+        },
+        {
+          "t": 51420,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP1__56",
+      "sentido": "vuelta",
+      "servicio": "DISCAP1",
+      "paradas": [
+        {
+          "t": 50160,
+          "punto": "pt009"
+        },
+        {
+          "t": 50460,
+          "punto": "pt010"
+        },
+        {
+          "t": 50760,
+          "punto": "pt011"
+        },
+        {
+          "t": 51240,
+          "punto": "pt012"
+        },
+        {
+          "t": 51480,
+          "punto": "pt005"
+        },
+        {
+          "t": 51600,
+          "punto": "pt013"
+        },
+        {
+          "t": 51960,
+          "punto": "pt014"
+        },
+        {
+          "t": 52380,
+          "punto": "pt015"
+        },
+        {
+          "t": 52560,
+          "punto": "pt016"
+        },
+        {
+          "t": 53040,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__57",
+      "sentido": "vuelta",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 51960,
+          "punto": "pt009"
+        },
+        {
+          "t": 52260,
+          "punto": "pt010"
+        },
+        {
+          "t": 52560,
+          "punto": "pt011"
+        },
+        {
+          "t": 53040,
+          "punto": "pt012"
+        },
+        {
+          "t": 53280,
+          "punto": "pt005"
+        },
+        {
+          "t": 53400,
+          "punto": "pt013"
+        },
+        {
+          "t": 53760,
+          "punto": "pt014"
+        },
+        {
+          "t": 54180,
+          "punto": "pt015"
+        },
+        {
+          "t": 54360,
+          "punto": "pt016"
+        },
+        {
+          "t": 54840,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP3__58",
+      "sentido": "vuelta",
+      "servicio": "DISCAP3",
+      "paradas": [
+        {
+          "t": 53820,
+          "punto": "pt009"
+        },
+        {
+          "t": 54120,
+          "punto": "pt010"
+        },
+        {
+          "t": 54420,
+          "punto": "pt011"
+        },
+        {
+          "t": 54900,
+          "punto": "pt012"
+        },
+        {
+          "t": 55140,
+          "punto": "pt005"
+        },
+        {
+          "t": 55260,
+          "punto": "pt013"
+        },
+        {
+          "t": 55620,
+          "punto": "pt014"
+        },
+        {
+          "t": 56040,
+          "punto": "pt015"
+        },
+        {
+          "t": 56220,
+          "punto": "pt016"
+        },
+        {
+          "t": 56700,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP9__59",
+      "sentido": "vuelta",
+      "servicio": "DISCAP9",
+      "paradas": [
+        {
+          "t": 55680,
+          "punto": "pt009"
+        },
+        {
+          "t": 55980,
+          "punto": "pt010"
+        },
+        {
+          "t": 56280,
+          "punto": "pt011"
+        },
+        {
+          "t": 56760,
+          "punto": "pt012"
+        },
+        {
+          "t": 57000,
+          "punto": "pt005"
+        },
+        {
+          "t": 57120,
+          "punto": "pt013"
+        },
+        {
+          "t": 57480,
+          "punto": "pt014"
+        },
+        {
+          "t": 57900,
+          "punto": "pt015"
+        },
+        {
+          "t": 58080,
+          "punto": "pt016"
+        },
+        {
+          "t": 58560,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP4__60",
+      "sentido": "vuelta",
+      "servicio": "DISCAP4",
+      "paradas": [
+        {
+          "t": 57540,
+          "punto": "pt009"
+        },
+        {
+          "t": 57840,
+          "punto": "pt010"
+        },
+        {
+          "t": 58140,
+          "punto": "pt011"
+        },
+        {
+          "t": 58620,
+          "punto": "pt012"
+        },
+        {
+          "t": 58860,
+          "punto": "pt005"
+        },
+        {
+          "t": 58980,
+          "punto": "pt013"
+        },
+        {
+          "t": 59400,
+          "punto": "pt014"
+        },
+        {
+          "t": 59820,
+          "punto": "pt015"
+        },
+        {
+          "t": 60000,
+          "punto": "pt016"
+        },
+        {
+          "t": 60480,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP2__61",
+      "sentido": "vuelta",
+      "servicio": "DISCAP2",
+      "paradas": [
+        {
+          "t": 59400,
+          "punto": "pt009"
+        },
+        {
+          "t": 59700,
+          "punto": "pt010"
+        },
+        {
+          "t": 60000,
+          "punto": "pt011"
+        },
+        {
+          "t": 60480,
+          "punto": "pt012"
+        },
+        {
+          "t": 60720,
+          "punto": "pt005"
+        },
+        {
+          "t": 60840,
+          "punto": "pt013"
+        },
+        {
+          "t": 61260,
+          "punto": "pt014"
+        },
+        {
+          "t": 61680,
+          "punto": "pt015"
+        },
+        {
+          "t": 61920,
+          "punto": "pt016"
+        },
+        {
+          "t": 62400,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__62",
+      "sentido": "vuelta",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 61200,
+          "punto": "pt009"
+        },
+        {
+          "t": 61500,
+          "punto": "pt010"
+        },
+        {
+          "t": 61800,
+          "punto": "pt011"
+        },
+        {
+          "t": 62280,
+          "punto": "pt012"
+        },
+        {
+          "t": 62520,
+          "punto": "pt005"
+        },
+        {
+          "t": 62640,
+          "punto": "pt013"
+        },
+        {
+          "t": 63060,
+          "punto": "pt014"
+        },
+        {
+          "t": 63480,
+          "punto": "pt015"
+        },
+        {
+          "t": 63720,
+          "punto": "pt016"
+        },
+        {
+          "t": 64200,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP10__63",
+      "sentido": "vuelta",
+      "servicio": "DISCAP10",
+      "paradas": [
+        {
+          "t": 63000,
+          "punto": "pt009"
+        },
+        {
+          "t": 63300,
+          "punto": "pt010"
+        },
+        {
+          "t": 63540,
+          "punto": "pt011"
+        },
+        {
+          "t": 64020,
+          "punto": "pt012"
+        },
+        {
+          "t": 64200,
+          "punto": "pt005"
+        },
+        {
+          "t": 64320,
+          "punto": "pt013"
+        },
+        {
+          "t": 64680,
+          "punto": "pt014"
+        },
+        {
+          "t": 65100,
+          "punto": "pt015"
+        },
+        {
+          "t": 65280,
+          "punto": "pt016"
+        },
+        {
+          "t": 65760,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP4__64",
+      "sentido": "vuelta",
+      "servicio": "DISCAP4",
+      "paradas": [
+        {
+          "t": 64680,
+          "punto": "pt009"
+        },
+        {
+          "t": 64980,
+          "punto": "pt010"
+        },
+        {
+          "t": 65280,
+          "punto": "pt011"
+        },
+        {
+          "t": 65760,
+          "punto": "pt012"
+        },
+        {
+          "t": 66000,
+          "punto": "pt005"
+        },
+        {
+          "t": 66120,
+          "punto": "pt013"
+        },
+        {
+          "t": 66540,
+          "punto": "pt014"
+        },
+        {
+          "t": 66960,
+          "punto": "pt015"
+        },
+        {
+          "t": 67200,
+          "punto": "pt016"
+        },
+        {
+          "t": 67680,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP12__65",
+      "sentido": "vuelta",
+      "servicio": "DISCAP12",
+      "paradas": [
+        {
+          "t": 66360,
+          "punto": "pt009"
+        },
+        {
+          "t": 66660,
+          "punto": "pt010"
+        },
+        {
+          "t": 66960,
+          "punto": "pt011"
+        },
+        {
+          "t": 67440,
+          "punto": "pt012"
+        },
+        {
+          "t": 67680,
+          "punto": "pt005"
+        },
+        {
+          "t": 67800,
+          "punto": "pt013"
+        },
+        {
+          "t": 68220,
+          "punto": "pt014"
+        },
+        {
+          "t": 68640,
+          "punto": "pt015"
+        },
+        {
+          "t": 68880,
+          "punto": "pt016"
+        },
+        {
+          "t": 69360,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__66",
+      "sentido": "vuelta",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 68160,
+          "punto": "pt009"
+        },
+        {
+          "t": 68460,
+          "punto": "pt010"
+        },
+        {
+          "t": 68760,
+          "punto": "pt011"
+        },
+        {
+          "t": 69240,
+          "punto": "pt012"
+        },
+        {
+          "t": 69480,
+          "punto": "pt005"
+        },
+        {
+          "t": 69600,
+          "punto": "pt013"
+        },
+        {
+          "t": 70020,
+          "punto": "pt014"
+        },
+        {
+          "t": 70440,
+          "punto": "pt015"
+        },
+        {
+          "t": 70680,
+          "punto": "pt016"
+        },
+        {
+          "t": 71160,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP11__67",
+      "sentido": "vuelta",
+      "servicio": "DISCAP11",
+      "paradas": [
+        {
+          "t": 70320,
+          "punto": "pt009"
+        },
+        {
+          "t": 70620,
+          "punto": "pt010"
+        },
+        {
+          "t": 70920,
+          "punto": "pt011"
+        },
+        {
+          "t": 71400,
+          "punto": "pt012"
+        },
+        {
+          "t": 71640,
+          "punto": "pt005"
+        },
+        {
+          "t": 71760,
+          "punto": "pt013"
+        },
+        {
+          "t": 72180,
+          "punto": "pt014"
+        },
+        {
+          "t": 72600,
+          "punto": "pt015"
+        },
+        {
+          "t": 72780,
+          "punto": "pt016"
+        },
+        {
+          "t": 73260,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP7__68",
+      "sentido": "vuelta",
+      "servicio": "DISCAP7",
+      "paradas": [
+        {
+          "t": 72420,
+          "punto": "pt009"
+        },
+        {
+          "t": 72720,
+          "punto": "pt010"
+        },
+        {
+          "t": 72960,
+          "punto": "pt011"
+        },
+        {
+          "t": 73440,
+          "punto": "pt012"
+        },
+        {
+          "t": 73620,
+          "punto": "pt005"
+        },
+        {
+          "t": 73740,
+          "punto": "pt013"
+        },
+        {
+          "t": 74100,
+          "punto": "pt014"
+        },
+        {
+          "t": 74460,
+          "punto": "pt015"
+        },
+        {
+          "t": 74640,
+          "punto": "pt016"
+        },
+        {
+          "t": 75060,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP8__69",
+      "sentido": "vuelta",
+      "servicio": "DISCAP8",
+      "paradas": [
+        {
+          "t": 74760,
+          "punto": "pt009"
+        },
+        {
+          "t": 75060,
+          "punto": "pt010"
+        },
+        {
+          "t": 75360,
+          "punto": "pt011"
+        },
+        {
+          "t": 75840,
+          "punto": "pt012"
+        },
+        {
+          "t": 76020,
+          "punto": "pt005"
+        },
+        {
+          "t": 76200,
+          "punto": "pt013"
+        },
+        {
+          "t": 76560,
+          "punto": "pt014"
+        },
+        {
+          "t": 76860,
+          "punto": "pt015"
+        },
+        {
+          "t": 77040,
+          "punto": "pt016"
+        },
+        {
+          "t": 77520,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP11__70",
+      "sentido": "vuelta",
+      "servicio": "DISCAP11",
+      "paradas": [
+        {
+          "t": 77100,
+          "punto": "pt009"
+        },
+        {
+          "t": 77340,
+          "punto": "pt010"
+        },
+        {
+          "t": 77640,
+          "punto": "pt011"
+        },
+        {
+          "t": 78060,
+          "punto": "pt012"
+        },
+        {
+          "t": 78300,
+          "punto": "pt005"
+        },
+        {
+          "t": 78420,
+          "punto": "pt013"
+        },
+        {
+          "t": 78780,
+          "punto": "pt014"
+        },
+        {
+          "t": 79140,
+          "punto": "pt015"
+        },
+        {
+          "t": 79260,
+          "punto": "pt016"
+        },
+        {
+          "t": 79740,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP12__71",
+      "sentido": "vuelta",
+      "servicio": "DISCAP12",
+      "paradas": [
+        {
+          "t": 79320,
+          "punto": "pt009"
+        },
+        {
+          "t": 79560,
+          "punto": "pt010"
+        },
+        {
+          "t": 79860,
+          "punto": "pt011"
+        },
+        {
+          "t": 80280,
+          "punto": "pt012"
+        },
+        {
+          "t": 80520,
+          "punto": "pt005"
+        },
+        {
+          "t": 80640,
+          "punto": "pt013"
+        },
+        {
+          "t": 81000,
+          "punto": "pt014"
+        },
+        {
+          "t": 81300,
+          "punto": "pt015"
+        },
+        {
+          "t": 81480,
+          "punto": "pt016"
+        },
+        {
+          "t": 81900,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP10__72",
+      "sentido": "vuelta",
+      "servicio": "DISCAP10",
+      "paradas": [
+        {
+          "t": 82200,
+          "punto": "pt009"
+        },
+        {
+          "t": 82440,
+          "punto": "pt010"
+        },
+        {
+          "t": 82740,
+          "punto": "pt011"
+        },
+        {
+          "t": 83160,
+          "punto": "pt012"
+        },
+        {
+          "t": 83400,
+          "punto": "pt005"
+        },
+        {
+          "t": 83520,
+          "punto": "pt013"
+        },
+        {
+          "t": 83880,
+          "punto": "pt014"
+        },
+        {
+          "t": 84180,
+          "punto": "pt015"
+        },
+        {
+          "t": 84360,
+          "punto": "pt016"
+        },
+        {
+          "t": 84780,
+          "punto": "pt000"
+        }
+      ]
+    },
+    {
+      "id": "DISCAP12__73",
+      "sentido": "vuelta",
+      "servicio": "DISCAP12",
+      "paradas": [
+        {
+          "t": 85140,
+          "punto": "pt009"
+        },
+        {
+          "t": 85380,
+          "punto": "pt010"
+        },
+        {
+          "t": 85680,
+          "punto": "pt011"
+        },
+        {
+          "t": 86100,
+          "punto": "pt012"
+        },
+        {
+          "t": 86340,
+          "punto": "pt005"
+        },
+        {
+          "t": 86460,
+          "punto": "pt013"
+        },
+        {
+          "t": 86820,
+          "punto": "pt014"
+        },
+        {
+          "t": 87120,
+          "punto": "pt015"
+        },
+        {
+          "t": 87300,
+          "punto": "pt016"
+        },
+        {
+          "t": 87720,
+          "punto": "pt000"
+        }
+      ]
+    }
+  ]
+}

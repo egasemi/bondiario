@@ -1,0 +1,858 @@
+{
+  "linea": "112",
+  "puntos": [
+    {
+      "tokens": [
+        "Ayala Gauna",
+        "Tarragona"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Ayala Gauna\ny Tarragona"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 14,
+          "pos_label": "FIN",
+          "label_raw": "Ayala Gauna\ny Tarragona"
+        }
+      ],
+      "id": "pt000",
+      "clave": "AYALA GAUNA||TARRAGONA",
+      "status": "auto",
+      "calle1": "AYALA GAUNA",
+      "calle2": "TARRAGONA",
+      "candidatos": [
+        [
+          "AYALA GAUNA"
+        ],
+        [
+          "TARRAGONA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.912519956634505,
+        "lon": -60.73527626436862,
+        "x": 5431217.56,
+        "y": 6358679.73
+      }
+    },
+    {
+      "tokens": [
+        "J.B.Justo",
+        "Mexico"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "J.B.Justo y\nMexico"
+        }
+      ],
+      "id": "pt001",
+      "clave": "JBJUSTO||MEXICO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.915075313708506,
+        "lon": -60.719492611997524,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "V.Sarsfield",
+        "P.Unidas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "V.Sarsfield y\nP.Unidas"
+        }
+      ],
+      "id": "pt002",
+      "clave": "PUNIDAS||VSARSFIELD",
+      "status": "auto",
+      "calle1": "VELEZ SARSFIELD",
+      "calle2": "PROVINCIAS UNIDAS",
+      "candidatos": [
+        [
+          "VELEZ SARSFIELD"
+        ],
+        [
+          "PROVINCIAS UNIDAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.926024179514556,
+        "lon": -60.71324428048884,
+        "x": 5433288.75,
+        "y": 6357196.18
+      }
+    },
+    {
+      "tokens": [
+        "Junin",
+        "Camilo Aldao"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Junin y\nCamilo Aldao"
+        }
+      ],
+      "id": "pt003",
+      "clave": "CAMILO ALDAO||JUNIN",
+      "status": "auto",
+      "calle1": "JUNIN",
+      "calle2": "CAMILO ALDAO",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        [
+          "CAMILO ALDAO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92712840421835,
+        "lon": -60.69646396466037,
+        "x": 5434859.09,
+        "y": 6357084.21
+      }
+    },
+    {
+      "tokens": [
+        "Junin",
+        "Av. Alberdi"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Junin y Av.\nAlberdi"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AV ALBERDI||JUNIN",
+      "status": "auto",
+      "calle1": "JUNIN",
+      "calle2": "ALBERDI",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        [
+          "ALBERDI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92660046912123,
+        "lon": -60.67654675707029,
+        "x": 5436721.625,
+        "y": 6357154.895
+      }
+    },
+    {
+      "tokens": [
+        "Tucuman",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Tucuman y\nOv. Lagos"
+        }
+      ],
+      "id": "pt005",
+      "clave": "OV LAGOS||TUCUMAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "TUCUMAN"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.93762283907589,
+        "lon": -60.66026871810705,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "San Lorenzo",
+        "Pte. Rocca"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "San Lorenzo\ny Pte. Rocca"
+        }
+      ],
+      "id": "pt006",
+      "clave": "PTE ROCCA||SAN LORENZO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9428831580827,
+        "lon": -60.64454877744822,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "San Juan"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Laprida y San\nJuan"
+        }
+      ],
+      "id": "pt007",
+      "clave": "LAPRIDA||SAN JUAN",
+      "status": "auto",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "SAN JUAN",
+          "SAN JUAN DE LUZ"
+        ]
+      ],
+      "calle1": "LAPRIDA",
+      "calle2": "SAN JUAN",
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95097113384171,
+        "lon": -60.63495538714743,
+        "x": 5440628.08,
+        "y": 6354476.24
+      },
+      "resuelto_por_convergencia": 1
+    },
+    {
+      "tokens": [
+        "Laprida",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Laprida y 27\nde Febrero"
+        }
+      ],
+      "id": "pt008",
+      "clave": "27 DE FEBRERO||LAPRIDA",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.968293859930704,
+        "lon": -60.639561423538005,
+        "x": 5440209.05,
+        "y": 6352552.43
+      }
+    },
+    {
+      "tokens": [
+        "España",
+        "Bvar. Segui"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "España y\nBvar. Segui"
+        }
+      ],
+      "id": "pt009",
+      "clave": "BVAR SEGUI||ESPAÑA",
+      "status": "auto",
+      "calle1": "ESPANA",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "ESPANA"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97757231378801,
+        "lon": -60.654727366975564,
+        "x": 5438797.6,
+        "y": 6351514.67
+      }
+    },
+    {
+      "tokens": [
+        "Dorrego",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Dorrego y\nUriburu"
+        }
+      ],
+      "id": "pt010",
+      "clave": "DORREGO||URIBURU",
+      "status": "auto",
+      "calle1": "DORREGO",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "DORREGO"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99111669864484,
+        "lon": -60.66096649197964,
+        "x": 5438223.805,
+        "y": 6350008.855
+      }
+    },
+    {
+      "tokens": [
+        "Ov. Lagos",
+        "O.V Andrade"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Ov. Lagos y\nO.V Andrade"
+        }
+      ],
+      "id": "pt011",
+      "clave": "OV ANDRADE||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99658426428023,
+        "lon": -60.67458967206045,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Arijon",
+        "Pje 2012"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12 FIN",
+          "label_raw": "Arijon y Pje\n2012"
+        }
+      ],
+      "id": "pt012",
+      "clave": "ARIJON||PJE 2012",
+      "status": "auto",
+      "calle1": "ARIJON",
+      "calle2": "2012",
+      "candidatos": [
+        [
+          "ARIJON"
+        ],
+        [
+          "2012"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00430731966805,
+        "lon": -60.688125832476594,
+        "x": 5435694.92,
+        "y": 6348529.64
+      }
+    },
+    {
+      "tokens": [
+        "Battle",
+        "Ordoñez y Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Battle y\nOrdoñez y Ov.\nLagos"
+        }
+      ],
+      "id": "pt013",
+      "clave": "BATTLE||ORDOÑEZ Y OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BATTLE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00973670330604,
+        "lon": -60.67735128004273,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Arijon",
+        "Avellaneda"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Arijon y\nAvellaneda"
+        }
+      ],
+      "id": "pt014",
+      "clave": "ARIJON||AVELLANEDA",
+      "status": "auto",
+      "calle1": "ARIJON",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "ARIJON"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00425147839505,
+        "lon": -60.68883953049747,
+        "x": 5435628.183333334,
+        "y": 6348535.396666668
+      }
+    },
+    {
+      "tokens": [
+        "Aurora",
+        "Av. Francia"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Aurora y Av.\nFrancia"
+        }
+      ],
+      "id": "pt015",
+      "clave": "AURORA||AV FRANCIA",
+      "status": "auto",
+      "calle1": "AURORA",
+      "calle2": "FRANCIA",
+      "candidatos": [
+        [
+          "AURORA"
+        ],
+        [
+          "FRANCIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99947463369414,
+        "lon": -60.67782920914615,
+        "x": 5436653.7,
+        "y": 6349071.87
+      }
+    },
+    {
+      "tokens": [
+        "Uriburu",
+        "Bvar Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Uriburu y\nBvar Oroño"
+        }
+      ],
+      "id": "pt016",
+      "clave": "BVAR OROÑO||URIBURU",
+      "status": "auto",
+      "calle1": "URIBURU",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "URIBURU"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991421169845886,
+        "lon": -60.665400241425836,
+        "x": 5437809.617500002,
+        "y": 6349972.475000002
+      }
+    },
+    {
+      "tokens": [
+        "Italia",
+        "Bvar. Segui"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Italia y Bvar.\nSegui"
+        }
+      ],
+      "id": "pt017",
+      "clave": "BVAR SEGUI||ITALIA",
+      "status": "auto",
+      "calle1": "ITALIA",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "ITALIA"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9773290167861,
+        "lon": -60.656090360949705,
+        "x": 5438670.02,
+        "y": 6351540.86
+      }
+    },
+    {
+      "tokens": [
+        "Primera Junta",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Primera\nJunta y 27 de\nFebrero"
+        }
+      ],
+      "id": "pt018",
+      "clave": "27 DE FEBRERO||PRIMERA JUNTA",
+      "status": "auto",
+      "calle1": "PRIMERA JUNTA",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "PRIMERA JUNTA"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96815622334049,
+        "lon": -60.640748590706444,
+        "x": 5440097.97,
+        "y": 6352567.02
+      }
+    },
+    {
+      "tokens": [
+        "Maipu",
+        "Cordoba"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Maipu y\nCordoba"
+        }
+      ],
+      "id": "pt019",
+      "clave": "CORDOBA||MAIPU",
+      "status": "auto",
+      "calle1": "MAIPU",
+      "calle2": "CORDOBA",
+      "candidatos": [
+        [
+          "MAIPU"
+        ],
+        [
+          "CORDOBA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94705600067857,
+        "lon": -60.6352270407181,
+        "x": 5440600.06,
+        "y": 6354910.3
+      }
+    },
+    {
+      "tokens": [
+        "Moreno",
+        "Tucuman"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "Moreno y\nTucuman"
+        }
+      ],
+      "id": "pt020",
+      "clave": "MORENO||TUCUMAN",
+      "status": "auto",
+      "calle1": "MORENO",
+      "calle2": "TUCUMAN",
+      "candidatos": [
+        [
+          "MORENO"
+        ],
+        [
+          "TUCUMAN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.939561361343145,
+        "lon": -60.649421633565034,
+        "x": 5439267.58,
+        "y": 6355733.41
+      }
+    },
+    {
+      "tokens": [
+        "Catamarca",
+        "Cafferata"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "Catamarca y\nCafferata"
+        }
+      ],
+      "id": "pt021",
+      "clave": "CAFFERATA||CATAMARCA",
+      "status": "auto",
+      "calle1": "CATAMARCA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CATAMARCA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.934732495645676,
+        "lon": -60.66948353256913,
+        "x": 5437388.0,
+        "y": 6356257.22
+      }
+    },
+    {
+      "tokens": [
+        "V. Sarsfield",
+        "Alberdi"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "V. Sarsfield y\nAlberdi"
+        }
+      ],
+      "id": "pt022",
+      "clave": "ALBERDI||V SARSFIELD",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "ALBERDI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9249231958004,
+        "lon": -60.67788669453912,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Formosa",
+        "Junin"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "Formosa y\nJunin"
+        }
+      ],
+      "id": "pt023",
+      "clave": "FORMOSA||JUNIN",
+      "status": "auto",
+      "calle1": "FORMOSA",
+      "calle2": "JUNIN",
+      "candidatos": [
+        [
+          "FORMOSA"
+        ],
+        [
+          "JUNIN"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92698599100811,
+        "lon": -60.691258051500576,
+        "x": 5435345.91,
+        "y": 6357103.21
+      }
+    },
+    {
+      "tokens": [
+        "Junin",
+        "P.Unidas"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "Junin y\nP.Unidas"
+        }
+      ],
+      "id": "pt024",
+      "clave": "JUNIN||PUNIDAS",
+      "status": "auto",
+      "calle1": "JUNIN",
+      "calle2": "PROVINCIAS UNIDAS",
+      "candidatos": [
+        [
+          "JUNIN"
+        ],
+        [
+          "PROVINCIAS UNIDAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.92758780538884,
+        "lon": -60.71318647700558,
+        "x": 5433295.33,
+        "y": 6357022.8
+      }
+    },
+    {
+      "tokens": [
+        "Nicaragua",
+        "J.J.Paso"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "Nicaragua y\nJ.J.Paso"
+        }
+      ],
+      "id": "pt025",
+      "clave": "JJPASO||NICARAGUA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "NICARAGUA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.920492652583974,
+        "lon": -60.72137582058062,
+        "manual": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "linea": "142",
+  "puntos": [
+    {
+      "tokens": [
+        "MAR DELPLAZA",
+        "ACAPULCO(FUNES)"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "MAR DEL\nPLAZA -\nACAPULC\nO\n(FUNES)"
+        }
+      ],
+      "id": "pt000",
+      "clave": "ACAPULCO(FUNES)||MAR DELPLAZA",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.91461198240357,
+        "lon": -60.864815711975105,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "JHERN",
+        "ILLIA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "JHERN -\nILLIA"
+        }
+      ],
+      "id": "pt001",
+      "clave": "ILLIA||JHERN",
+      "status": "manual",
+      "candidatos": [
+        [
+          "JOSE HERNANDEZ"
+        ],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "ILLIA",
+        "YRIGO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "ILLIA -\nYRIGO"
+        }
+      ],
+      "id": "pt002",
+      "clave": "ILLIA||YRIGO",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "ILLIA",
+        "AJPAZ"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "ILLIA -\nAJPAZ"
+        }
+      ],
+      "id": "pt003",
+      "clave": "AJPAZ||ILLIA",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "URQUI",
+        "AvBER"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "URQUI -\nAvBER"
+        }
+      ],
+      "id": "pt004",
+      "clave": "AVBER||URQUI",
+      "status": "manual",
+      "candidatos": [
+        [
+          "URQUIZA"
+        ],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "CALAS",
+        "C1635"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "CALAS -\nC1635"
+        }
+      ],
+      "id": "pt005",
+      "clave": "C1635||CALAS",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.940796715679625,
+        "lon": -60.760903684709994,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MENDO",
+        "WILD."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "MENDO -\nWILD."
+        }
+      ],
+      "id": "pt006",
+      "clave": "MENDO||WILD",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "WILDE",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "WILDE"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94027721439682,
+        "lon": -60.73846594912922,
+        "x": 5430940.738,
+        "y": 6355599.172
+      }
+    },
+    {
+      "tokens": [
+        "MENDO",
+        "DNADO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 8,
+          "pos_label": "7",
+          "label_raw": "MENDO -\nDNADO"
+        }
+      ],
+      "id": "pt007",
+      "clave": "DNADO||MENDO",
+      "status": "auto",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94063810468645,
+        "lon": -60.72698263915563,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "MENDO",
+        "PUNID"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 9,
+          "pos_label": "8",
+          "label_raw": "MENDO -\nPUNID"
+        }
+      ],
+      "id": "pt008",
+      "clave": "MENDO||PUNID",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "PROVINCIAS UNIDAS",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "PROVINCIAS UNIDAS"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94023050784969,
+        "lon": -60.71261641333929,
+        "x": 5433358.131250002,
+        "y": 6355620.99875
+      }
+    },
+    {
+      "tokens": [
+        "MENDO",
+        "AVELL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 10,
+          "pos_label": "9",
+          "label_raw": "MENDO -\nAVELL"
+        }
+      ],
+      "id": "pt009",
+      "clave": "AVELL||MENDO",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "AVELLANEDA",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "AVELLANEDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94420567680412,
+        "lon": -60.68041252049164,
+        "x": 5436372.655,
+        "y": 6355200.035
+      }
+    },
+    {
+      "tokens": [
+        "CORDO",
+        "CAFFE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 11,
+          "pos_label": "10",
+          "label_raw": "CORDO -\nCAFFE"
+        }
+      ],
+      "id": "pt010",
+      "clave": "CAFFE||CORDO",
+      "status": "auto",
+      "calle1": "CORDOBA",
+      "calle2": "CAFFERATA",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        [
+          "CAFFERATA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94054267909362,
+        "lon": -60.670951201305705,
+        "x": 5437254.84,
+        "y": 6355611.96
+      }
+    },
+    {
+      "tokens": [
+        "CORDO",
+        "OROÑO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 12,
+          "pos_label": "11",
+          "label_raw": "CORDO -\nOROÑO"
+        }
+      ],
+      "id": "pt011",
+      "clave": "CORDO||OROÑO",
+      "status": "auto",
+      "calle1": "CORDOBA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "CORDOBA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94371021627916,
+        "lon": -60.65329706724913,
+        "x": 5438908.005,
+        "y": 6355271.035
+      }
+    },
+    {
+      "tokens": [
+        "SLUIS",
+        "LAPRI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 13,
+          "pos_label": "12",
+          "label_raw": "SLUIS -\nLAPRI"
+        }
+      ],
+      "id": "pt012",
+      "clave": "LAPRI||SLUIS",
+      "status": "auto",
+      "calle1": "SAN LUIS",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SAN LUIS"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.949768663266646,
+        "lon": -60.63460339888335,
+        "x": 5440660.19,
+        "y": 6354609.8
+      }
+    },
+    {
+      "tokens": [
+        "LAPRI",
+        "PELL."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 14,
+          "pos_label": "13",
+          "label_raw": "LAPRI -\nPELL."
+        }
+      ],
+      "id": "pt013",
+      "clave": "LAPRI||PELL",
+      "status": "auto",
+      "calle1": "LAPRIDA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95797907858964,
+        "lon": -60.636972187793276,
+        "x": 5440444.195,
+        "y": 6353697.875
+      }
+    },
+    {
+      "tokens": [
+        "LAPRI",
+        "27FEB"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 15,
+          "pos_label": "14",
+          "label_raw": "LAPRI -\n27FEB"
+        }
+      ],
+      "id": "pt014",
+      "clave": "27FEB||LAPRI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "LAPRIDA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.96829385993071,
+        "lon": -60.639561423538005,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "SMART",
+        "SEGUI"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 16,
+          "pos_label": "15",
+          "label_raw": "SMART -\nSEGUI"
+        }
+      ],
+      "id": "pt015",
+      "clave": "SEGUI||SMART",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "SEGUI",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "SEGUI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97942719086044,
+        "lon": -60.64434113213867,
+        "x": 5439769.7575,
+        "y": 6351314.9425
+      }
+    },
+    {
+      "tokens": [
+        "SMART",
+        "URIB."
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 17,
+          "pos_label": "16",
+          "label_raw": "SMART -\nURIB."
+        }
+      ],
+      "id": "pt016",
+      "clave": "SMART||URIB",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99066737262355,
+        "lon": -60.6466900762617,
+        "x": 5439557.845,
+        "y": 6350066.98
+      }
+    },
+    {
+      "tokens": [
+        "SMART",
+        "ARIJO"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 18,
+          "pos_label": "17",
+          "label_raw": "SMART -\nARIJO"
+        }
+      ],
+      "id": "pt017",
+      "clave": "ARIJO||SMART",
+      "status": "auto",
+      "calle1": "SAN MARTIN",
+      "calle2": "ARIJON",
+      "candidatos": [
+        [
+          "SAN MARTIN"
+        ],
+        [
+          "ARIJON"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.003027792412844,
+        "lon": -60.64939246630435,
+        "x": 5439313.726666668,
+        "y": 6348694.563333334
+      }
+    },
+    {
+      "tokens": [
+        "ARIJO",
+        "LITUA"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 19,
+          "pos_label": "18",
+          "label_raw": "ARIJO -\nLITUA"
+        }
+      ],
+      "id": "pt018",
+      "clave": "ARIJO||LITUA",
+      "status": "auto",
+      "calle1": "ARIJON",
+      "calle2": "LITUANIA",
+      "candidatos": [
+        [
+          "ARIJON"
+        ],
+        [
+          "LITUANIA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00220321633535,
+        "lon": -60.62278752925782,
+        "x": 5441799.48,
+        "y": 6348801.05
+      }
+    },
+    {
+      "tokens": [
+        "JDPER",
+        "ArSAL"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 20,
+          "pos_label": "19",
+          "label_raw": "JDPER -\nArSAL"
+        }
+      ],
+      "id": "pt019",
+      "clave": "ARSAL||JDPER",
+      "status": "manual",
+      "candidatos": [
+        [],
+        []
+      ]
+    },
+    {
+      "tokens": [
+        "JDPER",
+        "SESTE"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 21,
+          "pos_label": "20",
+          "label_raw": "JDPER -\nSESTE"
+        }
+      ],
+      "id": "pt020",
+      "clave": "JDPER||SESTE",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.01073279763663,
+        "lon": -60.614866018295295,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "S.DIEGO",
+        "J.D.PERON (VGG)"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 22,
+          "pos_label": "FIN",
+          "label_raw": "S.DIEGO -\nJ.D.PERO\nN (VGG)"
+        }
+      ],
+      "id": "pt021",
+      "clave": "JDPERON (VGG)||SDIEGO",
+      "status": "auto",
+      "candidatos": [
+        [],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.01895554820557,
+        "lon": -60.6181812286377,
+        "manual": true
+      }
+    }
+  ]
+}

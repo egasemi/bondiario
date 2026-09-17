@@ -1,0 +1,183 @@
+{
+  "linea": "Enlace Uriburu",
+  "puntos": [
+    {
+      "tokens": [
+        "Segui",
+        "C. Limite"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Segui y C.\nLimite"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "FIN",
+          "label_raw": "Segui y C.\nLimite"
+        }
+      ],
+      "id": "pt000",
+      "clave": "C LIMITE||SEGUI",
+      "status": "auto",
+      "candidatos": [
+        [
+          "SEGUI"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.97163142634858,
+        "lon": -60.73400872586491,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Escuela 6379"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Escuela 6379"
+        }
+      ],
+      "id": "pt001",
+      "clave": "unparsed::Escuela 6379",
+      "status": "manual",
+      "candidatos": []
+    },
+    {
+      "tokens": [
+        "Avellaneda",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Avellaneda y\nUriburu"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Avellaneda y\nUriburu"
+        }
+      ],
+      "id": "pt002",
+      "clave": "AVELLANEDA||URIBURU",
+      "status": "auto",
+      "calle1": "AVELLANEDA",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "AVELLANEDA"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99196696242107,
+        "lon": -60.68876877780232,
+        "x": 5435625.875,
+        "y": 6349897.8875
+      }
+    },
+    {
+      "tokens": [
+        "Oroño",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Oroño y\nUriburu"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Uriburu y\nOroño"
+        }
+      ],
+      "id": "pt003",
+      "clave": "OROÑO||URIBURU",
+      "status": "auto",
+      "calle1": "ORONO",
+      "calle2": "URIBURU",
+      "candidatos": [
+        [
+          "ORONO"
+        ],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.991421169845886,
+        "lon": -60.665400241425836,
+        "x": 5437809.617500002,
+        "y": 6349972.475000002
+      }
+    },
+    {
+      "tokens": [
+        "Bs As",
+        "Uriburu"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Bs As y\nUriburu"
+        }
+      ],
+      "id": "pt004",
+      "clave": "BS AS||URIBURU",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "URIBURU"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.990567327573636,
+        "lon": -60.64355894321434,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Park Empresario"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Park\nEmpresario"
+        }
+      ],
+      "id": "pt005",
+      "clave": "unparsed::Park Empresario",
+      "status": "manual",
+      "candidatos": []
+    }
+  ]
+}

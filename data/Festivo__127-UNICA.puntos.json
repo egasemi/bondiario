@@ -1,0 +1,383 @@
+{
+  "linea": "127",
+  "puntos": [
+    {
+      "tokens": [
+        "Battle",
+        "Ordoñez y Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "Battle y\nOrdoñez y\nOv. Lagos"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 10,
+          "pos_label": "FIN",
+          "label_raw": "Battle y\nOrdoñez y\nOv. Lagos"
+        }
+      ],
+      "id": "pt000",
+      "clave": "BATTLE||ORDOÑEZ Y OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "BATTLE"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -33.00973670330604,
+        "lon": -60.67735128004273,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Francia",
+        "Lamadrid"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "Francia y\nLamadrid"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Francia y\nLamadrid"
+        }
+      ],
+      "id": "pt001",
+      "clave": "FRANCIA||LAMADRID",
+      "status": "auto",
+      "calle1": "FRANCIA",
+      "calle2": "LAMADRID",
+      "candidatos": [
+        [
+          "FRANCIA"
+        ],
+        [
+          "LAMADRID"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.99793173609546,
+        "lon": -60.67789413044447,
+        "x": 5436646.53,
+        "y": 6349242.95
+      }
+    },
+    {
+      "tokens": [
+        "Francia",
+        "ferraza"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "Francia Y\nferraza"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Francia Y\nferraza"
+        }
+      ],
+      "id": "pt002",
+      "clave": "FERRAZA||FRANCIA",
+      "status": "auto",
+      "candidatos": [
+        [
+          "FRANCIA"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.982861920636886,
+        "lon": -60.676264716680876,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Francia",
+        "27 de Febrero"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Francia y 27\nde Febrero"
+        },
+        {
+          "sentido": "vuelta",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Francia y 27\nde Febrero"
+        }
+      ],
+      "id": "pt003",
+      "clave": "27 DE FEBRERO||FRANCIA",
+      "status": "auto",
+      "calle1": "FRANCIA",
+      "calle2": "27 DE FEBRERO",
+      "candidatos": [
+        [
+          "FRANCIA"
+        ],
+        [
+          "27 DE FEBRERO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.962699269258785,
+        "lon": -60.670854862889456,
+        "x": 5437279.5,
+        "y": 6353154.7025
+      }
+    },
+    {
+      "tokens": [
+        "Francia",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 5,
+          "pos_label": "4",
+          "label_raw": "Francia y\nPellegrini"
+        }
+      ],
+      "id": "pt004",
+      "clave": "FRANCIA||PELLEGRINI",
+      "status": "auto",
+      "calle1": "FRANCIA",
+      "calle2": "PELLEGRINI",
+      "candidatos": [
+        [
+          "FRANCIA"
+        ],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95238184172403,
+        "lon": -60.66825672500243,
+        "x": 5437515.1525,
+        "y": 6354300.52
+      }
+    },
+    {
+      "tokens": [
+        "Mendoza",
+        "Oroño"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 6,
+          "pos_label": "5",
+          "label_raw": "Mendoza y\nOroño"
+        }
+      ],
+      "id": "pt005",
+      "clave": "MENDOZA||OROÑO",
+      "status": "auto",
+      "calle1": "MENDOZA",
+      "calle2": "ORONO",
+      "candidatos": [
+        [
+          "MENDOZA"
+        ],
+        [
+          "ORONO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.9488450709833,
+        "lon": -60.65459144339659,
+        "x": 5438790.5,
+        "y": 6354700.795
+      }
+    },
+    {
+      "tokens": [
+        "Moreno",
+        "san Lorenzo"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "ida",
+          "col": 7,
+          "pos_label": "6",
+          "label_raw": "Moreno Y\nsan Lorenzo"
+        }
+      ],
+      "id": "pt006",
+      "clave": "MORENO||SAN LORENZO",
+      "status": "auto",
+      "calle1": "MORENO",
+      "calle2": "SAN LORENZO",
+      "candidatos": [
+        [
+          "MORENO"
+        ],
+        [
+          "SAN LORENZO"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94191326454559,
+        "lon": -60.650009524616316,
+        "x": 5439214.21,
+        "y": 6355472.23
+      }
+    },
+    {
+      "tokens": [
+        "San Lorenzo",
+        "Laprida"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 1,
+          "pos_label": "INICIO",
+          "label_raw": "San Lorenzo y\nLaprida"
+        }
+      ],
+      "id": "pt007",
+      "clave": "LAPRIDA||SAN LORENZO",
+      "status": "auto",
+      "calle1": "SAN LORENZO",
+      "calle2": "LAPRIDA",
+      "candidatos": [
+        [
+          "SAN LORENZO"
+        ],
+        [
+          "LAPRIDA"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94599602682921,
+        "lon": -60.633358211165536,
+        "x": 5440774.11,
+        "y": 6355028.91
+      }
+    },
+    {
+      "tokens": [
+        "3 de Febrero",
+        "Corrientes"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 2,
+          "pos_label": "1",
+          "label_raw": "3 de Febrero\ny Corrientes"
+        }
+      ],
+      "id": "pt008",
+      "clave": "3 DE FEBRERO||CORRIENTES",
+      "status": "auto",
+      "calle1": "3 DE FEBRERO",
+      "calle2": "CORRIENTES",
+      "candidatos": [
+        [
+          "3 DE FEBRERO"
+        ],
+        [
+          "CORRIENTES"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.95201507192172,
+        "lon": -60.64394065482468,
+        "x": 5439788.6,
+        "y": 6354355.36
+      }
+    },
+    {
+      "tokens": [
+        "3 de Febrero",
+        "Ov. Lagos"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 3,
+          "pos_label": "2",
+          "label_raw": "3 de Febrero\ny Ov. Lagos"
+        }
+      ],
+      "id": "pt009",
+      "clave": "3 DE FEBRERO||OV LAGOS",
+      "status": "auto",
+      "candidatos": [
+        [
+          "3 DE FEBRERO"
+        ],
+        []
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.94861124555858,
+        "lon": -60.66305160506252,
+        "manual": true
+      }
+    },
+    {
+      "tokens": [
+        "Av.Francia",
+        "Pellegrini"
+      ],
+      "ocurrencias": [
+        {
+          "sentido": "vuelta",
+          "col": 4,
+          "pos_label": "3",
+          "label_raw": "Av.Francia y\nPellegrini"
+        }
+      ],
+      "id": "pt010",
+      "clave": "AVFRANCIA||PELLEGRINI",
+      "status": "auto",
+      "candidatos": [
+        [],
+        [
+          "PELLEGRINI"
+        ]
+      ],
+      "geocode": {
+        "status": "ok",
+        "lat": -32.952381841724026,
+        "lon": -60.66825672500243,
+        "manual": true
+      }
+    }
+  ]
+}
