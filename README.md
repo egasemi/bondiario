@@ -21,6 +21,12 @@ geolocaliza cada punto de referencia y arma una animación donde se puede ver
 (o sentir) la frecuencia real del servicio: los baches nocturnos, los picos
 de la mañana, cuántas líneas están circulando en cualquier instante del día.
 
+> **Nota:** los PDFs de origen son bastante irregulares entre líneas
+> (distintos formatos, abreviaturas ad-hoc, columnas vacías, algún cuadro
+> con datos incompletos), así que algunos puntos de referencia y recorridos
+> pueden no ser del todo precisos. Si ves una esquina mal ubicada, se puede
+> corregir desde el propio mapa (ver [Metodología](#metodología)).
+
 ## Metodología
 
 El pipeline completo vive en `scripts/` y se corre en este orden:
@@ -135,13 +141,5 @@ python3 server.py 8765
 El visor es 100% estático (solo hace `fetch` de archivos JSON), así que
 también funciona servido por cualquier hosting estático — incluida la
 versión publicada en GitHub Pages. El panel, en cambio, necesita el
-servidor local corriendo (`server.py`) porque guarda las correcciones.
-
-## Estado
-
-Pipeline corriendo sobre las ~150 líneas publicadas por el EMR. La
-geolocalización automática resuelve alrededor de la mitad de los puntos de
-referencia; el resto se va completando a mano desde el panel a medida que
-se detectan. Si una esquina te aparece mal ubicada en el mapa, se puede
-corregir directamente desde ahí: cada punto de referencia tiene un enlace
-"Corregir esta parada" que abre el panel con esa esquina lista para editar.
+servidor local corriendo (`server.py`) porque guarda las correcciones, así
+que el enlace "Corregir esta parada" solo aparece corriendo en local.

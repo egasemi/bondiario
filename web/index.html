@@ -82,14 +82,9 @@
   #ecgPanel .titulo { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); margin-bottom: 8px; }
 
   #infoBanner {
-    position: absolute;
-    left: 12px; bottom: 100px;
-    background: rgba(26,29,36,0.88);
-    border: 1px solid var(--panel-border);
-    border-radius: 10px;
-    padding: 8px 12px;
-    z-index: 1000;
-    max-width: 300px;
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--panel-border);
     font-size: 11px;
     line-height: 1.5;
     color: var(--text-dim);
@@ -124,12 +119,10 @@
     <select id="diaSelect"></select>
   </div>
   <div id="avisoVacio" class="avisoVacio" style="display:none">No hay cuadro cargado para esta línea en este día.</div>
-</div>
-
-<div id="infoBanner">
-  <div><b>Bondiario</b> — un día de colectivos de Rosario en cámara rápida</div>
-  <div style="margin-top:4px">Datos: <a href="https://emr.gov.ar/transporte-publico/cuadros-horarios" target="_blank">EMR Rosario</a> · Geocodificación: Municipalidad de Rosario + correcciones manuales</div>
-  <div style="margin-top:4px"><a href="https://github.com/egasemi/bondiario" target="_blank">Cómo funciona / código fuente ↗</a></div>
+  <div id="infoBanner">
+    <div>Datos: <a href="https://emr.gov.ar/transporte-publico/cuadros-horarios" target="_blank">EMR Rosario</a> · Geocodificación: Municipalidad de Rosario + correcciones manuales</div>
+    <div style="margin-top:4px"><a href="https://github.com/egasemi/bondiario" target="_blank">Cómo funciona / código fuente ↗</a></div>
+  </div>
 </div>
 
 <div id="ecgPanel" style="display:none">
@@ -180,6 +173,10 @@ function fmtClock(totalSeconds) {
 }
 
 function lerp(a, b, t) { return a + (b - a) * t; }
+
+// el panel de edición de paradas necesita el servidor local (server.py) para
+// guardar cambios; en producción (GitHub Pages, sin backend) no se ofrece.
+const ES_LOCAL = ["localhost", "127.0.0.1"].includes(location.hostname);
 
 /** Frecuencia alrededor de un instante dado: promedia los huecos entre
  * salidas consecutivas dentro de una ventana centrada en t (por defecto
@@ -327,7 +324,7 @@ async function cargarCuadro(archivos) {
       const c = L.circleMarker([p.lat, p.lon], {
         radius: 3.5, color: "#ffffff", weight: 1.5, fillColor: "#42474f", fillOpacity: 0.85,
       }).bindTooltip(p.label, { direction: "top", opacity: 0.9 });
-      if (p.clave) {
+      if (ES_LOCAL && p.clave) {
         const url = `panel.html?clave=${encodeURIComponent(p.clave)}`;
         c.bindPopup(`<div style="font-size:12px"><b>${p.label}</b><br><a href="${url}" target="_blank">✎ Corregir esta parada</a></div>`);
       }
