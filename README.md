@@ -4,8 +4,9 @@ Un día completo del transporte urbano de Rosario, en cámara rápida: todas las
 líneas de colectivo (o una a la vez) moviéndose sobre un mapa según los
 horarios oficiales, desde la primera salida hasta la última madrugada.
 
-**[▶ Ver la animación](web/index.html)** _(necesita `data/manifest.json`, ver
-[Cómo correrlo](#cómo-correrlo-localmente))_
+**[▶ Ver la animación en vivo](https://egasemi.github.io/bondiario/)**
+(GitHub Pages) — o corriendo `web/index.html` localmente, ver
+[Cómo correrlo](#cómo-correrlo-localmente).
 
 ## Qué es esto
 
