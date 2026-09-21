@@ -39,7 +39,9 @@
         "lon": -60.711688739858374,
         "x": 5433461.78,
         "y": 6353121.310000002
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -73,7 +75,9 @@
         "lon": -60.712265937802975,
         "x": 5433397.165,
         "y": 6354695.66
-      }
+      },
+      "distancia_recorrido_m": 5.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -91,22 +95,14 @@
       "id": "pt002",
       "clave": "CORDO||PUNID",
       "status": "auto",
-      "calle1": "PROVINCIAS UNIDAS",
-      "calle2": "CORDOBA",
-      "candidatos": [
-        [
-          "PROVINCIAS UNIDAS"
-        ],
-        [
-          "CORDOBA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93299415474353,
         "lon": -60.71298787085509,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -130,18 +126,14 @@
       "id": "pt003",
       "clave": "JJPAS||PUNID",
       "status": "auto",
-      "candidatos": [
-        [
-          "PROVINCIAS UNIDAS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92028436576335,
         "lon": -60.71355577996964,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 16.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -165,18 +157,14 @@
       "id": "pt004",
       "clave": "FORMO||JJPAS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "FORMOSA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91958972540166,
         "lon": -60.691605822776495,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -210,7 +198,9 @@
         "lon": -60.676568618817036,
         "x": 5436721.195,
         "y": 6356903.32
-      }
+      },
+      "distancia_recorrido_m": 5.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -250,7 +240,9 @@
         "lon": -60.67853998036973,
         "x": 5436542.475,
         "y": 6356022.595
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -268,18 +260,14 @@
       "id": "pt007",
       "clave": "AVFRA||TUCUM",
       "status": "auto",
-      "candidatos": [
-        [
-          "TUCUMAN"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93689171914328,
         "lon": -60.66435306015895,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -313,7 +301,9 @@
         "lon": -60.65272565144909,
         "x": 5438959.875,
         "y": 6355524.130000002
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -347,7 +337,9 @@
         "lon": -60.63425558263375,
         "x": 5440691.9,
         "y": 6354745.15
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -387,7 +379,9 @@
         "x": 5440470.57,
         "y": 6353825.21
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 5.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -423,7 +417,9 @@
         "x": 5440999.915,
         "y": 6353583.275
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -476,7 +472,9 @@
         "lon": -60.62961275540335,
         "x": 5441133.175,
         "y": 6353555.78
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -494,18 +492,14 @@
       "id": "pt014",
       "clave": "9JULI||MAIPU",
       "status": "auto",
-      "candidatos": [
-        [
-          "MAIPU"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95437900580663,
         "lon": -60.63721346392087,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -539,7 +533,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -573,7 +569,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -607,7 +605,9 @@
         "lon": -60.66653505645672,
         "x": 5437667.4,
         "y": 6355682.73
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -641,7 +641,9 @@
         "lon": -60.67636939991592,
         "x": 5436739.28,
         "y": 6356988.85
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -675,7 +677,9 @@
         "lon": -60.71261641333929,
         "x": 5433358.131250002,
         "y": 6355620.99875
-      }
+      },
+      "distancia_recorrido_m": 32.7,
+      "fuera_de_recorrido": false
     }
   ]
 }

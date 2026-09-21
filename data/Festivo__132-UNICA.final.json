@@ -98,8 +98,8 @@
       "clave": "unparsed::27 de Febrero e Italia"
     },
     "pt015": {
-      "lat": -32.94942399117836,
-      "lon": -60.664682541571246,
+      "lat": -32.96204952890667,
+      "lon": -60.66784832135833,
       "label": "Richieri - Ocampo",
       "clave": "OCAMPO||RICHIERI"
     },
@@ -125,13 +125,17 @@
       "lat": -33.02814794375835,
       "lon": -60.68171696993667,
       "label": "Lagos - Copacaba na",
-      "clave": "COPACABA NA||LAGOS"
+      "clave": "COPACABA NA||LAGOS",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 934.4
     },
     "pt021": {
       "lat": -33.02599015934765,
       "lon": -60.68113803863526,
       "label": "Con Vjo Sodini - Lagos",
-      "clave": "CON VJO SODINI||LAGOS"
+      "clave": "CON VJO SODINI||LAGOS",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 784.7
     }
   },
   "viajes": [

@@ -48,12 +48,16 @@ def main(cuadro_path, puntos_path, out_path):
     for p in puntos_geo["puntos"]:
         geo = p.get("geocode") or {}
         if geo.get("status") == "ok":
-            puntos_out[p["id"]] = {
+            punto_out = {
                 "lat": geo["lat"],
                 "lon": geo["lon"],
                 "label": " - ".join(p["tokens"]) if len(p["tokens"]) == 2 else p["tokens"],
                 "clave": p["clave"],
             }
+            if p.get("fuera_de_recorrido"):
+                punto_out["fuera_de_recorrido"] = True
+                punto_out["distancia_recorrido_m"] = p.get("distancia_recorrido_m")
+            puntos_out[p["id"]] = punto_out
         else:
             sin_coords.append(p["id"])
 

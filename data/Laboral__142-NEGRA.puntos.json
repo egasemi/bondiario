@@ -17,16 +17,14 @@
       "id": "pt000",
       "clave": "ACAPULCO(FUNES)||MAR DELPLAZA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91461198240357,
         "lon": -60.864815711975105,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 8.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -132,16 +130,14 @@
       "id": "pt005",
       "clave": "C1635||CALAS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.940796715679625,
         "lon": -60.760903684709994,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 13.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -175,7 +171,9 @@
         "lon": -60.73846594912922,
         "x": 5430940.738,
         "y": 6355599.172
-      }
+      },
+      "distancia_recorrido_m": 8.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -193,18 +191,14 @@
       "id": "pt007",
       "clave": "DNADO||MENDO",
       "status": "auto",
-      "candidatos": [
-        [
-          "MENDOZA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94063810468645,
         "lon": -60.72698263915563,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -238,7 +232,9 @@
         "lon": -60.71261641333929,
         "x": 5433358.131250002,
         "y": 6355620.99875
-      }
+      },
+      "distancia_recorrido_m": 33.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -272,7 +268,9 @@
         "lon": -60.68041252049164,
         "x": 5436372.655,
         "y": 6355200.035
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -306,7 +304,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -340,7 +340,9 @@
         "lon": -60.65329706724913,
         "x": 5438908.005,
         "y": 6355271.035
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -374,7 +376,9 @@
         "lon": -60.63460339888335,
         "x": 5440660.19,
         "y": 6354609.8
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -408,7 +412,9 @@
         "lon": -60.636972187793276,
         "x": 5440444.195,
         "y": 6353697.875
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -426,18 +432,14 @@
       "id": "pt014",
       "clave": "27FEB||LAPRI",
       "status": "auto",
-      "candidatos": [
-        [
-          "LAPRIDA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96829385993071,
         "lon": -60.639561423538005,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -471,7 +473,9 @@
         "lon": -60.64434113213867,
         "x": 5439769.7575,
         "y": 6351314.9425
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -505,7 +509,9 @@
         "lon": -60.6466900762617,
         "x": 5439557.845,
         "y": 6350066.98
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -539,7 +545,9 @@
         "lon": -60.64939246630435,
         "x": 5439313.726666668,
         "y": 6348694.563333334
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -573,7 +581,9 @@
         "lon": -60.62278752925782,
         "x": 5441799.48,
         "y": 6348801.05
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -612,16 +622,14 @@
       "id": "pt020",
       "clave": "JDPER||SESTE",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.01073279763663,
         "lon": -60.614866018295295,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 8.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -639,16 +647,14 @@
       "id": "pt021",
       "clave": "JDPERON (VGG)||SDIEGO",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.01895554820557,
         "lon": -60.6181812286377,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 15.1,
+      "fuera_de_recorrido": false
     }
   ]
 }

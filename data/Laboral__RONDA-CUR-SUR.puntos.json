@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "BATLLE||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "BATLLE Y ORDONEZ"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00973670330604,
         "lon": -60.67735128004273,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -74,7 +70,9 @@
         "lon": -60.66498008671136,
         "x": 5437857.3525,
         "y": 6348633.485
-      }
+      },
+      "distancia_recorrido_m": 4.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -110,7 +108,9 @@
         "x": 5439313.726666668,
         "y": 6348694.563333334
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -152,7 +152,9 @@
         "x": 5439557.845,
         "y": 6350066.98
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -194,7 +196,9 @@
         "x": 5439786.676666668,
         "y": 6351576.453333334
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 18.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -228,7 +232,9 @@
         "lon": -60.63987735753883,
         "x": 5440177.06,
         "y": 6352955.99
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -245,13 +251,14 @@
       "id": "pt006",
       "clave": "unparsed::Ciudad Universitaria",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.966263589565266,
         "lon": -60.62418669462205,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -285,7 +292,9 @@
         "lon": -60.639561423538005,
         "x": 5440209.05,
         "y": 6352552.43
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -321,7 +330,9 @@
         "x": 5439313.726666668,
         "y": 6348694.563333334
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     }
   ]
 }

@@ -39,7 +39,9 @@
         "lon": -60.66459465727235,
         "x": 5437897.526000002,
         "y": 6347976.266000002
-      }
+      },
+      "distancia_recorrido_m": 15.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -63,18 +65,14 @@
       "id": "pt001",
       "clave": "BATLLE||ORDOÑEZ Y SAN MARTÍN",
       "status": "auto",
-      "candidatos": [
-        [
-          "BATLLE Y ORDONEZ"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00890604858609,
         "lon": -60.650617307895594,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 11.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -92,18 +90,14 @@
       "id": "pt002",
       "clave": "BATLLE||ORDOÑEZ Y AYACUCHO",
       "status": "auto",
-      "candidatos": [
-        [
-          "BATLLE Y ORDONEZ"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00854653839455,
         "lon": -60.6357980269768,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -137,7 +131,9 @@
         "lon": -60.63692199166234,
         "x": 5440470.63,
         "y": 6350104.516666668
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -155,18 +151,14 @@
       "id": "pt004",
       "clave": "BS AS||BV SEGUI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SEGUI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.98004188135883,
         "lon": -60.64090524625116,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -184,18 +176,14 @@
       "id": "pt005",
       "clave": "BS AS||PELLEGRINI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PELLEGRINI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.958255080019335,
         "lon": -60.635431273127274,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -231,7 +219,9 @@
         "x": 5440510.7,
         "y": 6354506.06
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -249,18 +239,14 @@
       "id": "pt007",
       "clave": "CORRIENTE S||SANTA FE",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SANTA FE"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94430721618231,
         "lon": -60.64201447273118,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -294,7 +280,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -312,18 +300,14 @@
       "id": "pt009",
       "clave": "CATAMARC A||SAN NICOLÁS",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN NICOLAS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.934488335051704,
         "lon": -60.67084368401375,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -363,7 +347,9 @@
         "lon": -60.68857386231627,
         "x": 5435582.560000002,
         "y": 6359311.215
-      }
+      },
+      "distancia_recorrido_m": 16.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -381,18 +367,14 @@
       "id": "pt011",
       "clave": "NUÑEZ||RONDEAU",
       "status": "auto",
-      "candidatos": [
-        [
-          "RONDEAU"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88452006267614,
         "lon": -60.69542812368518,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 14.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -410,16 +392,14 @@
       "id": "pt012",
       "clave": "CIUDADELA (BAIGORRIA )||RUTA 11",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.87115320638642,
         "lon": -60.69989204406739,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 22.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -437,18 +417,14 @@
       "id": "pt013",
       "clave": "EVA PERÓN||RUTA 11 (BAIGORRIA )",
       "status": "auto",
-      "candidatos": [
-        [
-          "EVA PERON"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.85799605827523,
         "lon": -60.70362567901612,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -489,18 +465,14 @@
       "id": "pt015",
       "clave": "ARENALES||RUTA 11",
       "status": "auto",
-      "candidatos": [
-        [
-          "ARENALES"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.85810420717413,
         "lon": -60.70366859436036,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -518,18 +490,14 @@
       "id": "pt016",
       "clave": "CIUDADELA||RUTA 11",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "CIUDADELA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.87111716207196,
         "lon": -60.69972038269044,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -547,22 +515,14 @@
       "id": "pt017",
       "clave": "ALBERDI||SALTA",
       "status": "auto",
-      "calle1": "ALBERDI",
-      "calle2": "SALTA AV",
-      "candidatos": [
-        [
-          "ALBERDI"
-        ],
-        [
-          "SALTA AV"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93327894009393,
         "lon": -60.67112299439836,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -596,7 +556,9 @@
         "lon": -60.65213336299179,
         "x": 5439013.65,
         "y": 6355785.29
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -630,7 +592,9 @@
         "lon": -60.64716938658163,
         "x": 5439483.64,
         "y": 6354850.52
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -664,7 +628,9 @@
         "lon": -60.63460339888335,
         "x": 5440660.19,
         "y": 6354609.8
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -698,7 +664,9 @@
         "lon": -60.636972187793276,
         "x": 5440444.195,
         "y": 6353697.875
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -732,7 +700,9 @@
         "lon": -60.64245517437364,
         "x": 5439946.28,
         "y": 6351278.630000002
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -766,7 +736,9 @@
         "lon": -60.63692199166234,
         "x": 5440470.63,
         "y": 6350104.516666668
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -800,7 +772,9 @@
         "lon": -60.636057835388016,
         "x": 5440559.61,
         "y": 6348746.890000002
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     }
   ]
 }

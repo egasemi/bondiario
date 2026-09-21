@@ -4,1035 +4,1183 @@
     "linea": "101",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 62
+    "n_viajes": 62,
+    "oficial": "1_1"
   },
   {
     "archivo": "Festivo__102-144-NEGRA.final.json",
     "linea": "102144",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 68
+    "n_viajes": 68,
+    "oficial": "1_1003"
   },
   {
     "archivo": "Festivo__102-ROJA.final.json",
     "linea": "102",
     "bandera": "ROJA",
     "dia": "Domingos y feriados",
-    "n_viajes": 69
+    "n_viajes": 69,
+    "oficial": "1_4"
   },
   {
     "archivo": "Festivo__103-NEGRA.final.json",
     "linea": "103",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 60
+    "n_viajes": 60,
+    "oficial": "1_5"
   },
   {
     "archivo": "Festivo__103-ROJA.final.json",
     "linea": "103",
     "bandera": "Rojo",
     "dia": "Domingos y feriados",
-    "n_viajes": 62
+    "n_viajes": 62,
+    "oficial": "1_6"
   },
   {
     "archivo": "Festivo__106-NEGRA.final.json",
     "linea": "106",
     "bandera": "NEGRA",
     "dia": "Domingos y feriados",
-    "n_viajes": 61
+    "n_viajes": 61,
+    "oficial": "1_7"
   },
   {
     "archivo": "Festivo__107-NEGRA.final.json",
     "linea": "107",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 77
+    "n_viajes": 77,
+    "oficial": "1_9"
   },
   {
     "archivo": "Festivo__107-ROJA.final.json",
     "linea": "107",
     "bandera": "Roja",
     "dia": "Domingos y feriados",
-    "n_viajes": 39
+    "n_viajes": 39,
+    "oficial": "1_10"
   },
   {
     "archivo": "Festivo__110-UNICA.final.json",
     "linea": "110",
     "bandera": "Unica",
     "dia": "Domingos y feriados",
-    "n_viajes": 99
+    "n_viajes": 99,
+    "oficial": "1_11"
   },
   {
     "archivo": "Festivo__112-NEGRA.final.json",
     "linea": "112",
     "bandera": "NEGRA",
     "dia": "Domingos y feriados",
-    "n_viajes": 55
+    "n_viajes": 55,
+    "oficial": "1_1073"
   },
   {
     "archivo": "Festivo__112-ROJA.final.json",
     "linea": "112",
     "bandera": "ROJA",
     "dia": "Domingos y feriados",
-    "n_viajes": 31
+    "n_viajes": 31,
+    "oficial": "1_13"
   },
   {
     "archivo": "Festivo__113-UNICO.final.json",
     "linea": "113",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 104
+    "n_viajes": 104,
+    "oficial": "1_14"
   },
   {
     "archivo": "Festivo__115-AEROPUERTO.final.json",
     "linea": "115",
     "bandera": "Aeropuerto",
     "dia": "Domingos y feriados",
-    "n_viajes": 60
+    "n_viajes": 60,
+    "oficial": "1_67"
   },
   {
     "archivo": "Festivo__115-UNICA.final.json",
     "linea": "115",
     "bandera": "ÚNICA",
     "dia": "Domingos y feriados",
-    "n_viajes": 85
+    "n_viajes": 85,
+    "oficial": "1_15"
   },
   {
     "archivo": "Festivo__116-UNICO.final.json",
     "linea": "116",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 43
+    "n_viajes": 89,
+    "oficial": "1_16"
   },
   {
     "archivo": "Festivo__120-UNICA.final.json",
     "linea": "120",
     "bandera": "UNICA",
     "dia": "Domingos y feriados",
-    "n_viajes": 88
+    "n_viajes": 88,
+    "oficial": "1_17"
   },
   {
     "archivo": "Festivo__121-UNICA.final.json",
     "linea": "121",
     "bandera": "unica",
     "dia": "Domingos y feriados",
-    "n_viajes": 98
+    "n_viajes": 98,
+    "oficial": "1_18"
   },
   {
     "archivo": "Festivo__122-ROJA.final.json",
     "linea": "122",
     "bandera": "Roja",
     "dia": "Domingos y feriados",
-    "n_viajes": 92
+    "n_viajes": 92,
+    "oficial": "1_19"
   },
   {
     "archivo": "Festivo__122-VERDE.final.json",
     "linea": "122",
     "bandera": "Verde",
     "dia": "Domingos y feriados",
-    "n_viajes": 92
+    "n_viajes": 92,
+    "oficial": "1_1075"
   },
   {
     "archivo": "Festivo__123-UNICA.final.json",
     "linea": "123",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 110
+    "n_viajes": 110,
+    "oficial": "1_21"
   },
   {
     "archivo": "Festivo__126-NEGRA.final.json",
     "linea": "126",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 40
+    "n_viajes": 40,
+    "oficial": "1_1076"
   },
   {
     "archivo": "Festivo__126-ROJA.final.json",
     "linea": "126",
     "bandera": "Roja",
     "dia": "Domingos y feriados",
-    "n_viajes": 40
+    "n_viajes": 40,
+    "oficial": "1_1077"
   },
   {
     "archivo": "Festivo__127-UNICA.final.json",
     "linea": "127",
     "bandera": "ÚNICA",
     "dia": "Domingos y feriados",
-    "n_viajes": 80
+    "n_viajes": 80,
+    "oficial": "1_1082"
   },
   {
     "archivo": "Festivo__128-NEGRA.final.json",
     "linea": "128",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 58
+    "n_viajes": 58,
+    "oficial": "1_26"
   },
   {
     "archivo": "Festivo__128-ROJA.final.json",
     "linea": "128",
     "bandera": "Roja",
     "dia": "Domingos y feriados",
-    "n_viajes": 58
+    "n_viajes": 58,
+    "oficial": "1_27"
   },
   {
     "archivo": "Festivo__129-UNICA.final.json",
     "linea": "129",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 89
+    "n_viajes": 89,
+    "oficial": "1_28"
   },
   {
     "archivo": "Festivo__130-UNICA.final.json",
     "linea": "130",
     "bandera": "Unica",
     "dia": "Domingos y feriados",
-    "n_viajes": 88
+    "n_viajes": 88,
+    "oficial": "1_29"
   },
   {
     "archivo": "Festivo__131-UNICA.final.json",
     "linea": "131",
     "bandera": "ÚNICA",
     "dia": "Domingos y feriados",
-    "n_viajes": 0
+    "n_viajes": 97,
+    "oficial": "1_1078"
   },
   {
     "archivo": "Festivo__132-UNICA.final.json",
     "linea": "132",
     "bandera": "ÚNICA",
     "dia": "Domingos y feriados",
-    "n_viajes": 0
+    "n_viajes": 95,
+    "oficial": "1_1079"
   },
   {
     "archivo": "Festivo__133-125-NEGRA.final.json",
     "linea": "133125",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 47
+    "n_viajes": 47,
+    "oficial": "1_1032"
   },
   {
     "archivo": "Festivo__133-125-VERDE.final.json",
     "linea": "133125",
     "bandera": "Verde",
     "dia": "Domingos y feriados",
-    "n_viajes": 41
+    "n_viajes": 41,
+    "oficial": "1_1033"
   },
   {
     "archivo": "Festivo__134-UNICO.final.json",
     "linea": "134",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 62
+    "n_viajes": 62,
+    "oficial": "1_34"
   },
   {
     "archivo": "Festivo__135-UNICO.final.json",
     "linea": "135",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 61
+    "n_viajes": 61,
+    "oficial": "1_35"
   },
   {
     "archivo": "Festivo__138-139-UNICA.final.json",
     "linea": "138139",
     "bandera": "Unica",
     "dia": "Domingos y feriados",
-    "n_viajes": 81
+    "n_viajes": 81,
+    "oficial": "1_1074"
   },
   {
     "archivo": "Festivo__140-UNICA.final.json",
     "linea": "140",
     "bandera": "unica",
     "dia": "Domingos y feriados",
-    "n_viajes": 107
+    "n_viajes": 107,
+    "oficial": "1_1080"
   },
   {
     "archivo": "Festivo__141-UNICA.final.json",
     "linea": "141",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 36
+    "n_viajes": 74,
+    "oficial": "1_44"
   },
   {
     "archivo": "Festivo__143-136-137-NEGRA.final.json",
     "linea": "143-136- 137",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 45
+    "n_viajes": 45,
+    "oficial": "1_1048"
   },
   {
     "archivo": "Festivo__143-136-137-ROJA.final.json",
     "linea": "143-136- 137",
     "bandera": "Roja",
     "dia": "Domingos y feriados",
-    "n_viajes": 45
+    "n_viajes": 45,
+    "oficial": "1_1049"
   },
   {
     "archivo": "Festivo__145-133-CABIN-9.final.json",
     "linea": "145133",
     "bandera": "Cabin 9",
     "dia": "Domingos y feriados",
-    "n_viajes": 71
+    "n_viajes": 71,
+    "oficial": "1_1052"
   },
   {
     "archivo": "Festivo__145-133-SOLDINI.final.json",
     "linea": "145133",
     "bandera": "Soldini",
     "dia": "Domingos y feriados",
-    "n_viajes": 46
+    "n_viajes": 46,
+    "oficial": "1_1053"
   },
   {
     "archivo": "Festivo__146-NEGRA.final.json",
     "linea": "146",
     "bandera": "Negra",
     "dia": "Domingos y feriados",
-    "n_viajes": 51
+    "n_viajes": 51,
+    "oficial": "1_54"
   },
   {
     "archivo": "Festivo__146-ROJA.final.json",
     "linea": "146",
     "bandera": "Roja",
     "dia": "Domingos y feriados",
-    "n_viajes": 51
+    "n_viajes": 51,
+    "oficial": "1_55"
   },
   {
     "archivo": "Festivo__153-NEGRA.final.json",
     "linea": "153",
     "bandera": "NEGRA",
     "dia": "Domingos y feriados",
-    "n_viajes": 71
+    "n_viajes": 71,
+    "oficial": "1_56"
   },
   {
     "archivo": "Festivo__153-ROJA.final.json",
     "linea": "153",
     "bandera": "ROJA",
     "dia": "Domingos y feriados",
-    "n_viajes": 80
+    "n_viajes": 80,
+    "oficial": "1_58"
   },
   {
     "archivo": "Festivo__CH-F-EAO-04-----a-partir-del-13-09-26.final.json",
     "linea": "Enlace Avellaneda Oeste",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 25
+    "n_viajes": 50,
+    "oficial": "1_97"
   },
   {
     "archivo": "Festivo__ENLACE-NOROESTE.final.json",
     "linea": "ENLACE NOROE",
     "bandera": null,
     "dia": "Domingos y feriados",
-    "n_viajes": 35
+    "n_viajes": 35,
+    "oficial": "1_69"
   },
   {
     "archivo": "Festivo__ENLACE-SANTA-LUCIA.final.json",
     "linea": null,
     "bandera": null,
     "dia": "Domingos y feriados",
-    "n_viajes": 0
+    "n_viajes": 32,
+    "oficial": null
   },
   {
     "archivo": "Festivo__K-UNICA.final.json",
     "linea": "K",
     "bandera": "UNICO",
     "dia": "Domingos y feriados",
-    "n_viajes": 132
+    "n_viajes": 132,
+    "oficial": "1_64"
   },
   {
     "archivo": "Laboral__101-NEGRO.final.json",
     "linea": "101",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 188
+    "n_viajes": 188,
+    "oficial": "1_1"
   },
   {
     "archivo": "Laboral__102-144-NEGRA.final.json",
     "linea": "102144",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 160
+    "n_viajes": 160,
+    "oficial": "1_1003"
   },
   {
     "archivo": "Laboral__102-ROJA.final.json",
     "linea": "102",
     "bandera": "ROJA",
     "dia": "Día hábil",
-    "n_viajes": 146
+    "n_viajes": 146,
+    "oficial": "1_4"
   },
   {
     "archivo": "Laboral__103-NEGRO.final.json",
     "linea": "103",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 156
+    "n_viajes": 156,
+    "oficial": "1_5"
   },
   {
     "archivo": "Laboral__103-ROJO.final.json",
     "linea": "103",
     "bandera": "Rojo",
     "dia": "Día hábil",
-    "n_viajes": 156
+    "n_viajes": 156,
+    "oficial": "1_6"
   },
   {
     "archivo": "Laboral__106-NEGRA.final.json",
     "linea": "106",
     "bandera": "NEGRA",
     "dia": "Día hábil",
-    "n_viajes": 84
+    "n_viajes": 84,
+    "oficial": "1_7"
   },
   {
     "archivo": "Laboral__106-ROJA.final.json",
     "linea": "106",
     "bandera": "ROJA",
     "dia": "Día hábil",
-    "n_viajes": 54
+    "n_viajes": 54,
+    "oficial": "1_8"
   },
   {
     "archivo": "Laboral__107-NEGRO.final.json",
     "linea": "107",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 171
+    "n_viajes": 171,
+    "oficial": "1_9"
   },
   {
     "archivo": "Laboral__107-ROJA.final.json",
     "linea": "107",
     "bandera": "Roja",
     "dia": "Día hábil",
-    "n_viajes": 93
+    "n_viajes": 93,
+    "oficial": "1_10"
   },
   {
     "archivo": "Laboral__110-UNICO.final.json",
     "linea": "110",
     "bandera": "Unica",
     "dia": "Día hábil",
-    "n_viajes": 128
+    "n_viajes": 128,
+    "oficial": "1_11"
   },
   {
     "archivo": "Laboral__112-NEGRO.final.json",
     "linea": "112",
     "bandera": "NEGRA",
     "dia": "Día hábil",
-    "n_viajes": 140
+    "n_viajes": 140,
+    "oficial": "1_1073"
   },
   {
     "archivo": "Laboral__112-ROJA.final.json",
     "linea": "112",
     "bandera": "ROJA",
     "dia": "Día hábil",
-    "n_viajes": 48
+    "n_viajes": 48,
+    "oficial": "1_13"
   },
   {
     "archivo": "Laboral__113-UNICO.final.json",
     "linea": "113",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 79
+    "n_viajes": 79,
+    "oficial": "1_14"
   },
   {
     "archivo": "Laboral__115-A.final.json",
     "linea": "115",
     "bandera": "Aeropuerto",
     "dia": "Día hábil",
-    "n_viajes": 133
+    "n_viajes": 133,
+    "oficial": "1_67"
   },
   {
     "archivo": "Laboral__115-UNICA.final.json",
     "linea": "115",
     "bandera": "UNICA",
     "dia": "Día hábil",
-    "n_viajes": 145
+    "n_viajes": 145,
+    "oficial": "1_15"
   },
   {
     "archivo": "Laboral__116-UNICO.final.json",
     "linea": "116",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 143
+    "n_viajes": 143,
+    "oficial": "1_16"
   },
   {
     "archivo": "Laboral__120-UNICO.final.json",
     "linea": "120",
     "bandera": "UNICA",
     "dia": "Día hábil",
-    "n_viajes": 145
+    "n_viajes": 145,
+    "oficial": "1_17"
   },
   {
     "archivo": "Laboral__121-UNICO.final.json",
     "linea": "121",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 100
+    "n_viajes": 100,
+    "oficial": "1_18"
   },
   {
     "archivo": "Laboral__122-ROJA.final.json",
     "linea": "122",
     "bandera": "Roja",
     "dia": "Día hábil",
-    "n_viajes": 167
+    "n_viajes": 167,
+    "oficial": "1_19"
   },
   {
     "archivo": "Laboral__122-VERDE.final.json",
     "linea": "122",
     "bandera": "Verde",
     "dia": "Día hábil",
-    "n_viajes": 174
+    "n_viajes": 174,
+    "oficial": "1_1075"
   },
   {
     "archivo": "Laboral__123-UNICO.final.json",
     "linea": "123",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 200
+    "n_viajes": 200,
+    "oficial": "1_21"
   },
   {
     "archivo": "Laboral__126-NEGRA.final.json",
     "linea": "126",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 70
+    "n_viajes": 70,
+    "oficial": "1_1076"
   },
   {
     "archivo": "Laboral__126-ROJA.final.json",
     "linea": "126",
     "bandera": "Roja",
     "dia": "Día hábil",
-    "n_viajes": 72
+    "n_viajes": 72,
+    "oficial": "1_1077"
   },
   {
     "archivo": "Laboral__127-UNICO.final.json",
     "linea": "127",
     "bandera": "ÚNICA",
     "dia": "Día hábil",
-    "n_viajes": 212
+    "n_viajes": 212,
+    "oficial": "1_1082"
   },
   {
     "archivo": "Laboral__128-NEGRA.final.json",
     "linea": "128",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 114
+    "n_viajes": 114,
+    "oficial": "1_26"
   },
   {
     "archivo": "Laboral__128-ROJO.final.json",
     "linea": "128",
     "bandera": "Rojo",
     "dia": "Día hábil",
-    "n_viajes": 114
+    "n_viajes": 114,
+    "oficial": "1_27"
   },
   {
     "archivo": "Laboral__129-UNICO.final.json",
     "linea": "129",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 148
+    "n_viajes": 148,
+    "oficial": "1_28"
   },
   {
     "archivo": "Laboral__131-UNICO.final.json",
     "linea": "131",
     "bandera": "ÚNICA",
     "dia": "Día hábil",
-    "n_viajes": 89
+    "n_viajes": 182,
+    "oficial": "1_1078"
   },
   {
     "archivo": "Laboral__132-UNICA.final.json",
     "linea": "132",
     "bandera": "ÚNICA",
     "dia": "Día hábil",
-    "n_viajes": 89
+    "n_viajes": 190,
+    "oficial": "1_1079"
   },
   {
     "archivo": "Laboral__133-125-NEGRA.final.json",
     "linea": "133125",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 90
+    "n_viajes": 90,
+    "oficial": "1_1032"
   },
   {
     "archivo": "Laboral__133-125-VERDE.final.json",
     "linea": "133125",
     "bandera": "Verde",
     "dia": "Día hábil",
-    "n_viajes": 40
+    "n_viajes": 40,
+    "oficial": "1_1033"
   },
   {
     "archivo": "Laboral__134-UNICO.final.json",
     "linea": "134",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 111
+    "n_viajes": 111,
+    "oficial": "1_34"
   },
   {
     "archivo": "Laboral__135-UNICO.final.json",
     "linea": "135",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 111
+    "n_viajes": 111,
+    "oficial": "1_35"
   },
   {
     "archivo": "Laboral__138-139-UNICO.final.json",
     "linea": "138139",
     "bandera": "Unica",
     "dia": "Día hábil",
-    "n_viajes": 158
+    "n_viajes": 158,
+    "oficial": "1_1074"
   },
   {
     "archivo": "Laboral__140-UNICO.final.json",
     "linea": "140",
     "bandera": "Unica",
     "dia": "Día hábil",
-    "n_viajes": 190
+    "n_viajes": 190,
+    "oficial": "1_1080"
   },
   {
     "archivo": "Laboral__141-UNICO.final.json",
     "linea": "141",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 190
+    "n_viajes": 190,
+    "oficial": "1_44"
   },
   {
     "archivo": "Laboral__142-NEGRA.final.json",
     "linea": "142",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 64
+    "n_viajes": 64,
+    "oficial": "1_45"
   },
   {
     "archivo": "Laboral__142-ROJA.final.json",
     "linea": "142",
     "bandera": "Roja",
     "dia": "Día hábil",
-    "n_viajes": 64
+    "n_viajes": 64,
+    "oficial": "1_46"
   },
   {
     "archivo": "Laboral__143-136-137-NEGRA.final.json",
     "linea": "143136137",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 116
+    "n_viajes": 116,
+    "oficial": "1_1048"
   },
   {
     "archivo": "Laboral__143-136-137-ROJA.final.json",
     "linea": "143136137",
     "bandera": "Roja",
     "dia": "Día hábil",
-    "n_viajes": 115
+    "n_viajes": 115,
+    "oficial": "1_1049"
   },
   {
     "archivo": "Laboral__145-143-CABIN9.final.json",
     "linea": "145133",
     "bandera": "Cabin 9",
     "dia": "Día hábil",
-    "n_viajes": 108
+    "n_viajes": 108,
+    "oficial": "1_1052"
   },
   {
     "archivo": "Laboral__145-143-SOLDINI.final.json",
     "linea": "145133",
     "bandera": "Soldini",
     "dia": "Día hábil",
-    "n_viajes": 32
+    "n_viajes": 32,
+    "oficial": "1_1053"
   },
   {
     "archivo": "Laboral__146-NEGRA.final.json",
     "linea": "146",
     "bandera": "Negra",
     "dia": "Día hábil",
-    "n_viajes": 85
+    "n_viajes": 85,
+    "oficial": "1_54"
   },
   {
     "archivo": "Laboral__146-ROJA.final.json",
     "linea": "146",
     "bandera": "Roja",
     "dia": "Día hábil",
-    "n_viajes": 83
+    "n_viajes": 83,
+    "oficial": "1_55"
   },
   {
     "archivo": "Laboral__153-NEGRA.final.json",
     "linea": "153",
     "bandera": "NEGRA",
     "dia": "Día hábil",
-    "n_viajes": 118
+    "n_viajes": 118,
+    "oficial": "1_56"
   },
   {
     "archivo": "Laboral__153-ROJA.final.json",
     "linea": "153",
     "bandera": "ROJA",
     "dia": "Día hábil",
-    "n_viajes": 122
+    "n_viajes": 122,
+    "oficial": "1_58"
   },
   {
     "archivo": "Laboral__CH-L-EAO-05-----a-partir-del-07-09-26.final.json",
     "linea": "Enlace Avellane",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 25
+    "n_viajes": 49,
+    "oficial": "1_97"
   },
   {
     "archivo": "Laboral__ENLACE-NOROESTE.final.json",
     "linea": "ENLACE NOROESTE",
     "bandera": null,
     "dia": "Día hábil",
-    "n_viajes": 70
+    "n_viajes": 70,
+    "oficial": "1_69"
   },
   {
     "archivo": "Laboral__ENLACE-SANTA-LUCIA.final.json",
     "linea": null,
     "bandera": null,
     "dia": "Día hábil",
-    "n_viajes": 0
+    "n_viajes": 34,
+    "oficial": null
   },
   {
     "archivo": "Laboral__ENLACE-URIBURU.final.json",
     "linea": "Enlace Uriburu",
     "bandera": "UNICA",
     "dia": "Día hábil",
-    "n_viajes": 21
+    "n_viajes": 21,
+    "oficial": "1_1091"
   },
   {
     "archivo": "Laboral__K-UNICO.final.json",
     "linea": "K",
     "bandera": "UNICO",
     "dia": "Día hábil",
-    "n_viajes": 288
+    "n_viajes": 288,
+    "oficial": "1_64"
   },
   {
     "archivo": "Laboral__RONDA-CUR-SUR.final.json",
     "linea": "Ronda CUR SUR",
     "bandera": null,
     "dia": "Día hábil",
-    "n_viajes": 46
+    "n_viajes": 46,
+    "oficial": "1_70"
   },
   {
     "archivo": "Medio-festivo__101-NEGRA.final.json",
     "linea": "101",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 76
+    "n_viajes": 76,
+    "oficial": "1_1"
   },
   {
     "archivo": "Medio-festivo__102-144-NEGRA.final.json",
     "linea": "102144",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 80
+    "n_viajes": 80,
+    "oficial": "1_1003"
   },
   {
     "archivo": "Medio-festivo__102-ROJA.final.json",
     "linea": "102",
     "bandera": "ROJA",
     "dia": "Medio festivo",
-    "n_viajes": 72
+    "n_viajes": 72,
+    "oficial": "1_4"
   },
   {
     "archivo": "Medio-festivo__103-NEGRA.final.json",
     "linea": "103",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 92
+    "n_viajes": 92,
+    "oficial": "1_5"
   },
   {
     "archivo": "Medio-festivo__103-ROJA.final.json",
     "linea": "103",
     "bandera": "Rojo",
     "dia": "Medio festivo",
-    "n_viajes": 92
+    "n_viajes": 92,
+    "oficial": "1_6"
   },
   {
     "archivo": "Medio-festivo__106-NEGRA.final.json",
     "linea": "106",
     "bandera": "NEGRA",
     "dia": "Medio festivo",
-    "n_viajes": 58
+    "n_viajes": 58,
+    "oficial": "1_7"
   },
   {
     "archivo": "Medio-festivo__107-NEGRA.final.json",
     "linea": "107",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 54
+    "n_viajes": 54,
+    "oficial": "1_9"
   },
   {
     "archivo": "Medio-festivo__107-ROJA.final.json",
     "linea": "107",
     "bandera": "Roja",
     "dia": "Medio festivo",
-    "n_viajes": 27
+    "n_viajes": 27,
+    "oficial": "1_10"
   },
   {
     "archivo": "Medio-festivo__110-UNICA.final.json",
     "linea": "110",
     "bandera": "Unica",
     "dia": "Medio festivo",
-    "n_viajes": 163
+    "n_viajes": 163,
+    "oficial": "1_11"
   },
   {
     "archivo": "Medio-festivo__112-NEGRA.final.json",
     "linea": "112",
     "bandera": "NEGRA",
     "dia": "Medio festivo",
-    "n_viajes": 63
+    "n_viajes": 63,
+    "oficial": "1_1073"
   },
   {
     "archivo": "Medio-festivo__112-ROJA.final.json",
     "linea": "112",
     "bandera": "ROJA",
     "dia": "Medio festivo",
-    "n_viajes": 34
+    "n_viajes": 34,
+    "oficial": "1_13"
   },
   {
     "archivo": "Medio-festivo__113.final.json",
     "linea": "113",
     "bandera": null,
     "dia": "Medio festivo",
-    "n_viajes": 105
+    "n_viajes": 105,
+    "oficial": "1_14"
   },
   {
     "archivo": "Medio-festivo__115-A.final.json",
     "linea": "115",
     "bandera": "Aeropuerto",
     "dia": "Medio festivo",
-    "n_viajes": 74
+    "n_viajes": 74,
+    "oficial": "1_67"
   },
   {
     "archivo": "Medio-festivo__115.final.json",
     "linea": "115",
     "bandera": "115",
     "dia": "Medio festivo",
-    "n_viajes": 91
+    "n_viajes": 91,
+    "oficial": "1_15"
   },
   {
     "archivo": "Medio-festivo__116-UNICO.final.json",
     "linea": "116",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 110
+    "n_viajes": 110,
+    "oficial": "1_16"
   },
   {
     "archivo": "Medio-festivo__120-UNICA.final.json",
     "linea": "120",
     "bandera": "UNICA",
     "dia": "Medio festivo",
-    "n_viajes": 96
+    "n_viajes": 96,
+    "oficial": "1_17"
   },
   {
     "archivo": "Medio-festivo__121-UNICA.final.json",
     "linea": "121",
     "bandera": "unica",
     "dia": "Medio festivo",
-    "n_viajes": 104
+    "n_viajes": 104,
+    "oficial": "1_18"
   },
   {
     "archivo": "Medio-festivo__122-ROJA.final.json",
     "linea": "122",
     "bandera": "Roja",
     "dia": "Medio festivo",
-    "n_viajes": 121
+    "n_viajes": 121,
+    "oficial": "1_19"
   },
   {
     "archivo": "Medio-festivo__122-VERDE.final.json",
     "linea": "122",
     "bandera": "Verde",
     "dia": "Medio festivo",
-    "n_viajes": 121
+    "n_viajes": 121,
+    "oficial": "1_1075"
   },
   {
     "archivo": "Medio-festivo__123-UNICA.final.json",
     "linea": "123",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 110
+    "n_viajes": 110,
+    "oficial": "1_21"
   },
   {
     "archivo": "Medio-festivo__126-NEGRA.final.json",
     "linea": "126",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 50
+    "n_viajes": 50,
+    "oficial": "1_1076"
   },
   {
     "archivo": "Medio-festivo__126-ROJA.final.json",
     "linea": "126",
     "bandera": "Roja",
     "dia": "Medio festivo",
-    "n_viajes": 50
+    "n_viajes": 50,
+    "oficial": "1_1077"
   },
   {
     "archivo": "Medio-festivo__127-UNICA.final.json",
     "linea": "127",
     "bandera": "ÚNICA",
     "dia": "Medio festivo",
-    "n_viajes": 118
+    "n_viajes": 118,
+    "oficial": "1_1082"
   },
   {
     "archivo": "Medio-festivo__128-NEGRA.final.json",
     "linea": "128",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 74
+    "n_viajes": 74,
+    "oficial": "1_26"
   },
   {
     "archivo": "Medio-festivo__128-ROJA.final.json",
     "linea": "128",
     "bandera": "Roja",
     "dia": "Medio festivo",
-    "n_viajes": 74
+    "n_viajes": 74,
+    "oficial": "1_27"
   },
   {
     "archivo": "Medio-festivo__129-UNICA.final.json",
     "linea": "129",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 96
+    "n_viajes": 96,
+    "oficial": "1_28"
   },
   {
     "archivo": "Medio-festivo__130-UNICA.final.json",
     "linea": "130",
     "bandera": "Unica",
     "dia": "Medio festivo",
-    "n_viajes": 120
+    "n_viajes": 120,
+    "oficial": "1_29"
   },
   {
     "archivo": "Medio-festivo__131-UNICA.final.json",
     "linea": "131",
     "bandera": "ÚNICA",
     "dia": "Medio festivo",
-    "n_viajes": 0
+    "n_viajes": 27,
+    "oficial": "1_1078"
   },
   {
     "archivo": "Medio-festivo__132-UNICA.final.json",
     "linea": "132",
     "bandera": "ÚNICA",
     "dia": "Medio festivo",
-    "n_viajes": 52
+    "n_viajes": 110,
+    "oficial": "1_1079"
   },
   {
     "archivo": "Medio-festivo__133-125-NEGRA.final.json",
     "linea": "133125",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 58
+    "n_viajes": 58,
+    "oficial": "1_1032"
   },
   {
     "archivo": "Medio-festivo__133-125-VERDE.final.json",
     "linea": "133125",
     "bandera": "Verde",
     "dia": "Medio festivo",
-    "n_viajes": 51
+    "n_viajes": 51,
+    "oficial": "1_1033"
   },
   {
     "archivo": "Medio-festivo__134-UNICO.final.json",
     "linea": "134",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 100
+    "n_viajes": 100,
+    "oficial": "1_34"
   },
   {
     "archivo": "Medio-festivo__135-UNICO.final.json",
     "linea": "135",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 100
+    "n_viajes": 100,
+    "oficial": "1_35"
   },
   {
     "archivo": "Medio-festivo__138-139-UNICA.final.json",
     "linea": "138139",
     "bandera": "Unica",
     "dia": "Medio festivo",
-    "n_viajes": 98
+    "n_viajes": 98,
+    "oficial": "1_1074"
   },
   {
     "archivo": "Medio-festivo__140-UNICA.final.json",
     "linea": "140",
     "bandera": "Única",
     "dia": "Medio festivo",
-    "n_viajes": 70
+    "n_viajes": 70,
+    "oficial": "1_1080"
   },
   {
     "archivo": "Medio-festivo__141-UNICA.final.json",
     "linea": "141",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 86
+    "n_viajes": 86,
+    "oficial": "1_44"
   },
   {
     "archivo": "Medio-festivo__143-136-137-NEGRA.final.json",
     "linea": "143/136/ 137",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 65
+    "n_viajes": 65,
+    "oficial": "1_1048"
   },
   {
     "archivo": "Medio-festivo__143-136-137-ROJA.final.json",
-    "linea": "1,4E+08",
+    "linea": "143136137",
     "bandera": "Roja",
     "dia": "Medio festivo",
-    "n_viajes": 65
+    "n_viajes": 65,
+    "oficial": "1_1049"
   },
   {
     "archivo": "Medio-festivo__145-133-CABIN9.final.json",
     "linea": "145133",
     "bandera": "Cabin 9",
     "dia": "Medio festivo",
-    "n_viajes": 113
+    "n_viajes": 113,
+    "oficial": "1_1052"
   },
   {
     "archivo": "Medio-festivo__145-133-SOLDINI.final.json",
     "linea": "145133",
     "bandera": "Soldini",
     "dia": "Medio festivo",
-    "n_viajes": 55
+    "n_viajes": 55,
+    "oficial": "1_1053"
   },
   {
     "archivo": "Medio-festivo__146-NEGRA.final.json",
     "linea": "146",
     "bandera": "Negra",
     "dia": "Medio festivo",
-    "n_viajes": 62
+    "n_viajes": 62,
+    "oficial": "1_54"
   },
   {
     "archivo": "Medio-festivo__146-ROJA.final.json",
     "linea": "146",
     "bandera": "Roja",
     "dia": "Medio festivo",
-    "n_viajes": 60
+    "n_viajes": 60,
+    "oficial": "1_55"
   },
   {
     "archivo": "Medio-festivo__153-NEGRA.final.json",
     "linea": "153",
     "bandera": "NEGRA",
     "dia": "Medio festivo",
-    "n_viajes": 70
+    "n_viajes": 70,
+    "oficial": "1_56"
   },
   {
     "archivo": "Medio-festivo__153-ROJA.final.json",
     "linea": "153",
     "bandera": "ROJA",
     "dia": "Medio festivo",
-    "n_viajes": 70
+    "n_viajes": 70,
+    "oficial": "1_58"
   },
   {
     "archivo": "Medio-festivo__CH-MF-EAO-04-----a-partir-del-12-09-26.final.json",
     "linea": "Enlace Avellaneda Oeste",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 26
+    "n_viajes": 51,
+    "oficial": "1_97"
   },
   {
     "archivo": "Medio-festivo__CH-MF-ESL-04---a-partir-del-26-04-2025.final.json",
     "linea": null,
     "bandera": null,
     "dia": "Medio festivo",
-    "n_viajes": 0
+    "n_viajes": 34,
+    "oficial": null
   },
   {
     "archivo": "Medio-festivo__ENLACE-NOROESTE.final.json",
     "linea": "ENLACE NOROE",
     "bandera": null,
     "dia": "Medio festivo",
-    "n_viajes": 35
+    "n_viajes": 35,
+    "oficial": "1_69"
   },
   {
     "archivo": "Medio-festivo__K-UNICA.final.json",
     "linea": "K",
     "bandera": "UNICO",
     "dia": "Medio festivo",
-    "n_viajes": 160
+    "n_viajes": 160,
+    "oficial": "1_64"
   }
 ]

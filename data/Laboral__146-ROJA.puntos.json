@@ -39,7 +39,9 @@
         "lon": -60.62303007581896,
         "x": 5441769.65,
         "y": 6350010.5
-      }
+      },
+      "distancia_recorrido_m": 4.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -73,7 +75,9 @@
         "lon": -60.62847877710324,
         "x": 5441259.585,
         "y": 6350142.0625
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -107,7 +111,9 @@
         "lon": -60.626833878192514,
         "x": 5441404.36,
         "y": 6351648.51
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -141,7 +147,9 @@
         "lon": -60.62690522093514,
         "x": 5441386.645,
         "y": 6353503.565
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -175,7 +183,9 @@
         "lon": -60.63496046423693,
         "x": 5440624.36,
         "y": 6355014.63
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -209,7 +219,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -243,7 +255,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -277,7 +291,9 @@
         "lon": -60.66653505645672,
         "x": 5437667.4,
         "y": 6355682.73
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -311,7 +327,9 @@
         "lon": -60.67058229932671,
         "x": 5437284.28,
         "y": 6356407.16
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -349,7 +367,9 @@
         "x": 5436079.22,
         "y": 6358096.635
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 8.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -373,18 +393,14 @@
       "id": "pt010",
       "clave": "JJPAS||SOLIS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SOLIS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.919947861208314,
         "lon": -60.704202420897104,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -408,18 +424,14 @@
       "id": "pt011",
       "clave": "CIRCU||JJPAS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "CIRCUNVALACION"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92055169439825,
         "lon": -60.72298999519662,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -453,7 +465,9 @@
         "lon": -60.73532381407372,
         "x": 5431212.17,
         "y": 6358814.75
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -513,20 +527,14 @@
       "id": "pt015",
       "clave": "COLOM||GAUNA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "COLOMBO",
-          "COLOMBIA",
-          "COLOMBRES"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91239190803495,
         "lon": -60.73057262458468,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -544,21 +552,14 @@
       "id": "pt016",
       "clave": "ALBER||JJPAS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ALBERDI",
-          "ALBERTI",
-          "ALBERINI",
-          "ALBERTO J PAZ"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91932866938154,
         "lon": -60.68234116372667,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -576,22 +577,14 @@
       "id": "pt017",
       "clave": "CAFFE||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "CAFFERATA",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "CAFFERATA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93356876306806,
         "lon": -60.66918960358699,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -625,7 +618,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -659,7 +654,9 @@
         "lon": -60.662101110427706,
         "x": 5438085.5,
         "y": 6355137.72
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -693,7 +690,9 @@
         "lon": -60.65123844923559,
         "x": 5439102.64,
         "y": 6354928.74
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -729,7 +728,9 @@
         "x": 5441129.9,
         "y": 6354229.5
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -747,19 +748,14 @@
       "id": "pt022",
       "clave": "27FEB||COLON",
       "status": "auto",
-      "candidatos": [
-        [
-          "COLON",
-          "COLON NORTE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96984655364042,
         "lon": -60.63085801186243,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -793,7 +789,9 @@
         "lon": -60.62774923017379,
         "x": 5441321.105,
         "y": 6351260.28
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     }
   ]
 }

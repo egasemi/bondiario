@@ -39,7 +39,9 @@
         "lon": -60.664647482171475,
         "x": 5437842.615,
         "y": 6355891.4
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -73,7 +75,9 @@
         "lon": -60.67877623880135,
         "x": 5436521.045,
         "y": 6355919.145
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -109,7 +113,9 @@
         "x": 5436136.380000002,
         "y": 6354054.02
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 3.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -143,7 +149,9 @@
         "lon": -60.686780810081125,
         "x": 5435795.37,
         "y": 6352398.5
-      }
+      },
+      "distancia_recorrido_m": 5.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -177,7 +185,9 @@
         "lon": -60.66995469322726,
         "x": 5437373.93,
         "y": 6351541.6
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -201,18 +211,14 @@
       "id": "pt005",
       "clave": "BVSEG||OROÑO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97635953955821,
         "lon": -60.66151169378635,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -246,7 +252,9 @@
         "lon": -60.64717914731819,
         "x": 5439502.49,
         "y": 6351634.92
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -280,7 +288,9 @@
         "lon": -60.64227731876921,
         "x": 5439947.525,
         "y": 6353799.945
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -314,7 +324,9 @@
         "lon": -60.640216821434855,
         "x": 5440134.62,
         "y": 6354716.4
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -354,7 +366,9 @@
         "lon": -60.633358211165536,
         "x": 5440774.11,
         "y": 6355028.91
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -388,7 +402,9 @@
         "lon": -60.6418953810588,
         "x": 5439978.25,
         "y": 6354618.39
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -422,7 +438,9 @@
         "lon": -60.64368660465688,
         "x": 5439815.585,
         "y": 6353827.035
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -456,7 +474,9 @@
         "lon": -60.63891702583494,
         "x": 5440275.83,
         "y": 6351475.91
-      }
+      },
+      "distancia_recorrido_m": 785.7,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -474,18 +494,14 @@
       "id": "pt013",
       "clave": "BVSEG||OVLAG",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "OVIDIO LAGOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97494876663608,
         "lon": -60.66939658178918,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -519,7 +535,9 @@
         "lon": -60.68649113479059,
         "x": 5435821.62,
         "y": 6352526.155
-      }
+      },
+      "distancia_recorrido_m": 6.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -559,7 +577,9 @@
         "x": 5436267.52,
         "y": 6354690.0
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -593,7 +613,9 @@
         "lon": -60.67911724157317,
         "x": 5436490.115,
         "y": 6355769.82
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     }
   ]
 }

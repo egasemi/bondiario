@@ -16,13 +16,14 @@
       "id": "pt000",
       "clave": "unparsed::BARRIOOLIMPICO",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.88149146524831,
         "lon": -60.71489995052147,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -46,18 +47,14 @@
       "id": "pt001",
       "clave": "CGRA||PALES",
       "status": "auto",
-      "candidatos": [
-        [
-          "PALESTINA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88598112433895,
         "lon": -60.710115295263066,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -75,22 +72,14 @@
       "id": "pt002",
       "clave": "RONDE||SALVA",
       "status": "auto",
-      "candidatos": [
-        [
-          "SALVA",
-          "SALVAT",
-          "SALVADOR ALLENDE"
-        ],
-        [
-          "RONDEAU"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88225930103433,
         "lon": -60.696349601848,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -132,7 +121,9 @@
         "x": 5435250.225,
         "y": 6360673.925
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -172,7 +163,9 @@
         "lon": -60.68857386231627,
         "x": 5435582.560000002,
         "y": 6359311.215
-      }
+      },
+      "distancia_recorrido_m": 17.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -216,7 +209,9 @@
         "x": 5436762.275,
         "y": 6357095.375
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -234,18 +229,14 @@
       "id": "pt006",
       "clave": "AVFRA||SALTA",
       "status": "auto",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93454301584157,
         "lon": -60.66376121418787,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -279,7 +270,9 @@
         "lon": -60.65193777973398,
         "x": 5439035.28,
         "y": 6355245.77
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -319,7 +312,9 @@
         "lon": -60.645082104578954,
         "x": 5439684.935000002,
         "y": 6353853.845000002
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -355,7 +350,9 @@
         "x": 5441257.665,
         "y": 6353530.145
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -395,7 +392,9 @@
         "lon": -60.62774923017379,
         "x": 5441321.105,
         "y": 6351260.28
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -429,7 +428,9 @@
         "lon": -60.628663592001,
         "x": 5441244.5,
         "y": 6349775.605
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -463,7 +464,9 @@
         "lon": -60.62690522093514,
         "x": 5441386.645,
         "y": 6353503.565
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -497,7 +500,9 @@
         "lon": -60.654641865892856,
         "x": 5438782.08,
         "y": 6355296.99
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -531,7 +536,9 @@
         "lon": -60.66948353256913,
         "x": 5437388.0,
         "y": 6356257.22
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -549,18 +556,14 @@
       "id": "pt015",
       "clave": "NUÑEZ||RONDE",
       "status": "auto",
-      "candidatos": [
-        [
-          "RONDEAU"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88452006267614,
         "lon": -60.69542812368518,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     }
   ]
 }

@@ -23,16 +23,14 @@
       "id": "pt000",
       "clave": "CALASANZ||SUINDA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.940865628239024,
         "lon": -60.75989185923811,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -50,18 +48,14 @@
       "id": "pt001",
       "clave": "MAGALDI||URIZAR",
       "status": "auto",
-      "candidatos": [
-        [
-          "URIZAR"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.936757865019864,
         "lon": -60.744109503570535,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -79,18 +73,14 @@
       "id": "pt002",
       "clave": "AMUCHASTEG UI IDA||MENDOZA",
       "status": "auto",
-      "candidatos": [
-        [
-          "MENDOZA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.940116746958665,
         "lon": -60.73249016949194,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -108,18 +98,14 @@
       "id": "pt003",
       "clave": "DONADO||PERON",
       "status": "auto",
-      "candidatos": [
-        [
-          "DONADO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.930402327728515,
         "lon": -60.72736880804071,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -137,16 +123,14 @@
       "id": "pt004",
       "clave": "PERON||UNIDAS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93299415474353,
         "lon": -60.71298787085509,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -164,18 +148,14 @@
       "id": "pt005",
       "clave": "MATIENZO||PERON",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "MATIENZO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.936255105101495,
         "lon": -60.69484179260267,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -209,7 +189,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -243,7 +225,9 @@
         "lon": -60.65272565144909,
         "x": 5438959.875,
         "y": 6355524.130000002
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -261,18 +245,14 @@
       "id": "pt008",
       "clave": "ENTRA RIOS||SAN LORENZO",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN LORENZO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94360409741965,
         "lon": -60.64038098991533,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -306,7 +286,9 @@
         "lon": -60.636972187793276,
         "x": 5440444.195,
         "y": 6353697.875
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -340,7 +322,9 @@
         "lon": -60.64627850187403,
         "x": 5439580.26,
         "y": 6352681.655
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -358,22 +342,14 @@
       "id": "pt011",
       "clave": "JORGE CURA||OROÑO",
       "status": "auto",
-      "calle1": "JORGE CURA",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "JORGE CURA"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97117963464596,
         "lon": -60.66034943503427,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -407,7 +383,9 @@
         "lon": -60.640730591072064,
         "x": 5440099.605,
         "y": 6352574.88
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -441,7 +419,9 @@
         "lon": -60.63814576065071,
         "x": 5440334.325,
         "y": 6353720.495
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -475,7 +455,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -509,7 +491,9 @@
         "lon": -60.65159701939343,
         "x": 5439066.22,
         "y": 6355395.71
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -527,22 +511,14 @@
       "id": "pt016",
       "clave": "OVIDIO LAGOS||SANTA FE",
       "status": "auto",
-      "calle1": "SANTA FE",
-      "calle2": "OVIDIO LAGOS",
-      "candidatos": [
-        [
-          "SANTA FE"
-        ],
-        [
-          "OVIDIO LAGOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94090519122722,
         "lon": -60.66109766175962,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -576,7 +552,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -610,7 +588,9 @@
         "lon": -60.67877623880135,
         "x": 5436521.045,
         "y": 6355919.145
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -628,18 +608,14 @@
       "id": "pt019",
       "clave": "C ALDAO||SANTA FE",
       "status": "auto",
-      "candidatos": [
-        [
-          "SANTA FE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93524320599988,
         "lon": -60.696164336996844,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -657,16 +633,14 @@
       "id": "pt020",
       "clave": "PERON||UNIDAS VTA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93299415474353,
         "lon": -60.71298787085509,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -684,16 +658,14 @@
       "id": "pt021",
       "clave": "DONADO VTA||PERON",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.930402327728515,
         "lon": -60.72736880804071,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -711,18 +683,14 @@
       "id": "pt022",
       "clave": "AMUCHASTEG UI VTA||MENDOZA",
       "status": "auto",
-      "candidatos": [
-        [
-          "MENDOZA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.940116746958665,
         "lon": -60.73249016949194,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -740,18 +708,14 @@
       "id": "pt023",
       "clave": "MAGALDI VTA||URIZAR",
       "status": "auto",
-      "candidatos": [
-        [
-          "URIZAR"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.936757865019864,
         "lon": -60.744109503570535,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     }
   ]
 }

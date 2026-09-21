@@ -31,7 +31,9 @@
       "lat": -32.92660046912123,
       "lon": -60.67654675707029,
       "label": "Junin - Av. Alberdi",
-      "clave": "AV ALBERDI||JUNIN"
+      "clave": "AV ALBERDI||JUNIN",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 170.5
     },
     "pt005": {
       "lat": -32.93762283907589,
@@ -139,7 +141,9 @@
       "lat": -32.9249231958004,
       "lon": -60.67788669453912,
       "label": "V. Sarsfield - Alberdi",
-      "clave": "ALBERDI||V SARSFIELD"
+      "clave": "ALBERDI||V SARSFIELD",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 360.4
     },
     "pt023": {
       "lat": -32.92698599100811,

@@ -23,16 +23,14 @@
       "id": "pt000",
       "clave": "GARCIA DEL COSIO||M ROSARINOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.90144171883403,
         "lon": -60.747274457708265,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -68,7 +66,9 @@
         "x": 5428886.2,
         "y": 6359036.93
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -86,16 +86,14 @@
       "id": "pt002",
       "clave": "ACEBEDO||JJ PASO",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92123060295849,
         "lon": -60.749064971687346,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -135,7 +133,9 @@
         "lon": -60.726181243977884,
         "x": 5432082.21,
         "y": 6356678.755000002
-      }
+      },
+      "distancia_recorrido_m": 5.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -153,18 +153,14 @@
       "id": "pt004",
       "clave": "JJPASO||OLMOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "OLMOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.921103756078416,
         "lon": -60.74444420075767,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -198,7 +194,9 @@
         "lon": -60.768308153694036,
         "x": 5428133.135,
         "y": 6357880.48
-      }
+      },
+      "distancia_recorrido_m": 5.5,
+      "fuera_de_recorrido": false
     }
   ]
 }

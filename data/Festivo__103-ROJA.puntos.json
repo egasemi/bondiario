@@ -22,13 +22,14 @@
       "id": "pt000",
       "clave": "unparsed::MINITERMINALB.RUCCI",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.88707660158691,
         "lon": -60.716210603713996,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 17.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -68,7 +69,9 @@
         "lon": -60.716308961853315,
         "x": 5432977.9,
         "y": 6360756.43
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -108,7 +111,9 @@
         "lon": -60.68857386231627,
         "x": 5435582.560000002,
         "y": 6359311.215
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -126,22 +131,14 @@
       "id": "pt003",
       "clave": "CAFFE||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "CAFFERATA",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "CAFFERATA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93356876306806,
         "lon": -60.66918960358699,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -159,22 +156,14 @@
       "id": "pt004",
       "clave": "OROÑO||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93673411275052,
         "lon": -60.6515429177582,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -208,7 +197,9 @@
         "lon": -60.64338828470502,
         "x": 5439834.87,
         "y": 6355236.55
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -242,7 +233,9 @@
         "lon": -60.64646787747201,
         "x": 5439555.195,
         "y": 6353880.455
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -260,18 +253,14 @@
       "id": "pt007",
       "clave": "27FEB||PARAG",
       "status": "auto",
-      "candidatos": [
-        [
-          "PARAGUAY"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96659616556919,
         "lon": -60.64906258137438,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -311,7 +300,9 @@
         "lon": -60.64434113213867,
         "x": 5439769.7575,
         "y": 6351314.9425
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -351,7 +342,9 @@
         "lon": -60.6466900762617,
         "x": 5439557.845,
         "y": 6350066.98
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -391,7 +384,9 @@
         "lon": -60.64939246630435,
         "x": 5439313.726666668,
         "y": 6348694.563333334
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -455,18 +450,14 @@
       "id": "pt013",
       "clave": "27FEB||CORRI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "CORRIENTES"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96684262918133,
         "lon": -60.647682587307884,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -500,7 +491,9 @@
         "lon": -60.643635159069824,
         "x": 5439816.31,
         "y": 6354495.58
-      }
+      },
+      "distancia_recorrido_m": 5.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -534,7 +527,9 @@
         "lon": -60.642253634107576,
         "x": 5439937.96,
         "y": 6355732.02
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -568,7 +563,9 @@
         "lon": -60.65183401244881,
         "x": 5439040.83,
         "y": 6355917.245
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -602,7 +599,9 @@
         "lon": -60.66948353256913,
         "x": 5437388.0,
         "y": 6356257.22
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     }
   ]
 }

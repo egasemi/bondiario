@@ -25,7 +25,9 @@
       "lat": -32.96884817336895,
       "lon": -60.6766817170779,
       "label": "Iriondo - Godoy",
-      "clave": "GODOY||IRIONDO"
+      "clave": "GODOY||IRIONDO",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 883.0
     },
     "pt004": {
       "lat": -32.93895188083062,

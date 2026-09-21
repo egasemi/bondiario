@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "CARBALLO||SABIN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SABIN"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.922299308986354,
         "lon": -60.68567597443323,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 26.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -68,7 +64,9 @@
         "lon": -60.67361561931169,
         "x": 5436993.44,
         "y": 6357523.39
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -104,7 +102,9 @@
         "x": 5438688.23,
         "y": 6356662.35
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 22.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -138,7 +138,9 @@
         "lon": -60.65095422109389,
         "x": 5439120.715,
         "y": 6356305.305
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -172,7 +174,9 @@
         "lon": -60.642253634107576,
         "x": 5439937.96,
         "y": 6355732.02
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -206,7 +210,9 @@
         "lon": -60.64095871902958,
         "x": 5440063.31,
         "y": 6355034.08
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -240,7 +246,9 @@
         "lon": -60.64368660465688,
         "x": 5439815.585,
         "y": 6353827.035
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -274,7 +282,9 @@
         "lon": -60.64347798586588,
         "x": 5439842.42,
         "y": 6352627.815
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -308,7 +318,9 @@
         "lon": -60.64917254205868,
         "x": 5439317.54,
         "y": 6351407.85
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -342,7 +354,9 @@
         "lon": -60.6522751981664,
         "x": 5439035.95,
         "y": 6350044.19
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -360,36 +374,14 @@
       "id": "pt010",
       "clave": "AV DEL||SAN MARTIN",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN MARTIN",
-          "SAN MARTIN / LIMITE MUNICIPAL"
-        ],
-        [
-          "DELIA",
-          "DEL OMBU",
-          "DEL CAMPO",
-          "DEL MUSEO",
-          "DEL VALLE",
-          "DELLAROLE",
-          "DEL CEIBAL",
-          "DEL HUERTO",
-          "DEL LAUREL",
-          "DEL PARQUE",
-          "DELLA VALLE",
-          "DEL AGUARIBAY",
-          "DEL VALLE IBERLUCEA",
-          "DEL VALLE IBERLUCEA SUR",
-          "DEL VALLE IBERLUCEA NORTE",
-          "DEL LIMITE / LIMITE MUNICIPAL"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9998460532058,
         "lon": -60.64867579821,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -423,7 +415,9 @@
         "lon": -60.669089007883656,
         "x": 5437473.455,
         "y": 6348616.915
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -441,18 +435,14 @@
       "id": "pt012",
       "clave": "OV LAGOS||URIBURU",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "URIBURU"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.99151360570888,
         "lon": -60.67338971992913,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 9.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -486,7 +476,9 @@
         "lon": -60.6581018187656,
         "x": 5438491.49,
         "y": 6350020.45
-      }
+      },
+      "distancia_recorrido_m": 9.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -520,7 +512,9 @@
         "lon": -60.65056997030437,
         "x": 5439186.74,
         "y": 6351434.68
-      }
+      },
+      "distancia_recorrido_m": 11.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -554,7 +548,9 @@
         "lon": -60.647682587307884,
         "x": 5439448.82,
         "y": 6352708.74
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -611,7 +607,9 @@
         "lon": -60.64930303519286,
         "x": 5439274.52,
         "y": 6356407.18
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -629,18 +627,14 @@
       "id": "pt018",
       "clave": "GUEMES||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "GUEMES"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93176470470958,
         "lon": -60.65878946777228,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [

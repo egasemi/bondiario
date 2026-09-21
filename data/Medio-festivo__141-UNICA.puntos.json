@@ -17,18 +17,14 @@
       "id": "pt000",
       "clave": "AV DEL ROSARIO||LITUANIA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "LITUANIA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.998108461130734,
         "lon": -60.620315670620855,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 10.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -62,7 +58,9 @@
         "lon": -60.6365510662301,
         "x": 5440510.0,
         "y": 6349327.69
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -80,19 +78,14 @@
       "id": "pt002",
       "clave": "ANDRADE||SAN MARTIN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SAN MARTIN",
-          "SAN MARTIN / LIMITE MUNICIPAL"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.99582157809776,
         "lon": -60.647805456714856,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -128,7 +121,9 @@
         "x": 5439476.43,
         "y": 6351507.52
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -162,7 +157,9 @@
         "lon": -60.64227731876921,
         "x": 5439947.525,
         "y": 6353799.945
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -196,7 +193,9 @@
         "lon": -60.63955662525825,
         "x": 5440194.59,
         "y": 6355007.44
-      }
+      },
+      "distancia_recorrido_m": 2.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -230,7 +229,9 @@
         "lon": -60.65242644525368,
         "x": 5438987.04,
         "y": 6355656.08
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -264,7 +265,9 @@
         "lon": -60.670077035393646,
         "x": 5437334.15,
         "y": 6355996.27
-      }
+      },
+      "distancia_recorrido_m": 2.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -282,22 +285,14 @@
       "id": "pt008",
       "clave": "FELIPE MORE||SANTA FE",
       "status": "auto",
-      "calle1": "SANTA FE",
-      "calle2": "FELIPE MORE",
-      "candidatos": [
-        [
-          "SANTA FE"
-        ],
-        [
-          "FELIPE MORE"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93516855270878,
         "lon": -60.69363414319127,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -337,7 +332,9 @@
         "lon": -60.70378236238812,
         "x": 5434177.63,
         "y": 6356622.83
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -371,7 +368,9 @@
         "lon": -60.71318647700558,
         "x": 5433295.33,
         "y": 6357022.8
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -395,18 +394,14 @@
       "id": "pt011",
       "clave": "JJPASO||PUNIDAS",
       "status": "auto",
-      "candidatos": [
-        [
-          "PROVINCIAS UNIDAS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92028436576335,
         "lon": -60.71355577996964,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 16.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -423,13 +418,14 @@
       "id": "pt012",
       "clave": "unparsed::Paso del Bosque",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.906974007448945,
         "lon": -60.720984935760505,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 169.3,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -446,13 +442,14 @@
       "id": "pt013",
       "clave": "unparsed::Paso Del Bosque",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.9072442300709,
         "lon": -60.72086691856385,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 179.0,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -488,7 +485,9 @@
         "x": 5433518.59,
         "y": 6357032.16
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -506,22 +505,14 @@
       "id": "pt015",
       "clave": "EVA PERON||MATIENZO",
       "status": "auto",
-      "calle1": "EVA PERON",
-      "calle2": "MATIENZO",
-      "candidatos": [
-        [
-          "EVA PERON"
-        ],
-        [
-          "MATIENZO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.936255105101495,
         "lon": -60.69484179260267,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -555,7 +546,9 @@
         "lon": -60.67853998036973,
         "x": 5436542.475,
         "y": 6356022.595
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -589,7 +582,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -623,7 +618,9 @@
         "lon": -60.65395649081666,
         "x": 5438848.14,
         "y": 6354980.515
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -657,7 +654,9 @@
         "lon": -60.64161354044975,
         "x": 5440003.85,
         "y": 6354742.43
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -691,7 +690,9 @@
         "lon": -60.64627850187403,
         "x": 5439580.26,
         "y": 6352681.655
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -725,7 +726,9 @@
         "lon": -60.6522751981664,
         "x": 5439035.95,
         "y": 6350044.19
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -761,7 +764,9 @@
         "x": 5439432.715,
         "y": 6349356.075
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -779,18 +784,14 @@
       "id": "pt023",
       "clave": "AV ROSARIO||LITUANIA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "LITUANIA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.998108461130734,
         "lon": -60.620315670620855,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 10.6,
+      "fuera_de_recorrido": false
     }
   ]
 }

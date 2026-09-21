@@ -23,12 +23,6 @@
       "id": "pt000",
       "clave": "PROV UNIDAS||RIOBAMBA",
       "status": "auto",
-      "candidatos": [
-        [
-          "RIOBAMBA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95451517775236,

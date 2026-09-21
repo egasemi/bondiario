@@ -17,18 +17,14 @@
       "id": "pt000",
       "clave": "O LAGOS||QUINTANA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "QUINTANA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97839383694055,
         "lon": -60.67023217213723,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -46,21 +42,14 @@
       "id": "pt001",
       "clave": "RIVA||SNICO",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN NICOLAS"
-        ],
-        [
-          "RIVAROLA",
-          "RIVADAVIA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97753718324701,
         "lon": -60.6817159126675,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -78,18 +67,14 @@
       "id": "pt002",
       "clave": "27FEB||SNICO",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN NICOLAS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96148026911203,
         "lon": -60.67766681776937,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -107,18 +92,14 @@
       "id": "pt003",
       "clave": "AVFRA||PELL",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PELLEGRINI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.952381841724026,
         "lon": -60.66825672500243,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -152,7 +133,9 @@
         "lon": -60.65459144339659,
         "x": 5438790.5,
         "y": 6354700.795
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -186,7 +169,9 @@
         "lon": -60.647298229963425,
         "x": 5439468.09,
         "y": 6355420.37
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -205,13 +190,14 @@
       "id": "pt006",
       "clave": "unparsed::SLORENZ",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.94599602682921,
         "lon": -60.63335821116553,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -229,18 +215,14 @@
       "id": "pt007",
       "clave": "3FEBR||MITRE",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "MITRE"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.952517831518485,
         "lon": -60.64113687680485,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -258,18 +240,14 @@
       "id": "pt008",
       "clave": "3FEBR||OROÑO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95007268219195,
         "lon": -60.65490094592427,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -303,7 +281,9 @@
         "lon": -60.66419049967071,
         "x": 5437895.87,
         "y": 6354223.46
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -321,18 +301,14 @@
       "id": "pt010",
       "clave": "27FEB||OVLAG",
       "status": "auto",
-      "candidatos": [
-        [
-          "OVIDIO LAGOS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9634900862919,
         "lon": -60.666591773710444,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 8.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -350,18 +326,14 @@
       "id": "pt011",
       "clave": "27FEB||AVELL",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "AVELLANEDA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.960262740135065,
         "lon": -60.68446768391065,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -395,7 +367,9 @@
         "lon": -60.68736014083773,
         "x": 5435742.87,
         "y": 6352143.8075
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -412,13 +386,14 @@
       "id": "pt013",
       "clave": "unparsed::LAGOSQUINTANA",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.97839383694055,
         "lon": -60.67023217213723,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.6,
+      "fuera_de_recorrido": false
     }
   ]
 }

@@ -13,7 +13,9 @@
       "lat": -32.93367251415637,
       "lon": -60.72217419977248,
       "label": "JBJUS - CIRCU",
-      "clave": "CIRCU||JBJUS"
+      "clave": "CIRCU||JBJUS",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 2058.2
     },
     "pt002": {
       "lat": -32.915755438924606,

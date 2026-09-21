@@ -17,18 +17,14 @@
       "id": "pt000",
       "clave": "PCIASUNIDAS||RUEDA",
       "status": "auto",
-      "candidatos": [
-        [
-          "RUEDA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.962774373540086,
         "lon": -60.711688739858374,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -46,19 +42,14 @@
       "id": "pt001",
       "clave": "BARRA||BVSEG",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "BARRA",
-          "BARRACO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97085264623853,
         "lon": -60.70561030398767,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -76,16 +67,14 @@
       "id": "pt002",
       "clave": "ALDAO||BVSEG",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.970566106758206,
         "lon": -60.69479359258763,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -103,21 +92,14 @@
       "id": "pt003",
       "clave": "FMORE||PPER",
       "status": "auto",
-      "candidatos": [
-        [
-          "PRES PERON"
-        ],
-        [
-          "FELIPE MORE",
-          "FERNANDEZ MORENO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9586902085625,
         "lon": -60.69302822458392,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -135,22 +117,14 @@
       "id": "pt004",
       "clave": "CAFFE||PPER",
       "status": "auto",
-      "calle1": "PRES PERON",
-      "calle2": "CAFFERATA",
-      "candidatos": [
-        [
-          "PRES PERON"
-        ],
-        [
-          "CAFFERATA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.956583394566906,
         "lon": -60.674997615403925,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -168,19 +142,14 @@
       "id": "pt005",
       "clave": "AVFRA||CERRI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "CERRITO",
-          "CERRILLOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95696888504469,
         "lon": -60.66941184772233,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 8.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -198,23 +167,14 @@
       "id": "pt006",
       "clave": "MONTE||OROÑ0",
       "status": "auto",
-      "candidatos": [
-        [
-          "MONTEAGUDO",
-          "MONTECARLO",
-          "MONTEVIDEO",
-          "MONTE FLORES",
-          "MONTES DE OCA",
-          "MONTES CARBALLO 1704"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95343557316691,
         "lon": -60.65574880546077,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -248,7 +208,9 @@
         "lon": -60.65123844923559,
         "x": 5439102.64,
         "y": 6354928.74
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -282,7 +244,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -316,7 +280,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -334,18 +300,14 @@
       "id": "pt010",
       "clave": "AVFRA||STAFE",
       "status": "auto",
-      "candidatos": [
-        [
-          "SANTA FE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.940171114745404,
         "lon": -60.66518169727638,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -379,7 +341,9 @@
         "lon": -60.67877623880135,
         "x": 5436521.045,
         "y": 6355919.145
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -397,18 +361,14 @@
       "id": "pt012",
       "clave": "AGNET||STAFE",
       "status": "auto",
-      "candidatos": [
-        [
-          "SANTA FE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93955994251452,
         "lon": -60.69985246762975,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 452.5,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -426,22 +386,14 @@
       "id": "pt013",
       "clave": "EVAPE||PUNI",
       "status": "auto",
-      "calle1": "EVA PERON",
-      "calle2": "PROVINCIAS UNIDAS",
-      "candidatos": [
-        [
-          "EVA PERON"
-        ],
-        [
-          "PROVINCIAS UNIDAS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93299415474353,
         "lon": -60.71298787085509,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -475,7 +427,9 @@
         "lon": -60.72736880804071,
         "x": 5431970.975,
         "y": 6356701.585
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -511,7 +465,9 @@
         "x": 5430903.810000002,
         "y": 6356494.105
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -545,7 +501,9 @@
         "lon": -60.73846594912922,
         "x": 5430940.738,
         "y": 6355599.172
-      }
+      },
+      "distancia_recorrido_m": 8.9,
+      "fuera_de_recorrido": false
     }
   ]
 }

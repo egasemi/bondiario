@@ -39,7 +39,9 @@
         "lon": -60.701930043673634,
         "x": 5434363.475,
         "y": 6354732.58
-      }
+      },
+      "distancia_recorrido_m": 10.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -57,18 +59,14 @@
       "id": "pt001",
       "clave": "PTE PERON||ROUILLON",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ROUILLON"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96289535871648,
         "lon": -60.70136613562453,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -86,16 +84,14 @@
       "id": "pt002",
       "clave": "ROULLION||SEGUI IDA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.970732056706886,
         "lon": -60.701061999345164,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -113,16 +109,14 @@
       "id": "pt003",
       "clave": "CISNEROS IDA||DA ROULLION",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97863649264409,
         "lon": -60.700755843580566,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -156,7 +150,9 @@
         "lon": -60.69315532005357,
         "x": 5435207.83,
         "y": 6351118.71
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -174,16 +170,14 @@
       "id": "pt005",
       "clave": "CISNEROS||ROULLION VTA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97863649264409,
         "lon": -60.700755843580566,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -201,16 +195,14 @@
       "id": "pt006",
       "clave": "ROULLION||SEGUI VTA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.970732056706886,
         "lon": -60.701061999345164,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -228,18 +220,14 @@
       "id": "pt007",
       "clave": "27 DE FEBRERO||DA ROULLION",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "27 DE FEBRERO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.959080574480865,
         "lon": -60.701513806303986,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.0,
+      "fuera_de_recorrido": false
     }
   ]
 }

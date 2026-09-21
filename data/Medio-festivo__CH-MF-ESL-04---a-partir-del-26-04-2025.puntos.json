@@ -17,12 +17,6 @@
       "id": "pt000",
       "clave": "PROV UNIDAS||RIOBAMBA",
       "status": "auto",
-      "candidatos": [
-        [
-          "RIOBAMBA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95451517775236,
@@ -100,12 +94,6 @@
       "id": "pt003",
       "clave": "CALLE 1752||^CALLE 1739",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "1752"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.85336355666639,
@@ -152,12 +140,6 @@
       "id": "pt005",
       "clave": "GUATEMALA||^MENDOZA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "GUATEMALA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94035567569906,
@@ -181,10 +163,6 @@
       "id": "pt006",
       "clave": "PROV UNIDAS||^RIOBAMBA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95451517775236,

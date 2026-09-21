@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "J M ROSA||RONDEAU",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "RONDEAU"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.87131403304355,
         "lon": -60.6996010832664,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -68,7 +64,9 @@
         "lon": -60.69108118300731,
         "x": 5435338.43,
         "y": 6360768.86
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -92,18 +90,14 @@
       "id": "pt002",
       "clave": "FRONDIZI||NANSEN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "NANSEN"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.90893838079254,
         "lon": -60.67841000122015,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -121,18 +115,14 @@
       "id": "pt003",
       "clave": "GORRITI||SMDE ORO",
       "status": "auto",
-      "candidatos": [
-        [
-          "GORRITI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92329372166014,
         "lon": -60.67361561931169,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -150,18 +140,14 @@
       "id": "pt004",
       "clave": "BROWN_||OLAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "OVIDIO LAGOS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.932940710223846,
         "lon": -60.659086339234484,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -179,22 +165,14 @@
       "id": "pt005",
       "clave": "OROÑO||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93673411275052,
         "lon": -60.6515429177582,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -228,7 +206,9 @@
         "lon": -60.6418953810588,
         "x": 5439978.25,
         "y": 6354618.39
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -262,7 +242,9 @@
         "lon": -60.64368660465688,
         "x": 5439815.585,
         "y": 6353827.035
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -296,7 +278,9 @@
         "lon": -60.66419049967071,
         "x": 5437895.87,
         "y": 6354223.46
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -314,18 +298,14 @@
       "id": "pt009",
       "clave": "AVELL_||PELLEG",
       "status": "auto",
-      "candidatos": [
-        [
-          "PELLEGRINI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94994076105554,
         "lon": -60.681860495959064,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -359,7 +339,9 @@
         "lon": -60.713629866597415,
         "x": 5433266.64,
         "y": 6355135.22
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -393,7 +375,9 @@
         "lon": -60.726850370722424,
         "x": 5432029.8,
         "y": 6355203.54
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -427,7 +411,9 @@
         "lon": -60.71241485377939,
         "x": 5433380.235,
         "y": 6355139.890000002
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -461,7 +447,9 @@
         "lon": -60.681860495959064,
         "x": 5436241.365,
         "y": 6354563.1
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -495,7 +483,9 @@
         "lon": -60.66419049967071,
         "x": 5437895.87,
         "y": 6354223.46
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -529,7 +519,9 @@
         "lon": -60.64617980410506,
         "x": 5439581.35,
         "y": 6354007.81
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -563,7 +555,9 @@
         "lon": -60.6430117146502,
         "x": 5439872.93,
         "y": 6354770.62
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -597,7 +591,9 @@
         "lon": -60.64564605241583,
         "x": 5439621.96,
         "y": 6355525.04
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -615,22 +611,14 @@
       "id": "pt018",
       "clave": "CALLAO||SALTA",
       "status": "auto",
-      "calle1": "CALLAO",
-      "calle2": "SALTA AV",
-      "candidatos": [
-        [
-          "CALLAO"
-        ],
-        [
-          "SALTA AV"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.935521002399845,
         "lon": -60.65831540932497,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -648,18 +636,14 @@
       "id": "pt019",
       "clave": "AVELLANEDA||V SARSFIELD",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "AVELLANEDA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92487070810587,
         "lon": -60.67554064899685,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -693,7 +677,9 @@
         "lon": -60.690893164414284,
         "x": 5435356.46,
         "y": 6360702.166666668
-      }
+      },
+      "distancia_recorrido_m": 5.8,
+      "fuera_de_recorrido": false
     }
   ]
 }

@@ -23,16 +23,14 @@
       "id": "pt000",
       "clave": "B ORDOÑEZ||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00973670330604,
         "lon": -60.67735128004273,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -56,18 +54,14 @@
       "id": "pt001",
       "clave": "LAGOS||URIBURU",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "URIBURU"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.99151360570888,
         "lon": -60.673389719929155,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -91,18 +85,14 @@
       "id": "pt002",
       "clave": "BIEDMA||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "BIEDMA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97724873640207,
         "lon": -60.66995469322726,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -120,18 +110,14 @@
       "id": "pt003",
       "clave": "27 DE FEBRERO||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "27 DE FEBRERO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9634900862919,
         "lon": -60.666591773710444,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -149,18 +135,14 @@
       "id": "pt004",
       "clave": "GALVEZ||ROCA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "GALVEZ"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9675009832912,
         "lon": -60.65074269405404,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -178,18 +160,14 @@
       "id": "pt005",
       "clave": "PELLEGRINI||ROCA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PELLEGRINI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95603693433064,
         "lon": -60.64785439101482,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -207,18 +185,14 @@
       "id": "pt006",
       "clave": "E RIOS||SAN LUIS",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN LUIS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94853698601894,
         "lon": -60.64161354044973,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -236,16 +210,14 @@
       "id": "pt007",
       "clave": "J M ROSAS||S JUAN",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.951496341495925,
         "lon": -60.632183725221786,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -281,7 +253,9 @@
         "x": 5441257.665,
         "y": 6353530.145
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -298,13 +272,14 @@
       "id": "pt009",
       "clave": "unparsed::Ciudad Universitaria",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.966263589565266,
         "lon": -60.62418669462205,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -338,7 +313,9 @@
         "lon": -60.62690522093514,
         "x": 5441386.645,
         "y": 6353503.565
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -356,21 +333,14 @@
       "id": "pt011",
       "clave": "1 DE MAYO||SAN JUAN",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN JUAN",
-          "SAN JUAN DE LUZ"
-        ],
-        [
-          "1 DE MAYO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.951779626674735,
         "lon": -60.630688517375745,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -388,16 +358,14 @@
       "id": "pt012",
       "clave": "E RIOS||S JUAN",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94965395873257,
         "lon": -60.6418953810588,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -415,18 +383,14 @@
       "id": "pt013",
       "clave": "ESPAÑA||PELLIGRINI",
       "status": "auto",
-      "candidatos": [
-        [
-          "ESPANA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.955790745698316,
         "lon": -60.64923331006514,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -443,13 +407,14 @@
       "id": "pt014",
       "clave": "unparsed::27 de Febrero e Italia",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.965855127510224,
         "lon": -60.653206996980636,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -467,18 +432,14 @@
       "id": "pt015",
       "clave": "OCAMPO||RICHIERI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "OCAMPO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
-        "lat": -32.94942399117836,
-        "lon": -60.664682541571246,
+        "lat": -32.96204952890667,
+        "lon": -60.66784832135833,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -496,18 +457,14 @@
       "id": "pt016",
       "clave": "ARIJON||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ARIJON"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00383724610716,
         "lon": -60.676164713827475,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -525,16 +482,14 @@
       "id": "pt017",
       "clave": "BATTLE ORDOÑEZ||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00973670330604,
         "lon": -60.67735128004273,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -575,16 +530,14 @@
       "id": "pt019",
       "clave": "FERNANDO RUIZ||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.0138189162288,
         "lon": -60.67824880791067,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -602,16 +555,14 @@
       "id": "pt020",
       "clave": "COPACABA NA||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.02814794375835,
         "lon": -60.68171696993667,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 934.4,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -629,16 +580,14 @@
       "id": "pt021",
       "clave": "CON VJO SODINI||LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.02599015934765,
         "lon": -60.68113803863526,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 784.7,
+      "fuera_de_recorrido": true
     }
   ]
 }

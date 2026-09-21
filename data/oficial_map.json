@@ -1,0 +1,706 @@
+[
+  {
+    "linea": "101",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1",
+      "nombre": "101 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "102",
+    "bandera": "ROJA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "4",
+      "nombre": "102 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "102144",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1003",
+      "nombre": "102 144 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "103",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "5",
+      "nombre": "103 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "103",
+    "bandera": "Rojo",
+    "match": {
+      "idEmpresa": "1",
+      "id": "6",
+      "nombre": "103 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "106",
+    "bandera": "NEGRA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "7",
+      "nombre": "106 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "106",
+    "bandera": "ROJA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "8",
+      "nombre": "106 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "107",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "9",
+      "nombre": "107 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "107",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "10",
+      "nombre": "107 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "110",
+    "bandera": "Unica",
+    "match": {
+      "idEmpresa": "1",
+      "id": "11",
+      "nombre": "110",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "112",
+    "bandera": "NEGRA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1073",
+      "nombre": "112 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "112",
+    "bandera": "ROJA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "13",
+      "nombre": "112 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "113",
+    "bandera": null,
+    "match": {
+      "idEmpresa": "1",
+      "id": "14",
+      "nombre": "113",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "113",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "14",
+      "nombre": "113",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "115",
+    "bandera": "115",
+    "match": {
+      "idEmpresa": "1",
+      "id": "15",
+      "nombre": "115",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "115",
+    "bandera": "Aeropuerto",
+    "match": {
+      "idEmpresa": "1",
+      "id": "67",
+      "nombre": "115 AEROPUERTO",
+      "color": "AERO",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "115",
+    "bandera": "UNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "15",
+      "nombre": "115",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "115",
+    "bandera": "ÚNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "15",
+      "nombre": "115",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "116",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "16",
+      "nombre": "116",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "120",
+    "bandera": "UNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "17",
+      "nombre": "120",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "121",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "18",
+      "nombre": "121",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "121",
+    "bandera": "unica",
+    "match": {
+      "idEmpresa": "1",
+      "id": "18",
+      "nombre": "121",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "122",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "19",
+      "nombre": "122 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "122",
+    "bandera": "Verde",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1075",
+      "nombre": "122 VERDE",
+      "color": "green",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "123",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "21",
+      "nombre": "123",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "126",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1076",
+      "nombre": "126 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "126",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1077",
+      "nombre": "126 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "127",
+    "bandera": "ÚNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1082",
+      "nombre": "127",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "128",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "26",
+      "nombre": "128 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "128",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "27",
+      "nombre": "128 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "128",
+    "bandera": "Rojo",
+    "match": {
+      "idEmpresa": "1",
+      "id": "27",
+      "nombre": "128 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "129",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "28",
+      "nombre": "129",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "130",
+    "bandera": "Unica",
+    "match": {
+      "idEmpresa": "1",
+      "id": "29",
+      "nombre": "130",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "131",
+    "bandera": "ÚNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1078",
+      "nombre": "131",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "132",
+    "bandera": "ÚNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1079",
+      "nombre": "132",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "133125",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1032",
+      "nombre": "133 125 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "133125",
+    "bandera": "Verde",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1033",
+      "nombre": "133 125 VERDE",
+      "color": "green",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "134",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "34",
+      "nombre": "134",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "135",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "35",
+      "nombre": "135",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "138139",
+    "bandera": "Unica",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1074",
+      "nombre": "138 139",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "140",
+    "bandera": "Unica",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1080",
+      "nombre": "140",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "140",
+    "bandera": "unica",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1080",
+      "nombre": "140",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "140",
+    "bandera": "Única",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1080",
+      "nombre": "140",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "141",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "44",
+      "nombre": "141",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "142",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "45",
+      "nombre": "142 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "142",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "46",
+      "nombre": "142 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "143-136- 137",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1048",
+      "nombre": "143 136 137 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "143-136- 137",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1049",
+      "nombre": "143 136 137 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "143/136/ 137",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1048",
+      "nombre": "143 136 137 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "143136137",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1048",
+      "nombre": "143 136 137 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "143136137",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1049",
+      "nombre": "143 136 137 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "145133",
+    "bandera": "Cabin 9",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1052",
+      "nombre": "145 133 CABIN 9",
+      "color": "CABIN",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "145133",
+    "bandera": "Soldini",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1053",
+      "nombre": "145 133 SOLDINI",
+      "color": "SOLDINI",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "146",
+    "bandera": "Negra",
+    "match": {
+      "idEmpresa": "1",
+      "id": "54",
+      "nombre": "146 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "146",
+    "bandera": "Roja",
+    "match": {
+      "idEmpresa": "1",
+      "id": "55",
+      "nombre": "146 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "153",
+    "bandera": "NEGRA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "56",
+      "nombre": "153 NEGRO",
+      "color": "black",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "153",
+    "bandera": "ROJA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "58",
+      "nombre": "153 ROJO",
+      "color": "red",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "ENLACE NOROE",
+    "bandera": null,
+    "match": {
+      "idEmpresa": "1",
+      "id": "69",
+      "nombre": "Enlace NorOeste",
+      "color": "cyan",
+      "metodo": "nombre"
+    }
+  },
+  {
+    "linea": "ENLACE NOROESTE",
+    "bandera": null,
+    "match": {
+      "idEmpresa": "1",
+      "id": "69",
+      "nombre": "Enlace NorOeste",
+      "color": "cyan",
+      "metodo": "nombre"
+    }
+  },
+  {
+    "linea": "Enlace Avellane",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "97",
+      "nombre": "ENLACE AVELLANEDA",
+      "color": "cyan",
+      "metodo": "nombre"
+    }
+  },
+  {
+    "linea": "Enlace Avellaneda Oeste",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "97",
+      "nombre": "ENLACE AVELLANEDA",
+      "color": "cyan",
+      "metodo": "nombre"
+    }
+  },
+  {
+    "linea": "Enlace Uriburu",
+    "bandera": "UNICA",
+    "match": {
+      "idEmpresa": "1",
+      "id": "1091",
+      "nombre": "ENLACE URIBURU",
+      "color": "cyan",
+      "metodo": "nombre"
+    }
+  },
+  {
+    "linea": "K",
+    "bandera": "UNICO",
+    "match": {
+      "idEmpresa": "1",
+      "id": "64",
+      "nombre": "K",
+      "color": "cyan",
+      "metodo": "codigo"
+    }
+  },
+  {
+    "linea": "Ronda CUR SUR",
+    "bandera": null,
+    "match": {
+      "idEmpresa": "1",
+      "id": "70",
+      "nombre": "RONDA CUR-SUR",
+      "color": "cyan",
+      "metodo": "nombre"
+    }
+  }
+]

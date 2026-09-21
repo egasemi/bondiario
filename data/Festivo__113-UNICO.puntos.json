@@ -33,7 +33,9 @@
         "lon": -60.628663592001,
         "x": 5441244.5,
         "y": 6349775.605
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -51,22 +53,14 @@
       "id": "pt001",
       "clave": "1 DE MAYO||URIBURU",
       "status": "auto",
-      "calle1": "URIBURU",
-      "calle2": "1 DE MAYO",
-      "candidatos": [
-        [
-          "URIBURU"
-        ],
-        [
-          "1 DE MAYO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.990465657459076,
         "lon": -60.64040410616673,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -84,22 +78,14 @@
       "id": "pt002",
       "clave": "DFUNES||SMARTIN",
       "status": "auto",
-      "calle1": "SAN MARTIN",
-      "calle2": "DEAN FUNES",
-      "candidatos": [
-        [
-          "SAN MARTIN"
-        ],
-        [
-          "DEAN FUNES"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97589911861443,
         "lon": -60.64401809575532,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -133,7 +119,9 @@
         "lon": -60.645444016856935,
         "x": 5439660.01,
         "y": 6352399.33
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -157,22 +145,14 @@
       "id": "pt004",
       "clave": "27 DE FEBRERO||OROÑO",
       "status": "auto",
-      "calle1": "27 DE FEBRERO",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "27 DE FEBRERO"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96488076308899,
         "lon": -60.65864329721942,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -206,7 +186,9 @@
         "lon": -60.670854862889456,
         "x": 5437279.5,
         "y": 6353154.7025
-      }
+      },
+      "distancia_recorrido_m": 9.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -224,18 +206,14 @@
       "id": "pt006",
       "clave": "IRIONDO||PTEPERON",
       "status": "auto",
-      "candidatos": [
-        [
-          "IRIONDO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95641283504724,
         "lon": -60.673537951169145,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -269,7 +247,9 @@
         "lon": -60.67053727163922,
         "x": 5437296.36,
         "y": 6355170.7
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -287,18 +267,14 @@
       "id": "pt008",
       "clave": "AVENIDA SALVADOR ALLENDE||NANSEN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "NANSEN"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.90916068039301,
         "lon": -60.68178390036247,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -316,18 +292,14 @@
       "id": "pt009",
       "clave": "ALBERDI||JJPASO",
       "status": "auto",
-      "candidatos": [
-        [
-          "ALBERDI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91932866938154,
         "lon": -60.68234116372667,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -361,7 +333,9 @@
         "lon": -60.67492089975734,
         "x": 5436873.67,
         "y": 6357160.03
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -395,7 +369,9 @@
         "lon": -60.664647482171475,
         "x": 5437842.615,
         "y": 6355891.4
-      }
+      },
+      "distancia_recorrido_m": 9.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -429,7 +405,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -463,7 +441,9 @@
         "lon": -60.67368521868925,
         "x": 5437006.865,
         "y": 6354405.27
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -481,18 +461,14 @@
       "id": "pt014",
       "clave": "OVLAGOS||PTEPERON",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "OVIDIO LAGOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95539018028206,
         "lon": -60.66473297427419,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 10.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [

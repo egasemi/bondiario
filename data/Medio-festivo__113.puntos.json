@@ -39,7 +39,9 @@
         "lon": -60.628663592001,
         "x": 5441244.5,
         "y": 6349775.605
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -81,7 +83,9 @@
         "x": 5439786.676666668,
         "y": 6351576.453333334
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -105,22 +109,14 @@
       "id": "pt002",
       "clave": "27 DE FEBRERO||OROÑO",
       "status": "auto",
-      "calle1": "27 DE FEBRERO",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "27 DE FEBRERO"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96488076308899,
         "lon": -60.65864329721942,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -138,22 +134,14 @@
       "id": "pt003",
       "clave": "GODOY||IRIONDO",
       "status": "auto",
-      "calle1": "IRIONDO",
-      "calle2": "GODOY CRUZ",
-      "candidatos": [
-        [
-          "IRIONDO"
-        ],
-        [
-          "GODOY CRUZ"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96884817336895,
         "lon": -60.6766817170779,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 883.0,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -187,7 +175,9 @@
         "lon": -60.67197457972957,
         "x": 5437158.01,
         "y": 6355787.78
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -221,7 +211,9 @@
         "lon": -60.67554064899685,
         "x": 5436814.5,
         "y": 6357347.34
-      }
+      },
+      "distancia_recorrido_m": 6.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -276,7 +268,9 @@
         "lon": -60.67492089975734,
         "x": 5436873.67,
         "y": 6357160.03
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -310,7 +304,9 @@
         "lon": -60.664647482171475,
         "x": 5437842.615,
         "y": 6355891.4
-      }
+      },
+      "distancia_recorrido_m": 9.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -344,7 +340,9 @@
         "lon": -60.67368521868925,
         "x": 5437006.865,
         "y": 6354405.27
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     }
   ]
 }

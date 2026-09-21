@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "BATTLE||ORDOÑEZ Y OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "BATTLE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00973670330604,
         "lon": -60.67735128004273,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -74,7 +70,9 @@
         "lon": -60.67789413044447,
         "x": 5436646.53,
         "y": 6349242.95
-      }
+      },
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -98,18 +96,14 @@
       "id": "pt002",
       "clave": "FERRAZA||FRANCIA",
       "status": "auto",
-      "candidatos": [
-        [
-          "FRANCIA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.982861920636886,
         "lon": -60.676264716680876,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -149,7 +143,9 @@
         "lon": -60.670854862889456,
         "x": 5437279.5,
         "y": 6353154.7025
-      }
+      },
+      "distancia_recorrido_m": 7.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -183,7 +179,9 @@
         "lon": -60.66825672500243,
         "x": 5437515.1525,
         "y": 6354300.52
-      }
+      },
+      "distancia_recorrido_m": 7.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -217,7 +215,9 @@
         "lon": -60.65459144339659,
         "x": 5438790.5,
         "y": 6354700.795
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -251,7 +251,9 @@
         "lon": -60.650009524616316,
         "x": 5439214.21,
         "y": 6355472.23
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -285,7 +287,9 @@
         "lon": -60.633358211165536,
         "x": 5440774.11,
         "y": 6355028.91
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -319,7 +323,9 @@
         "lon": -60.64394065482468,
         "x": 5439788.6,
         "y": 6354355.36
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -337,18 +343,14 @@
       "id": "pt009",
       "clave": "3 DE FEBRERO||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "3 DE FEBRERO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94861124555858,
         "lon": -60.66305160506252,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -382,7 +384,9 @@
         "lon": -60.66825672500243,
         "x": 5437515.1525,
         "y": 6354300.52
-      }
+      },
+      "distancia_recorrido_m": 7.9,
+      "fuera_de_recorrido": false
     }
   ]
 }

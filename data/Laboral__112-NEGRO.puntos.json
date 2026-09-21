@@ -39,7 +39,9 @@
         "lon": -60.73527626436862,
         "x": 5431217.56,
         "y": 6358679.73
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -57,16 +59,14 @@
       "id": "pt001",
       "clave": "JBJUSTO||MEXICO",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.915075313708506,
         "lon": -60.719492611997524,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -100,7 +100,9 @@
         "lon": -60.71324428048884,
         "x": 5433288.75,
         "y": 6357196.18
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -134,7 +136,9 @@
         "lon": -60.69646396466037,
         "x": 5434859.09,
         "y": 6357084.21
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -168,7 +172,9 @@
         "lon": -60.67654675707029,
         "x": 5436721.625,
         "y": 6357154.895
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -186,18 +192,14 @@
       "id": "pt005",
       "clave": "OV LAGOS||TUCUMAN",
       "status": "auto",
-      "candidatos": [
-        [
-          "TUCUMAN"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93762283907589,
         "lon": -60.66026871810705,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -215,18 +217,14 @@
       "id": "pt006",
       "clave": "PTE ROCCA||SAN LORENZO",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN LORENZO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9428831580827,
         "lon": -60.64454877744822,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -262,7 +260,9 @@
         "x": 5440628.08,
         "y": 6354476.24
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -296,7 +296,9 @@
         "lon": -60.639561423538005,
         "x": 5440209.05,
         "y": 6352552.43
-      }
+      },
+      "distancia_recorrido_m": 7.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -330,7 +332,9 @@
         "lon": -60.654727366975564,
         "x": 5438797.6,
         "y": 6351514.67
-      }
+      },
+      "distancia_recorrido_m": 2.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -364,7 +368,9 @@
         "lon": -60.66096649197964,
         "x": 5438223.805,
         "y": 6350008.855
-      }
+      },
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -382,16 +388,14 @@
       "id": "pt011",
       "clave": "OV ANDRADE||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.99658426428023,
         "lon": -60.67458967206045,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 11.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -425,7 +429,9 @@
         "lon": -60.688125832476594,
         "x": 5435694.92,
         "y": 6348529.64
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -443,18 +449,14 @@
       "id": "pt013",
       "clave": "BATTLE||ORDOÑEZ Y OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "BATTLE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00973670330604,
         "lon": -60.67735128004273,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -488,7 +490,9 @@
         "lon": -60.68883953049747,
         "x": 5435628.183333334,
         "y": 6348535.396666668
-      }
+      },
+      "distancia_recorrido_m": 4.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -522,7 +526,9 @@
         "lon": -60.67782920914615,
         "x": 5436653.7,
         "y": 6349071.87
-      }
+      },
+      "distancia_recorrido_m": 1.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -556,7 +562,9 @@
         "lon": -60.665400241425836,
         "x": 5437809.617500002,
         "y": 6349972.475000002
-      }
+      },
+      "distancia_recorrido_m": 24.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -590,7 +598,9 @@
         "lon": -60.656090360949705,
         "x": 5438670.02,
         "y": 6351540.86
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -624,7 +634,9 @@
         "lon": -60.640748590706444,
         "x": 5440097.97,
         "y": 6352567.02
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -658,7 +670,9 @@
         "lon": -60.6352270407181,
         "x": 5440600.06,
         "y": 6354910.3
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -692,7 +706,9 @@
         "lon": -60.649421633565034,
         "x": 5439267.58,
         "y": 6355733.41
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -726,7 +742,9 @@
         "lon": -60.66948353256913,
         "x": 5437388.0,
         "y": 6356257.22
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -744,18 +762,14 @@
       "id": "pt022",
       "clave": "ALBERDI||V SARSFIELD",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ALBERDI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9249231958004,
         "lon": -60.67788669453912,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -789,7 +803,9 @@
         "lon": -60.691258051500576,
         "x": 5435345.91,
         "y": 6357103.21
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -823,7 +839,9 @@
         "lon": -60.71318647700558,
         "x": 5433295.33,
         "y": 6357022.8
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -841,18 +859,14 @@
       "id": "pt025",
       "clave": "JJPASO||NICARAGUA",
       "status": "auto",
-      "candidatos": [
-        [
-          "NICARAGUA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.920492652583974,
         "lon": -60.72137582058062,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.9,
+      "fuera_de_recorrido": false
     }
   ]
 }

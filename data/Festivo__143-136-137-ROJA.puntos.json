@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "BAORDOÑEZ||OROÑO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.009424320546636,
         "lon": -60.66459465727239,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 11.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -74,7 +70,9 @@
         "lon": -60.665400241425836,
         "x": 5437809.617500002,
         "y": 6349972.475000002
-      }
+      },
+      "distancia_recorrido_m": 25.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -98,18 +96,14 @@
       "id": "pt002",
       "clave": "BVSEG||OROÑO",
       "status": "auto",
-      "candidatos": [
-        [
-          "ORONO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97635953955821,
         "lon": -60.66151169378635,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 8.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -127,18 +121,14 @@
       "id": "pt003",
       "clave": "BSAS||SEGUI",
       "status": "auto",
-      "candidatos": [
-        [
-          "SEGUI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.98004188135883,
         "lon": -60.64090524625116,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -156,18 +146,14 @@
       "id": "pt004",
       "clave": "BSAS||PELLE",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PELLEGRINI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.958255080019335,
         "lon": -60.635431273127274,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -201,7 +187,9 @@
         "lon": -60.63620871922993,
         "x": 5440510.7,
         "y": 6354506.06
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -235,7 +223,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -269,7 +259,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -303,7 +295,9 @@
         "lon": -60.67084368401375,
         "x": 5437260.62,
         "y": 6356283.49
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -343,7 +337,9 @@
         "lon": -60.68857386231627,
         "x": 5435582.560000002,
         "y": 6359311.215
-      }
+      },
+      "distancia_recorrido_m": 17.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -383,7 +379,9 @@
         "lon": -60.716308961853315,
         "x": 5432977.9,
         "y": 6360756.43
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -407,18 +405,14 @@
       "id": "pt011",
       "clave": "MINI||TERMINALBRUCCI",
       "status": "auto",
-      "candidatos": [
-        [
-          "MINIAGURRIA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88711939650258,
         "lon": -60.71629106998444,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 21.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -436,26 +430,14 @@
       "id": "pt012",
       "clave": "ALBER||SALTA",
       "status": "auto",
-      "candidatos": [
-        [
-          "ALBERDI",
-          "ALBERTI",
-          "ALBERINI",
-          "ALBERTO J PAZ"
-        ],
-        [
-          "SALTA AV"
-        ]
-      ],
-      "calle1": "ALBERTI",
-      "calle2": "SALTA AV",
       "geocode": {
         "status": "ok",
         "lat": -32.93327894009393,
         "lon": -60.67112299439836,
         "manual": true
       },
-      "resuelto_por_convergencia": 2
+      "distancia_recorrido_m": 6.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -489,7 +471,9 @@
         "lon": -60.65213336299179,
         "x": 5439013.65,
         "y": 6355785.29
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -507,21 +491,14 @@
       "id": "pt014",
       "clave": "ESPAÑ||SLUIS",
       "status": "auto",
-      "candidatos": [
-        [
-          "ESPANA",
-          "ESPANOL"
-        ],
-        [
-          "SAN LUIS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94753372557084,
         "lon": -60.64716938658163,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -555,7 +532,9 @@
         "lon": -60.63460339888335,
         "x": 5440660.19,
         "y": 6354609.8
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -589,7 +568,9 @@
         "lon": -60.636972187793276,
         "x": 5440444.195,
         "y": 6353697.875
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -623,7 +604,9 @@
         "lon": -60.64245517437364,
         "x": 5439946.28,
         "y": 6351278.630000002
-      }
+      },
+      "distancia_recorrido_m": 7.7,
+      "fuera_de_recorrido": false
     }
   ]
 }

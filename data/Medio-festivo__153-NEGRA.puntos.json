@@ -22,13 +22,14 @@
       "id": "pt000",
       "clave": "unparsed::Logaritmo",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.8729013380483,
         "lon": -60.744481086730964,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -46,18 +47,14 @@
       "id": "pt001",
       "clave": "D IRALA||ROBLES",
       "status": "auto",
-      "candidatos": [
-        [
-          "ROBLES"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88002459828635,
         "lon": -60.729877397130394,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -94,7 +91,9 @@
         "x": 5432209.74,
         "y": 6362225.58
       },
-      "resuelto_por_convergencia": 3
+      "resuelto_por_convergencia": 3,
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -118,18 +117,14 @@
       "id": "pt003",
       "clave": "PALLIERI||PEYRANO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PEYRANO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88717990680597,
         "lon": -60.71599980794154,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -147,18 +142,14 @@
       "id": "pt004",
       "clave": "LAPORTE||PINTOR MUSTO",
       "status": "auto",
-      "candidatos": [
-        [
-          "PINTOR MUSTO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.8729542293942,
         "lon": -60.69582338098605,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -192,7 +183,9 @@
         "lon": -60.690893164414284,
         "x": 5435356.46,
         "y": 6360702.166666668
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -226,7 +219,9 @@
         "lon": -60.68481264179844,
         "x": 5435934.31,
         "y": 6359332.99
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -244,18 +239,14 @@
       "id": "pt007",
       "clave": "AVELLANEDA||V SARSFIELD",
       "status": "auto",
-      "candidatos": [
-        [
-          "AVELLANEDA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92487070810587,
         "lon": -60.67554064899685,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -289,7 +280,9 @@
         "lon": -60.65908633923447,
         "x": 5438359.15,
         "y": 6356462.07
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -307,22 +300,14 @@
       "id": "pt009",
       "clave": "OROÑO||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93673411275052,
         "lon": -60.6515429177582,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -340,19 +325,14 @@
       "id": "pt010",
       "clave": "E RIOS||SAN JUAN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SAN JUAN",
-          "SAN JUAN DE LUZ"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94965395873257,
         "lon": -60.6418953810588,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -370,18 +350,14 @@
       "id": "pt011",
       "clave": "E RIOS||PELLEGRINI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PELLEGRINI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95678007735076,
         "lon": -60.64368660465688,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -421,7 +397,9 @@
         "lon": -60.66419049967071,
         "x": 5437895.87,
         "y": 6354223.46
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -439,22 +417,14 @@
       "id": "pt013",
       "clave": "BEMPORAT||CALLE 1716",
       "status": "auto",
-      "calle1": "1716",
-      "calle2": "BEMPORAT",
-      "candidatos": [
-        [
-          "1716"
-        ],
-        [
-          "BEMPORAT"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.90912253315647,
         "lon": -60.681785157921446,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -488,7 +458,9 @@
         "lon": -60.71241485377939,
         "x": 5433380.235,
         "y": 6355139.890000002
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -522,7 +494,9 @@
         "lon": -60.681860495959064,
         "x": 5436241.365,
         "y": 6354563.1
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -556,7 +530,9 @@
         "lon": -60.64617980410506,
         "x": 5439581.35,
         "y": 6354007.81
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -590,7 +566,9 @@
         "lon": -60.6430117146502,
         "x": 5439872.93,
         "y": 6354770.62
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -624,7 +602,9 @@
         "lon": -60.64564605241583,
         "x": 5439621.96,
         "y": 6355525.04
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -642,22 +622,14 @@
       "id": "pt019",
       "clave": "CALLAO||SALTA",
       "status": "auto",
-      "calle1": "CALLAO",
-      "calle2": "SALTA AV",
-      "candidatos": [
-        [
-          "CALLAO"
-        ],
-        [
-          "SALTA AV"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.935521002399845,
         "lon": -60.65831540932497,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -691,7 +663,9 @@
         "lon": -60.67554064899685,
         "x": 5436814.5,
         "y": 6357347.34
-      }
+      },
+      "distancia_recorrido_m": 6.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -709,18 +683,14 @@
       "id": "pt021",
       "clave": "HERNANDEZ||NANSEN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "NANSEN"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.90912253315647,
         "lon": -60.681785157921446,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -738,18 +708,14 @@
       "id": "pt022",
       "clave": "A THOMAS||PUCCIO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PUCCIO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.893771485315625,
         "lon": -60.68768414076364,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -767,16 +733,14 @@
       "id": "pt023",
       "clave": "J AGÜERO||M FIERRO",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.87770204574496,
         "lon": -60.69580790119849,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -794,18 +758,14 @@
       "id": "pt024",
       "clave": "ONCATIVO||PAUNERO",
       "status": "auto",
-      "candidatos": [
-        [
-          "ONCATIVO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.880678706167444,
         "lon": -60.725811032168245,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -823,18 +783,14 @@
       "id": "pt025",
       "clave": "ALBERINI||PASAJE PEATONAL(ENTR",
       "status": "auto",
-      "candidatos": [
-        [
-          "ALBERINI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88092030680634,
         "lon": -60.73139074903598,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 9.5,
+      "fuera_de_recorrido": false
     }
   ]
 }

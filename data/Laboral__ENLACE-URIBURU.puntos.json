@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "C LIMITE||SEGUI",
       "status": "auto",
-      "candidatos": [
-        [
-          "SEGUI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97163142634858,
         "lon": -60.73400872586491,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -91,7 +87,9 @@
         "lon": -60.68876877780232,
         "x": 5435625.875,
         "y": 6349897.8875
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -131,7 +129,9 @@
         "lon": -60.665400241425836,
         "x": 5437809.617500002,
         "y": 6349972.475000002
-      }
+      },
+      "distancia_recorrido_m": 20.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -149,18 +149,14 @@
       "id": "pt004",
       "clave": "BS AS||URIBURU",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "URIBURU"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.990567327573636,
         "lon": -60.64355894321434,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [

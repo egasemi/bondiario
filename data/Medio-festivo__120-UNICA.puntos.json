@@ -33,7 +33,9 @@
         "lon": -60.711688739858374,
         "x": 5433461.78,
         "y": 6353121.310000002
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -51,18 +53,14 @@
       "id": "pt001",
       "clave": "P UNIDAS||PELLEGRINI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "PELLEGRINI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94857588185433,
         "lon": -60.71226593780296,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -96,7 +94,9 @@
         "lon": -60.70298929379374,
         "x": 5434264.445,
         "y": 6354728.76
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -114,18 +114,14 @@
       "id": "pt003",
       "clave": "F MORE||PELLEGRINI",
       "status": "auto",
-      "candidatos": [
-        [
-          "PELLEGRINI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94807135906536,
         "lon": -60.693441609409135,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -159,7 +155,9 @@
         "lon": -60.681860495959064,
         "x": 5436241.365,
         "y": 6354563.1
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -193,7 +191,9 @@
         "lon": -60.67505025864745,
         "x": 5436879.05,
         "y": 6354431.62
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -227,7 +227,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -267,7 +269,9 @@
         "lon": -60.665999636008976,
         "x": 5437715.99,
         "y": 6355917.52
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -301,7 +305,9 @@
         "lon": -60.657099404368786,
         "x": 5438558.99,
         "y": 6354217.07
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -319,18 +325,14 @@
       "id": "pt009",
       "clave": "MITRE||ZEBALLOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "MITRE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95474563399682,
         "lon": -60.641702781909416,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -364,7 +366,9 @@
         "lon": -60.63921680236013,
         "x": 5440225.46,
         "y": 6355157.22
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -382,22 +386,14 @@
       "id": "pt011",
       "clave": "CORRIENTES||SALTA",
       "status": "auto",
-      "calle1": "CORRIENTES",
-      "calle2": "SALTA AV",
-      "candidatos": [
-        [
-          "CORRIENTES"
-        ],
-        [
-          "SALTA AV"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93869361378777,
         "lon": -60.64059805470917,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -431,7 +427,9 @@
         "lon": -60.649887081447076,
         "x": 5439221.47,
         "y": 6356151.72
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -449,22 +447,14 @@
       "id": "pt013",
       "clave": "OVIDIO LAGOS||SALTA",
       "status": "auto",
-      "calle1": "OVIDIO LAGOS",
-      "calle2": "SALTA AV",
-      "candidatos": [
-        [
-          "OVIDIO LAGOS"
-        ],
-        [
-          "SALTA AV"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93527659882049,
         "lon": -60.659676244501966,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -498,7 +488,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [

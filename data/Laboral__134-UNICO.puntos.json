@@ -23,18 +23,14 @@
       "id": "pt000",
       "clave": "CARBALLO||SABIN",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SABIN"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.922299308986354,
         "lon": -60.68567597443323,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 26.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -68,7 +64,9 @@
         "lon": -60.67361561931169,
         "x": 5436993.44,
         "y": 6357523.39
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -104,7 +102,9 @@
         "x": 5438688.23,
         "y": 6356662.35
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 22.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -138,7 +138,9 @@
         "lon": -60.65095422109389,
         "x": 5439120.715,
         "y": 6356305.305
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -172,7 +174,9 @@
         "lon": -60.642253634107576,
         "x": 5439937.96,
         "y": 6355732.02
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -206,7 +210,9 @@
         "lon": -60.64095871902958,
         "x": 5440063.31,
         "y": 6355034.08
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -240,7 +246,9 @@
         "lon": -60.64368660465688,
         "x": 5439815.585,
         "y": 6353827.035
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -274,7 +282,9 @@
         "lon": -60.64347798586588,
         "x": 5439842.42,
         "y": 6352627.815
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -308,7 +318,9 @@
         "lon": -60.64917254205868,
         "x": 5439317.54,
         "y": 6351407.85
-      }
+      },
+      "distancia_recorrido_m": 8.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -325,13 +337,14 @@
       "id": "pt009",
       "clave": "unparsed::Uriburu e Italia",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.99107226310915,
         "lon": -60.65953974707372,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -349,18 +362,14 @@
       "id": "pt010",
       "clave": "OV LAGOS||URIBURU",
       "status": "auto",
-      "candidatos": [
-        [
-          "URIBURU"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.99151360570888,
         "lon": -60.67338971992913,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -394,7 +403,9 @@
         "lon": -60.669089007883656,
         "x": 5437473.455,
         "y": 6348616.915
-      }
+      },
+      "distancia_recorrido_m": 1.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -428,7 +439,9 @@
         "lon": -60.654703166041635,
         "x": 5438817.57,
         "y": 6348668.75
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -462,7 +475,9 @@
         "lon": -60.652051552138836,
         "x": 5439061.21,
         "y": 6349341.32
-      }
+      },
+      "distancia_recorrido_m": 136.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -496,7 +511,9 @@
         "lon": -60.65056997030437,
         "x": 5439186.74,
         "y": 6351434.68
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -530,7 +547,9 @@
         "lon": -60.647682587307884,
         "x": 5439448.82,
         "y": 6352708.74
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -564,7 +583,9 @@
         "lon": -60.645082104578954,
         "x": 5439684.935000002,
         "y": 6353853.845000002
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -598,7 +619,9 @@
         "lon": -60.641663436942686,
         "x": 5439991.57,
         "y": 6355992.6
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -632,7 +655,9 @@
         "lon": -60.64930303519286,
         "x": 5439274.52,
         "y": 6356407.18
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [

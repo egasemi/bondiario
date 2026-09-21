@@ -33,7 +33,9 @@
         "lon": -60.73846594912922,
         "x": 5430940.738,
         "y": 6355599.172
-      }
+      },
+      "distancia_recorrido_m": 8.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -57,21 +59,14 @@
       "id": "pt001",
       "clave": "BRASIL||MENDOZA",
       "status": "auto",
-      "candidatos": [
-        [
-          "MENDOZA"
-        ],
-        [
-          "BRASIL",
-          "BRASILIA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94041947135302,
         "lon": -60.71955701472375,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -111,7 +106,9 @@
         "lon": -60.70336087875931,
         "x": 5434223.53,
         "y": 6355652.380000002
-      }
+      },
+      "distancia_recorrido_m": 4.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -145,7 +142,9 @@
         "lon": -60.68041252049164,
         "x": 5436372.655,
         "y": 6355200.035
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -163,18 +162,14 @@
       "id": "pt004",
       "clave": "MENDOZA||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "MENDOZA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94738393603014,
         "lon": -60.66274012634298,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -208,7 +203,9 @@
         "lon": -60.643635159069824,
         "x": 5439816.31,
         "y": 6354495.58
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -244,7 +241,9 @@
         "x": 5441129.9,
         "y": 6354229.5
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -262,18 +261,14 @@
       "id": "pt007",
       "clave": "BERUTTI||RIOBAMBA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "RIOBAMBA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.966237852704424,
         "lon": -60.62426098671592,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -291,19 +286,14 @@
       "id": "pt008",
       "clave": "1RO DE MAYO||SAN JUAN",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN JUAN",
-          "SAN JUAN DE LUZ"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.951779626674735,
         "lon": -60.630688517375745,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -339,7 +329,9 @@
         "x": 5439847.18,
         "y": 6354645.34
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 1.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -357,19 +349,14 @@
       "id": "pt010",
       "clave": "OV LAGOS||SAN JUAN",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN JUAN",
-          "SAN JUAN DE LUZ"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94598698101594,
         "lon": -60.66238557886655,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -405,7 +392,9 @@
         "x": 5436404.57,
         "y": 6355354.85
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     }
   ]
 }

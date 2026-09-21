@@ -79,7 +79,9 @@
       "lat": -32.93955994251452,
       "lon": -60.69985246762975,
       "label": "STAFE - AGNET",
-      "clave": "AGNET||STAFE"
+      "clave": "AGNET||STAFE",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 452.5
     },
     "pt013": {
       "lat": -32.93299415474353,

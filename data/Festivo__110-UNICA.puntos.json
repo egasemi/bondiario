@@ -23,19 +23,14 @@
       "id": "pt000",
       "clave": "ACEVEDO||JBJUSTO",
       "status": "auto",
-      "candidatos": [
-        [
-          "ACEVEDO",
-          "ACEVEDO BIS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91586953318194,
         "lon": -60.74910971343129,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -59,18 +54,14 @@
       "id": "pt001",
       "clave": "CIRCU||JBJUS",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "CIRCUNVALACION"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93367251415637,
         "lon": -60.72217419977248,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2058.2,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -112,7 +103,9 @@
         "x": 5434094.43,
         "y": 6358340.52
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 1.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -130,26 +123,14 @@
       "id": "pt003",
       "clave": "ALBER||JINGE",
       "status": "auto",
-      "candidatos": [
-        [
-          "JOSE INGENIEROS"
-        ],
-        [
-          "ALBERDI",
-          "ALBERTI",
-          "ALBERINI",
-          "ALBERTO J PAZ"
-        ]
-      ],
-      "calle1": "JOSE INGENIEROS",
-      "calle2": "ALBERTI",
       "geocode": {
         "status": "ok",
         "lat": -32.916254710404885,
         "lon": -60.68480816475694,
         "manual": true
       },
-      "resuelto_por_convergencia": 1
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -167,22 +148,14 @@
       "id": "pt004",
       "clave": "AVELL||JINGE",
       "status": "auto",
-      "calle1": "JOSE INGENIEROS",
-      "calle2": "AVELLANEDA",
-      "candidatos": [
-        [
-          "JOSE INGENIEROS"
-        ],
-        [
-          "AVELLANEDA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.91593721967238,
         "lon": -60.67330033354431,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -200,18 +173,14 @@
       "id": "pt005",
       "clave": "JUNIN||THEDY",
       "status": "auto",
-      "candidatos": [
-        [
-          "JUNIN"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92642849378689,
         "lon": -60.665882619952264,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -245,7 +214,9 @@
         "lon": -60.65878946777228,
         "x": 5438386.1,
         "y": 6356592.67
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -279,7 +250,9 @@
         "lon": -60.650009524616316,
         "x": 5439214.21,
         "y": 6355472.23
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -313,7 +286,9 @@
         "lon": -60.637643981201435,
         "x": 5440372.12,
         "y": 6355227.57
-      }
+      },
+      "distancia_recorrido_m": 5.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -347,7 +322,9 @@
         "lon": -60.636972187793276,
         "x": 5440444.195,
         "y": 6353697.875
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -365,18 +342,14 @@
       "id": "pt010",
       "clave": "27FEB||SARMI",
       "status": "auto",
-      "candidatos": [
-        [
-          "SARMIENTO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96759402836484,
         "lon": -60.64347798586588,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -394,18 +367,14 @@
       "id": "pt011",
       "clave": "27FEB||BALCA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "BALCARCE"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96512817079854,
         "lon": -60.65727101209578,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -423,22 +392,14 @@
       "id": "pt012",
       "clave": "JCURA||OVLAG",
       "status": "auto",
-      "calle1": "JORGE CURA",
-      "calle2": "OVIDIO LAGOS",
-      "candidatos": [
-        [
-          "JORGE CURA"
-        ],
-        [
-          "OVIDIO LAGOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.969787385880124,
         "lon": -60.66809765910832,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -456,20 +417,14 @@
       "id": "pt013",
       "clave": "BVSEG||LAVAL",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "LAVALLE",
-          "LAVALLEN",
-          "LAVALLEJA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97196910737185,
         "lon": -60.685997119605624,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -487,18 +442,14 @@
       "id": "pt014",
       "clave": "BVSEG||ROUIL",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ROUILLON"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.970732056706886,
         "lon": -60.701061999345164,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -522,16 +473,14 @@
       "id": "pt015",
       "clave": "JPABLOII||MARADONA",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97988797193998,
         "lon": -60.710587095294656,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -549,18 +498,14 @@
       "id": "pt016",
       "clave": "BVSEG||VALPA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "VALPARAISO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97123333277131,
         "lon": -60.69009326264474,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -578,18 +523,14 @@
       "id": "pt017",
       "clave": "BVSEG||OVLAG",
       "status": "auto",
-      "candidatos": [
-        [
-          "OVIDIO LAGOS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97494876663608,
         "lon": -60.66939658178918,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -623,7 +564,9 @@
         "lon": -60.66329262204007,
         "x": 5437989.16,
         "y": 6352742.1
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -657,7 +600,9 @@
         "lon": -60.640454986187564,
         "x": 5440124.6,
         "y": 6352701.8
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -675,18 +620,14 @@
       "id": "pt020",
       "clave": "9JULI||MAIPU",
       "status": "auto",
-      "candidatos": [
-        [
-          "MAIPU"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95437900580663,
         "lon": -60.63721346392087,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -720,7 +661,9 @@
         "lon": -60.63645390903286,
         "x": 5440484.37,
         "y": 6355069.15
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -754,7 +697,9 @@
         "lon": -60.65242644525368,
         "x": 5438987.04,
         "y": 6355656.08
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -772,19 +717,14 @@
       "id": "pt023",
       "clave": "THEDY||VELEZ",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "VELEZ",
-          "VELEZ SARSFIELD"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92463233314986,
         "lon": -60.66546851437437,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -820,7 +760,9 @@
         "x": 5437033.68,
         "y": 6358459.34
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 19.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -856,7 +798,9 @@
         "x": 5435761.58,
         "y": 6358410.75
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     }
   ]
 }

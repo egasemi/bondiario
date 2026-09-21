@@ -81,7 +81,9 @@
       "label": [
         "Paso del Bosque"
       ],
-      "clave": "unparsed::Paso del Bosque"
+      "clave": "unparsed::Paso del Bosque",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 169.3
     },
     "pt013": {
       "lat": -32.906829888380024,

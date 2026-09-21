@@ -39,7 +39,9 @@
         "lon": -60.728859625862384,
         "x": 5431787.82,
         "y": 6363027.18
-      }
+      },
+      "distancia_recorrido_m": 3.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -57,18 +59,14 @@
       "id": "pt001",
       "clave": "LEVI||VDP",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "LEVI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88151844847773,
         "lon": -60.72838175094388,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -108,7 +106,9 @@
         "lon": -60.7273230379502,
         "x": 5431942.03,
         "y": 6361518.95
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -148,7 +148,9 @@
         "lon": -60.71599980794153,
         "x": 5433001.765000002,
         "y": 6361502.51
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -188,7 +190,9 @@
         "lon": -60.70800768325427,
         "x": 5433754.52,
         "y": 6360778.53
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -222,7 +226,9 @@
         "lon": -60.69249193405926,
         "x": 5435206.65,
         "y": 6360734.37
-      }
+      },
+      "distancia_recorrido_m": 15.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -267,7 +273,9 @@
         "x": 5435860.49,
         "y": 6358415.19
       },
-      "resuelto_por_convergencia": 4
+      "resuelto_por_convergencia": 4,
+      "distancia_recorrido_m": 2.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -305,7 +313,9 @@
         "x": 5436762.275,
         "y": 6357095.375
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 4.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -339,7 +349,9 @@
         "lon": -60.67853998036973,
         "x": 5436542.475,
         "y": 6356022.595
-      }
+      },
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -373,7 +385,9 @@
         "lon": -60.65272565144909,
         "x": 5438959.875,
         "y": 6355524.130000002
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -407,7 +421,9 @@
         "lon": -60.64038098991533,
         "x": 5440115.78,
         "y": 6355290.22
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -441,7 +457,9 @@
         "lon": -60.64368660465688,
         "x": 5439815.585,
         "y": 6353827.035
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -475,7 +493,9 @@
         "lon": -60.64743843487367,
         "x": 5439474.95,
         "y": 6352171.6
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -509,7 +529,9 @@
         "lon": -60.6522751981664,
         "x": 5439035.95,
         "y": 6350044.19
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -543,7 +565,9 @@
         "lon": -60.6345463926687,
         "x": 5440692.55,
         "y": 6350125.27
-      }
+      },
+      "distancia_recorrido_m": 11.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -583,7 +607,9 @@
         "lon": -60.62303007581896,
         "x": 5441769.65,
         "y": 6350010.5
-      }
+      },
+      "distancia_recorrido_m": 4.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -617,7 +643,9 @@
         "lon": -60.63459379820101,
         "x": 5440688.17,
         "y": 6350116.82
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -651,7 +679,9 @@
         "lon": -60.65372515814179,
         "x": 5438900.46,
         "y": 6350038.355
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -685,7 +715,9 @@
         "lon": -60.6488343665181,
         "x": 5439344.28,
         "y": 6352198.48
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -719,7 +751,9 @@
         "lon": -60.645082104578954,
         "x": 5439684.935000002,
         "y": 6353853.845000002
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -753,7 +787,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -787,7 +823,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -821,7 +859,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -855,7 +895,9 @@
         "lon": -60.67877623880135,
         "x": 5436521.045,
         "y": 6355919.145
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -873,23 +915,14 @@
       "id": "pt024",
       "clave": "ALBER||CASIL",
       "status": "auto",
-      "candidatos": [
-        [
-          "ALBERDI",
-          "ALBERTI",
-          "ALBERINI",
-          "ALBERTO J PAZ"
-        ],
-        [
-          "CASILDA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92807238218632,
         "lon": -60.6754807311919,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -923,7 +956,9 @@
         "lon": -60.693321112254665,
         "x": 5435127.095,
         "y": 6361033.77
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -957,7 +992,9 @@
         "lon": -60.73128405374447,
         "x": 5431567.28,
         "y": 6362107.52
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     }
   ]
 }

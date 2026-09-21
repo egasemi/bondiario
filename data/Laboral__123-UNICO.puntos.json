@@ -22,13 +22,14 @@
       "id": "pt000",
       "clave": "unparsed::Parque Industrial",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.988183774123975,
         "lon": -60.734438896179206,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 56.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -68,7 +69,9 @@
         "lon": -60.73094575325069,
         "x": 5431664.13,
         "y": 6352706.52
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -102,7 +105,9 @@
         "lon": -60.711826011049666,
         "x": 5433446.385,
         "y": 6353500.0525
-      }
+      },
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -120,18 +125,14 @@
       "id": "pt003",
       "clave": "27 DE FEBRERO||PLFUNES",
       "status": "auto",
-      "candidatos": [
-        [
-          "27 DE FEBRERO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95891362497749,
         "lon": -60.70045879034763,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -165,7 +166,9 @@
         "lon": -60.69117838237261,
         "x": 5435372.33,
         "y": 6354211.7
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -205,7 +208,9 @@
         "lon": -60.681860495959064,
         "x": 5436241.365,
         "y": 6354563.1
-      }
+      },
+      "distancia_recorrido_m": 5.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -239,7 +244,9 @@
         "lon": -60.67368521868925,
         "x": 5437006.865,
         "y": 6354405.27
-      }
+      },
+      "distancia_recorrido_m": 6.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -257,22 +264,14 @@
       "id": "pt007",
       "clave": "9 DE JULIO||OVLAGOS",
       "status": "auto",
-      "calle1": "9 DE JULIO",
-      "calle2": "OVIDIO LAGOS",
-      "candidatos": [
-        [
-          "9 DE JULIO"
-        ],
-        [
-          "OVIDIO LAGOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.949668369661644,
         "lon": -60.663319900357486,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -306,7 +305,9 @@
         "lon": -60.655167547466284,
         "x": 5438738.205,
         "y": 6354447.03
-      }
+      },
+      "distancia_recorrido_m": 1.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -340,7 +341,9 @@
         "lon": -60.643635159069824,
         "x": 5439816.31,
         "y": 6354495.58
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -358,21 +361,14 @@
       "id": "pt010",
       "clave": "1 DE MAYO||SAN JUAN",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN JUAN",
-          "SAN JUAN DE LUZ"
-        ],
-        [
-          "1 DE MAYO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.951779626674735,
         "lon": -60.630688517375745,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -408,7 +404,9 @@
         "x": 5439847.18,
         "y": 6354645.34
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 1.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -442,7 +440,9 @@
         "lon": -60.6505142533808,
         "x": 5439172.24,
         "y": 6354624.85
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -476,7 +476,9 @@
         "lon": -60.651965170032256,
         "x": 5439040.515000002,
         "y": 6353986.095000002
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -494,18 +496,14 @@
       "id": "pt014",
       "clave": "OV LAGOS||PELLEGRINI",
       "status": "auto",
-      "candidatos": [
-        [
-          "PELLEGRINI"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95309834425215,
         "lon": -60.66419049967071,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -539,7 +537,9 @@
         "lon": -60.69396941751563,
         "x": 5435115.51,
         "y": 6353579.09
-      }
+      },
+      "distancia_recorrido_m": 7.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -575,7 +575,9 @@
         "x": 5433665.78,
         "y": 6353508.335
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 6.9,
+      "fuera_de_recorrido": false
     }
   ]
 }

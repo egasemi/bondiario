@@ -79,7 +79,9 @@
       "lat": -32.978003685189364,
       "lon": -60.63891702583494,
       "label": "ERIOS - AYOLA",
-      "clave": "AYOLA||ERIOS"
+      "clave": "AYOLA||ERIOS",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 785.7
     },
     "pt013": {
       "lat": -32.97494876663608,

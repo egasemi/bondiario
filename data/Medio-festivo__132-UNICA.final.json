@@ -117,7 +117,9 @@
       "lat": -33.02599015934765,
       "lon": -60.68113803863526,
       "label": "Con Vjo Sodini - Lagos",
-      "clave": "CON VJO SODINI||LAGOS"
+      "clave": "CON VJO SODINI||LAGOS",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 784.7
     }
   },
   "viajes": [

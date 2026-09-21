@@ -41,6 +41,14 @@ DIA_CANONICO = {
     "Festivo": "Domingos y feriados",
 }
 
+# algún PDF exporta el campo "Linea:" corrupto (ej. un Excel de origen que
+# interpretó "143/136/137" como número y lo guardó en notación científica);
+# se corrige a mano por archivo de origen, ya que el nombre del PDF es
+# confiable aunque el contenido no lo sea.
+LINEA_CORRECTIONS = {
+    ("Medio festivo", "143-136-137-ROJA.pdf"): "143136137",
+}
+
 
 def slug(s: str) -> str:
     return (
@@ -67,6 +75,9 @@ def main():
 
         try:
             cuadro = parse_pdf(str(pdf_path))
+            correccion = LINEA_CORRECTIONS.get((o["tipo_dia"], o["archivo"]))
+            if correccion:
+                cuadro["linea"] = correccion
             dia_normalizado = DIA_CANONICO.get(o["tipo_dia"], o["tipo_dia"])
             cuadro["ida"]["dia"] = dia_normalizado
             cuadro["vuelta"]["dia"] = dia_normalizado

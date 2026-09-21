@@ -109,6 +109,9 @@
     <span><span class="dot" style="background:var(--ida)"></span>Ida</span>
     <span><span class="dot" style="background:var(--vuelta)"></span>Vuelta</span>
   </div>
+  <div class="legend" style="margin-top:4px">
+    <span><span class="dot" style="background:#d0270f;border:1.5px solid #ffb84f"></span>Fuera de recorrido</span>
+  </div>
   <div id="tripCount" style="margin-top:6px"></div>
   <div class="selectRow">
     <label for="lineaSelect">Línea</label>
@@ -292,7 +295,17 @@ function combinarCuadros(datas) {
   return { puntos, viajes };
 }
 
-async function cargarCuadro(archivos) {
+async function fetchOficial(clave) {
+  try {
+    const res = await fetch(`../data/oficial/${clave}.json`);
+    if (!res.ok) return null;
+    return res.json();
+  } catch {
+    return null;
+  }
+}
+
+async function cargarCuadro(archivos, oficialKey) {
   limpiarCapas();
   const lista = Array.isArray(archivos) ? archivos : [archivos];
   const combinado = lista.length > 1;
@@ -319,30 +332,50 @@ async function cargarCuadro(archivos) {
   // en modo "todas las líneas" se omiten puntos de referencia y polylines de
   // recorrido (serían miles de elementos y no aportan a la lectura general)
   if (!combinado) {
-    // puntos de referencia (sutil, de contexto)
+    const oficial = oficialKey ? await fetchOficial(oficialKey) : null;
+
+    // puntos de referencia (sutil, de contexto; en rojo si quedan lejos del recorrido oficial real)
     for (const [id, p] of Object.entries(puntos)) {
+      const fueraDeRecorrido = !!p.fuera_de_recorrido;
       const c = L.circleMarker([p.lat, p.lon], {
-        radius: 3.5, color: "#ffffff", weight: 1.5, fillColor: "#42474f", fillOpacity: 0.85,
-      }).bindTooltip(p.label, { direction: "top", opacity: 0.9 });
+        radius: fueraDeRecorrido ? 5 : 3.5,
+        color: fueraDeRecorrido ? "#ffb84f" : "#ffffff",
+        weight: fueraDeRecorrido ? 2 : 1.5,
+        fillColor: fueraDeRecorrido ? "#d0270f" : "#42474f",
+        fillOpacity: 0.9,
+      });
+      const etiqueta = fueraDeRecorrido
+        ? `⚠ ${p.label} — a ${Math.round(p.distancia_recorrido_m)}m del recorrido oficial`
+        : p.label;
+      c.bindTooltip(etiqueta, { direction: "top", opacity: 0.9 });
       if (ES_LOCAL && p.clave) {
         const url = `panel.html?clave=${encodeURIComponent(p.clave)}`;
-        c.bindPopup(`<div style="font-size:12px"><b>${p.label}</b><br><a href="${url}" target="_blank">✎ Corregir esta parada</a></div>`);
+        c.bindPopup(`<div style="font-size:12px"><b>${etiqueta}</b><br><a href="${url}" target="_blank">✎ Corregir esta parada</a></div>`);
       }
       c.addTo(map);
       capasCuadro.push(c);
     }
 
-    // trazar recorrido de referencia (línea marcada) usando el viaje más largo de cada sentido
-    for (const sentido of ["ida", "vuelta"]) {
-      const viajesSentido = data.viajes.filter(v => v.sentido === sentido);
-      if (!viajesSentido.length) continue;
-      const masLargo = viajesSentido.reduce((a, b) => (b.paradas.length > a.paradas.length ? b : a));
-      const latlngs = masLargo.paradas.map(p => [puntos[p.punto].lat, puntos[p.punto].lon]);
-      const pl = L.polyline(latlngs, {
-        color: sentido === "ida" ? "#1d5fd6" : "#d0270f",
-        weight: 3, opacity: 0.55,
-      }).addTo(map);
-      capasCuadro.push(pl);
+    if (oficial && (oficial.geojsonIda || oficial.geojsonVuelta)) {
+      // recorrido real (geometría oficial de ws.rosario.gob.ar), no inferido
+      for (const [geojson, color] of [[oficial.geojsonIda, "#1d5fd6"], [oficial.geojsonVuelta, "#d0270f"]]) {
+        if (!geojson) continue;
+        const gl = L.geoJSON(geojson, { style: { color, weight: 3, opacity: 0.6 } }).addTo(map);
+        capasCuadro.push(gl);
+      }
+    } else {
+      // sin match oficial: se traza un recorrido aproximado uniendo las paradas del viaje más largo
+      for (const sentido of ["ida", "vuelta"]) {
+        const viajesSentido = data.viajes.filter(v => v.sentido === sentido);
+        if (!viajesSentido.length) continue;
+        const masLargo = viajesSentido.reduce((a, b) => (b.paradas.length > a.paradas.length ? b : a));
+        const latlngs = masLargo.paradas.map(p => [puntos[p.punto].lat, puntos[p.punto].lon]);
+        const pl = L.polyline(latlngs, {
+          color: sentido === "ida" ? "#1d5fd6" : "#d0270f",
+          weight: 3, opacity: 0.55, dashArray: "6 6",
+        }).addTo(map);
+        capasCuadro.push(pl);
+      }
     }
   }
 
@@ -518,7 +551,7 @@ async function main() {
       return;
     }
     mostrarAviso(false);
-    await cargarCuadro(entry.archivo);
+    await cargarCuadro(entry.archivo, entry.oficial);
   }
 
   lineaSelect.onchange = actualizar;

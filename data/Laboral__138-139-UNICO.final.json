@@ -9,7 +9,9 @@
       "label": [
         "CASINO"
       ],
-      "clave": "unparsed::CASINO"
+      "clave": "unparsed::CASINO",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 236.9
     },
     "pt001": {
       "lat": -33.00349644481266,
@@ -75,7 +77,9 @@
       "lat": -32.95176790038069,
       "lon": -60.64532625325787,
       "label": "3FEB - PARA",
-      "clave": "3FEB||PARA"
+      "clave": "3FEB||PARA",
+      "fuera_de_recorrido": true,
+      "distancia_recorrido_m": 297.2
     },
     "pt012": {
       "lat": -32.941680399333556,

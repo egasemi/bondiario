@@ -91,6 +91,24 @@ El pipeline completo vive en `scripts/` y se corre en este orden:
 6. **`build_manifest.py`** — indexa todos los `*.final.json` generados
    (línea, bandera, día) para que el visor pueda ofrecer el selector.
 
+7. **`fetch_lineas_oficiales.py`** — además de los puntos de referencia
+   sueltos que salen de los PDFs, `ws.rosario.gob.ar` expone por separado el
+   **recorrido real** de cada línea (geometría GeoJSON de ida y vuelta) y
+   sus paradas oficiales. Este script matchea cada combinación línea+bandera
+   propia contra ese listado — nada trivial, porque el código de línea que
+   trae cada PDF es tan irregular como el resto ("143-136- 137" vs
+   "143/136/ 137" vs "143136137", líneas con nombre truncado como
+   "ENLACE NOROE", algún PDF con el campo corrupto en notación científica
+   por un Excel de origen) — y descarga la geometría de las que matchea.
+   Con esto el visor dibuja el trazado real en vez de una línea recta entre
+   los puntos de referencia del PDF.
+
+8. **`validar_recorrido.py`** — con el recorrido real ya disponible, compara
+   cada punto geocodificado contra la geometría oficial más cercana (ida o
+   vuelta) y marca los que quedan a más de 150 metros como sospechosos de
+   estar mal ubicados. El visor los resalta en el mapa y el panel tiene una
+   sección aparte para revisarlos uno por uno.
+
 El visor (`web/index.html`) es una página estática con [Leaflet](https://leafletjs.com/):
 interpola linealmente la posición de cada colectivo entre sus paradas según
 la hora simulada, con control de velocidad y un selector de línea / día
@@ -104,6 +122,7 @@ sentido: se acelera cuando la frecuencia de servicio es alta y se aplana
 - **Cuadros horarios**: [EMR – Ente de la Movilidad de Rosario](https://emr.gov.ar/transporte-publico/cuadros-horarios) (PDF por línea/bandera/tipo de día).
 - **Callejero de Rosario**: [API de Georreferenciación (georef)](https://datosgobar.github.io/georef-ar-api/), Ministerio de Economía de la Nación — datos.gob.ar.
 - **Geocodificación de intersecciones**: webservice público `ws.rosario.gob.ar/ubicaciones` (Municipalidad de Rosario), el mismo que usa el mapa oficial de la ciudad.
+- **Recorrido real y paradas oficiales**: mismo webservice municipal (`ws.rosario.gob.ar/ubicaciones/public/lineas` y `.../linea/{idEmpresa}/{id}`), identificado a partir de un proyecto hermano que ya lo usaba para publicar los trazados en un mapa propio.
 - **Mapa base**: [OpenStreetMap](https://www.openstreetmap.org/copyright).
 - **Sistema de coordenadas**: EPSG:22185 (POSGAR94 / Argentina 5), convertido a WGS84 con [pyproj](https://pyproj4.github.io/pyproj/) (pipeline) y [proj4js](http://proj4js.org/) (panel).
 
@@ -119,6 +138,9 @@ data/             JSON generados en cada etapa del pipeline + caches
   geocode_cache.json     cache de geocoding (calle1|calle2 -> resultado)
   manual_overrides.json  correcciones manuales permanentes, por esquina
   pending_puntos.json    esquinas sin resolver, deduplicadas
+  oficial_map.json        línea+bandera -> línea oficial matcheada
+  oficial/                 geometría real y paradas oficiales por línea
+  puntos_fuera_de_recorrido.json  puntos sospechosos (lejos del recorrido real)
 scripts/          pipeline (scrape, parse, geocode, build, orquestador)
 web/              index.html (visor) y panel.html (resolución manual)
 server.py         servidor local: sirve /web y /data, y la API del panel
@@ -130,6 +152,11 @@ server.py         servidor local: sirve /web y /data, y la API del panel
 # pipeline completo (bajar PDFs -> parsear -> geocodificar -> armar final.json)
 python3 scripts/scrape_lineas.py
 python3 scripts/process_all.py
+
+# recorrido real oficial + detección de puntos fuera de recorrido (opcional)
+python3 scripts/fetch_lineas_oficiales.py
+python3 scripts/validar_recorrido.py
+python3 scripts/build_manifest.py
 
 # servidor local (visor + API del panel)
 python3 server.py 8765

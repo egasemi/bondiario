@@ -39,7 +39,9 @@
         "lon": -60.739008186079225,
         "x": 5430880.7275,
         "y": 6356925.085000002
-      }
+      },
+      "distancia_recorrido_m": 13.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -82,7 +84,9 @@
         "x": 5431223.01,
         "y": 6358543.05
       },
-      "resuelto_por_convergencia": 3
+      "resuelto_por_convergencia": 3,
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -100,18 +104,14 @@
       "id": "pt002",
       "clave": "DONADO||JJ PASO",
       "status": "auto",
-      "candidatos": [
-        [
-          "DONADO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92064467213504,
         "lon": -60.72774914966584,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -151,7 +151,9 @@
         "lon": -60.72736880804071,
         "x": 5431970.975,
         "y": 6356701.585
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -175,21 +177,14 @@
       "id": "pt004",
       "clave": "CULLEN||EVA PERÓN",
       "status": "auto",
-      "candidatos": [
-        [
-          "EVA PERON"
-        ],
-        [
-          "CULLEN",
-          "CULLEN Y UGARTE"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93362705083023,
         "lon": -60.70944305693824,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -223,7 +218,9 @@
         "lon": -60.69135760094534,
         "x": 5435343.8,
         "y": 6356005.44
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -257,7 +254,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -275,18 +274,14 @@
       "id": "pt007",
       "clave": "CÓRDOBA||OV LAGOS",
       "status": "auto",
-      "candidatos": [
-        [
-          "CORDOBA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.942250654435604,
         "lon": -60.66143745490974,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -320,7 +315,9 @@
         "lon": -60.65123844923559,
         "x": 5439102.64,
         "y": 6354928.74
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -354,7 +351,9 @@
         "lon": -60.64161354044975,
         "x": 5440003.85,
         "y": 6354742.43
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -372,18 +371,14 @@
       "id": "pt010",
       "clave": "1º MAYO||SAN LUIS",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN LUIS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95052808651528,
         "lon": -60.63040938419133,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -419,7 +414,9 @@
         "x": 5441257.665,
         "y": 6353530.145
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -442,13 +439,14 @@
       "id": "pt012",
       "clave": "unparsed::Ciudad Universitaria",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.966263589565266,
         "lon": -60.62418669462205,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -482,7 +480,9 @@
         "lon": -60.62690522093514,
         "x": 5441386.645,
         "y": 6353503.565
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -516,7 +516,9 @@
         "lon": -60.63721346392087,
         "x": 5440419.22,
         "y": 6354097.01
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -550,7 +552,9 @@
         "lon": -60.64201447273118,
         "x": 5439963.5,
         "y": 6355211.31
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -584,7 +588,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -618,7 +624,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -636,18 +644,14 @@
       "id": "pt018",
       "clave": "S BAYO||SANTA FE",
       "status": "auto",
-      "candidatos": [
-        [
-          "SANTA FE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93675566917735,
         "lon": -60.684210846858136,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -681,7 +685,9 @@
         "lon": -60.69873012410185,
         "x": 5434653.15,
         "y": 6356174.77
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -715,7 +721,9 @@
         "lon": -60.72770312191271,
         "x": 5431933.13,
         "y": 6357653.97
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     }
   ]
 }

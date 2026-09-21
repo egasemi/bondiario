@@ -1,0 +1,457 @@
+[
+  {
+    "cuadro_id": "Festivo__110-UNICA",
+    "linea": "110",
+    "bandera": "Unica",
+    "punto_id": "pt001",
+    "clave": "CIRCU||JBJUS",
+    "tokens": [
+      "JBJUS",
+      "CIRCU"
+    ],
+    "lat": -32.93367251415637,
+    "lon": -60.72217419977248,
+    "distancia_m": 2058.2
+  },
+  {
+    "cuadro_id": "Laboral__110-UNICO",
+    "linea": "110",
+    "bandera": "Unica",
+    "punto_id": "pt001",
+    "clave": "CIRCU||JBJUS",
+    "tokens": [
+      "JBJUS",
+      "CIRCU"
+    ],
+    "lat": -32.93367251415637,
+    "lon": -60.72217419977248,
+    "distancia_m": 2058.2
+  },
+  {
+    "cuadro_id": "Medio-festivo__110-UNICA",
+    "linea": "110",
+    "bandera": "Unica",
+    "punto_id": "pt001",
+    "clave": "CIRCU||JBJUS",
+    "tokens": [
+      "JBJUS",
+      "CIRCU"
+    ],
+    "lat": -32.93367251415637,
+    "lon": -60.72217419977248,
+    "distancia_m": 2058.2
+  },
+  {
+    "cuadro_id": "Festivo__132-UNICA",
+    "linea": "132",
+    "bandera": "ÚNICA",
+    "punto_id": "pt020",
+    "clave": "COPACABA NA||LAGOS",
+    "tokens": [
+      "Lagos",
+      "Copacaba na"
+    ],
+    "lat": -33.02814794375835,
+    "lon": -60.68171696993667,
+    "distancia_m": 934.4
+  },
+  {
+    "cuadro_id": "Medio-festivo__113",
+    "linea": "113",
+    "bandera": null,
+    "punto_id": "pt003",
+    "clave": "GODOY||IRIONDO",
+    "tokens": [
+      "Iriondo",
+      "Godoy"
+    ],
+    "lat": -32.96884817336895,
+    "lon": -60.6766817170779,
+    "distancia_m": 883.0
+  },
+  {
+    "cuadro_id": "Festivo__128-NEGRA",
+    "linea": "128",
+    "bandera": "Negra",
+    "punto_id": "pt012",
+    "clave": "AYOLA||ERIOS",
+    "tokens": [
+      "ERIOS",
+      "AYOLA"
+    ],
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "distancia_m": 785.7
+  },
+  {
+    "cuadro_id": "Festivo__128-ROJA",
+    "linea": "128",
+    "bandera": "Roja",
+    "punto_id": "pt012",
+    "clave": "AYOLA||ERIOS",
+    "tokens": [
+      "ERIOS",
+      "AYOLA"
+    ],
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "distancia_m": 785.7
+  },
+  {
+    "cuadro_id": "Laboral__128-NEGRA",
+    "linea": "128",
+    "bandera": "Negra",
+    "punto_id": "pt012",
+    "clave": "AYOLA||ERIOS",
+    "tokens": [
+      "ERIOS",
+      "AYOLA"
+    ],
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "distancia_m": 785.7
+  },
+  {
+    "cuadro_id": "Laboral__128-ROJO",
+    "linea": "128",
+    "bandera": "Rojo",
+    "punto_id": "pt012",
+    "clave": "AYOLA||ERIOS",
+    "tokens": [
+      "ERIOS",
+      "AYOLA"
+    ],
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "distancia_m": 785.7
+  },
+  {
+    "cuadro_id": "Medio-festivo__128-NEGRA",
+    "linea": "128",
+    "bandera": "Negra",
+    "punto_id": "pt012",
+    "clave": "AYOLA||ERIOS",
+    "tokens": [
+      "ERIOS",
+      "AYOLA"
+    ],
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "distancia_m": 785.7
+  },
+  {
+    "cuadro_id": "Medio-festivo__128-ROJA",
+    "linea": "128",
+    "bandera": "Roja",
+    "punto_id": "pt012",
+    "clave": "AYOLA||ERIOS",
+    "tokens": [
+      "ERIOS",
+      "AYOLA"
+    ],
+    "lat": -32.978003685189364,
+    "lon": -60.63891702583494,
+    "distancia_m": 785.7
+  },
+  {
+    "cuadro_id": "Festivo__132-UNICA",
+    "linea": "132",
+    "bandera": "ÚNICA",
+    "punto_id": "pt021",
+    "clave": "CON VJO SODINI||LAGOS",
+    "tokens": [
+      "Con Vjo Sodini",
+      "Lagos"
+    ],
+    "lat": -33.02599015934765,
+    "lon": -60.68113803863526,
+    "distancia_m": 784.7
+  },
+  {
+    "cuadro_id": "Medio-festivo__132-UNICA",
+    "linea": "132",
+    "bandera": "ÚNICA",
+    "punto_id": "pt020",
+    "clave": "CON VJO SODINI||LAGOS",
+    "tokens": [
+      "Con Vjo Sodini",
+      "Lagos"
+    ],
+    "lat": -33.02599015934765,
+    "lon": -60.68113803863526,
+    "distancia_m": 784.7
+  },
+  {
+    "cuadro_id": "Festivo__133-125-NEGRA",
+    "linea": "133125",
+    "bandera": "Negra",
+    "punto_id": "pt012",
+    "clave": "AGNET||STAFE",
+    "tokens": [
+      "STAFE",
+      "AGNET"
+    ],
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "distancia_m": 452.5
+  },
+  {
+    "cuadro_id": "Festivo__133-125-VERDE",
+    "linea": "133125",
+    "bandera": "Verde",
+    "punto_id": "pt012",
+    "clave": "AGNET||STAFE",
+    "tokens": [
+      "STAFE",
+      "AGNET"
+    ],
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "distancia_m": 452.5
+  },
+  {
+    "cuadro_id": "Laboral__133-125-NEGRA",
+    "linea": "133125",
+    "bandera": "Negra",
+    "punto_id": "pt012",
+    "clave": "AGNET||STAFE",
+    "tokens": [
+      "STAFE",
+      "AGNET"
+    ],
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "distancia_m": 452.5
+  },
+  {
+    "cuadro_id": "Laboral__133-125-VERDE",
+    "linea": "133125",
+    "bandera": "Verde",
+    "punto_id": "pt012",
+    "clave": "AGNET||STAFE",
+    "tokens": [
+      "STAFE",
+      "AGNET"
+    ],
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "distancia_m": 452.5
+  },
+  {
+    "cuadro_id": "Medio-festivo__133-125-NEGRA",
+    "linea": "133125",
+    "bandera": "Negra",
+    "punto_id": "pt012",
+    "clave": "AGNET||STAFE",
+    "tokens": [
+      "STAFE",
+      "AGNET"
+    ],
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "distancia_m": 452.5
+  },
+  {
+    "cuadro_id": "Medio-festivo__133-125-VERDE",
+    "linea": "133125",
+    "bandera": "Verde",
+    "punto_id": "pt012",
+    "clave": "AGNET||STAFE",
+    "tokens": [
+      "STAFE",
+      "AGNET"
+    ],
+    "lat": -32.93955994251452,
+    "lon": -60.69985246762975,
+    "distancia_m": 452.5
+  },
+  {
+    "cuadro_id": "Festivo__112-ROJA",
+    "linea": "112",
+    "bandera": "ROJA",
+    "punto_id": "pt022",
+    "clave": "ALBERDI||V SARSFIELD",
+    "tokens": [
+      "V. Sarsfield",
+      "Alberdi"
+    ],
+    "lat": -32.9249231958004,
+    "lon": -60.67788669453912,
+    "distancia_m": 360.4
+  },
+  {
+    "cuadro_id": "Medio-festivo__112-ROJA",
+    "linea": "112",
+    "bandera": "ROJA",
+    "punto_id": "pt022",
+    "clave": "ALBERDI||V SARSFIELD",
+    "tokens": [
+      "V. Sarsfield",
+      "Alberdi"
+    ],
+    "lat": -32.9249231958004,
+    "lon": -60.67788669453912,
+    "distancia_m": 360.4
+  },
+  {
+    "cuadro_id": "Festivo__138-139-UNICA",
+    "linea": "138139",
+    "bandera": "Unica",
+    "punto_id": "pt011",
+    "clave": "3FEB||PARA",
+    "tokens": [
+      "3FEB",
+      "PARA"
+    ],
+    "lat": -32.95176790038069,
+    "lon": -60.64532625325787,
+    "distancia_m": 297.2
+  },
+  {
+    "cuadro_id": "Laboral__138-139-UNICO",
+    "linea": "138139",
+    "bandera": "Unica",
+    "punto_id": "pt011",
+    "clave": "3FEB||PARA",
+    "tokens": [
+      "3FEB",
+      "PARA"
+    ],
+    "lat": -32.95176790038069,
+    "lon": -60.64532625325787,
+    "distancia_m": 297.2
+  },
+  {
+    "cuadro_id": "Medio-festivo__138-139-UNICA",
+    "linea": "138139",
+    "bandera": "Unica",
+    "punto_id": "pt011",
+    "clave": "3FEB||PARA",
+    "tokens": [
+      "3FEB",
+      "PARA"
+    ],
+    "lat": -32.95176790038069,
+    "lon": -60.64532625325787,
+    "distancia_m": 297.2
+  },
+  {
+    "cuadro_id": "Festivo__138-139-UNICA",
+    "linea": "138139",
+    "bandera": "Unica",
+    "punto_id": "pt000",
+    "clave": "unparsed::CASINO",
+    "tokens": [
+      "CASINO"
+    ],
+    "lat": -33.011506524570876,
+    "lon": -60.662319660186775,
+    "distancia_m": 236.9
+  },
+  {
+    "cuadro_id": "Laboral__138-139-UNICO",
+    "linea": "138139",
+    "bandera": "Unica",
+    "punto_id": "pt000",
+    "clave": "unparsed::CASINO",
+    "tokens": [
+      "CASINO"
+    ],
+    "lat": -33.011506524570876,
+    "lon": -60.662319660186775,
+    "distancia_m": 236.9
+  },
+  {
+    "cuadro_id": "Medio-festivo__138-139-UNICA",
+    "linea": "138139",
+    "bandera": "Unica",
+    "punto_id": "pt000",
+    "clave": "unparsed::CASINO",
+    "tokens": [
+      "CASINO"
+    ],
+    "lat": -33.011506524570876,
+    "lon": -60.662319660186775,
+    "distancia_m": 236.9
+  },
+  {
+    "cuadro_id": "Laboral__141-UNICO",
+    "linea": "141",
+    "bandera": "UNICO",
+    "punto_id": "pt012",
+    "clave": "unparsed::Paso Del Bosque",
+    "tokens": [
+      "Paso Del Bosque"
+    ],
+    "lat": -32.9072442300709,
+    "lon": -60.72086691856385,
+    "distancia_m": 179.0
+  },
+  {
+    "cuadro_id": "Medio-festivo__141-UNICA",
+    "linea": "141",
+    "bandera": "UNICO",
+    "punto_id": "pt013",
+    "clave": "unparsed::Paso Del Bosque",
+    "tokens": [
+      "Paso Del Bosque"
+    ],
+    "lat": -32.9072442300709,
+    "lon": -60.72086691856385,
+    "distancia_m": 179.0
+  },
+  {
+    "cuadro_id": "Festivo__112-ROJA",
+    "linea": "112",
+    "bandera": "ROJA",
+    "punto_id": "pt004",
+    "clave": "AV ALBERDI||JUNIN",
+    "tokens": [
+      "Junin",
+      "Av. Alberdi"
+    ],
+    "lat": -32.92660046912123,
+    "lon": -60.67654675707029,
+    "distancia_m": 170.5
+  },
+  {
+    "cuadro_id": "Medio-festivo__112-ROJA",
+    "linea": "112",
+    "bandera": "ROJA",
+    "punto_id": "pt004",
+    "clave": "AV ALBERDI||JUNIN",
+    "tokens": [
+      "Junin",
+      "Av. Alberdi"
+    ],
+    "lat": -32.92660046912123,
+    "lon": -60.67654675707029,
+    "distancia_m": 170.5
+  },
+  {
+    "cuadro_id": "Festivo__141-UNICA",
+    "linea": "141",
+    "bandera": "UNICO",
+    "punto_id": "pt012",
+    "clave": "unparsed::Paso del Bosque",
+    "tokens": [
+      "Paso del Bosque"
+    ],
+    "lat": -32.906974007448945,
+    "lon": -60.720984935760505,
+    "distancia_m": 169.3
+  },
+  {
+    "cuadro_id": "Medio-festivo__141-UNICA",
+    "linea": "141",
+    "bandera": "UNICO",
+    "punto_id": "pt012",
+    "clave": "unparsed::Paso del Bosque",
+    "tokens": [
+      "Paso del Bosque"
+    ],
+    "lat": -32.906974007448945,
+    "lon": -60.720984935760505,
+    "distancia_m": 169.3
+  }
+]

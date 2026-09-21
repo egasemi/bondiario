@@ -73,7 +73,9 @@
         "lon": -60.711570982483266,
         "x": 5433475.02,
         "y": 6352791.365
-      }
+      },
+      "distancia_recorrido_m": 5.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -107,7 +109,9 @@
         "lon": -60.71261641333929,
         "x": 5433358.131250002,
         "y": 6355620.99875
-      }
+      },
+      "distancia_recorrido_m": 33.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -141,7 +145,9 @@
         "lon": -60.68041252049164,
         "x": 5436372.655,
         "y": 6355200.035
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -175,7 +181,9 @@
         "lon": -60.67160935496338,
         "x": 5437195.14,
         "y": 6355321.42
-      }
+      },
+      "distancia_recorrido_m": 4.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -209,7 +217,9 @@
         "lon": -60.65123844923559,
         "x": 5439102.64,
         "y": 6354928.74
-      }
+      },
+      "distancia_recorrido_m": 0.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -227,18 +237,14 @@
       "id": "pt007",
       "clave": "BSAS||SLUIS",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN LUIS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.949994901139696,
         "lon": -60.63335742502537,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -274,7 +280,9 @@
         "x": 5440999.915,
         "y": 6353583.275
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -292,19 +300,14 @@
       "id": "pt009",
       "clave": "27FEB||ALEM",
       "status": "auto",
-      "candidatos": [
-        [
-          "ALEM",
-          "ALEMANIA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96935179978545,
         "lon": -60.63363047053328,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -322,16 +325,14 @@
       "id": "pt010",
       "clave": "BVSEG||JMROS",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.98029411131242,
         "lon": -60.639491095877965,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -349,18 +350,14 @@
       "id": "pt011",
       "clave": "JMROS||URIBU",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "URIBURU"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9905182978758,
         "lon": -60.64203128787136,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -396,7 +393,9 @@
         "x": 5438491.49,
         "y": 6350020.45
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -430,7 +429,9 @@
         "lon": -60.67338971992913,
         "x": 5437062.947500002,
         "y": 6349957.4725
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -448,18 +449,14 @@
       "id": "pt014",
       "clave": "ARIJN||OVLAG",
       "status": "auto",
-      "candidatos": [
-        [
-          "OVIDIO LAGOS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.00383724610716,
         "lon": -60.676164713827475,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -477,16 +474,14 @@
       "id": "pt015",
       "clave": "CERESETTO||JPABLOII",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -33.009336676976,
         "lon": -60.67360418942377,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     }
   ]
 }

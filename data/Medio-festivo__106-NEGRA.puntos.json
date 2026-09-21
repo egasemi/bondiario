@@ -23,19 +23,14 @@
       "id": "pt000",
       "clave": "AVENIDA DEL ROSARIO||SAAVEDRA",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "SAAVEDRA",
-          "SAAVEDRA LAMAS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.84847843887372,
         "lon": -60.794928073883064,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -59,18 +54,14 @@
       "id": "pt001",
       "clave": "25 DE MAYO||34",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "25 DE MAYO AV CIRCUNVALACION"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.89320957792869,
         "lon": -60.720212459564216,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -94,18 +85,14 @@
       "id": "pt002",
       "clave": "34||GRANDOLI",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "GRANDOLI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88710137759323,
         "lon": -60.73019027709962,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -129,18 +116,14 @@
       "id": "pt003",
       "clave": "BAIGORRIA||BUCHARDO",
       "status": "auto",
-      "candidatos": [
-        [
-          "BAIGORRIA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.89395027189452,
         "lon": -60.71773812625615,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -180,7 +163,9 @@
         "lon": -60.705307503400356,
         "x": 5434012.65,
         "y": 6359960.705
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -198,18 +183,14 @@
       "id": "pt005",
       "clave": "INTEDENTE LAMAS||SORRENTO",
       "status": "auto",
-      "candidatos": [
-        [
-          "SORRENTO"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.907260450098114,
         "lon": -60.69382498633758,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -243,7 +224,9 @@
         "lon": -60.676568618817036,
         "x": 5436721.195,
         "y": 6356903.32
-      }
+      },
+      "distancia_recorrido_m": 5.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -261,22 +244,14 @@
       "id": "pt007",
       "clave": "FRANCIA||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "FRANCIA",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "FRANCIA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93454301584157,
         "lon": -60.66376121418787,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -294,22 +269,14 @@
       "id": "pt008",
       "clave": "OROÑO||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "ORONO",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93673411275052,
         "lon": -60.6515429177582,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 2.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -327,22 +294,14 @@
       "id": "pt009",
       "clave": "ENTRE RIOS||SALTA",
       "status": "auto",
-      "calle1": "SALTA AV",
-      "calle2": "ENTRE RIOS",
-      "candidatos": [
-        [
-          "SALTA AV"
-        ],
-        [
-          "ENTRE RIOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93893481039364,
         "lon": -60.63920672182775,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -376,7 +335,9 @@
         "lon": -60.633358211165536,
         "x": 5440774.11,
         "y": 6355028.91
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -410,7 +371,9 @@
         "lon": -60.636972187793276,
         "x": 5440444.195,
         "y": 6353697.875
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -444,7 +407,9 @@
         "lon": -60.639561423538005,
         "x": 5440209.05,
         "y": 6352552.43
-      }
+      },
+      "distancia_recorrido_m": 1.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -480,7 +445,9 @@
         "x": 5440918.81,
         "y": 6351874.65
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 4.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -520,7 +487,9 @@
         "lon": -60.62847877710324,
         "x": 5441259.585,
         "y": 6350142.0625
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -538,18 +507,14 @@
       "id": "pt015",
       "clave": "ISOLA||MAESTRO SANTAFECINO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ISOLA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.991296932138866,
         "lon": -60.62303007581896,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -567,18 +532,14 @@
       "id": "pt016",
       "clave": "BERITTI||GABOTO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "GABOTO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97650865830917,
         "lon": -60.626833878192514,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -612,7 +573,9 @@
         "lon": -60.640748590706444,
         "x": 5440097.97,
         "y": 6352567.02
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -646,7 +609,9 @@
         "lon": -60.63814576065071,
         "x": 5440334.325,
         "y": 6353720.495
-      }
+      },
+      "distancia_recorrido_m": 2.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -682,7 +647,9 @@
         "x": 5440484.37,
         "y": 6355069.15
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -716,7 +683,9 @@
         "lon": -60.642253634107576,
         "x": 5439937.96,
         "y": 6355732.02
-      }
+      },
+      "distancia_recorrido_m": 3.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -750,7 +719,9 @@
         "lon": -60.65183401244881,
         "x": 5439040.83,
         "y": 6355917.245
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -784,7 +755,9 @@
         "lon": -60.664053025061655,
         "x": 5437896.565,
         "y": 6356152.665
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -818,7 +791,9 @@
         "lon": -60.677834789201604,
         "x": 5436602.25,
         "y": 6356983.265000002
-      }
+      },
+      "distancia_recorrido_m": 3.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -852,7 +827,9 @@
         "lon": -60.69382498633758,
         "x": 5435091.42,
         "y": 6359289.32
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     }
   ]
 }

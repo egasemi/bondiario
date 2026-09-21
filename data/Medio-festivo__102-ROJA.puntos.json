@@ -22,13 +22,14 @@
       "id": "pt000",
       "clave": "unparsed::Logaritmo",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.8729013380483,
         "lon": -60.744481086730964,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -46,16 +47,14 @@
       "id": "pt001",
       "clave": "B LEVI||VILLA DEL PARQUE",
       "status": "auto",
-      "candidatos": [
-        [],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88151844847773,
         "lon": -60.72838175094388,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -89,7 +88,9 @@
         "lon": -60.7273230379502,
         "x": 5431942.03,
         "y": 6361518.95
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -123,7 +124,9 @@
         "lon": -60.716308961853315,
         "x": 5432977.9,
         "y": 6360756.43
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -157,7 +160,9 @@
         "lon": -60.70800768325427,
         "x": 5433754.52,
         "y": 6360778.53
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -191,7 +196,9 @@
         "lon": -60.703967410248595,
         "x": 5434138.53,
         "y": 6359886.54
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -231,7 +238,9 @@
         "lon": -60.695724525432475,
         "x": 5434913.716666666,
         "y": 6359287.303333334
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -249,18 +258,14 @@
       "id": "pt007",
       "clave": "ALBERDI||CARBALLO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ALBERDI"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.922169393724715,
         "lon": -60.68009751971819,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -294,7 +299,9 @@
         "lon": -60.66925643307086,
         "x": 5437403.45,
         "y": 6357169.04
-      }
+      },
+      "distancia_recorrido_m": 6.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -328,7 +335,9 @@
         "lon": -60.649015539187026,
         "x": 5439300.63,
         "y": 6356533.72
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -362,7 +371,9 @@
         "lon": -60.64865003823382,
         "x": 5439341.51,
         "y": 6355446.2
-      }
+      },
+      "distancia_recorrido_m": 1.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -396,7 +407,9 @@
         "lon": -60.64161354044975,
         "x": 5440003.85,
         "y": 6354742.43
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -432,7 +445,9 @@
         "x": 5440999.915,
         "y": 6353583.275
       },
-      "resuelto_por_convergencia": 1
+      "resuelto_por_convergencia": 1,
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -449,13 +464,14 @@
       "id": "pt013",
       "clave": "unparsed::Ciudad Universitaria",
       "status": "auto",
-      "candidatos": [],
       "geocode": {
         "status": "ok",
         "lat": -32.966263589565266,
         "lon": -60.62418669462205,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -489,7 +505,9 @@
         "lon": -60.629345552607646,
         "x": 5441157.39,
         "y": 6353684.45
-      }
+      },
+      "distancia_recorrido_m": 1.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -523,7 +541,9 @@
         "lon": -60.63361788264234,
         "x": 5440750.23,
         "y": 6354961.84
-      }
+      },
+      "distancia_recorrido_m": 1.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -557,7 +577,9 @@
         "lon": -60.647298229963425,
         "x": 5439468.09,
         "y": 6355420.37
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -575,18 +597,14 @@
       "id": "pt017",
       "clave": "E LOPEZ||MORENO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "MORENO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.93251050948136,
         "lon": -60.64754255360958,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -604,18 +622,14 @@
       "id": "pt018",
       "clave": "AV AVELLANEDA||CARBALLO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "AVELLANEDA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.92197867092564,
         "lon": -60.67481468220162,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -649,7 +663,9 @@
         "lon": -60.703963422256415,
         "x": 5434138.905,
         "y": 6359886.26
-      }
+      },
+      "distancia_recorrido_m": 3.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -683,7 +699,9 @@
         "lon": -60.70800768325427,
         "x": 5433754.52,
         "y": 6360778.53
-      }
+      },
+      "distancia_recorrido_m": 0.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -717,7 +735,9 @@
         "lon": -60.71773812625615,
         "x": 5432844.21,
         "y": 6360750.53
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -735,18 +755,14 @@
       "id": "pt022",
       "clave": "J GRANEL||VIEYTES",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "VIEYTES"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88806784889861,
         "lon": -60.72734603692589,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -764,18 +780,14 @@
       "id": "pt023",
       "clave": "B LEVI||CALDERON",
       "status": "auto",
-      "candidatos": [
-        [
-          "CALDERON"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.88163631075015,
         "lon": -60.73128405374447,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.1,
+      "fuera_de_recorrido": false
     }
   ]
 }

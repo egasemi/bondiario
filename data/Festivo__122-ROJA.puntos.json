@@ -41,7 +41,9 @@
         "x": 5432779.01,
         "y": 6354011.66
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -65,18 +67,14 @@
       "id": "pt001",
       "clave": "27FE||PUNID",
       "status": "auto",
-      "candidatos": [
-        [
-          "PROVINCIAS UNIDAS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.959358644342906,
         "lon": -60.711826011049666,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -100,22 +98,14 @@
       "id": "pt002",
       "clave": "PPER||PUNID",
       "status": "auto",
-      "calle1": "PROVINCIAS UNIDAS",
-      "calle2": "PRES PERON",
-      "candidatos": [
-        [
-          "PROVINCIAS UNIDAS"
-        ],
-        [
-          "PRES PERON"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96797671019971,
         "lon": -60.711483128369736,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 3.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -139,22 +129,14 @@
       "id": "pt003",
       "clave": "MATIE||PPER",
       "status": "auto",
-      "calle1": "PRES PERON",
-      "calle2": "MATIENZO",
-      "candidatos": [
-        [
-          "PRES PERON"
-        ],
-        [
-          "MATIENZO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95918226542554,
         "lon": -60.69395790398763,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 4.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -178,22 +160,14 @@
       "id": "pt004",
       "clave": "AVELL||PPER",
       "status": "auto",
-      "calle1": "PRES PERON",
-      "calle2": "AVELLANEDA",
-      "candidatos": [
-        [
-          "PRES PERON"
-        ],
-        [
-          "AVELLANEDA"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95760474980817,
         "lon": -60.683796260735605,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 6.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -227,7 +201,9 @@
         "lon": -60.67505025864745,
         "x": 5436879.05,
         "y": 6354431.62
-      }
+      },
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -261,7 +237,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -295,7 +273,9 @@
         "lon": -60.65329706724913,
         "x": 5438908.005,
         "y": 6355271.035
-      }
+      },
+      "distancia_recorrido_m": 3.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -329,7 +309,9 @@
         "lon": -60.64038098991533,
         "x": 5440115.78,
         "y": 6355290.22
-      }
+      },
+      "distancia_recorrido_m": 4.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -363,7 +345,9 @@
         "lon": -60.63425558263375,
         "x": 5440691.9,
         "y": 6354745.15
-      }
+      },
+      "distancia_recorrido_m": 0.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -405,7 +389,9 @@
         "x": 5441257.665,
         "y": 6353530.145
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 0.1,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -423,19 +409,14 @@
       "id": "pt011",
       "clave": "27FEB||COLON",
       "status": "auto",
-      "candidatos": [
-        [
-          "COLON",
-          "COLON NORTE"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.96984655364042,
         "lon": -60.63085801186243,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -475,7 +456,9 @@
         "lon": -60.63238693967122,
         "x": 5440888.635,
         "y": 6351083.37
-      }
+      },
+      "distancia_recorrido_m": 0.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -509,7 +492,9 @@
         "lon": -60.6345463926687,
         "x": 5440692.55,
         "y": 6350125.27
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -555,7 +540,9 @@
         "x": 5440965.54,
         "y": 6348629.06
       },
-      "resuelto_por_convergencia": 3
+      "resuelto_por_convergencia": 3,
+      "distancia_recorrido_m": 0.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -589,7 +576,9 @@
         "lon": -60.63459379820101,
         "x": 5440688.17,
         "y": 6350116.82
-      }
+      },
+      "distancia_recorrido_m": 3.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -607,18 +596,14 @@
       "id": "pt016",
       "clave": "27FEB||NECOC",
       "status": "auto",
-      "candidatos": [
-        [
-          "NECOCHEA"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.9700888925659,
         "lon": -60.62949628384139,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -652,7 +637,9 @@
         "lon": -60.63645390903286,
         "x": 5440484.37,
         "y": 6355069.15
-      }
+      },
+      "distancia_recorrido_m": 0.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -686,7 +673,9 @@
         "lon": -60.65295938589818,
         "x": 5438938.655,
         "y": 6355421.01
-      }
+      },
+      "distancia_recorrido_m": 1.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -720,7 +709,9 @@
         "lon": -60.670611159846615,
         "x": 5437285.69,
         "y": 6355761.45
-      }
+      },
+      "distancia_recorrido_m": 2.3,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -738,25 +729,14 @@
       "id": "pt020",
       "clave": "CAFFE||MONTE",
       "status": "auto",
-      "candidatos": [
-        [
-          "CAFFERATA"
-        ],
-        [
-          "MONTEAGUDO",
-          "MONTECARLO",
-          "MONTEVIDEO",
-          "MONTE FLORES",
-          "MONTES DE OCA",
-          "MONTES CARBALLO 1704"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95026869606863,
         "lon": -60.67339857792264,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     }
   ]
 }

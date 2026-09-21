@@ -33,7 +33,9 @@
         "lon": -60.664647482171475,
         "x": 5437842.615,
         "y": 6355891.4
-      }
+      },
+      "distancia_recorrido_m": 2.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -67,7 +69,9 @@
         "lon": -60.670951201305705,
         "x": 5437254.84,
         "y": 6355611.96
-      }
+      },
+      "distancia_recorrido_m": 2.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -85,25 +89,14 @@
       "id": "pt002",
       "clave": "CAFFE||MONTE",
       "status": "auto",
-      "candidatos": [
-        [
-          "CAFFERATA"
-        ],
-        [
-          "MONTEAGUDO",
-          "MONTECARLO",
-          "MONTEVIDEO",
-          "MONTE FLORES",
-          "MONTES DE OCA",
-          "MONTES CARBALLO 1704"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.95026869606863,
         "lon": -60.67339857792264,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -139,7 +132,9 @@
         "x": 5436532.31,
         "y": 6352113.83
       },
-      "resuelto_por_convergencia": 2
+      "resuelto_por_convergencia": 2,
+      "distancia_recorrido_m": 1.4,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -173,7 +168,9 @@
         "lon": -60.66995469322726,
         "x": 5437373.93,
         "y": 6351541.6
-      }
+      },
+      "distancia_recorrido_m": 1.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -197,18 +194,14 @@
       "id": "pt005",
       "clave": "BVSEG||OROÑO",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "ORONO"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97635953955821,
         "lon": -60.66151169378635,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 7.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -242,7 +235,9 @@
         "lon": -60.64717914731819,
         "x": 5439502.49,
         "y": 6351634.92
-      }
+      },
+      "distancia_recorrido_m": 3.2,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -276,7 +271,9 @@
         "lon": -60.64227731876921,
         "x": 5439947.525,
         "y": 6353799.945
-      }
+      },
+      "distancia_recorrido_m": 0.7,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -310,7 +307,9 @@
         "lon": -60.640216821434855,
         "x": 5440134.62,
         "y": 6354716.4
-      }
+      },
+      "distancia_recorrido_m": 2.0,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -350,7 +349,9 @@
         "lon": -60.633358211165536,
         "x": 5440774.11,
         "y": 6355028.91
-      }
+      },
+      "distancia_recorrido_m": 1.5,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -384,7 +385,9 @@
         "lon": -60.6418953810588,
         "x": 5439978.25,
         "y": 6354618.39
-      }
+      },
+      "distancia_recorrido_m": 3.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -418,7 +421,9 @@
         "lon": -60.64368660465688,
         "x": 5439815.585,
         "y": 6353827.035
-      }
+      },
+      "distancia_recorrido_m": 2.9,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -452,7 +457,9 @@
         "lon": -60.63891702583494,
         "x": 5440275.83,
         "y": 6351475.91
-      }
+      },
+      "distancia_recorrido_m": 785.7,
+      "fuera_de_recorrido": true
     },
     {
       "tokens": [
@@ -470,18 +477,14 @@
       "id": "pt013",
       "clave": "BVSEG||OVLAG",
       "status": "auto",
-      "candidatos": [
-        [],
-        [
-          "OVIDIO LAGOS"
-        ]
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.97494876663608,
         "lon": -60.66939658178918,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 5.8,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -515,7 +518,9 @@
         "lon": -60.67941112954752,
         "x": 5436483.58,
         "y": 6352521.96
-      }
+      },
+      "distancia_recorrido_m": 1.6,
+      "fuera_de_recorrido": false
     },
     {
       "tokens": [
@@ -533,18 +538,14 @@
       "id": "pt015",
       "clave": "SNICO||ZEBAB",
       "status": "auto",
-      "candidatos": [
-        [
-          "SAN NICOLAS"
-        ],
-        []
-      ],
       "geocode": {
         "status": "ok",
         "lat": -32.94887722188288,
         "lon": -60.674474759368714,
         "manual": true
-      }
+      },
+      "distancia_recorrido_m": 0.4,
+      "fuera_de_recorrido": false
     }
   ]
 }
