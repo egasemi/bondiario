@@ -181,6 +181,74 @@ function lerp(a, b, t) { return a + (b - a) * t; }
 // guardar cambios; en producción (GitHub Pages, sin backend) no se ofrece.
 const ES_LOCAL = ["localhost", "127.0.0.1"].includes(location.hostname);
 
+// --- seguir el recorrido real en vez de ir en línea recta entre paradas ---
+const LAT_SCALE_M = 111320;
+
+function distMetros(lat1, lon1, lat2, lon2) {
+  const lonScale = LAT_SCALE_M * Math.cos((lat1 + lat2) / 2 * Math.PI / 180);
+  return Math.hypot((lon2 - lon1) * lonScale, (lat2 - lat1) * LAT_SCALE_M);
+}
+
+/** Distancia y fracción (0..1) de la proyección de p sobre el segmento a-b, en metros. */
+function proyeccionEnSegmento(pLat, pLon, aLat, aLon, bLat, bLon) {
+  const lat0 = (pLat + aLat + bLat) / 3;
+  const lonScale = LAT_SCALE_M * Math.cos(lat0 * Math.PI / 180);
+  const px = pLon * lonScale, py = pLat * LAT_SCALE_M;
+  const ax = aLon * lonScale, ay = aLat * LAT_SCALE_M;
+  const bx = bLon * lonScale, by = bLat * LAT_SCALE_M;
+  const dx = bx - ax, dy = by - ay;
+  let t = 0;
+  if (dx !== 0 || dy !== 0) {
+    t = ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy);
+    t = Math.max(0, Math.min(1, t));
+  }
+  const projx = ax + t * dx, projy = ay + t * dy;
+  return { dist: Math.hypot(px - projx, py - projy), t };
+}
+
+/** Construye un modelo de recorrido a partir de un geojson LineString o
+ * MultiLineString: lista de puntos [lat,lon] + distancia acumulada (m). */
+function construirPath(geojson) {
+  if (!geojson) return null;
+  const segmentos = geojson.type === "LineString" ? [geojson.coordinates] : geojson.coordinates;
+  const pts = [];
+  for (const seg of segmentos) for (const [lon, lat] of seg) pts.push([lat, lon]);
+  if (pts.length < 2) return null;
+  const acumulada = [0];
+  for (let i = 1; i < pts.length; i++) {
+    acumulada.push(acumulada[i - 1] + distMetros(pts[i - 1][0], pts[i - 1][1], pts[i][0], pts[i][1]));
+  }
+  return { pts, acumulada, total: acumulada[acumulada.length - 1] };
+}
+
+/** Distancia acumulada (m) del punto de la ruta más cercano a (lat,lon). */
+function proyectarEnPath(path, lat, lon) {
+  if (!path) return null;
+  let mejorDist = Infinity, mejorAcum = 0;
+  for (let i = 0; i < path.pts.length - 1; i++) {
+    const a = path.pts[i], b = path.pts[i + 1];
+    const { dist, t } = proyeccionEnSegmento(lat, lon, a[0], a[1], b[0], b[1]);
+    if (dist < mejorDist) {
+      mejorDist = dist;
+      mejorAcum = path.acumulada[i] + t * (path.acumulada[i + 1] - path.acumulada[i]);
+    }
+  }
+  return mejorAcum;
+}
+
+/** Posición [lat,lon] a una distancia acumulada (m) dada a lo largo del path. */
+function posicionEnPath(path, dist) {
+  const acc = path.acumulada;
+  if (dist <= 0) return path.pts[0];
+  if (dist >= path.total) return path.pts[path.pts.length - 1];
+  let i = 1;
+  while (acc[i] < dist) i++;
+  const segLen = acc[i] - acc[i - 1];
+  const frac = segLen > 0 ? (dist - acc[i - 1]) / segLen : 0;
+  const a = path.pts[i - 1], b = path.pts[i];
+  return [lerp(a[0], b[0], frac), lerp(a[1], b[1], frac)];
+}
+
 /** Frecuencia alrededor de un instante dado: promedia los huecos entre
  * salidas consecutivas dentro de una ventana centrada en t (por defecto
  * +/-45 min); si hay muy pocos viajes cerca, usa el hueco entre la salida
@@ -331,8 +399,13 @@ async function cargarCuadro(archivos, oficialKey) {
 
   // en modo "todas las líneas" se omiten puntos de referencia y polylines de
   // recorrido (serían miles de elementos y no aportan a la lectura general)
+  let pathIda = null, pathVuelta = null;
   if (!combinado) {
     const oficial = oficialKey ? await fetchOficial(oficialKey) : null;
+    if (oficial) {
+      pathIda = construirPath(oficial.geojsonIda);
+      pathVuelta = construirPath(oficial.geojsonVuelta);
+    }
 
     // puntos de referencia (sutil, de contexto; en rojo si quedan lejos del recorrido oficial real)
     for (const [id, p] of Object.entries(puntos)) {
@@ -384,7 +457,13 @@ async function cargarCuadro(archivos, oficialKey) {
   const tMin = 0;
   const radioMarcador = combinado ? 4 : 6;
   const viajes = data.viajes.map(v => {
-    const paradas = v.paradas.map(p => ({ t: p.t, lat: puntos[p.punto].lat, lon: puntos[p.punto].lon }));
+    const path = v.sentido === "ida" ? pathIda : pathVuelta;
+    const paradas = v.paradas.map(p => {
+      const punto = puntos[p.punto];
+      const entry = { t: p.t, lat: punto.lat, lon: punto.lon };
+      if (path) entry.distAcum = proyectarEnPath(path, punto.lat, punto.lon);
+      return entry;
+    });
     tMax = Math.max(tMax, paradas[paradas.length - 1].t);
     const color = v.sentido === "ida" ? "#1d5fd6" : "#d0270f";
     const etiqueta = combinado ? `Línea ${v.linea} ${v.bandera || ""} — ${v.servicio} (${v.sentido})` : `${v.servicio} (${v.sentido})`;
@@ -392,7 +471,7 @@ async function cargarCuadro(archivos, oficialKey) {
       radius: radioMarcador, color: "#1a1d24", weight: 1.5, fillColor: color, fillOpacity: 1,
     }).bindTooltip(etiqueta, { direction: "top" });
     capasCuadro.push(marker);
-    return { ...v, paradas, marker, visible: false };
+    return { ...v, paradas, path, marker, visible: false };
   });
 
   const iniciosPorSentido = { ida: [], vuelta: [] };
@@ -416,13 +495,17 @@ async function cargarCuadro(archivos, oficialKey) {
   let speed = parseInt(document.getElementById("speed").value, 10);
   let lastFrameMs = null;
 
-  function posicionEnT(paradas, t) {
+  function posicionEnT(viaje, t) {
+    const paradas = viaje.paradas;
     if (t < paradas[0].t || t > paradas[paradas.length - 1].t) return null;
     for (let i = 0; i < paradas.length - 1; i++) {
       const a = paradas[i], b = paradas[i + 1];
       if (t >= a.t && t <= b.t) {
         const span = b.t - a.t;
         const frac = span > 0 ? (t - a.t) / span : 0;
+        if (viaje.path && a.distAcum != null && b.distAcum != null && b.distAcum > a.distAcum) {
+          return posicionEnPath(viaje.path, lerp(a.distAcum, b.distAcum, frac));
+        }
         return [lerp(a.lat, b.lat, frac), lerp(a.lon, b.lon, frac)];
       }
     }
@@ -434,7 +517,7 @@ async function cargarCuadro(archivos, oficialKey) {
     slider.value = tCurrent;
     let activos = 0;
     for (const v of viajes) {
-      const pos = posicionEnT(v.paradas, tCurrent);
+      const pos = posicionEnT(v, tCurrent);
       if (pos) {
         if (!v.visible) { v.marker.addTo(map); v.visible = true; }
         v.marker.setLatLng(pos);
